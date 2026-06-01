@@ -1,0 +1,4 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {0.1}Einleitung}{1}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Fazit}{2}{section.0.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
