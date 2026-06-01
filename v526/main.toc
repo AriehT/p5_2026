@@ -1,0 +1,31 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Aufbau des Versuchs}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Justage des Versuchs und Durchführung}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Durchführung}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Beobachtungen}{3}{subsection.2.1.2}%
+\contentsline {chapter}{\numberline {3}Bestimmung des totalen Stoßwirkungsquerschnitts}{6}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Physikalische Grundlagen}{6}{subsection.3.0.1}%
+\contentsline {paragraph}{\nonumberline Compton-Streuung}{6}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Abschwächung der Strahlung}{6}{paragraph*.9}%
+\contentsline {section}{\numberline {3.1}Versuchsdurchführung}{6}{section.3.1}%
+\contentsline {paragraph}{\nonumberline Totzeitkorrektur}{7}{paragraph*.11}%
+\contentsline {paragraph}{\nonumberline Einfluss der Rotation}{7}{paragraph*.13}%
+\contentsline {section}{\numberline {3.2}Auswertung}{7}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Energiekalibrierung des Spektrometers}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{10}{section.4.1}%
+\contentsline {paragraph}{\nonumberline $\gamma $-Spektrum von $^{152}$Eu}{10}{paragraph*.19}%
+\contentsline {paragraph}{\nonumberline Lineare Energiekalibrierung}{10}{paragraph*.22}%
+\contentsline {paragraph}{\nonumberline Detektoreffizienz}{10}{paragraph*.24}%
+\contentsline {section}{\numberline {4.2}Durchführung}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Auswertung}{11}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Messung der Streuspektren}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Theoretische Grundlagen}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Durchführung}{15}{section.5.2}%
+\contentsline {paragraph}{\nonumberline Untergrundmessung}{15}{paragraph*.31}%
+\contentsline {section}{\numberline {5.3}Auswertung}{16}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Überprüfung der Compton-Beziehung}{16}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Winkelabhängigkeit der Streuintensität}{17}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Fazit}{20}{chapter.6}%
+\contentsline {chapter}{\numberline {7}KI-Nutzung}{22}{chapter.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

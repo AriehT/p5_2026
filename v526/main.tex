@@ -1,0 +1,66 @@
+\documentclass[%
+paper=a4,       % Papiergröße
+fontsize=11pt,  % Schriftgröße
+ngerman         % Option für deutsche Sprache
+]{scrreprt}
+\usepackage{scrhack}
+\usepackage{comment} %makes commenting out easier
+
+
+\input{optics.tex}
+\usepackage{biblatex}
+\addbibresource{refs.bib}
+
+% Header & footer via fancyhdr
+\pagestyle{myheadings}
+%\markright{\bfseries V402: Quantelung von Energie \hfill}
+\KOMAoptions{headsepline=.4pt:19\textwidth}  % 0.4pt thick line, full width
+\renewcommand*\chapterheadstartvskip{\vspace*{-1cm}}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{2cm}
+  
+  {\Large PRAKTIKUM 5}\\[0.5cm]
+  {\large KERN- UND TEILCHENPHYSIK }\\[1cm]
+  
+  {\LARGE\bfseries Versuch 526: Compton-Effekt}\\[1cm]
+  
+  Gruppe A112\\[1cm]
+  
+  \begin{tabular}{lll}
+    ARIEH THILL & NOEMI RUPPERT  \\
+  \end{tabular}\\[2cm]
+  
+  Versuchsdurchführung: 11.~/ 12.~Mai 2026
+  
+  \vfill
+\end{titlepage}
+
+\tableofcontents
+\clearpage
+\clearpage
+\setcounter{page}{1}
+
+
+ \include{Einleitung}
+ %\include{Ausbau und Durchführung}
+ \include{Aufbau}
+ \include{Justage}
+ \include{Stoßwirkungsquerschnitt}
+ \include{Energiekalibrierung}
+ \include{Streuspektren}
+ \include{Fazit}
+ %\include{Anhang.tex}
+ \include{AI use}
+
+ %\include{formeln}
+\appendix
+\printbibliography
+%\listoffigures\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+%\listoftables\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+%\include{Anhang}
+\end{document}
+% rest of your document...

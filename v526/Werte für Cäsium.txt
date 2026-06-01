@@ -1,0 +1,89 @@
+ohne
+  Peakfläche netto = 63012.96826722162
+  Fehler = 273.2746452431663
+  brutto = 68846.0
+  Untergrund = 5833.031732778376
+  Gauß-Fläche = 118842.67852561099 +/- 5232.850411680494
+  Gauß-Zentrum = 6504.133623458572
+  Sigma = 183.52700911007196
+  Chi² = 758.3188755882974
+  Reduziertes Chi² = 1.089538614351002
+
+duenn_dicke
+  Peakfläche netto = 63436.661139205076
+  Fehler = 273.1690664420021
+  brutto = 69029.0
+  Untergrund = 5592.338860794926
+  Gauß-Fläche = 124854.30763877867 +/- 6081.397400800344
+  Gauß-Zentrum = 6505.792734339546
+  Sigma = 188.90251156528134
+  Chi² = 783.866208567109
+  Reduziertes Chi² = 1.1262445525389497
+
+mittel_dicke
+  Peakfläche netto = 60277.54370081956
+  Fehler = 265.5305185834209
+  brutto = 65392.0
+  Untergrund = 5114.456299180441
+  Gauß-Fläche = 133821.13512879313 +/- 8110.16189292859
+  Gauß-Zentrum = 6524.396192776773
+  Sigma = 206.00350320035895
+  Chi² = 742.391521826146
+  Reduziertes Chi² = 1.0666544853823936
+
+mittel_breite
+  Peakfläche netto = 50397.63826961336
+  Fehler = 244.65559819956428
+  brutto = 55127.0
+  Untergrund = 4729.361730386643
+  Gauß-Fläche = 91112.21685166148 +/- 4746.666017813452
+  Gauß-Zentrum = 6490.085916956464
+  Sigma = 186.41076651821808
+  Chi² = 758.7670177720775
+  Reduziertes Chi² = 1.090182496798962
+
+dick_dicke
+  Peakfläche netto = 55647.68407134503
+  Fehler = 255.30435940002076
+  brutto = 60414.0
+  Untergrund = 4766.315928654971
+  Gauß-Fläche = 109322.15801505477 +/- 5986.505189220915
+  Gauß-Zentrum = 6505.974703929198
+  Sigma = 195.33593210262637
+  Chi² = 723.85863184818
+  Reduziertes Chi² = 1.0400267698968104
+
+dick_breite
+  Peakfläche netto = 47910.67538396111
+  Fehler = 238.9797577537455
+  brutto = 52511.0
+  Untergrund = 4600.324616038891
+  Gauß-Fläche = 81532.34748214237 +/- 4118.863934725383
+  Gauß-Zentrum = 6480.068932180666
+  Sigma = 179.5272880499201
+  Chi² = 752.363288625508
+  Reduziertes Chi² = 1.0809817365309022
+
+Tabelle:
+Target          d/mm       ln(I0/I)       Fehler
+duenn_dicke        1.000     -0.00670      0.00611
+mittel_dicke       5.000      0.04438      0.00618
+mittel_breite     30.000      0.22340      0.00651
+dick_dicke        10.160      0.12430      0.00631
+dick_breite       20.180      0.27400      0.00661
+
+Fit durch Ursprung:
+mu = 0.013014157948342684 +/- 0.00028180460616837534 1/mm
+mu = 0.13014157948342683 +/- 0.0028180460616837534 1/cm
+
+Chi² Abschwächungsfit:
+Chi² = 26.146757959314154
+Freiheitsgrade = 3
+Reduziertes Chi² = 8.715585986438052
+
+Teilchendichte Aluminium:
+n = 6.026269870837426e+22 1/cm^3
+
+Totaler Wirkungsquerschnitt:
+sigma = 2.1595710493022116e-24 +/- 4.676269271180434e-26 cm^2
+sigma = 2.1595710493022118 +/- 0.04676269271180434 barn

@@ -1,0 +1,304 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Wermes}{book}{}
+      \field{labelalpha}{16}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-73068-3}
+      \field{title}{Teilchendetektoren, Wermes}
+      \field{year}{2016}
+    \endentry
+    \entry{compton_uzh}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=73de916e1b9c5f6ce4efd24746d0c4dd}{%
+           family={Schaaf},
+           familyi={S\bibinitperiod},
+           given={Andries},
+           giveni={A\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{73de916e1b9c5f6ce4efd24746d0c4dd}
+      \strng{fullhash}{73de916e1b9c5f6ce4efd24746d0c4dd}
+      \strng{bibnamehash}{73de916e1b9c5f6ce4efd24746d0c4dd}
+      \strng{authorbibnamehash}{73de916e1b9c5f6ce4efd24746d0c4dd}
+      \strng{authornamehash}{73de916e1b9c5f6ce4efd24746d0c4dd}
+      \strng{authorfullhash}{73de916e1b9c5f6ce4efd24746d0c4dd}
+      \field{labelalpha}{Sch06}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 9. Mai 2026}
+      \field{title}{Compton-Versuch Anleitung}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.physik.uzh.ch/data/peter/PhysikIII/Anleitungen/Compton.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.physik.uzh.ch/data/peter/PhysikIII/Anleitungen/Compton.pdf
+      \endverb
+    \endentry
+    \entry{Knoll}{book}{}
+      \field{labelalpha}{00}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780470131480}
+      \field{title}{Knoll, Radiation Detection and Measurement}
+      \field{year}{2000}
+    \endentry
+    \entry{Leo}{book}{}
+      \field{labelalpha}{94}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3540173862}
+      \field{title}{Leo, Techniques for Nuclear and Particle Physics Experiments: A How-to Approach}
+      \field{year}{1994}
+    \endentry
+    \entry{sigmalit}{online}{}
+      \name{author}{8}{}{%
+        {{hash=00b1a7d674f6b696681df62ee4078dc7}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=37d31e7cda7c03154f92ec63feb35458}{%
+           family={Hubbell},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=c45d33d03614b354959ee52928414a93}{%
+           family={Seltzer},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c6df7ee16d9a70c9acafa733a4d229a8}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=733a3515d72573f848ff83b7d8e63f81}{%
+           family={Coursey},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=86bf319828047884bc9b48189af11c2f}{%
+           family={Sukumar},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a20e35ced22cc000c1d40e6b8d3b5d43}{%
+           family={Zucker},
+           familyi={Z\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=60a80a18d872144b97500c742259a4f2}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{fullhash}{363b3c88de8cbb4f69ee26dc5424489d}
+      \strng{bibnamehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{authorbibnamehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{authornamehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{authorfullhash}{363b3c88de8cbb4f69ee26dc5424489d}
+      \field{labelalpha}{Ber+10}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{XCOM: Photon Cross Sections Database}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physics.nist.gov/cgi-bin/Xcom/xcom3_1
+      \endverb
+      \verb{url}
+      \verb https://physics.nist.gov/cgi-bin/Xcom/xcom3_1
+      \endverb
+    \endentry
+    \entry{Eu-peaks}{report}{}
+      \name{author}{8}{}{%
+        {{hash=3e6e79cdd95182bf69c8ada310a244f1}{%
+           family={Bé},
+           familyi={B\bibinitperiod},
+           given={M.-M.},
+           giveni={M\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=3e66354c06a1d764f797cfee288cfeab}{%
+           family={Chisté},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f875fd3a9a7ef04be6217584370e7aff}{%
+           family={Dulieu},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ceb7f998d1c9128bcc8ed64d805c9847}{%
+           family={Kellett},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=448014030e6774c9d0536fc7dd58728d}{%
+           family={Chechev},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eadbfa857e759f48bcc0a9f25ccab38d}{%
+           family={Kondev},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=28755303efde59d3ab87415eb69a675a}{%
+           family={Kibédi},
+           familyi={K\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6204dfc9acac10b2d07c58d3b92ddf9d}{%
+           family={Luca},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Laboratoire National Henri Becquerel (CEA)}%
+      }
+      \strng{namehash}{2475966953a15724a0ab1c9ce0b873bc}
+      \strng{fullhash}{c6e75c06fde069d6da6e898ba53a9a57}
+      \strng{bibnamehash}{2475966953a15724a0ab1c9ce0b873bc}
+      \strng{authorbibnamehash}{2475966953a15724a0ab1c9ce0b873bc}
+      \strng{authornamehash}{2475966953a15724a0ab1c9ce0b873bc}
+      \strng{authorfullhash}{c6e75c06fde069d6da6e898ba53a9a57}
+      \field{labelalpha}{Bé+13}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 15.05.2026}
+      \field{title}{Table de Radionucléides: ${152}Eu$}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb http://www.lnhb.fr/nuclides/Eu-152_tables.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.lnhb.fr/nuclides/Eu-152_tables.pdf
+      \endverb
+    \endentry
+    \entry{LBL_XrayData}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3c25c72526bce1ef79a43811b8c654f2}{%
+           family={{Lawrence Berkeley National Laboratory}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c25c72526bce1ef79a43811b8c654f2}
+      \strng{fullhash}{3c25c72526bce1ef79a43811b8c654f2}
+      \strng{bibnamehash}{3c25c72526bce1ef79a43811b8c654f2}
+      \strng{authorbibnamehash}{3c25c72526bce1ef79a43811b8c654f2}
+      \strng{authornamehash}{3c25c72526bce1ef79a43811b8c654f2}
+      \strng{authorfullhash}{3c25c72526bce1ef79a43811b8c654f2}
+      \field{labelalpha}{Law26}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{K$_\alpha$-Linien von Fe, Xe und Pb, Zugriff am 17. Mai 2026}
+      \field{title}{X-Ray Data Booklet -- Table of Characteristic X-Ray Energies}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://xdb.lbl.gov/Section1/Table_1-1.pdf
+      \endverb
+      \verb{url}
+      \verb https://xdb.lbl.gov/Section1/Table_1-1.pdf
+      \endverb
+    \endentry
+    \entry{KleinNishina1929}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5bedc08c7b152ce15136c0d9e1941e0b}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Oskar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a77132dd8e3890df0c7183fb3d0e7815}{%
+           family={Nishina},
+           familyi={N\bibinitperiod},
+           given={Yoshio},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{c902b0fbe6377fa60a98ad65623332b5}
+      \strng{fullhash}{c902b0fbe6377fa60a98ad65623332b5}
+      \strng{bibnamehash}{c902b0fbe6377fa60a98ad65623332b5}
+      \strng{authorbibnamehash}{c902b0fbe6377fa60a98ad65623332b5}
+      \strng{authornamehash}{c902b0fbe6377fa60a98ad65623332b5}
+      \strng{authorfullhash}{c902b0fbe6377fa60a98ad65623332b5}
+      \field{labelalpha}{KN29}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für Physik}
+      \field{title}{Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynamik von Dirac}
+      \field{volume}{52}
+      \field{year}{1929}
+      \field{pages}{853\bibrangedash 868}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/BF01366453
+      \endverb
+    \endentry
+    \entry{nndc_152eu_decaydata}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0917082a5c513aa5b1d33639e4d86ea6}{%
+           family={{National Nuclear Data Center (NNDC)}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Brookhaven National Laboratory}%
+      }
+      \strng{namehash}{0917082a5c513aa5b1d33639e4d86ea6}
+      \strng{fullhash}{0917082a5c513aa5b1d33639e4d86ea6}
+      \strng{bibnamehash}{0917082a5c513aa5b1d33639e4d86ea6}
+      \strng{authorbibnamehash}{0917082a5c513aa5b1d33639e4d86ea6}
+      \strng{authornamehash}{0917082a5c513aa5b1d33639e4d86ea6}
+      \strng{authorfullhash}{0917082a5c513aa5b1d33639e4d86ea6}
+      \field{labelalpha}{Nat26}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nndc.bnl.gov/nudat3/decaysearchdirect.jsp?nuc=152Eu&unc=NDS}}
+      \field{note}{Accessed: 2026-05-19}
+      \field{title}{Decay Data for \textsuperscript{152}Eu from NuDat 3.0}
+      \field{year}{2026}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
