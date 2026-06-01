@@ -1,0 +1,31 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {0.1}Einleitung}{1}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Aufbau}{2}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Der Slow-Koinzidenzkreis}{3}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}Theoretische Grundlagen}{3}{subsection.0.3.1}%
+\contentsline {subsubsection}{\nonumberline Szintillationsspektrometer}{3}{subsubsection*.3}%
+\contentsline {subsubsection}{\nonumberline Die Zerfallsschemata von $^{22}$Na und $^{133}$Ba}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline Slow und Fast}{3}{subsubsection*.7}%
+\contentsline {subsection}{\numberline {0.3.2}Einstellung des Slow-Koinzidenzkreises}{3}{subsection.0.3.2}%
+\contentsline {subsubsection}{\nonumberline Niedervolt-Versorgungsspannungen}{3}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Slow-Pulse des Photomultipliers}{3}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Triggerung mit dem SCA}{3}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {0.3.3}Auswertung}{3}{subsection.0.3.3}%
+\contentsline {subsubsection}{\nonumberline Identifikation des Energiespektrum der Na-Quelle und Einstellung der Verstärkung}{3}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Aufnahme der Energiespektren der $^{22}$Na und $^{133}$Ba-Quellen}{3}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Einstellung des Einkanalfenster für die $^{22}$Na-Quelle}{3}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Herstellung der Slow-Koinzidenz}{3}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Energiekallibration des Slow-Koinzidenzkreises}{3}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline $^{133}$Ba-Spektrum}{3}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Enrgieauflösung}{3}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline Energieintervall des SCAs und Energien der CFD-Schwellen}{3}{subsubsection*.29}%
+\contentsline {section}{\numberline {0.4}Der Fast-Koinzidenzkreis}{4}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}Theoretische Grundlagen}{4}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {0.4.2}Einstellung des Fast-Koinzidenzkreises}{4}{subsection.0.4.2}%
+\contentsline {subsubsection}{\nonumberline Fast-Pulse des Photomultipliers}{4}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline CFD-Diskriminatorschwelle}{4}{subsubsection*.33}%
+\contentsline {subsubsection}{\nonumberline Fast-Koinzidenz einstellen}{4}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline Zeitlicher Abgleich von Fast- und Slow-Koinzidenz-Signalen}{4}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Zeitkalibration des TAC}{4}{subsubsection*.39}%
+\contentsline {section}{\numberline {0.5}Fazit}{5}{section.0.5}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,0 +1,21 @@
+%Abbildung vom Aufbau einfügen (von Versuchanleitung entnehmen)
+\section{Aufbau}
+Abbildung ???? zeigt das Schema der Fast-Slow-Koinzidenzschaltung, die am Ende des Experiments zur Messung der Anregungslebensdauer des Cäsiumisotops implementiert wurde.
+
+In einem NaI(Tl)-Szintillationsspektrometer wird die ionisierende Strahlung einer Natrium- oder Bariumquelle detektiert. Das Signal der vorletzen Dynode wird an den Slow-Kanal der Photomultiplier-Basis (PMT) angepasst. Das Anodensignal dient hingegen als Eingangssignal für den Fast-Kanal.
+
+In der Slow-Schaltung wird das analoge Signal der Dynode zunächst durch einen Verstärker (Amp) verstärkt und anschließend mittels eines Frequenzteilers (Splitter) in zwei Signale mit halber Amplitude aufgeteilt. Bis zu diesem Punkt bleibt das Signal analog.
+
+Ein Einkanalanalysator (SCA) prüft, ob die Amplitude innerhalb eines variablen Energiefensters liegt. Ist dies der Fall, erzeugt der SCA ein digitales Signal (Logikpegel 1). Andernfalls wird ein Logikpegel von 0 erzeugt. Ab diesem Zeitpunkt ist das Signal digital.
+
+Die Koinzidenzeinheit prüft anschließend, ob die digitalen Signale der linken und rechten Detektoren innerhalb eines vorgegebenen Zeitintervalls eintreffen. Ein Logikpegel „High“ wird nur bei einer zeitlichen Überlappung erzeugt.
+
+Die Dauer dieses Logikgatters wird durch den Gate-Delay-Generator (GDG) definiert. Das Gate-Signal steuert den Vielkanalanalysator (MCA). Solange der GDG einen Logikpegel „High“ erzeugt, akzeptiert der MCA Eingangssignale.
+
+Im Fast-Schaltkreis wird ein analoges Anodensignal  im Constant-Fraction-Discriminator in ein digitales Timing Signal (CFD-Signal) umgewandelt. Das CFD erzeugt einen Logikpegel „High“, sobald ein bestimmter Bruchteil der Amplitude erreicht ist. Dadurch entstehen ein Startsignal und ein Stoppsignal, deren Timing unabhängig von der Amplitude ist.
+
+In einem der beiden Detektoren wird das Stoppsignal um eine Nanosekunde (ns-Delay) verzögert. Dies wird durch verdrillte Koaxialkabel erreicht und ermöglicht so eine variable Verzögerung.
+
+Im Zeit-Amplituden-Wandler (TAC) wird aus den digitalen Start- und Endsignalen ein analoges Signal erzeugt. Nach Empfang des Startsignals erhöht der AAC die Spannung linear; nach Empfang des Endsignals wird der Spannungswert stabilisiert und an den Leistungsverstärker (PA) übertragen.
+
+Der PA verfügt über 8000 Kanäle, denen jeweils dynamisch ein Spannungsbereich zugewiesen ist. Kanal 8000 ist der höchste Eingangsspannungswert zugeordnet. Für jeden Kanal wird die Aufzeichnungsfrequenz für einen bestimmten Spannungswert und damit für ein bestimmtes Zeitintervall zwischen Start und Ende berechnet.
