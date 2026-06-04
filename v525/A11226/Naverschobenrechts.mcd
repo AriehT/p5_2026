@@ -1,0 +1,50 @@
+REPORT-FILE from 06/01/2026 16:39:24.890 - 16:44:42.843  written 06/01/2026 16:44:57
+REALTIME: 317.977     
+TOTALSUM: 515482      
+ROISUM: 515482      
+MAXVAL: 386         
+LIVETIME: 314.465     
+cmline0=06/01/2026 16:39:24.890 - 16:44:42.843 
+range=8192
+prena=0
+mcsmode=4
+roimin=0
+roimax=8192
+rtpreset=10.000      
+ltpreset=0.000       
+evpreset=0           
+swpreset=1           
+rampmode=0
+rampstart=1024
+rampstep=1
+rampbin=1
+ramplen=1024
+qdacuse=0
+qdac=2048
+dac1use=0
+dac1val=0
+impsel=f
+thrstart=1716
+thr1=1716
+thr2=1716
+thrclk=2482
+diguse=8
+digval=0
+cycles=128
+sequences=1
+mempart=0
+dwelltime=3
+dwellunit=0
+syncout=909
+histlen=0
+autoinc=0 
+;datname=C:\Dokumente und Einstellungen\Praktikum\Desktop\A11226\Naverschobenrechts.mcd
+savedata=0
+fmt=txt
+smoothpts=5 
+caluse=0 
+caloff=0.000000
+calfact=1.000000
+calfact2=0
+calfact3=0
+calunit=keV
