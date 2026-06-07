@@ -9,7 +9,7 @@ rechts:
 Bild04=min
 Bild05=höhere schwelle
 delay=3.89
-links:
+links: 
 Bild06=min
 Bild07=höhere schwelle
 b)Energie-Spektrum vermessen
