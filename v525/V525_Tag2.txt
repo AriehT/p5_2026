@@ -1,0 +1,54 @@
+Bild01 ist noch slow Koinzidenz
+
+1)Fast Koinzidenz einstellen
+Bild02=rechts
+Bild03=links
+a)Koinzidenz zwischen Slow-
+und Fast-Zweig
+rechts:
+Bild04=min
+Bild05=höhere schwelle
+delay=3.89
+links:
+Bild06=min
+Bild07=höhere schwelle
+b)Energie-Spektrum vermessen
+Barechtscfd
+
+2)Herstellung der Fast Koinzidenz
+Bild09
+ns delay=31.5
+für start, Detektor mir saubereren Peaks, stabileres Signal usw => wähle rechten Detektor (bei linkem wurden im linken teil des Spektrums Peaks rausgeschnitten)
+bild10:recht start
+bild11:links start
+
+3)Zeitkalibration TAC
+63,5-ganz rechts
+47,5-daneben
+31,5-daneben
+23,5-daneben
+15,5-ganz links
+Narechtspromp4
+mit 0 ganz links: Narechtspromp
+
+4)Messung der Lebensdauer des 5/2 Zustands von 133 Cs
+a)Einstellung der Einkanal-Fenster
+nehme linken detektor als start (weil links die kleineren Energien nicht aufnehmen kann)
+->für Auswertung wird nur links verwendet
+Nalinksprom
+links:bild12
+rechts:bild13
+lower:1.2
+upper:1.5(3)
+Ba81
+lower:5.60(1)
+upper:6.26(1)
+Ba356
+
+5)Kontrolle der Koinzidenzen
+Koinzidenz slow kreis: Bild14
+tac fast gg gdg slow: Bild15, Bild16
+Ba81lebenszeit0ns
+Ba81lebenszeit32ns
+
+
