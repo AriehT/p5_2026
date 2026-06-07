@@ -20,29 +20,13 @@ Das Szintillationsspektrometer erlaubt somit sowohl die präzise Bestimmung von 
 \subsection{Die Zerfallsschemata von $^{22}$Na und $^{133}$Ba}
 
 Zur Bestimmung der Lebensdauer des angeregten $\frac{5}{2}^{+}$-Zustands von $^{133}_{55}\mathrm{Cs}$ wird eine $^{133}_{56}\mathrm{Ba}$-Quelle verwendet. 
-Beim Zerfall von $^{133}*{56}\mathrm{Ba}$ werden verschiedene angeregte Zustände des Tochterkerns besetzt. 
-Besonders relevant ist dabei der Übergang, bei dem unter Aussendung eines $\gamma$-Quants der Energie 356,keV der $\frac{5}{2}^{+}$-Zustand von $^{133}_{55}\mathrm{Cs}$ erzeugt wird, da dieser ~ $2/3$ der Zeit stat findet (Abildung:\ref{fig:ZerfallBa}). 
+Beim Zerfall von $^{133}_{56}\mathrm{Ba}$ werden verschiedene angeregte Zustände des Tochterkerns besetzt. 
+Besonders relevant ist dabei der Übergang, bei dem unter Aussendung eines $\gamma$-Quants der Energie 356,keV der $\frac{5}{2}^{+}$-Zustand von $^{133}_{55}\mathrm{Cs}$ erzeugt wird, da dieser ca. $2/3$ der Zeit stat findet (Abildung:\ref{fig:ZerfallBa}). 
 Das zugehörige Signal dient als Startsignal der Lebensdauermessung.
 
 Der angeregte Kernzustand zerfällt anschließend durch Emission eines weiteren $\gamma$-Quants mit einer Energie von 81,keV in den Grundzustand. 
 Dieses Photon wird als Stoppsignal registriert. 
 Die Zeitdifferenz zwischen beiden Ereignissen entspricht der Aufenthaltsdauer des Kerns im angeregten Zustand und ermöglicht somit die Bestimmung seiner mittleren Lebensdauer.
-
-Neben dem beschriebenen Zerfallspfad existieren weitere Übergänge, über die der $\frac{5}{2}^{+}$-Zustand ebenfalls bevölkert werden kann. 
-In diesen Fällen wird kein korrespondierendes 356-keV-Photon emittiert, sodass das später auftretende 81-keV-Photon keinem eindeutigen Startsignal zugeordnet werden kann. 
-Werden zwei unabhängige Zerfallsereignisse zufällig innerhalb des Koinzidenzfensters registriert, entstehen sogenannte zufällige Koinzidenzen. 
-Diese tragen zu einem Untergrund in der Zeitverteilung bei und können die Auswertung beeinflussen. 
-Aufgrund der vergleichsweise geringen Aktivität der verwendeten Quelle ist ihr Beitrag jedoch klein.
-
-Zur Kalibration des Messaufbaus wird zusätzlich eine $^{22}_{11}\mathrm{Na}$-Quelle eingesetzt. 
-Dieses Nuklid zerfällt überwiegend durch $\beta^{+}$-Zerfall in $^{22}_{10}\mathrm{Ne}$ (Abbildung:\ref{fig:ZerfallNa})und emittiert dabei charakteristische $\gamma$-Strahlung mit einer Energie von 1274,5 keV.
-Das entstandene Positron verliert seine kinetische Energie innerhalb kurzer Zeit in der umgebenden Materie und annihiliert anschließend mit einem Elektron. 
-Dabei entstehen zwei Photonen mit jeweils 511,keV, die aufgrund der Impulserhaltung nahezu in entgegengesetzte Richtungen ausgesandt werden.
-
-Da beide Annihilationsphotonen demselben Prozess entstammen, werden sie praktisch gleichzeitig erzeugt. 
-Die Messung dieser Koinzidenzereignisse ermöglicht daher die Bestimmung der Zeitauflösung des Detektionssystems sowie die Kalibration der Zeitskala. 
-Gleichzeitig eignet sich die Quelle aufgrund ihrer gut bekannten Photonenenergien für die Energiekalibration der verwendeten Detektoren.
-
 
 \begin{figure}[htbp]
     \centering
@@ -65,19 +49,429 @@ Gleichzeitig eignet sich die Quelle aufgrund ihrer gut bekannten Photonenenergie
     \label{fig:zerfallsschemata}
 \end{figure}
 
+Neben dem beschriebenen Zerfallspfad existieren weitere Übergänge, über die der $\frac{5}{2}^{+}$-Zustand ebenfalls bevölkert werden kann. 
+In diesen Fällen wird kein korrespondierendes 356-keV-Photon emittiert, sodass das später auftretende 81-keV-Photon keinem eindeutigen Startsignal zugeordnet werden kann. 
+Werden zwei unabhängige Zerfallsereignisse zufällig innerhalb des Koinzidenzfensters registriert, entstehen sogenannte zufällige Koinzidenzen. 
+Diese tragen zu einem Untergrund in der Zeitverteilung bei und können die Auswertung beeinflussen. 
+Aufgrund der vergleichsweise geringen Aktivität der verwendeten Quelle ist ihr Beitrag jedoch klein.
+
+Zur Kalibration des Messaufbaus wird zusätzlich eine $^{22}_{11}\mathrm{Na}$-Quelle eingesetzt. 
+Dieses Nuklid zerfällt überwiegend durch $\beta^{+}$-Zerfall in $^{22}_{10}\mathrm{Ne}$ (Abbildung:\ref{fig:ZerfallNa})und emittiert dabei charakteristische $\gamma$-Strahlung mit einer Energie von 1274,5 keV.
+Das entstandene Positron verliert seine kinetische Energie innerhalb kurzer Zeit in der umgebenden Materie und annihiliert anschließend mit einem Elektron. 
+Dabei entstehen zwei Photonen mit jeweils 511,keV, die aufgrund der Impulserhaltung nahezu in entgegengesetzte Richtungen ausgesandt werden.
+
+Da beide Annihilationsphotonen demselben Prozess entstammen, werden sie praktisch gleichzeitig erzeugt. 
+Die Messung dieser Koinzidenzereignisse ermöglicht daher die Bestimmung der Zeitauflösung des Detektionssystems sowie die Kalibration der Zeitskala. 
+Gleichzeitig eignet sich die Quelle aufgrund ihrer gut bekannten Photonenenergien für die Energiekalibration der verwendeten Detektoren.
+
+
+
 \subsection{Slow und Fast}
+
+Abbildung~\ref{fig:schaltplan} zeigt den vollständigen Aufbau des Fast-Slow-Koinzidenzsystems, das zur Bestimmung der Lebensdauer des angeregten Zustands von $^{133}_{55}\mathrm{Cs}$ verwendet wird. 
+Die Detektion der $\gamma$-Strahlung erfolgt mit zwei NaI(Tl)-Szintillationsspektrometern, deren Signale anschließend in einem schnellen und einem langsamen Signalzweig weiterverarbeitet werden.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{}
+    \caption{Schaltplan des Fast-Slow-Koinzidenzkreise(\cite{})}
+    \label{fig:schaltplan_slow_fast}
+\end{figure}
+
+Im Photomultiplier werden zwei unterschiedliche Signale abgegriffen. 
+Das Dynodensignal wird über die Detektorbasis für die Energieauswertung aufbereitet und dem Slow-Kreis zugeführt. 
+Das Anodensignal dient der Zeitmessung und wird daher im Fast-Kreis verarbeitet.
+
+Im Slow-Kreis erfolgt zunächst eine Verstärkung der Signale durch einen Hauptverstärker. 
+Anschließend werden die Signale mit einem Splitter aufgeteilt. 
+Die so erzeugten Teilsignale werden einem Single Channel Analyzer (SCA) zugeführt. 
+Dieser überprüft, ob die Pulsamplitude innerhalb eines zuvor festgelegten Energiebereichs liegt. 
+Nur wenn diese Bedingung erfüllt ist, wird ein digitales Ausgangssignal erzeugt. 
+Dadurch werden ausschließlich Ereignisse mit den gewünschten $\gamma$-Energien für die weitere Auswertung berücksichtigt.
+
+Die digitalen Ausgänge beider SCAs werden anschließend einer Koinzidenzeinheit zugeführt. 
+Dort wird überprüft, ob die Signale beider Detektoren innerhalb eines definierten Zeitfensters auftreten. 
+Bei einer erfolgreichen Koinzidenz wird ein digitales Signal erzeugt. Dessen Dauer kann mit einem Gate-Delay-Generator eingestellt werden. 
+Dieses Gate-Signal steuert den Multi-Channel-Analyzer (MCA) und legt fest, in welchem Zeitraum eingehende Signale zur Datenerfassung akzeptiert werden.
+
+Die Zeitmessung erfolgt im Fast-Kreis. 
+Hier werden die Anodensignale zunächst einem Constant Fraction Discriminator (CFD) zugeführt. 
+Der CFD erzeugt aus den analogen Pulsen digitale Signale, wobei der Umschaltzeitpunkt durch einen festen Bruchteil der Pulsamplitude bestimmt wird. 
+Dadurch wird die Entstehungszeit des Digitalsignals weitgehend unabhängig von der Pulshöhe und somit von der deponierten Energie.
+
+Für eines der beiden Detektorsignale wird zusätzlich eine definierte Verzögerung mittels einer Nanosekunden-Verzögerungsleitung eingestellt. 
+Die eigentliche Zeitdifferenzmessung erfolgt anschließend im Time-to-Amplitude-Converter (TAC). 
+Mit dem Eintreffen des Startsignals beginnt der TAC eine linear ansteigende Spannung zu erzeugen. 
+Beim Eintreffen des Stoppsignals wird der aktuelle Spannungswert festgehalten. 
+Die Höhe dieser Spannung ist proportional zur Zeitdifferenz zwischen beiden Signalen.
+
+Das Ausgangssignal des TAC wird schließlich vom MCA registriert. 
+Der MCA ordnet jedem gemessenen Spannungswert einen Kanal zu und erstellt daraus ein Histogramm. 
+Da die TAC-Spannung proportional zur Zeitdifferenz ist, entspricht die Kanalnummer einer bestimmten Verzögerungszeit zwischen Start- und Stoppsignal. 
+Die Häufigkeitseinträge der einzelnen Kanäle ergeben somit die für die Lebensdauerbestimmung benötigte Zeitverteilung.
+
 
 %--------------------------------------------------------
 \section{Einstellung des Slow-Koinzidenzkreises}
-\subsection{Niedervolt-Versorgungsspannungen}
+\subsection{Kontrolle der Versorgungsspannungen}
+
+Die Hochspannung und die Stromverstärkung der verwendeten Szintillationsdetektoren sind in Tabelle~\ref{tab:betrieb} zusammengefasst. 
+Aufgeführt sind die angelegten Hochspannungen sowie die zugehörigen gemessenen Stromstärken.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Strom- und Spannungswerte der jeweiligen Szintillationsspektrometern.}
+    \label{tab:betrieb}
+    \begin{tabular}{ccc}
+        \hline
+        Detektor & Hochspannung / V & Stromstärke / $\mu$A \\
+        \hline
+        Links & 669(1) & 119(1) \\
+        Rechts & 626(1) & 112(1) \\
+
+        \hline
+    \end{tabular}
+\end{table}
+
+Im nächsten Schritt wurden die von den NIM-Modulen bereitgestellten Versorgungsspannungen überprüft. Dabei wurde kontrolliert, ob die ausgegebenen Niederspannungen den vorgegebenen Sollwerten entsprechen und über die Messdauer hinweg keine zeitlichen Schwankungen aufweisen. Abweichungen von den erwarteten Werten könnten auf eine Fehlfunktion der Spannungsversorgung hindeuten und die korrekte Arbeitsweise der angeschlossenen Elektronik beeinflussen.
+
+Die beiden verwendeten NIM-Module stellen Versorgungsspannungen von
+\(
+U \in \{\pm6\,\mathrm{V}, \pm12\,\mathrm{V}, \pm24\,\mathrm{V}\}
+\)
+bereit. Mithilfe einer als BNC-Adapter ausgeführten Messsonde wurden diese Spannungen am Oszilloskop untersucht. Dabei erfolgte sowohl die Bestimmung der mittleren Spannungswerte als auch die Überprüfung ihrer zeitlichen Stabilität auf unterschiedlichen Zeitskalen.
+
+Die gemessenen Mittelwerte sind in Tabelle~\ref{tab:nim_spannungen} aufgeführt. Ein typischer zeitlicher Verlauf einer Versorgungsspannung ist exemplarisch in Abbildung~\ref{fig:nim_spannung} dargestellt.
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \captionof{table}{Gemessene Versorgungsspannungen der NIM-Module.}
+
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO01.PNG}
+        \caption{Exemplarischer zeitlicher Verlauf einer Versorgungsspannung, in diesem Fall eine Versorgungsspannung von -6V auf Channal 1, in Channal 2 wurde nichts angeschlossen aber vergessen abzuschalten.}
+        \label{fig:nim_spannung}
+    \end{minipage}
+            \hfill
+        \label{tab:nim_spannungen}
+        \begin{tabular}{cc}
+            \hline
+            Sollwert / V & Messwert / V \\
+            \hline
+            +6  & 6,01(1) \\
+            -6  & -6,00(1) \\
+            +12 & 12,01(1) \\
+            -12 & -12,01(1) \\
+            +24 & 23,97(1) \\
+            -24 & -24,00(1) \\
+            \hline
+        \end{tabular}
+    \end{minipage}
+\end{figure}
+
+Es ist auch gut zu beachten, dass es keine Fluktuationen in der Gleichspannungversorgung sichtbar sind.
+
 \subsection{Slow-Pulse des Photomultipliers}
+
+Im ersten Teil der Versuchsdurchführung wurde der Einfluss des Hauptverstärkers auf die Slow-Signale untersucht. 
+Dazu wurden die Ausgangssignale eines Szintillationsdetektors sowohl direkt als auch nach Durchlaufen des Hauptverstärkers mit einem Oszilloskop aufgezeichnet. 
+Als Strahlungsquelle kam hierbei $^{22}_{11}\mathrm{Na}$ zum Einsatz. 
+Der verwendete Messaufbau ist in Abbildung~\ref{fig:schaltplan_slow} dargestellt.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{}
+    \caption{Schaltplann für die untersuchung des Hauptverstärkers}
+    \label{fig:schaltplan_slow}
+\end{figure}
+
+Die aufgezeichneten Oszillogramme (Abb.~\ref{fig:slow_pulse}) zeigen innerhalb eines kurzen Beobachtungsintervalls eine Vielzahl von Pulsen unterschiedlicher Höhe. 
+
+Ohne zusätzliche Signalverarbeitung besitzen die Slow-Signale einen vergleichsweise langsamen zeitlichen Verlauf mit charakteristischem Abklingen. 
+Nach der Verstärkung und Pulsformung weisen die Signale dagegen eine deutlich symmetrischere Form auf, die näherungsweise durch eine Gaußkurve beschrieben werden kann.
+
+Ein Vergleich der beiden Signalformen zeigt, dass die Pulsamplituden vor und nach dem Hauptverstärker, hone Verstärkung, proportional zueinander bleiben. +
+
+Die auf dem Oszilloskop sichtbaren Impulse stammen dabei nicht von gleichzeitig eintreffenden Ereignissen, sondern stellen die zeitliche Überlagerung vieler aufeinanderfolgender Detektionen dar. 
+Jeder einzelne Spannungsimpuls wird durch die Wechselwirkung eines $\gamma$-Quants im Szintillator erzeugt und seine Höhe ist mit der deponierten Energie verknüpft. 
+Die beobachtete Streuung der Pulshöhen ergibt sich unter anderem aus der endlichen Energieauflösung des Detektors sowie statistischen Schwankungen bei der Signalentstehung.
+
+Der Hauptverstärker erfüllt somit zwei Aufgaben: Einerseits erhöht er die Signalamplitude, andererseits formt er die Pulse in eine für die weitere elektronische Verarbeitung günstigere Gestalt um. 
+Darüber hinaus zeigt der Vergleich der Oszillogramme, dass am rechten Detektor eine höhere Ereignisrate registriert wird, was sich in einer größeren Dichte der beobachteten Pulse bemerkbar macht.   
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO18.PNG}
+        \caption{Links}
+        \label{fig:slowpulslinks}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO08.PNG}
+        \caption{Rechts}
+        \label{fig:slowpulsrechts}
+    \end{subfigure}
+
+    \caption{Oszillogramm des Slow-Signals mit (CH I) und ohne (CH II) pulsformenden Hauptverstärker (Es ist nur für den Rechte Seite bei der  Hauptverstärker analyse dass die channel wie hier gelistet sind, ansonsten sind die Chanel wie in den Schaltpäne Beschrieben). 
+    Es ist deutlich zu erkenne, dass der Hauptverstärker die Spannungsamplitude erhöht und formt das Signal zu einer annähernden Gaußglocke. Die Detektionsrate am rechten Detektor
+    ist deutlich höher, wie man an der Skalierung der Linien erkennen kann.}
+    \label{ig:slow_pulse}
+\end{figure}
+
 \subsection{Triggerung mit dem SCA}
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{}
+        \caption{Schaltplann für die untersuchung des Singel Channel Analyser (SCA)}
+    \label{fig:sca_aufbau}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO09.PNG}
+        \caption{Schaltplann für die untersuchung des Gate-Delay-Generator (GDG)}
+        \label{fig:gdg_aufbau}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:nim_verlaeufe}
+\end{figure}
+
+Im nächsten Schritt wurde der Single Channel Analyzer (SCA) in den Slow-Zweig des Aufbaus integriert. 
+Der zugehörige Messaufbau ist in Abb.~\ref{fig:sca_aufbau} dargestellt. 
+Das Ausgangssignal des Hauptverstärkers wurde mithilfe eines Splitters in zwei identische Signalpfade aufgeteilt. 
+Einer dieser Zweige wurde direkt dem SCA zugeführt, während der andere einen Delay-Verstärker durchlief. 
+Die Verzögerung des analogen Signals dient dazu, die Laufzeit des SCAs auszugleichen, sodass beide Signale zeitgleich am Oszilloskop beziehungsweise später am MCA eintreffen.
+
+Zu Beginn der Justage wurde das Energiefenster des SCAs vollständig geöffnet, indem die untere Schwelle auf den kleinstmöglichen und die obere Schwelle auf den größtmöglichen Wert eingestellt wurde. 
+Unter diesen Bedingungen erzeugt der SCA für nahezu jeden eintreffenden Puls ein digitales Ausgangssignal. 
+Die entsprechenden Oszillogramme für beide Detektoren sind in Abb.~\ref{fig:sca_offen} dargestellt.
+
+In den Aufnahmen ist das digitale Ausgangssignal des SCAs als Rechteckpuls erkennbar. 
+Da das Energiefenster vollständig geöffnet war, werden innerhalb kurzer Zeit zahlreiche Ereignisse registriert, was zu einer hohen Dichte von Triggerimpulsen führt, dieses aber nicht deutlich zusehen ist auf den Aufgenommenen bildern da diese zu schnell waren. 
+Gleichzeitig sind die analogen Signale des Delay-Verstärkers sichtbar, deren Amplituden aufgrund der unterschiedlichen Energiedepositionen im Detektor variieren.
+
+Besonders häufig tritt dabei ein Signal mit charakteristischer Pulshöhe auf, das der 511-keV-Linie des $^{22}\mathrm{Na}$-Zerfalls zugeordnet werden kann. 
+Diese Linie ist aufgrund ihrer hohen Intensität nahezu kontinuierlich sichtbar. 
+Daneben lässt sich auch die 1274,5-keV-Linie erkennen, die jedoch aufgrund ihrer geringeren Zählrate deutlich seltener auftritt. 
+Unterschiede in den beobachteten Pulshöhen zwischen den beiden Detektoren resultieren hauptsächlich aus noch nicht vollständig angeglichenen Verstärkungseinstellungen.
+
+Nach der Identifikation der relevanten Signale wurde die Verzögerung des Delay-Verstärkers so angepasst, dass die analogen Pulse zeitlich mit den vom SCA erzeugten Digitalsignalen zusammenfallen. 
+Anschließend wurde ein Gate-Delay-Generator (GDG) in den digitalen Signalzweig integriert (Abildung:\ref{fig:gdg_aufbau}). 
+Seine Aufgabe besteht darin, die vom SCA erzeugten Triggerimpulse zeitlich zu verschieben und zu verbreitern. 
+Dadurch wird sichergestellt, dass die Maxima der analogen Pulse vollständig innerhalb des späteren Gate-Fensters des MCA liegen.
+
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO19.PNG}
+        \caption{Links}
+        \label{fig:scalinks}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO15.PNG}
+        \caption{Rechts}
+        \label{fig:scarechts}
+    \end{subfigure}
+
+    \caption{Oszillogramm des Slow-Signals durch den Delay-Verstärker (CH I) und durch den SCA mit GDG (CH II). 
+    Es sind nicht alzuviele Gleichzeitige Ereignisse, da auf dem Oszilloskop das run stop genutzt wurde um saubere Daten Zu erfassen.}
+    \label{fig:sca_offen}
+\end{figure}
+
+Die Ergebnisse dieser Justage sind in Abb.~\ref{fig:gdg_justage} dargestellt. 
+Sowohl die digitalen Gate-Signale als auch die verzögerten analogen Pulse überlappen nun ausreichend, sodass die Signale vom MCA korrekt verarbeitet werden können. 
+Damit sind die Voraussetzungen für die Aufnahme energieaufgelöster Spektren erfüllt und der Slow-Kreis ist für die nachfolgenden Messungen vorbereitet.
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO20.PNG}
+        \caption{Links}
+        \label{fig:gdglinks}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/SUSKO17.PNG}
+        \caption{Rechts}
+        \label{fig:gdgrechts}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:fig:gdg_justage}
+\end{figure}
+
 \section{Auswertung}
 \subsection{Identifikation des Energiespektrum der Na-Quelle und Einstellung der Verstärkung}
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des ersten NIM-Moduls.}
+        \label{fig:bild8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des zweiten NIM-Moduls.}
+        \label{fig:bild9}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:nim_verlaeufe}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des ersten NIM-Moduls.}
+        \label{fig:bild8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des zweiten NIM-Moduls.}
+        \label{fig:bild9}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:nim_verlaeufe}
+\end{figure}
+
 \subsection{Aufnahme der Energiespektren der $^{22}$Na und $^{133}$Ba-Quellen}
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des ersten NIM-Moduls.}
+        \label{fig:bild8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des zweiten NIM-Moduls.}
+        \label{fig:bild9}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:nim_verlaeufe}
+\end{figure}
+
+#tabelle 
+
+#tabelle
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des ersten NIM-Moduls.}
+        \label{fig:bild8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des zweiten NIM-Moduls.}
+        \label{fig:bild9}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:nim_verlaeufe}
+\end{figure}
+
 \subsection{Einstellung des Einkanalfenster für die $^{22}$Na-Quelle}
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des ersten NIM-Moduls.}
+        \label{fig:bild8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des zweiten NIM-Moduls.}
+        \label{fig:bild9}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:nim_verlaeufe}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des ersten NIM-Moduls.}
+        \label{fig:bild8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs1/}
+        \caption{Spannungsverlauf des zweiten NIM-Moduls.}
+        \label{fig:bild9}
+    \end{subfigure}
+
+    \caption{}
+    \label{fig:nim_verlaeufe}
+\end{figure}
+
 \subsection{Herstellung der Slow-Koinzidenz}
+
+
+
 \subsection{Energiekallibration des Slow-Koinzidenzkreises}
+
+
+
 \subsection{$^{133}$Ba-Spektrum}
+
+
+
 \subsection{Enrgieauflösung}
+
+
+
 \subsection{Energieintervall des SCAs und Energien der CFD-Schwellen}
