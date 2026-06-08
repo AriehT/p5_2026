@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  7 JUN 2026 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  8 JUN 2026 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1526,15 +1526,15 @@ pdfTeX warning: pdflatex (file ./figs1/Ba.pdf): PDF inclusion: found PDF version
 <figs1/Ba.pdf, id=34, 312.905pt x 304.44138pt>
 File: figs1/Ba.pdf Graphic file (type pdf)
 <use figs1/Ba.pdf>
-Package pdftex.def Info: figs1/Ba.pdf  used on input line 36.
+Package pdftex.def Info: figs1/Ba.pdf  used on input line 35.
 (pdftex.def)             Requested size: 225.34386pt x 219.258pt.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 37.
+(Font)              size <5> substituted on input line 36.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 37.
+(Font)              size <5> substituted on input line 36.
 
 
 
@@ -1542,10 +1542,10 @@ pdfTeX warning: pdflatex (file ./figs1/Na.pdf): PDF inclusion: found PDF version
 <figs1/Na.pdf, id=35, 312.905pt x 261.76254pt>
 File: figs1/Na.pdf Graphic file (type pdf)
 <use figs1/Na.pdf>
-Package pdftex.def Info: figs1/Na.pdf  used on input line 43.
+Package pdftex.def Info: figs1/Na.pdf  used on input line 42.
 (pdftex.def)             Requested size: 225.34386pt x 188.52081pt.
 
-LaTeX Warning: Reference `fig:ZerfallNa' on page 3 undefined on input line 59.
+LaTeX Warning: Reference `fig:ZerfallNa' on page 3 undefined on input line 56.
 
 [3
 
@@ -1554,16 +1554,16 @@ LaTeX Warning: Reference `fig:ZerfallNa' on page 3 undefined on input line 59.
 
 ]
 
-LaTeX Warning: Reference `fig:schaltplan' on page 4 undefined on input line 71.
+LaTeX Warning: Reference `fig:schaltplan_slow_fast' on page 4 undefined on input line 65.
 
 
-./slow_koinzidenzkreis.tex:76: LaTeX Error: File `' not found.
+./slow_koinzidenzkreis.tex:70: LaTeX Error: File `' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76     \includegraphics[width=0.7\textwidth]{}
+l.70     \includegraphics[width=0.7\textwidth]{}
                                                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -1571,160 +1571,55 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation '' on page 4 undefined on input line 77.
+LaTeX Warning: Citation 'praktika' on page 4 undefined on input line 71.
 
 
-LaTeX Warning: Citation '' on page 4 undefined on input line 77.
+LaTeX Warning: Citation 'praktika' on page 4 undefined on input line 71.
+
+
+Overfull \hbox (32.2618pt too wide) in paragraph at lines 91--96
+[]\T1/cmr/m/n/10.95 Für ei-nes der bei-den De-tek-tor-si-gna-le wird zu-sätz-lich ei-ne de-fi-nier-te Ver-zö-ge-rung mit ei-ner Nanosekunden-
+ []
 
 [4 <./figs1/Ba.pdf> <./figs1/Na.pdf
 
 pdfTeX warning: pdflatex (file ./figs1/Na.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Reference `tab:betrieb' on page 5 undefined on input line 118.
+LaTeX Warning: Reference `tab:betrieb' on page 5 undefined on input line 106.
 
 
-Overfull \hbox (5.74223pt too wide) in paragraph at lines 138--143
-[]\T1/cmr/m/n/10.95 Die bei-den ver-wen-de-ten NIM-Module stel-len Ver-sor-gungs-span-nun-gen von $\OML/ntxmi/m/it/10.95 U \LMS/ntxsy/m/n/10.95 2 f^^F\OT1/cmr/m/n/10.95 6 V\OML/ntxmi/m/it/10.95 ; \LMS/ntxsy/m/n/10.95 ^^F\OT1/cmr/m/n/10.95 12 V\OML/ntxmi/m/it/10.95 ; \LMS/ntxsy/m/n/10.95 ^^F\OT1/cmr/m/n/10.95 24 V\LMS/ntxsy/m/n/10.95 g$
- []
+LaTeX Warning: Reference `tab:nim_spannungen' on page 5 undefined on input line 130.
 
 
-LaTeX Warning: Reference `tab:nim_spannungen' on page 5 undefined on input line 144.
-
-
-LaTeX Warning: Reference `fig:nim_spannung' on page 5 undefined on input line 144.
+LaTeX Warning: Reference `fig:nim_spannung' on page 5 undefined on input line 131.
 
 
 Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 151.
+(caption)                 on input line 136.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[][][]|\T1/cmr/m/n/10.95 Ge-mes-se-ne Ver-sor-gungs-span-nun-
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[][][]|\T1/cmr/m/n/10.95 Ge-mes-se-ne Ver-sor-gungs-span-
  []
 
 <figs1/SUSKO01.PNG, id=66, 642.4pt x 521.95pt>
 File: figs1/SUSKO01.PNG Graphic file (type png)
 <use figs1/SUSKO01.PNG>
-Package pdftex.def Info: figs1/SUSKO01.PNG  used on input line 155.
-(pdftex.def)             Requested size: 108.16408pt x 87.87814pt.
+Package pdftex.def Info: figs1/SUSKO01.PNG  used on input line 154.
+(pdftex.def)             Requested size: 234.73528pt x 190.7212pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[][][]|\T1/cmr/m/n/10.95 Ex-em-pla-
- []
+LaTeX Warning: Reference `fig:schaltplan_slow' on page 5 undefined on input line 168.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 ri-scher
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 zeit-li-cher
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 Ver-lauf
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 sor-gungs-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 span-nung,
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 in die-sem
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 Fall ei-ne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 Ver-sor-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 gungs-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 span-nung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 von -6V
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 nal 1, in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 Chan-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 2 wur-de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 nichts
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 an-ge-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 schlos-sen
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 aber ver-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 ges-sen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/cmr/m/n/10.95 ab-zu-schal-
- []
-
-
-LaTeX Warning: Reference `fig:schaltplan_slow' on page 5 undefined on input line 183.
-
-
-./slow_koinzidenzkreis.tex:187: LaTeX Error: File `' not found.
+./slow_koinzidenzkreis.tex:171: LaTeX Error: File `' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187     \includegraphics[width=0.7\textwidth]{}
+l.171     \includegraphics[width=0.7\textwidth]{}
                                                  
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -1732,321 +1627,302 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `fig:slow_pulse' on page 5 undefined on input line 192.
+LaTeX Warning: Reference `fig:slow_pulse' on page 5 undefined on input line 176.
 
 [5] [6 <./figs1/SUSKO01.PNG>]
 <figs1/SUSKO18.PNG, id=83, 642.4pt x 521.95pt>
 File: figs1/SUSKO18.PNG Graphic file (type png)
 <use figs1/SUSKO18.PNG>
-Package pdftex.def Info: figs1/SUSKO18.PNG  used on input line 211.
+Package pdftex.def Info: figs1/SUSKO18.PNG  used on input line 190.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 <figs1/SUSKO08.PNG, id=84, 642.4pt x 521.95pt>
 File: figs1/SUSKO08.PNG Graphic file (type png)
 <use figs1/SUSKO08.PNG>
-Package pdftex.def Info: figs1/SUSKO08.PNG  used on input line 218.
+Package pdftex.def Info: figs1/SUSKO08.PNG  used on input line 197.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 
 
-./slow_koinzidenzkreis.tex:236: LaTeX Error: File `' not found.
+LaTeX Warning: Reference `fig:sca_aufbau' on page 7 undefined on input line 208.
+
+
+./slow_koinzidenzkreis.tex:217: LaTeX Error: File `' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236         \includegraphics[width=\linewidth]{}
+l.217         \includegraphics[width=\linewidth]{}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs1/SUSKO09.PNG, id=85, 642.4pt x 521.95pt>
-File: figs1/SUSKO09.PNG Graphic file (type png)
-<use figs1/SUSKO09.PNG>
-Package pdftex.def Info: figs1/SUSKO09.PNG  used on input line 243.
-(pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 
-Underfull \hbox (badness 1142) in paragraph at lines 244--244
-[][][]|\T1/cmr/m/n/10 Schalt-plann für die un-ter-su-chung des Gate-
- []
+./slow_koinzidenzkreis.tex:224: LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224         \includegraphics[width=\linewidth]{}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `fig:sca_aufbau' on page 7 undefined on input line 253.
-
-
-LaTeX Warning: Reference `fig:sca_offen' on page 7 undefined on input line 260.
+LaTeX Warning: Reference `fig:sca_offen' on page 7 undefined on input line 235.
 
 [7 <./figs1/SUSKO18.PNG> <./figs1/SUSKO08.PNG>]
 
-LaTeX Warning: Reference `fig:gdg_aufbau' on page 8 undefined on input line 272.
+LaTeX Warning: Reference `fig:gdg_aufbau' on page 8 undefined on input line 246.
 
 <figs1/SUSKO19.PNG, id=94, 642.4pt x 521.95pt>
 File: figs1/SUSKO19.PNG Graphic file (type png)
 <use figs1/SUSKO19.PNG>
-Package pdftex.def Info: figs1/SUSKO19.PNG  used on input line 282.
+Package pdftex.def Info: figs1/SUSKO19.PNG  used on input line 254.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 <figs1/SUSKO15.PNG, id=95, 642.4pt x 521.95pt>
 File: figs1/SUSKO15.PNG Graphic file (type png)
 <use figs1/SUSKO15.PNG>
-Package pdftex.def Info: figs1/SUSKO15.PNG  used on input line 289.
+Package pdftex.def Info: figs1/SUSKO15.PNG  used on input line 261.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 
-LaTeX Warning: Reference `fig:gdg_justage' on page 8 undefined on input line 299.
+LaTeX Warning: Reference `fig:gdg_justage' on page 8 undefined on input line 269.
 
 <figs1/SUSKO20.PNG, id=96, 642.4pt x 521.95pt>
 File: figs1/SUSKO20.PNG Graphic file (type png)
 <use figs1/SUSKO20.PNG>
-Package pdftex.def Info: figs1/SUSKO20.PNG  used on input line 308.
+Package pdftex.def Info: figs1/SUSKO20.PNG  used on input line 277.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 <figs1/SUSKO17.PNG, id=97, 642.4pt x 521.95pt>
 File: figs1/SUSKO17.PNG Graphic file (type png)
 <use figs1/SUSKO17.PNG>
-Package pdftex.def Info: figs1/SUSKO17.PNG  used on input line 315.
+Package pdftex.def Info: figs1/SUSKO17.PNG  used on input line 284.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 
-./slow_koinzidenzkreis.tex:332: LaTeX Error: File `figs1/' not found.
+LaTeX Warning: Reference `fig:mca_aufbau' on page 8 undefined on input line 295.
+
+[8 <./figs1/SUSKO19.PNG> <./figs1/SUSKO15.PNG>]
+
+./slow_koinzidenzkreis.tex:301: LaTeX Error: File `' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
+l.301     \includegraphics[width=0.7\textwidth]{}
+                                                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./slow_koinzidenzkreis.tex:339: LaTeX Error: File `figs1/' not found.
+LaTeX Warning: Reference `fig:na_spektrum' on page 9 undefined on input line 308.
+
+<figs1/Spektrum_Nalinks.png, id=107, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Nalinks.png Graphic file (type png)
+<use figs1/Spektrum_Nalinks.png>
+Package pdftex.def Info: figs1/Spektrum_Nalinks.png  used on input line 316.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs1/Spektrum_Narechts.png, id=109, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Narechts.png Graphic file (type png)
+<use figs1/Spektrum_Narechts.png>
+Package pdftex.def Info: figs1/Spektrum_Narechts.png  used on input line 323.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+
+LaTeX Warning: Reference `fig:na_verstaerkt' on page 9 undefined on input line 334.
+
+<figs1/Spektrum_Naverschobenlinks.png, id=110, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Naverschobenlinks.png Graphic file (type png)
+<use figs1/Spektrum_Naverschobenlinks.png>
+Package pdftex.def Info: figs1/Spektrum_Naverschobenlinks.png  used on input line 340.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs1/Spektrum_Naverschobenrechts.png, id=111, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Naverschobenrechts.png Graphic file (type png)
+<use figs1/Spektrum_Naverschobenrechts.png>
+Package pdftex.def Info: figs1/Spektrum_Naverschobenrechts.png  used on input line 347.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+
+LaTeX Warning: Reference `fig:ba_spektrum' on page 9 undefined on input line 357.
+
+[9 <./figs1/SUSKO20.PNG> <./figs1/SUSKO17.PNG> <./figs1/Spektrum_Nalinks.png> <./figs1/Spektrum_Narechts.png>]
+<figs1/Spektrum_Balinks1.png, id=123, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Balinks1.png Graphic file (type png)
+<use figs1/Spektrum_Balinks1.png>
+Package pdftex.def Info: figs1/Spektrum_Balinks1.png  used on input line 375.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs1/Spektrum_Barechts1.png, id=124, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Barechts1.png Graphic file (type png)
+<use figs1/Spektrum_Barechts1.png>
+Package pdftex.def Info: figs1/Spektrum_Barechts1.png  used on input line 382.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+ [10 <./figs1/Spektrum_Naverschobenlinks.png> <./figs1/Spektrum_Naverschobenrechts.png> <./figs1/Spektrum_Balinks1.png> <./figs1/Spektrum_Barechts1.png>]
+
+LaTeX Warning: Reference `fig:gaussfit_na' on page 11 undefined on input line 398.
+
+
+LaTeX Warning: Reference `fig:gaussfit_ba' on page 11 undefined on input line 398.
+
+<figs1/alle_fits_Naverschobenlinks.png, id=136, 867.24pt x 433.62pt>
+File: figs1/alle_fits_Naverschobenlinks.png Graphic file (type png)
+<use figs1/alle_fits_Naverschobenlinks.png>
+Package pdftex.def Info: figs1/alle_fits_Naverschobenlinks.png  used on input line 404.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs1/alle_fits_Naverschobenrechts.png, id=137, 867.24pt x 433.62pt>
+File: figs1/alle_fits_Naverschobenrechts.png Graphic file (type png)
+<use figs1/alle_fits_Naverschobenrechts.png>
+Package pdftex.def Info: figs1/alle_fits_Naverschobenrechts.png  used on input line 411.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs1/alle_fits_Balinks1.png, id=138, 867.24pt x 433.62pt>
+File: figs1/alle_fits_Balinks1.png Graphic file (type png)
+<use figs1/alle_fits_Balinks1.png>
+Package pdftex.def Info: figs1/alle_fits_Balinks1.png  used on input line 422.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs1/alle_fits_Barechts1.png, id=139, 867.24pt x 433.62pt>
+File: figs1/alle_fits_Barechts1.png Graphic file (type png)
+<use figs1/alle_fits_Barechts1.png>
+Package pdftex.def Info: figs1/alle_fits_Barechts1.png  used on input line 429.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+
+LaTeX Warning: Reference `tab:fit_links' on page 11 undefined on input line 448.
+
+
+LaTeX Warning: Reference `tab:fit_rechts' on page 11 undefined on input line 448.
+
+[11 <./figs1/alle_fits_Naverschobenlinks.png> <./figs1/alle_fits_Naverschobenrechts.png> <./figs1/alle_fits_Balinks1.png> <./figs1/alle_fits_Barechts1.png>]
+
+LaTeX Warning: Citation 'praktikum' on page 12 undefined on input line 483.
+
+
+LaTeX Warning: Reference `fig:energiekalibration' on page 12 undefined on input line 486.
+
+<figs1/Energiekalibrierung_links.png, id=153, 650.43pt x 433.62pt>
+File: figs1/Energiekalibrierung_links.png Graphic file (type png)
+<use figs1/Energiekalibrierung_links.png>
+Package pdftex.def Info: figs1/Energiekalibrierung_links.png  used on input line 495.
+(pdftex.def)             Requested size: 225.34386pt x 150.22763pt.
+<figs1/Energiekalibrierung_rechts.png, id=154, 650.43pt x 433.62pt>
+File: figs1/Energiekalibrierung_rechts.png Graphic file (type png)
+<use figs1/Energiekalibrierung_rechts.png>
+Package pdftex.def Info: figs1/Energiekalibrierung_rechts.png  used on input line 501.
+(pdftex.def)             Requested size: 225.34386pt x 150.22763pt.
+[12 <./figs1/Energiekalibrierung_links.png> <./figs1/Energiekalibrierung_rechts.png>]
+
+LaTeX Warning: Reference `tab:aufloesung_rechts' on page 13 undefined on input line 541.
+
+
+LaTeX Warning: Reference `tab:aufloesung_links' on page 13 undefined on input line 541.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 585.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 585.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 585.
+
+
+LaTeX Warning: Reference `fig:sca_511' on page 13 undefined on input line 593.
+
+[13]
+<figs1/Spektrum_Nalinks551.png, id=171, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Nalinks551.png Graphic file (type png)
+<use figs1/Spektrum_Nalinks551.png>
+Package pdftex.def Info: figs1/Spektrum_Nalinks551.png  used on input line 599.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs1/Spektrum_Na511.png, id=172, 867.24pt x 433.62pt>
+File: figs1/Spektrum_Na511.png Graphic file (type png)
+<use figs1/Spektrum_Na511.png>
+Package pdftex.def Info: figs1/Spektrum_Na511.png  used on input line 606.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+
+
+LaTeX Warning: Reference `fig:schaltplan_sca_oszi' on page 14 undefined on input line 615.
+
+
+LaTeX Warning: Reference `fig:sca_oszi' on page 14 undefined on input line 616.
+
+
+./slow_koinzidenzkreis.tex:623: LaTeX Error: File `' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
+l.623     \includegraphics[width=0.7\textwidth]{}
+                                                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[8 <./figs1/SUSKO09.PNG>] [9 <./figs1/SUSKO19.PNG> <./figs1/SUSKO15.PNG> <./figs1/SUSKO20.PNG> <./figs1/SUSKO17.PNG>]
+<figs1/SUSKO23.PNG, id=173, 642.4pt x 521.95pt>
+File: figs1/SUSKO23.PNG Graphic file (type png)
+<use figs1/SUSKO23.PNG>
+Package pdftex.def Info: figs1/SUSKO23.PNG  used on input line 632.
+(pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
+<figs1/SUSKO21.PNG, id=174, 642.4pt x 521.95pt>
+File: figs1/SUSKO21.PNG Graphic file (type png)
+<use figs1/SUSKO21.PNG>
+Package pdftex.def Info: figs1/SUSKO21.PNG  used on input line 639.
+(pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
+[14 <./figs1/Spektrum_Nalinks551.png> <./figs1/Spektrum_Na511.png>]
 
-./slow_koinzidenzkreis.tex:353: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.353 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./slow_koinzidenzkreis.tex:360: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `tab:sca_schwellen' on page 15 undefined on input line 664.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 369.
+LaTeX Warning: Reference `tab:cfd_schwellen' on page 15 undefined on input line 686.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 369.
+LaTeX Warning: Reference `fig:slow_koinzidenz_aufbau' on page 15 undefined on input line 707.
 
+[15 <./figs1/SUSKO23.PNG> <./figs1/SUSKO21.PNG>]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 369.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 369.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 369.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 369.
-
-
-./slow_koinzidenzkreis.tex:376: LaTeX Error: File `figs1/' not found.
+./slow_koinzidenzkreis.tex:712: LaTeX Error: File `' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.376 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./slow_koinzidenzkreis.tex:383: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./slow_koinzidenzkreis.tex:392: You can't use `macro parameter character #' in vertical mode.
-l.392 #
-       tabelle
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./slow_koinzidenzkreis.tex:394: You can't use `macro parameter character #' in vertical mode.
-l.394 #
-       tabelle
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-./slow_koinzidenzkreis.tex:401: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.401 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./slow_koinzidenzkreis.tex:408: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.408 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 417.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 417.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 417.
-
-
-./slow_koinzidenzkreis.tex:424: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.424 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./slow_koinzidenzkreis.tex:431: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.431 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./slow_koinzidenzkreis.tex:445: LaTeX Error: File `figs1/' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
+l.712     \includegraphics[width=0.7\textwidth]{}
+                                                 
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./slow_koinzidenzkreis.tex:452: LaTeX Error: File `figs1/' not found.
+LaTeX Warning: Reference `fig:slow_koinzidenz' on page 16 undefined on input line 718.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.452 ...includegraphics[width=\linewidth]{figs1/}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<figs1/SUSKO24.PNG, id=194, 642.4pt x 521.95pt>
+File: figs1/SUSKO24.PNG Graphic file (type png)
+<use figs1/SUSKO24.PNG>
+Package pdftex.def Info: figs1/SUSKO24.PNG  used on input line 724.
+(pdftex.def)             Requested size: 328.62794pt x 267.01926pt.
 
+Underfull \hbox (badness 2173) in paragraph at lines 725--725
+[][][]|\T1/cmr/m/n/10.95 Zeit-li-che Über-la-ge-rung der bei-den SCA-Signale zur Her-stel-lung der Slow-
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 469.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 469.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 469.
-
-) [10] [11]
+) [16 <./figs1/SUSKO24.PNG>]
 \openout2 = `fast_koinzidenzkreis.aux'.
 
- (./fast_koinzidenzkreis.tex) [12
+ (./fast_koinzidenzkreis.tex) [17
 
 
 
 ]
 \openout2 = `Fazit.aux'.
 
- (./Fazit.tex) [13
+ (./Fazit.tex) [18
 
 
 
@@ -2085,18 +1961,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48781 strings out of 477884
- 998162 string characters out of 5835937
- 1952359 words of memory out of 5000000
- 68145 multiletter control sequences out of 15000+600000
- 578158 words of font info for 175 fonts, out of 8000000 for 9000
+ 48967 strings out of 477884
+ 1004019 string characters out of 5835937
+ 1953360 words of memory out of 5000000
+ 68301 multiletter control sequences out of 15000+600000
+ 578524 words of font info for 176 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  108i,19n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (15 pages, 626774 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (20 pages, 1955520 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 396 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
