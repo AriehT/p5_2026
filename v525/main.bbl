@@ -16,5 +16,22 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{praktikum}{book}{}
+      \field{labelalpha}{26}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Uni Bonn}
+      \field{day}{6}
+      \field{month}{8}
+      \field{title}{Physikalisches Praktikum Teil V: Kern- und Teilchenphysik}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

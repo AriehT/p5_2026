@@ -1,1 +1,161 @@
-\section{Messung der Lebensdauer}
+\chapter{Messung der Lebensdauer des $\frac{5}{2}$ Zustands von $^{133}Cs$}
+
+\subsection{Theoretische Grundlagen}
+
+\subsubsection{Zerfallsschemata von \texorpdfstring{$^{22}$Na}{22Na} und \texorpdfstring{$^{133}$Ba}{133Ba}}
+Der $^{22}$Na-Kern zerfällt durch $\beta^+$-Zerfall in ein $^{22}$Ne-Atom. Das entstehende Positron stößt mit einem Elektron zusammen, wobei zwei zeitlich synchronisierte Photonen mit einer Energie von jeweils $511\,\mathrm{keV}$ emittiert werden. Zusätzlich wird ein $\gamma$-Photon mit einer Energie von $1{,}275\,\mathrm{MeV}$ erzeugt. Aufgrund ihrer gleichzeitigen Emission wurden die beiden $511\,\mathrm{keV}$-Photonen zur Bestimmung des Messzeitpunkts (schneller Regelkreis) verwendet.
+
+Der Zerfall von $^{133}$Ba erfolgt durch Elektroneneinfang zu $^{133}$Cs. Der Schlüssel zur Messung der Lebensdauer liegt in der $\gamma$-Kaskade
+
+$
+356\,\mathrm{keV} \;\rightarrow\; 81\,\mathrm{keV},
+$\cite{praktikum}
+
+wobei die Lebensdauer des $81\,\mathrm{keV}$-Niveaus in der Größenordnung einer Nanosekunde liegt. Die beiden Photonen der Kaskade liefern das Start- und das Stoppsignal; die Lebensdauer hängt von der Differenz ihrer Emissionszeitpunkte ab.
+
+\subsubsection{Zerfallsgesetz und Lebensdauer}
+
+Die zeitliche Entwicklung der Kernpopulation folgt einem exponentiellen Zerfallsgesetz \cite{praktikum}
+
+$
+N(t) = N_0\, e^{-t/\tau},
+$
+
+wobei $\tau$ die mittlere Lebensdauer bezeichnet. Die Zerfallskonstante beträgt $\lambda = 1/\tau$ und die Halbwertszeit ist
+
+$
+T_{1/2} = \tau \ln 2.
+$
+
+Während der Messung entspricht die Zeitdifferenz zwischen den emittierten Start- und Stopp-Photonen der Zeit, die der Kern für den Übergang in den angeregten Zustand benötigt. Diese zeitliche Verteilung spiegelt das Zerfallsgesetz wider.
+\subsubsection{Zeitauflösung}
+
+Die effektive Zeitauflösung des Detektors wird durch verschiedene Faktoren beeinflusst, wie etwa die Beleuchtung, die Verteilung der internen Laufzeiten im Photomultiplier, Schwankungen im CFD (Constant Fraction Discriminator) sowie den Einfluss elektromagnetischen Rauschens auf den TAC (Time-to-Amplitude Converter) und den MCA (Multichannel Analyzer). Diese Verbreiterung wird durch die Gauß-Funktion beschrieben:
+
+$
+R(t) = \frac{1}{\sqrt{2\pi}\sigma_t}
+\exp\!\left(-\frac{t^2}{2\sigma_t^2}\right).
+$
+
+Die Breite $\sigma_t$ repräsentiert die Zeitskala des Systems und wird mit dem unter Verwendung von $^{22}$Na ermittelten Maximalwert verglichen. Durch die Kalibrierung
+
+$t = a(K - b)$
+
+wird die während des Prozesses gemessene Breite ($\sigma_K$) in eine Zeitskala umgerechnet:
+
+$\sigma_t = a\,\sigma_K.$
+
+\subsection{Kombination von Zerfall und Zeitauflösung}
+
+Die gemessene Zeitskala ergibt sich aus der Kombination des physikalischen exponentiellen Zerfalls und der zeitlichen Charakteristik des Detektionssystems:
+
+$ M(t) = (N_0 e^{-t/\tau}) * R(t)$
+
+Die Kombination des exponentiellen Zerfalls mit einer Gauß-Funktion führt zu einer asymmetrischen Kurve: Die linke Seite wird durch die Gauß-Breite $\sigma_t$ bestimmt, während die rechte Seite den durch die tatsächliche Lebensdauer $\tau$ charakterisierten exponentiellen Zerfall aufweist. Auf diese Weise werden menschliche Leben aus dem Schatten geholt.
+
+%---------------------------------------------------------
+\subsection{Auswertung}
+Nach umfangreichen Tests besteht der nächste Schritt darin, die Realisierbarkeit des Cäsium-$\frac{5}{2}^+$-Zustands zu bewerten. Ab diesem Zeitpunkt wird nur noch die Bariumquelle verwendet, und die Konfiguration wird wie in Abbildung \ref{fig:fast_8} dargestellt beibehalten. Zu diesem Zweck wurden die Slow und Fast Schaltkreise umgebaut, und Koinzidenzen wurden wiederholt mithilfe eines Oszilloskops gemessen.
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO12.png}
+    \caption{Links}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO13.png}
+    \caption{Rechts}
+  \end{minipage}
+  \caption{Herstellung von Koinzidenz zwischen Slow-Signal an Delay-Verstärker (CH I) und SCA mit GDG (CH II) zur
+Vorbereitung der Messung der SCA-Fenster-Einstellung mit dem MCA.}
+  \label{fig:fast_8}
+\end{figure}
+\FloatBarrier
+\subsubsection{Einstellung der Einkanal-Fenster auf die 356 keV- und 81 keV-Linien von Ba}
+Zunächst wird der Verzögerungsverstärker beidseitig mit den SCA-Ausgängen (innerhalb des GDG) verbunden, und die Verbindung wird mittels Oszilloskop überprüft (Abbildung \ref{fig:fast_8}). Diese Messungen bestätigen die korrekte Funktion des Slow - Kanals und ermöglichen es, die SCA-Fenster so einzustellen, dass sie dauerhaft geöffnet bleiben. Die auf Kanal 1 beobachteten unterschiedlichen Amplituden resultieren aus den verschiedenen Zerfallsmodi des verwendeten $^{133}$Ba-Isotops.
+
+Drei charakteristische Impulsformen, die im Messbetrieb auftreten können, erscheinen nicht in den Oszilloskop-Kurven: eine Kombination aus zwei Impulsen, ein Stopp-Signal des linken Detektors sowie ein Signal des rechten Detektors, dessen Maximum früher auftritt als das der anderen Impulse.
+
+Die ersten beiden Fälle werden als unabhängig betrachtet. Zudem reagiert die SCA-Einheit empfindlich: Ein Triggersignal wird erst erzeugt, wenn die abfallende Flanke des Impulses nach Erreichen des Maximums wieder unter die Schwelle fällt. Weist der Impuls eine lange Abklingzeit auf (wie beim rechten Detektor), so wird die Flugzeitmessung unterbrochen, was den Eindruck einer Zeitumkehr des Signals gibt. Da diese Ereignisse selten sind und die Zeitskala des langsamen Kanals für Lebensdauermessungen nicht entscheidend ist, beeinträchtigen sie den weiteren Messablauf nicht.
+
+Um die Empfindlichkeit der beiden Detektoren für $\gamma$-Energien von $356\,\mathrm{keV}$ und $81\,\mathrm{keV}$ zu bestimmen, müssen die SCA-Fenster des langsamen Kanals auf diese Energieniveaus eingestellt werden. Der rechte Zweig, der das Startsignal liefert, wird auf die $356\,\mathrm{keV}$-Linie eingestellt, da diese Linie den untersuchten $\frac{5}{2}^+$-Zustand speist.
+
+Zu Beginn sind beide SCA-Fenster geöffnet; diese Konfiguration entspricht dem Schaltplan \ref{fig:aufbau_fast_3} (Rechts). Anschließend werden Messungen mit dem Vielkanalanalysator (MCA) durchgeführt, wobei jedes SCA-Fenster so weit verengt wird, bis im Energiespektrum nur noch der gewünschte Peak verbleibt (Abbildung \ref{fig:fast_9}). Dabei ist zu beachten, dass das rechte Fenster leicht links vom $356\,\mathrm{keV}$-Peak positioniert wird. Diese Wahl ist durch das Vorhandensein der $384\,\mathrm{keV}$-Linie bedingt, die außerhalb der geforderten Bereiche liegt und fälschlicherweise als Startsignal interpretiert werden könnte. Ein genau definierter SCA-Schwellenwert ermöglicht die präzise Auswahl der erforderlichen Parameter. 
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=0.75\textwidth]{code/Ba_spectra_81_356.png}
+    \caption{Rechts}
+  \caption{Messung des $^{133}Ba$ Energie-Spektrums nach Einstellung der SCA-Fenster auf 356 keVund 81 keV.}
+  \label{fig:fast_9}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Kontrolle der Koinzidenzen}
+\subsubsection{Fast-Koinzidenz einstellen}Die Überprüfung der schnellen Koinzidenz ist essenziell, um den Unterschied in der Signallaufzeit zwischen den beiden  Modi präzise zu bestimmen. In diesem Versuchsteil wird erneut eine $^{22}$Na-Quelle verwendet, wobei beide Detektoren durch $\beta^+$-Zerfall ein 511-keV-Photon messen. Die Signale werden von den CFD-Geräten zum Oszilloskop geführt (siehe Abbildung \ref{fig}), und das Signal des linken Kanals wird durch eine Verzögerungsleitung (ns-Verzögerung) geleitet. Dies stellt sicher, dass das Stoppsignal auch bei gleichzeitigen Ereignissen erst nach dem Startsignal eintrifft.
+\begin{figure}[htbp]\centering\includegraphics[width=0.75\textwidth]{aufbau_updated/verzögerung_start_stop.drawio.png}\caption{Schaltplan zur Einstellung der Verzögerung von Start- und Stopp-Signalen im Fast-Kreis. }
+  \label{fig}\end{figure}\FloatBarrier
+  Der rechte Detektor wurde gewählt, um das Stoppsignal zu liefern, da er an beiden Ausgängen stärkere Impulse liefert als der linke Detektor. Da CFD-Geräte ein schwaches, amplitudenabhängiges Verhalten zeigen, ist es notwendig, das Stoppsignal vom PMT zu beziehen; dies ist am effektivsten, um ein Ausbleiben des Stoppsignals bei Ereignissen mit geringer Amplitude zu vermeiden.Für die weiteren Messungen wurden die negativen Ausgänge der CFDs verwendet. Um sicherzustellen, dass das Startsignal stets vor dem Stoppsignal erscheint, wurde Letzteres mittels einer ns-Verzögerungsleitung um 31,5 ns verzögert. Ein repräsentatives Oszillogramm ist in Abbildung \ref{fig} dargestellt. Die zeitliche Korrelation der beiden Signale zeigt eine geringfügige Verschiebung des Stoppsignals, typischerweise innerhalb von ??? ns um den Referenzpunkt. Diese Schwankungen lassen sich durch die begrenzte Zeitauflösung der Messanordnung erklären. Es treten jedoch keinesfalls Stoppsignale vor dem Startsignal auf. Zudem ist zu beachten, dass trotz der Aktivität des Oszilloskops auf Kanal 1 das Stoppsignal auf Kanal 2 nicht bei allen aktiven Signalen sichtbar ist. Diese Ereignisse sind auf andere Zerfallswege des Natriums zurückzuführen, die nicht gleichzeitig ablaufen.
+
+\begin{figure}[htbp]\centering\includegraphics[width=0.75\textwidth]{figs2/SUSKO08.png}\caption{Oszillogramm des linken Fast-Signals über den CFD (CH 1) im Vergleich zu rechten Fast-Signal über CFD undns-Delay (CH 2), wobei das ns-Delay auf 31.5ns eingestellt ist. Die Signale sind nun zeitlich so ausgerichtet, dass sie innerhalb des Koinzidenzfensters liegen.}\label{fig}\end{figure}\FloatBarrier
+
+Das dargestellte Oszillogramm zeigt ein schnelles Signal, das von den CFDs zweier Detektoren erzeugt und mit einer zeitlichen Auflösung von 10 ns pro Verteilung aufgezeichnet wurde. Beide Impulse weisen kurze Dauern im Bereich weniger Nanosekunden auf , ähnlich wie schnelle Signale von Photomultipliern (PMT) . Zudem zeichnen sie sich durch einen steilen Anstieg gefolgt von einem exponentiellen Abfall aus. Die gelbe Kurve (CH1) repräsentiert den schnellen Ausgang des linken Detektors, während das cyanfarbene Signal (CH2) den schnellen Ausgang des rechten Detektors darstellt, nachdem dieser eine feste Verzögerungsleitung von etwa einer Nanosekunde durchlaufen hat. Die Unterschiede zwischen den beiden Signalen sind offensichtlich: Das rechte Signal trifft mit einer festen Verzögerung ein, ohne dass es zu einem nennenswerten Präzisionsverlust kommt. Die zeitliche Übereinstimmung der Impulse innerhalb desselben Zeitintervalls deutet darauf hin, dass die Verzögerung korrekt gewählt wurde und die beiden Signale koinzidieren.
+
+Die Impulsform stimmt mit früheren Beobachtungen überein: Beide weisen kurze Anstiegs- und Abfallzeiten auf, die auf die hohe Elektronendichte im Inneren des Photomultipliers zurückzuführen sind. Die Amplituden der beiden Impulse unterscheiden sich geringfügig; diese Variation ist entweder auf die unterschiedlichen Verstärkungsfaktoren der beiden PMTs oder auf einen kleinen Unterschied in der CFD-Elektronik zurückzuführen. Entscheidend ist jedoch, dass beide Signale eindeutig als Logikimpulse identifiziert werden, damit der TAC sie korrekt als „Start“- und „Stopp“-Signale interpretieren kann.
+
+Die zeitliche Stabilität der beiden Impulse ist deutlich erkennbar. Obwohl geringfügige Schwankungen im Bereich weniger Nanosekunden auftreten können, verbleiben die Signale in einem angemessenen Bereich und überlappen sich innerhalb der erwarteten Grenzen. Das Oszillogramm belegt, dass die Verzögerungseinstellung geeignet ist und die Start-Stopp-Logik des TAC für die nachfolgende Lebensdauermessung korrekt funktioniert.
+
+\subsubsection{Messung der Lebensdauerkurve}
+Sobald alle Messungen kalibriert sind, um Stabilität und Präzision zu gewährleisten, kann die Lebensdaueranalyse beginnen. Die gewählte Konfiguration entspricht \ref{fig:aufbau_fast_3} (Rechts). Die Standardeinstellungen für die Verstärker, die SCA- und GDG-Fenster des langsamen Kanals sowie die CFD-Schwellenwerte des schnellen Kanals bleiben unverändert, da sie nun auf die Signaleigenschaften optimiert sind.
+
+Das resultierende MCA-Spektrum hat die Form einer exponentiellen Zerfallskurve. Um diese Kurve korrekt an den MCA-Messbereich anzupassen, wird der ns-Delay zwischen Signalbeginn und -ende auf $31,5\,\mathrm{ns}$ festgelegt. Diese Wahl basiert auf früheren Experimenten mit sogenannten „Dips“, die bestätigten, dass bei dieser Einstellung das Stopp-Signal tatsächlich auf das Start-Signal folgt. Dies erhöht die Wahrscheinlichkeit, eine Korrelation herzustellen.
+
+Die Messungen wurden im Rahmen der durch die Laborausbildung vorgegebenen Bedingungen durchgeführt, um die mit der Zerfallskurve verbundene Unsicherheit zu verringern. Die endgültige Konfiguration ist in Abbildung 34 dargestellt.
+\subsubsection{Bestimmung der Lebensdauer}
+Bei einer idealen Zeitreihenmessung (frei von Störungen) zeigt die Lebensdauerkurve ein Maximum, auf das unmittelbar ein stetiger Abfall folgt. Dieses Verhalten entspricht dem bekannten Prinzip des radioaktiven Zerfalls. Bei realen Messungen unterliegt jedoch jeder aufgezeichnete Zeitpunkt einer Unsicherheit, die auf zahlreiche Faktoren im Zusammenhang mit dem Messprozess und den verwendeten Instrumenten zurückzuführen ist. So kann beispielsweise eine geringfügige Verzögerung zwischen dem Zeitpunkt des Bariumzerfalls und dessen Detektion durch den Szintillator auftreten; eine dominierende Rolle spielen jedoch zeitliche Schwankungen, die den elektronischen Komponenten inhärent sind (Instabilitäten im Zusammenhang mit Laufzeiten in Photomultipliern).
+
+Diese Unsicherheit führt dazu, dass die gemessene Zerfallszeit von der „idealen“ Exponentialverteilung abweicht. Analytisch äußert sich dies in der Faltung $M(t)$ der theoretischen Zerfallskurve $W(t)$ mit einer Zeitauflösungsfunktion $P(t)$, die einer Normalverteilung folgt. Die Gauß-Funktion $P(t)$ fungiert als Wahrscheinlichkeitsverteilung, welche die Verteilung der zufälligen Messwerte beschreibt:
+
+$
+W(t) = \frac{I}{\tau}\,\exp\!\left(-\frac{t}{\tau}\right),$
+
+$P(t) = \frac{1}{\sqrt{2\pi}\,\sigma}\,\exp\!\left[-\frac{1}{2}\left(\frac{t - t_0}{\sigma}\right)^2\right],$
+$M(t) = (W * P)(t)= \frac{I}{2}\,\exp\!\left(\frac{\sigma^2 - 2\tau(t - t_0)}{2\tau^2}\right)\left[1 + \text{erf}\!\left(\frac{1}{\sqrt{2}}
+\left(
+\frac{t - t_0}{\sigma} - \frac{\sigma}{\tau}
+\right)
+\right)
+\right].
+$
+
+Die Funktion $M(t)$ enthält vier Parameter, die den experimentellen Bedingungen entsprechen:
+\begin{itemize}
+\item $\tau$ — die Lebensdauer des $\frac{5}{2}^+$-Zustands von Cs,
+\item $I$ — der Term, der dem Referenzwert entspricht,
+\item $t_0$ — der Mittelwert der Gauß-Verteilung, der die Kurve horizontal verschiebt,
+\item $\sigma$ — die Varianz der Gauß-Verteilung und ein Schätzwert für die Standardabweichung des Messgeräts.
+\end{itemize}
+
+Die Anpassung von $M(t)$ an die Messdaten ergibt die in Abbildung 34 dargestellte Kurve. Der reduzierte $\chi^2$-Wert von 0,99 deutet auf eine sehr gute Übereinstimmung zwischen Modell und Messdaten hin. Die Unsicherheiten der einzelnen Datenpunkte wurden aus Gründen der Übersichtlichkeit nicht in der Abbildung dargestellt.\\
+Man erhält folgende Fitparameter für die Anpassung:
+\begin{align*}
+    &I     = 1430.56(32)
+    &\tau   = 7.826(9) ns
+    &t_0    = 30.921() ns
+    &sigma = 2.750(4) ns
+\end{align*}
+
+Tatsächlich ergibt die Anpassung eine Lebensdauer von
+
+$\tau = 7.826(7)\,\mathrm{ns}.$
+
+Die Multiplikation mit $\ln 2$ liefert eine Halbwertszeit von
+
+$t_{1/2} = 5,43(8)\,\mathrm{ns},$
+
+welche um zirka 13,6\% vom Literaturwert $t_{1/2,\mathrm{lit}} = 6,283(14)\,\mathrm{ns}$ abweicht. Die Literaturwerte liegen außerhalb des $1\sigma$-Intervalls der Ergebnisse, was auf andere systematische Fehler hinweist, die hätten betrachtet werden sollen.
+
+Etwaige Abweichungen sind auf Unsicherheiten zurückzuführen: obwohl die Effizienz der Bariumquelle gering ist, können zwei Zerfälle unter Beteiligung des $\frac{5}{2}^+$-Zustands innerhalb eines kurzen Zeitintervalls auftreten, sodass beide Signale in das TAC-Rücksetzfenster fallen. Da dieses nicht die Besetzung der $356\,\mathrm{keV}$-Linie abdeckt, werden mehr „Stop“- als „Start“-Signale erzeugt, was potenziell zu einer Verringerung der gemessenen Lebensdauer führt. Eine weitere Einschränkung ergibt sich aus der begrenzten Nachweisrate: Da $\gamma$-Strahlung isotrop emittiert wird und jeder der beiden Szintillatoren weniger als die Hälfte des Raumwinkels abdeckt, werden weniger als die Hälfte der vier Zerfallsketten ($356\,\mathrm{keV} \rightarrow 81\,\mathrm{keV}$) simultan detektiert. Dies erhöht die Wahrscheinlichkeit, dass das Stopp-Signal nicht dem Start-Signal entspricht. Zudem verhindert der Einsatz eines Szintillationsspektrometers die gleichzeitige Erfassung der beiden aus einem einzelnen Zerfall resultierenden Signale.
