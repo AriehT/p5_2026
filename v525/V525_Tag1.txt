@@ -1,0 +1,49 @@
+V525
+Kannal 1:SCA-GDG etc
+Kannal 2:Delay Amp
+1)Versorgungsspannung
+wird trotz x10 kabel (voltage probe tek p6139A) für oszi nicht 10 mal kleiner verringert 
+Spannung:
+überall gleich mit 0.01V fehler ausser -24 und -6 0 Fehler und 24 hat -0.03V
+Bilder:00 (00, 01 gleiche Spannung) bis 06
+
+2)Kontrolle der Slow-Pulse des Photomultipliers
+Bilder:  08,09
+3)Triggerung mit dem SCA
+a)zeitliche Koinzidenz und die Einstellung
+der Impulshöhe:
+Na: Bild 11
+Update: Na: Bild 15, 16
+b)trigger-Impuls verlängern
+Na: Bild 12
+    Bild 14
+Update: Bild 17
+Fine gain: 0.24 (1.5-5, 0.5-1.5, 0.4/10 => 0.74 )
+Coarse gain: 50
+Shaping time: 1
+
+4)Energiespektren von Na und Ba aufnehmen
+Naverschobenrechts
+Narechts
+Barechts1 (mit 33Linie)
+Barechts2 (ohne 33Linie)
+Linker Detektor:
+Bild 18
+3-a: Bild19
+3-b: Bild20
+4: 
+Coarse gain: 50
+Fine gain: 1.1
+Nalinks51
+
+5)Einkanalfenster Na-Quelle
+Rechts: Bild21
+lower level: 7.52(0)
+upper level: 8.4(2)
+Links: Bild23
+lower Level: 7.66(0)
+upper Level: 9.1(0)
+
+6)Slow Koinzidenz herstellen
+Erfolgreich eingestellt
+Bild24
