@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  9 JUN 2026 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  9 JUN 2026 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1265,7 +1265,20 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./main.aux)
+ (./main.aux (./Einleitung.aux) (./aufbau.aux) (./slow_koinzidenzkreis.aux) (./fast_koinzidenzkreis.aux
+
+LaTeX Warning: Label `fig:fast_3' multiply defined.
+
+
+LaTeX Warning: Label `fig:fast_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:fast_3' multiply defined.
+
+
+LaTeX Warning: Label `fig:fast_3@cref' multiply defined.
+
+) (./Fazit.aux) (./AI use.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
@@ -1395,6 +1408,7 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 17.
+(./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1406,7 +1420,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
 (scrreprt)           before \begin{document} on input line 17.
-(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
@@ -1446,12 +1460,13 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) (./main.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
-No file main.toc.
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-[2
+ [2
 
 ]
 \openout2 = `Einleitung.aux'.
@@ -1502,12 +1517,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 20.
 
 
-LaTeX Warning: Reference `fig:ZerfallBa' on page 2 undefined on input line 24.
-
-
 
 pdfTeX warning: pdflatex (file ./figs1/Ba.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<figs1/Ba.pdf, id=30, 312.905pt x 304.44138pt>
+<figs1/Ba.pdf, id=76, 312.905pt x 304.44138pt>
 File: figs1/Ba.pdf Graphic file (type pdf)
 <use figs1/Ba.pdf>
 Package pdftex.def Info: figs1/Ba.pdf  used on input line 35.
@@ -1523,14 +1535,11 @@ LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <5.5> not available
 
 
 pdfTeX warning: pdflatex (file ./figs1/Na.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<figs1/Na.pdf, id=31, 312.905pt x 261.76254pt>
+<figs1/Na.pdf, id=77, 312.905pt x 261.76254pt>
 File: figs1/Na.pdf Graphic file (type pdf)
 <use figs1/Na.pdf>
 Package pdftex.def Info: figs1/Na.pdf  used on input line 42.
 (pdftex.def)             Requested size: 225.34386pt x 188.52081pt.
-
-LaTeX Warning: Reference `fig:ZerfallNa' on page 2 undefined on input line 56.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
@@ -1545,14 +1554,12 @@ l.64 \subsection
 
 
 ]
-
-LaTeX Warning: Reference `fig:schaltplan_slow_fast' on page 3 undefined on input line 65.
-
-<aufbau_updated/kontrolle_slow_pulse.drawio.png, id=43, 616.3025pt x 303.1325pt>
+<aufbau_updated/kontrolle_slow_pulse.drawio.png, id=87, 616.3025pt x 303.1325pt>
 File: aufbau_updated/kontrolle_slow_pulse.drawio.png Graphic file (type png)
 <use aufbau_updated/kontrolle_slow_pulse.drawio.png>
 Package pdftex.def Info: aufbau_updated/kontrolle_slow_pulse.drawio.png  used on input line 70.
 (pdftex.def)             Requested size: 328.62794pt x 161.64005pt.
+
 
 LaTeX Warning: Citation 'praktika' on page 3 undefined on input line 71.
 
@@ -1568,204 +1575,140 @@ Overfull \hbox (32.2618pt too wide) in paragraph at lines 91--96
  []
 
 
-LaTeX Warning: Reference `tab:betrieb' on page 4 undefined on input line 106.
-
-
-LaTeX Warning: Reference `tab:nim_spannungen' on page 4 undefined on input line 130.
-
-
-LaTeX Warning: Reference `fig:nim_spannung' on page 4 undefined on input line 131.
-
-
 Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 136.
+(caption)                 on input line 148.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][][]|\T1/cmr/m/n/10.95 Ge-mes-se-ne Ver-sor-gungs-span-
  []
 
-<figs1/SUSKO01.PNG, id=64, 642.4pt x 521.95pt>
+<figs1/SUSKO01.PNG, id=110, 642.4pt x 521.95pt>
 File: figs1/SUSKO01.PNG Graphic file (type png)
 <use figs1/SUSKO01.PNG>
 Package pdftex.def Info: figs1/SUSKO01.PNG  used on input line 154.
 (pdftex.def)             Requested size: 234.73528pt x 190.7212pt.
-
-LaTeX Warning: Reference `fig:schaltplan_slow' on page 4 undefined on input line 168.
-
-<aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png, id=65, 696.6025pt x 316.18124pt>
+<aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png, id=112, 696.6025pt x 316.18124pt>
 File: aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png Graphic file (type png)
 <use aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png>
 Package pdftex.def Info: aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png  used on input line 171.
 (pdftex.def)             Requested size: 328.62794pt x 149.16002pt.
 [4]
-
-LaTeX Warning: Reference `fig:slow_pulse' on page 5 undefined on input line 176.
-
-[5 <./figs1/SUSKO01.PNG> <./aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png>]
-<figs1/SUSKO18.PNG, id=83, 642.4pt x 521.95pt>
+<figs1/SUSKO18.PNG, id=120, 642.4pt x 521.95pt>
 File: figs1/SUSKO18.PNG Graphic file (type png)
 <use figs1/SUSKO18.PNG>
 Package pdftex.def Info: figs1/SUSKO18.PNG  used on input line 190.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-<figs1/SUSKO08.PNG, id=84, 642.4pt x 521.95pt>
+<figs1/SUSKO08.PNG, id=121, 642.4pt x 521.95pt>
 File: figs1/SUSKO08.PNG Graphic file (type png)
 <use figs1/SUSKO08.PNG>
 Package pdftex.def Info: figs1/SUSKO08.PNG  used on input line 197.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-
-
-LaTeX Warning: Reference `fig:sca_aufbau' on page 6 undefined on input line 208.
-
+ [5 <./figs1/SUSKO01.PNG> <./aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png>]
 File: aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png Graphic file (type png)
 <use aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png>
 Package pdftex.def Info: aufbau_updated/slow_koinzidenz_impulshöhe.drawio.png  used on input line 217.
 (pdftex.def)             Requested size: 225.34386pt x 102.28004pt.
-<aufbau_updated/slow_trigger_impuls.drawio.png, id=85, 766.865pt x 333.245pt>
+<aufbau_updated/slow_trigger_impuls.drawio.png, id=132, 766.865pt x 333.245pt>
 File: aufbau_updated/slow_trigger_impuls.drawio.png Graphic file (type png)
 <use aufbau_updated/slow_trigger_impuls.drawio.png>
 Package pdftex.def Info: aufbau_updated/slow_trigger_impuls.drawio.png  used on input line 224.
 (pdftex.def)             Requested size: 225.34386pt x 97.91997pt.
-
-LaTeX Warning: Reference `fig:sca_offen' on page 6 undefined on input line 235.
-
-[6 <./figs1/SUSKO18.PNG> <./figs1/SUSKO08.PNG>]
-
-LaTeX Warning: Reference `fig:gdg_aufbau' on page 7 undefined on input line 246.
-
-<figs1/SUSKO19.PNG, id=94, 642.4pt x 521.95pt>
+ [6 <./figs1/SUSKO18.PNG> <./figs1/SUSKO08.PNG> <./aufbau_updated/slow_trigger_impuls.drawio.png>]
+<figs1/SUSKO19.PNG, id=143, 642.4pt x 521.95pt>
 File: figs1/SUSKO19.PNG Graphic file (type png)
 <use figs1/SUSKO19.PNG>
 Package pdftex.def Info: figs1/SUSKO19.PNG  used on input line 254.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-<figs1/SUSKO15.PNG, id=95, 642.4pt x 521.95pt>
+<figs1/SUSKO15.PNG, id=144, 642.4pt x 521.95pt>
 File: figs1/SUSKO15.PNG Graphic file (type png)
 <use figs1/SUSKO15.PNG>
 Package pdftex.def Info: figs1/SUSKO15.PNG  used on input line 261.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-
-LaTeX Warning: Reference `fig:gdg_justage' on page 7 undefined on input line 269.
-
-<figs1/SUSKO20.PNG, id=96, 642.4pt x 521.95pt>
+<figs1/SUSKO20.PNG, id=146, 642.4pt x 521.95pt>
 File: figs1/SUSKO20.PNG Graphic file (type png)
 <use figs1/SUSKO20.PNG>
 Package pdftex.def Info: figs1/SUSKO20.PNG  used on input line 277.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-<figs1/SUSKO17.PNG, id=97, 642.4pt x 521.95pt>
+<figs1/SUSKO17.PNG, id=147, 642.4pt x 521.95pt>
 File: figs1/SUSKO17.PNG Graphic file (type png)
 <use figs1/SUSKO17.PNG>
 Package pdftex.def Info: figs1/SUSKO17.PNG  used on input line 284.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-
-LaTeX Warning: Reference `fig:mca_aufbau' on page 7 undefined on input line 295.
-
-[7 <./aufbau_updated/slow_trigger_impuls.drawio.png> <./figs1/SUSKO19.PNG> <./figs1/SUSKO15.PNG>]
-<aufbau_updated/energiespektren_Na_Ba.drawio.png, id=107, 766.865pt x 333.245pt>
+ [7 <./figs1/SUSKO19.PNG> <./figs1/SUSKO15.PNG>]
+<aufbau_updated/energiespektren_Na_Ba.drawio.png, id=157, 766.865pt x 333.245pt>
 File: aufbau_updated/energiespektren_Na_Ba.drawio.png Graphic file (type png)
 <use aufbau_updated/energiespektren_Na_Ba.drawio.png>
 Package pdftex.def Info: aufbau_updated/energiespektren_Na_Ba.drawio.png  used on input line 301.
 (pdftex.def)             Requested size: 328.62794pt x 142.80948pt.
-
-
-LaTeX Warning: Reference `fig:na_spektrum' on page 8 undefined on input line 308.
-
-<figs1/Spektrum_Nalinks.png, id=108, 867.24pt x 433.62pt>
+<figs1/Spektrum_Nalinks.png, id=159, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Nalinks.png Graphic file (type png)
 <use figs1/Spektrum_Nalinks.png>
 Package pdftex.def Info: figs1/Spektrum_Nalinks.png  used on input line 316.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs1/Spektrum_Narechts.png, id=109, 867.24pt x 433.62pt>
+<figs1/Spektrum_Narechts.png, id=160, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Narechts.png Graphic file (type png)
 <use figs1/Spektrum_Narechts.png>
 Package pdftex.def Info: figs1/Spektrum_Narechts.png  used on input line 323.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-
-LaTeX Warning: Reference `fig:na_verstaerkt' on page 8 undefined on input line 334.
-
-[8 <./figs1/SUSKO20.PNG> <./figs1/SUSKO17.PNG> <./aufbau_updated/energiespektren_Na_Ba.drawio.png>]
-<figs1/Spektrum_Naverschobenlinks.png, id=121, 867.24pt x 433.62pt>
+ [8 <./figs1/SUSKO20.PNG> <./figs1/SUSKO17.PNG> <./aufbau_updated/energiespektren_Na_Ba.drawio.png>]
+<figs1/Spektrum_Naverschobenlinks.png, id=171, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Naverschobenlinks.png Graphic file (type png)
 <use figs1/Spektrum_Naverschobenlinks.png>
 Package pdftex.def Info: figs1/Spektrum_Naverschobenlinks.png  used on input line 340.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs1/Spektrum_Naverschobenrechts.png, id=122, 867.24pt x 433.62pt>
+<figs1/Spektrum_Naverschobenrechts.png, id=172, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Naverschobenrechts.png Graphic file (type png)
 <use figs1/Spektrum_Naverschobenrechts.png>
 Package pdftex.def Info: figs1/Spektrum_Naverschobenrechts.png  used on input line 347.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-
-
-LaTeX Warning: Reference `fig:ba_spektrum' on page 9 undefined on input line 357.
-
-<figs1/Spektrum_Balinks1.png, id=123, 867.24pt x 433.62pt>
+<figs1/Spektrum_Balinks1.png, id=174, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Balinks1.png Graphic file (type png)
 <use figs1/Spektrum_Balinks1.png>
 Package pdftex.def Info: figs1/Spektrum_Balinks1.png  used on input line 375.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs1/Spektrum_Barechts1.png, id=124, 867.24pt x 433.62pt>
+<figs1/Spektrum_Barechts1.png, id=175, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Barechts1.png Graphic file (type png)
 <use figs1/Spektrum_Barechts1.png>
 Package pdftex.def Info: figs1/Spektrum_Barechts1.png  used on input line 382.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-[9 <./figs1/Spektrum_Nalinks.png> <./figs1/Spektrum_Narechts.png> <./figs1/Spektrum_Naverschobenlinks.png> <./figs1/Spektrum_Naverschobenrechts.png>]
-
-LaTeX Warning: Reference `fig:gaussfit_na' on page 10 undefined on input line 398.
-
-
-LaTeX Warning: Reference `fig:gaussfit_ba' on page 10 undefined on input line 398.
-
-<figs1/alle_fits_Naverschobenlinks.png, id=135, 867.24pt x 433.62pt>
+ [9 <./figs1/Spektrum_Nalinks.png> <./figs1/Spektrum_Narechts.png> <./figs1/Spektrum_Naverschobenlinks.png> <./figs1/Spektrum_Naverschobenrechts.png>]
+<figs1/alle_fits_Naverschobenlinks.png, id=189, 867.24pt x 433.62pt>
 File: figs1/alle_fits_Naverschobenlinks.png Graphic file (type png)
 <use figs1/alle_fits_Naverschobenlinks.png>
 Package pdftex.def Info: figs1/alle_fits_Naverschobenlinks.png  used on input line 404.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs1/alle_fits_Naverschobenrechts.png, id=136, 867.24pt x 433.62pt>
+<figs1/alle_fits_Naverschobenrechts.png, id=190, 867.24pt x 433.62pt>
 File: figs1/alle_fits_Naverschobenrechts.png Graphic file (type png)
 <use figs1/alle_fits_Naverschobenrechts.png>
 Package pdftex.def Info: figs1/alle_fits_Naverschobenrechts.png  used on input line 411.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs1/alle_fits_Balinks1.png, id=137, 867.24pt x 433.62pt>
+<figs1/alle_fits_Balinks1.png, id=191, 867.24pt x 433.62pt>
 File: figs1/alle_fits_Balinks1.png Graphic file (type png)
 <use figs1/alle_fits_Balinks1.png>
 Package pdftex.def Info: figs1/alle_fits_Balinks1.png  used on input line 422.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs1/alle_fits_Barechts1.png, id=138, 867.24pt x 433.62pt>
+<figs1/alle_fits_Barechts1.png, id=192, 867.24pt x 433.62pt>
 File: figs1/alle_fits_Barechts1.png Graphic file (type png)
 <use figs1/alle_fits_Barechts1.png>
 Package pdftex.def Info: figs1/alle_fits_Barechts1.png  used on input line 429.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-[10 <./figs1/Spektrum_Balinks1.png> <./figs1/Spektrum_Barechts1.png> <./figs1/alle_fits_Naverschobenlinks.png> <./figs1/alle_fits_Naverschobenrechts.png>]
-
-LaTeX Warning: Reference `tab:fit_links' on page 11 undefined on input line 448.
-
-
-LaTeX Warning: Reference `tab:fit_rechts' on page 11 undefined on input line 448.
-
+ [10 <./figs1/Spektrum_Balinks1.png> <./figs1/Spektrum_Barechts1.png> <./figs1/alle_fits_Naverschobenlinks.png> <./figs1/alle_fits_Naverschobenrechts.png>]
 
 LaTeX Warning: Citation 'praktikum' on page 11 undefined on input line 483.
 
-
-LaTeX Warning: Reference `fig:energiekalibration' on page 11 undefined on input line 486.
-
-<figs1/Energiekalibrierung_links.png, id=152, 650.43pt x 433.62pt>
+<figs1/Energiekalibrierung_links.png, id=208, 650.43pt x 433.62pt>
 File: figs1/Energiekalibrierung_links.png Graphic file (type png)
 <use figs1/Energiekalibrierung_links.png>
 Package pdftex.def Info: figs1/Energiekalibrierung_links.png  used on input line 495.
 (pdftex.def)             Requested size: 225.34386pt x 150.22763pt.
-<figs1/Energiekalibrierung_rechts.png, id=153, 650.43pt x 433.62pt>
+<figs1/Energiekalibrierung_rechts.png, id=209, 650.43pt x 433.62pt>
 File: figs1/Energiekalibrierung_rechts.png Graphic file (type png)
 <use figs1/Energiekalibrierung_rechts.png>
 Package pdftex.def Info: figs1/Energiekalibrierung_rechts.png  used on input line 501.
 (pdftex.def)             Requested size: 225.34386pt x 150.22763pt.
-[11 <./figs1/alle_fits_Balinks1.png> <./figs1/alle_fits_Barechts1.png>]
-
-LaTeX Warning: Reference `tab:aufloesung_rechts' on page 12 undefined on input line 541.
-
-
-LaTeX Warning: Reference `tab:aufloesung_links' on page 12 undefined on input line 541.
-
-[12 <./figs1/Energiekalibrierung_links.png> <./figs1/Energiekalibrierung_rechts.png>]
+[11 <./figs1/alle_fits_Balinks1.png> <./figs1/alle_fits_Barechts1.png>] [12 <./figs1/Energiekalibrierung_links.png> <./figs1/Energiekalibrierung_rechts.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 585.
@@ -1778,59 +1721,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 585.
 
-
-LaTeX Warning: Reference `fig:sca_511' on page 13 undefined on input line 593.
-
-<figs1/Spektrum_Nalinks551.png, id=173, 867.24pt x 433.62pt>
+<figs1/Spektrum_Nalinks551.png, id=231, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Nalinks551.png Graphic file (type png)
 <use figs1/Spektrum_Nalinks551.png>
 Package pdftex.def Info: figs1/Spektrum_Nalinks551.png  used on input line 599.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs1/Spektrum_Na511.png, id=174, 867.24pt x 433.62pt>
+<figs1/Spektrum_Na511.png, id=232, 867.24pt x 433.62pt>
 File: figs1/Spektrum_Na511.png Graphic file (type png)
 <use figs1/Spektrum_Na511.png>
 Package pdftex.def Info: figs1/Spektrum_Na511.png  used on input line 606.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-
-LaTeX Warning: Reference `fig:schaltplan_sca_oszi' on page 13 undefined on input line 615.
-
-
-LaTeX Warning: Reference `fig:sca_oszi' on page 13 undefined on input line 616.
-
-<aufbau_updated/herstellung_slow_koinzidenz.drawio.png, id=175, 1330.9725pt x 334.24875pt>
+<aufbau_updated/herstellung_slow_koinzidenz.drawio.png, id=235, 1330.9725pt x 334.24875pt>
 File: aufbau_updated/herstellung_slow_koinzidenz.drawio.png Graphic file (type png)
 <use aufbau_updated/herstellung_slow_koinzidenz.drawio.png>
 Package pdftex.def Info: aufbau_updated/herstellung_slow_koinzidenz.drawio.png  used on input line 623.
 (pdftex.def)             Requested size: 328.62794pt x 82.52663pt.
-<figs1/SUSKO23.PNG, id=176, 642.4pt x 521.95pt>
+<figs1/SUSKO23.PNG, id=236, 642.4pt x 521.95pt>
 File: figs1/SUSKO23.PNG Graphic file (type png)
 <use figs1/SUSKO23.PNG>
 Package pdftex.def Info: figs1/SUSKO23.PNG  used on input line 632.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-<figs1/SUSKO21.PNG, id=177, 642.4pt x 521.95pt>
+<figs1/SUSKO21.PNG, id=237, 642.4pt x 521.95pt>
 File: figs1/SUSKO21.PNG Graphic file (type png)
 <use figs1/SUSKO21.PNG>
 Package pdftex.def Info: figs1/SUSKO21.PNG  used on input line 639.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
 [13 <./figs1/Spektrum_Nalinks551.png> <./figs1/Spektrum_Na511.png>] [14 <./aufbau_updated/herstellung_slow_koinzidenz.drawio.png> <./figs1/SUSKO23.PNG> <./figs1/SUSKO21.PNG>]
-
-LaTeX Warning: Reference `tab:sca_schwellen' on page 15 undefined on input line 664.
-
-
-LaTeX Warning: Reference `tab:cfd_schwellen' on page 15 undefined on input line 686.
-
-
-LaTeX Warning: Reference `fig:slow_koinzidenz_aufbau' on page 15 undefined on input line 707.
-
 File: aufbau_updated/herstellung_slow_koinzidenz.drawio.png Graphic file (type png)
 <use aufbau_updated/herstellung_slow_koinzidenz.drawio.png>
 Package pdftex.def Info: aufbau_updated/herstellung_slow_koinzidenz.drawio.png  used on input line 712.
 (pdftex.def)             Requested size: 328.62794pt x 82.52663pt.
-
-LaTeX Warning: Reference `fig:slow_koinzidenz' on page 15 undefined on input line 718.
-
-[15]
-<figs1/SUSKO24.PNG, id=204, 642.4pt x 521.95pt>
+ [15]
+<figs1/SUSKO24.PNG, id=266, 642.4pt x 521.95pt>
 File: figs1/SUSKO24.PNG Graphic file (type png)
 <use figs1/SUSKO24.PNG>
 Package pdftex.def Info: figs1/SUSKO24.PNG  used on input line 724.
@@ -1848,10 +1770,7 @@ Overfull \hbox (2.09448pt too wide) in paragraph at lines 8--9
 \T1/cmr/m/n/10.95 Zur Ana-ly-se der Si-gna-le in bei-den Rich-tun-gen der De-tek-to-ren wird das Ver-fah-ren der Fast-Koinzidenz
  []
 
-
-LaTeX Warning: Reference `fig:aufbau_fast_1' on page 17 undefined on input line 17.
-
-<aufbau_updated/kontrolle_fast_pulse.drawio.png, id=213, 617.30624pt x 303.1325pt>
+<aufbau_updated/kontrolle_fast_pulse.drawio.png, id=273, 617.30624pt x 303.1325pt>
 File: aufbau_updated/kontrolle_fast_pulse.drawio.png Graphic file (type png)
 <use aufbau_updated/kontrolle_fast_pulse.drawio.png>
 Package pdftex.def Info: aufbau_updated/kontrolle_fast_pulse.drawio.png  used on input line 20.
@@ -1861,35 +1780,26 @@ Package pdftex.def Info: aufbau_updated/kontrolle_fast_pulse.drawio.png  used on
 
 
 ]
-
-LaTeX Warning: Reference `fig:fast_1' on page 18 undefined on input line 27.
-
-
-LaTeX Warning: Reference `fig:aufbau_fast_1' on page 18 undefined on input line 28.
-
-<figs2/SUSKO02.png, id=232, 642.4pt x 521.95pt>
+<figs2/SUSKO02.png, id=291, 642.4pt x 521.95pt>
 File: figs2/SUSKO02.png Graphic file (type png)
 <use figs2/SUSKO02.png>
 Package pdftex.def Info: figs2/SUSKO02.png  used on input line 37.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-<figs2/SUSKO03.png, id=233, 642.4pt x 521.95pt>
+<figs2/SUSKO03.png, id=292, 642.4pt x 521.95pt>
 File: figs2/SUSKO03.png Graphic file (type png)
 <use figs2/SUSKO03.png>
 Package pdftex.def Info: figs2/SUSKO03.png  used on input line 43.
 (pdftex.def)             Requested size: 225.34386pt x 183.09142pt.
-
-LaTeX Warning: Reference `fig:fast_1' on page 18 undefined on input line 49.
-
-[18 <./aufbau_updated/kontrolle_fast_pulse.drawio.png>]
+ [18 <./aufbau_updated/kontrolle_fast_pulse.drawio.png>]
 
 LaTeX Warning: Reference `fig:aufbau_fast_2' on page 19 undefined on input line 62.
 
-<aufbau_updated/koinzidenz_slow_fast.drawio.png, id=245, 729.72626pt x 483.8075pt>
+<aufbau_updated/koinzidenz_slow_fast.drawio.png, id=305, 729.72626pt x 483.8075pt>
 File: aufbau_updated/koinzidenz_slow_fast.drawio.png Graphic file (type png)
 <use aufbau_updated/koinzidenz_slow_fast.drawio.png>
 Package pdftex.def Info: aufbau_updated/koinzidenz_slow_fast.drawio.png  used on input line 69.
 (pdftex.def)             Requested size: 169.00789pt x 112.04852pt.
-<aufbau_updated/energiespektrum.drawio.png, id=246, 719.68875pt x 483.8075pt>
+<aufbau_updated/energiespektrum.drawio.png, id=306, 719.68875pt x 483.8075pt>
 File: aufbau_updated/energiespektrum.drawio.png Graphic file (type png)
 <use aufbau_updated/energiespektrum.drawio.png>
 Package pdftex.def Info: aufbau_updated/energiespektrum.drawio.png  used on input line 76.
@@ -1910,989 +1820,79 @@ LaTeX Warning: Reference `fig:fast_2' on page 19 undefined on input line 84.
 
 LaTeX Warning: Reference `fig:fast_2' on page 19 undefined on input line 84.
 
-
-LaTeX Warning: Reference `fig:fast_3' on page 19 undefined on input line 84.
-
 [19 <./figs2/SUSKO02.PNG> <./figs2/SUSKO03.PNG> <./aufbau_updated/koinzidenz_slow_fast.drawio.png> <./aufbau_updated/energiespektrum.drawio.png>]
-<figs2/SUSKO04.png, id=259, 642.4pt x 521.95pt>
+<figs2/SUSKO04.png, id=319, 642.4pt x 521.95pt>
 File: figs2/SUSKO04.png Graphic file (type png)
 <use figs2/SUSKO04.png>
 Package pdftex.def Info: figs2/SUSKO04.png  used on input line 91.
 (pdftex.def)             Requested size: 169.00789pt x 137.32054pt.
-<figs2/SUSKO05.png, id=260, 642.4pt x 521.95pt>
+<figs2/SUSKO05.png, id=320, 642.4pt x 521.95pt>
 File: figs2/SUSKO05.png Graphic file (type png)
 <use figs2/SUSKO05.png>
 Package pdftex.def Info: figs2/SUSKO05.png  used on input line 97.
 (pdftex.def)             Requested size: 169.00789pt x 137.32054pt.
-<figs2/SUSKO06.png, id=261, 642.4pt x 521.95pt>
+<figs2/SUSKO06.png, id=321, 642.4pt x 521.95pt>
 File: figs2/SUSKO06.png Graphic file (type png)
 <use figs2/SUSKO06.png>
 Package pdftex.def Info: figs2/SUSKO06.png  used on input line 109.
 (pdftex.def)             Requested size: 169.00789pt x 137.32054pt.
-<figs2/SUSKO07.png, id=262, 642.4pt x 521.95pt>
+<figs2/SUSKO07.png, id=322, 642.4pt x 521.95pt>
 File: figs2/SUSKO07.png Graphic file (type png)
 <use figs2/SUSKO07.png>
 Package pdftex.def Info: figs2/SUSKO07.png  used on input line 115.
 (pdftex.def)             Requested size: 169.00789pt x 137.32054pt.
-
-
-LaTeX Warning: Reference `fig:aufbau_fast_3' on page 20 undefined on input line 122.
-
-
-./fast_koinzidenzkreis.tex:122: LaTeX Error: Unicode character   (U+202F)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 ...er aufgezeichneten Spektren (Abbildung 
-                                                  \ref{fig:fast_3}) mit dem ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-LaTeX Warning: Reference `fig:fast_3' on page 20 undefined on input line 122.
-
-
-LaTeX Warning: Reference `fig:aufbau_fast_3' on page 20 undefined on input line 123.
-
-[20 <./figs2/SUSKO04.PNG> <./figs2/SUSKO05.PNG> <./figs2/SUSKO06.PNG> <./figs2/SUSKO07.PNG>]
-<code/Ba_links_rechts_fast.png, id=273, 1011.78pt x 433.62pt>
+ [20 <./figs2/SUSKO04.PNG> <./figs2/SUSKO05.PNG> <./figs2/SUSKO06.PNG> <./figs2/SUSKO07.PNG>]
+<code/Ba_links_rechts_fast.png, id=338, 1011.78pt x 433.62pt>
 File: code/Ba_links_rechts_fast.png Graphic file (type png)
 <use code/Ba_links_rechts_fast.png>
 Package pdftex.def Info: code/Ba_links_rechts_fast.png  used on input line 128.
 (pdftex.def)             Requested size: 352.1029pt x 150.90251pt.
-
-
-LaTeX Warning: Reference `fig:aufbau_fast_4' on page 21 undefined on input line 140.
-
-<aufbau_updated/verzögerung_start_stop.drawio.png, id=274, 1407.2575pt x 485.815pt>
+<aufbau_updated/verzögerung_start_stop.drawio.png, id=340, 1407.2575pt x 485.815pt>
 File: aufbau_updated/verzögerung_start_stop.drawio.png Graphic file (type png)
 <use aufbau_updated/verzögerung_start_stop.drawio.png>
 Package pdftex.def Info: aufbau_updated/verzögerung_start_stop.drawio.png  used on input line 143.
 (pdftex.def)             Requested size: 352.1029pt x 121.54982pt.
-[21 <./code/Ba_links_rechts_fast.png>]
-
-LaTeX Warning: Reference `fig:fast_4' on page 22 undefined on input line 149.
-
-<figs2/SUSKO08.png, id=283, 642.4pt x 521.95pt>
+ [21 <./code/Ba_links_rechts_fast.png>]
+<figs2/SUSKO08.png, id=351, 642.4pt x 521.95pt>
 File: figs2/SUSKO08.png Graphic file (type png)
 <use figs2/SUSKO08.png>
 Package pdftex.def Info: figs2/SUSKO08.png  used on input line 153.
 (pdftex.def)             Requested size: 352.1029pt x 286.09377pt.
-[22 <./aufbau_updated/verzögerung_start_stop.drawio.png>] [23 <./figs2/SUSKO08.PNG>]
-
-LaTeX Warning: Reference `fig:aufbau_fast_3' on page 24 undefined on input line 167.
-
-<aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png, id=297, 1407.2575pt x 716.6775pt>
+ [22 <./aufbau_updated/verzögerung_start_stop.drawio.png>] [23 <./figs2/SUSKO08.PNG>]
+<aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png, id=365, 1407.2575pt x 716.6775pt>
 File: aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png Graphic file (type png)
 <use aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png>
 Package pdftex.def Info: aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png  used on input line 173.
 (pdftex.def)             Requested size: 169.00789pt x 86.0632pt.
-<aufbau_updated/Messung_Promptkurve_Na.drawio.png, id=298, 1407.2575pt x 596.2275pt>
+<aufbau_updated/Messung_Promptkurve_Na.drawio.png, id=366, 1407.2575pt x 596.2275pt>
 File: aufbau_updated/Messung_Promptkurve_Na.drawio.png Graphic file (type png)
 <use aufbau_updated/Messung_Promptkurve_Na.drawio.png>
 Package pdftex.def Info: aufbau_updated/Messung_Promptkurve_Na.drawio.png  used on input line 179.
 (pdftex.def)             Requested size: 169.00789pt x 71.59879pt.
-
-LaTeX Warning: Reference `fig:fast_5' on page 24 undefined on input line 187.
-
-<figs2/SUSKO11.png, id=299, 642.4pt x 521.95pt>
+<figs2/SUSKO11.png, id=368, 642.4pt x 521.95pt>
 File: figs2/SUSKO11.png Graphic file (type png)
 <use figs2/SUSKO11.png>
 Package pdftex.def Info: figs2/SUSKO11.png  used on input line 190.
 (pdftex.def)             Requested size: 352.1029pt x 286.09377pt.
-[24 <./aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png> <./aufbau_updated/Messung_Promptkurve_Na.drawio.png>]
-
-LaTeX Warning: Reference `fig:aufbau_fast_3' on page 25 undefined on input line 197.
-
-[25 <./figs2/SUSKO11.PNG>]
-
-LaTeX Warning: Reference `fig:fast_6' on page 26 undefined on input line 202.
-
-<code/Na_Promptkurve.png, id=317, 867.24pt x 433.62pt>
+ [24 <./aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png> <./aufbau_updated/Messung_Promptkurve_Na.drawio.png>] [25 <./figs2/SUSKO11.PNG>]
+<code/Na_Promptkurve.png, id=387, 867.24pt x 433.62pt>
 File: code/Na_Promptkurve.png Graphic file (type png)
 <use code/Na_Promptkurve.png>
 Package pdftex.def Info: code/Na_Promptkurve.png  used on input line 205.
 (pdftex.def)             Requested size: 352.1029pt x 176.05182pt.
 
-LaTeX Warning: Reference `fig:fast_6' on page 26 undefined on input line 215.
-
 
 LaTeX Warning: Reference `tab:kalibration' on page 26 undefined on input line 215.
 
-
-LaTeX Warning: Reference `fig:fast_7' on page 26 undefined on input line 239.
-
-[26 <./code/Na_Promptkurve.png>]
-<code/Zeit_Kanal_Zuordnung.png, id=327, 578.16pt x 361.35pt>
+<code/Zeit_Kanal_Zuordnung.png, id=390, 578.16pt x 361.35pt>
 File: code/Zeit_Kanal_Zuordnung.png Graphic file (type png)
 <use code/Zeit_Kanal_Zuordnung.png>
 Package pdftex.def Info: code/Zeit_Kanal_Zuordnung.png  used on input line 243.
 (pdftex.def)             Requested size: 352.1029pt x 220.06479pt.
-
-./fast_koinzidenzkreis.tex:258: Missing $ inserted.
-<inserted text> 
-                $
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Missing $ inserted.
-<inserted text> 
-                $
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\text@ ...xtstyle \f@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Missing $ inserted.
-<inserted text> 
-                $
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\text@ ...tstyle \sf@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Missing $ inserted.
-<inserted text> 
-                $
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\text@ ...style \ssf@size {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./fast_koinzidenzkreis.tex:258: Extra }, or forgotten $.
-\text@ ...firstchoice@false #1}}\check@mathfonts }
-                                                  
-l.258 ...rm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-)
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.46  \include{fast_koinzidenzkreis}
-                                    
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing $ inserted.
-<inserted text> 
-                $
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing $ inserted.
-<inserted text> 
-                $
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing $ inserted.
-<inserted text> 
-                $
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing $ inserted.
-<inserted text> 
-                $
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing { inserted.
-<to be read again> 
-                   $
-l.46  \include{fast_koinzidenzkreis}
-                                    
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing { inserted.
-<to be read again> 
-                   $
-l.46  \include{fast_koinzidenzkreis}
-                                    
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing { inserted.
-<to be read again> 
-                   $
-l.46  \include{fast_koinzidenzkreis}
-                                    
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:46: Missing } inserted.
-<inserted text> 
-                }
-l.46  \include{fast_koinzidenzkreis}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[27 <./code/Zeit_Kanal_Zuordnung.png>]
+[26 <./code/Na_Promptkurve.png>]) [27 <./code/Zeit_Kanal_Zuordnung.png>]
 \openout2 = `Fazit.aux'.
 
- (./Fazit.tex
-./Fazit.tex:9: Missing $ inserted.
-<inserted text> 
-                $
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Missing $ inserted.
-<inserted text> 
-                $
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\text@ ...xtstyle \f@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Missing $ inserted.
-<inserted text> 
-                $
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\text@ ...tstyle \sf@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Missing $ inserted.
-<inserted text> 
-                $
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\text@ ...style \ssf@size {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:9: Extra }, or forgotten $.
-\text@ ...firstchoice@false #1}}\check@mathfonts }
-                                                  
-l.9 ...line{t}_\text{FWHM} = 16,3(1)\,\text{\mu s}
-                                                  .$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Fazit.tex:12: Missing $ inserted.
-<inserted text> 
-                $
-l.12 ..._{55}\text{Cs}\,(5/2^+)\)$ bestimmt. $\tau
-                                                   = 7.826(7)\,\mathrm{ns}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-)
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.48  \include{Fazit}
-                     
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing $ inserted.
-<inserted text> 
-                $
-l.48  \include{Fazit}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing $ inserted.
-<inserted text> 
-                $
-l.48  \include{Fazit}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing $ inserted.
-<inserted text> 
-                $
-l.48  \include{Fazit}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing $ inserted.
-<inserted text> 
-                $
-l.48  \include{Fazit}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing { inserted.
-<to be read again> 
-                   $
-l.48  \include{Fazit}
-                     
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing { inserted.
-<to be read again> 
-                   $
-l.48  \include{Fazit}
-                     
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing { inserted.
-<to be read again> 
-                   $
-l.48  \include{Fazit}
-                     
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/s6norupp/physik/p5_2026/v525/main.tex:48: Missing } inserted.
-<inserted text> 
-                }
-l.48  \include{Fazit}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[28
+ (./Fazit.tex) [28
 
 
 
@@ -2950,22 +1950,16 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 22.
  (./Einleitung.aux) (./aufbau.aux) (./slow_koinzidenzkreis.aux) (./fast_koinzidenzkreis.aux) (./Fazit.aux) (./AI use.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.97499pt have occurred.
+(Font)              up to 0.5pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -2976,18 +1970,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49252 strings out of 477884
- 1012098 string characters out of 5835937
- 1953352 words of memory out of 5000000
- 68514 multiletter control sequences out of 15000+600000
- 601339 words of font info for 231 fonts, out of 8000000 for 9000
+ 49233 strings out of 477884
+ 1011698 string characters out of 5835937
+ 1979738 words of memory out of 5000000
+ 68477 multiletter control sequences out of 15000+600000
+ 584894 words of font info for 194 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  108i,19n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXBMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (31 pages, 3200069 bytes).
+Output written on main.pdf (31 pages, 3206262 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
+ 602 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
  114 named destinations out of 1000 (max. 500000)
  429 words of extra memory for PDF output out of 10000 (max. 10000000)
 
