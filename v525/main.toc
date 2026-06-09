@@ -16,31 +16,31 @@
 \contentsline {subsection}{\numberline {2.3.4}Einstellung des Einkanalfenster für die $^{22}$Na-Quelle}{13}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Energieintervall des SCAs und Energien der CFD-Schwellen}{15}{subsection.2.3.5}%
 \contentsline {subsection}{\numberline {2.3.6}Herstellung der Slow-Koinzidenz}{15}{subsection.2.3.6}%
-\contentsline {section}{\numberline {2.4}Der Fast-Koinzidenzkreis}{17}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Theoretische Grundlagen}{17}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Der Fast-Koinzidenzkreis}{17}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Theoretische Grundlagen}{17}{subsection.3.0.1}%
 \contentsline {subsubsection}{\nonumberline Fast-Signal des Photomultipliers (Dynode)}{17}{subsubsection*.30}%
 \contentsline {subsubsection}{\nonumberline CFD-Prinzip}{17}{subsubsection*.32}%
 \contentsline {subsubsection}{\nonumberline Fast-Koinzidenz}{17}{subsubsection*.34}%
 \contentsline {subsubsection}{\nonumberline TAC Start und Stop Logik}{17}{subsubsection*.36}%
 \contentsline {subsubsection}{\nonumberline Promptkurve}{17}{subsubsection*.38}%
-\contentsline {subsection}{\numberline {2.4.2}Einstellung des Fast-Koinzidenzkreises}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {3.0.2}Einstellung des Fast-Koinzidenzkreises}{18}{subsection.3.0.2}%
 \contentsline {subsubsection}{\nonumberline Fast-Pulse des Photomultipliers kontrollieren}{18}{subsubsection*.40}%
 \contentsline {subsubsection}{\nonumberline CFD-Diskriminatorschwelle}{19}{subsubsection*.44}%
 \contentsline {subsubsection}{\nonumberline Fast-Koinzidenz einstellen}{22}{subsubsection*.50}%
 \contentsline {subsubsection}{\nonumberline Zeitlicher Abgleich von Fast- und Slow-Koinzidenz-Signalen}{24}{subsubsection*.54}%
 \contentsline {subsubsection}{\nonumberline Zeitkalibration des TAC}{25}{subsubsection*.58}%
-\contentsline {section}{\numberline {2.5}Messung der Lebensdauer des $\frac {5}{2}$ Zustands von $^{133}Cs$}{28}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Theoretische Grundlagen}{28}{subsection.2.5.1}%
+\contentsline {chapter}{\numberline {4}Messung der Lebensdauer des $\frac {5}{2}$ Zustands von $^{133}Cs$}{28}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Theoretische Grundlagen}{28}{subsection.4.0.1}%
 \contentsline {subsubsection}{\nonumberline Zerfallsschemata von $^{22}$Na und $^{133}$Ba}{28}{subsubsection*.63}%
 \contentsline {subsubsection}{\nonumberline Zerfallsgesetz und Lebensdauer}{28}{subsubsection*.65}%
 \contentsline {subsubsection}{\nonumberline Zeitauflösung}{28}{subsubsection*.67}%
-\contentsline {subsection}{\numberline {2.5.2}Kombination von Zerfall und Zeitauflösung}{28}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Auswertung}{29}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {4.0.2}Kombination von Zerfall und Zeitauflösung}{28}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Auswertung}{29}{subsection.4.0.3}%
 \contentsline {subsubsection}{\nonumberline Einstellung der Einkanal-Fenster auf die 356 keV- und 81 keV-Linien von Ba}{29}{subsubsection*.70}%
 \contentsline {subsubsection}{\nonumberline Kontrolle der Koinzidenzen}{30}{subsubsection*.73}%
 \contentsline {subsubsection}{\nonumberline Fast-Koinzidenz einstellen}{30}{subsubsection*.75}%
 \contentsline {subsubsection}{\nonumberline Messung der Lebensdauerkurve}{32}{subsubsection*.79}%
 \contentsline {subsubsection}{\nonumberline Bestimmung der Lebensdauer}{32}{subsubsection*.81}%
-\contentsline {section}{\numberline {2.6}Fazit}{34}{section.2.6}%
-\contentsline {chapter}{\numberline {3}KI-Nutzung}{35}{chapter.3}%
+\contentsline {section}{\numberline {4.1}Fazit}{34}{section.4.1}%
+\contentsline {chapter}{\numberline {5}KI-Nutzung}{35}{chapter.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
