@@ -7,7 +7,7 @@ Ein Constant-Fraction-Diskriminator (CFD) erzeugt aus einem Eingangsimpuls mit v
 \subsubsection{Fast-Koinzidenz}
 Zur Analyse der Signale in beiden Richtungen der Detektoren wird das Verfahren der Fast-Koinzidenz eingesetzt. Unter Verwendung des Modells der Fast-Koinzidenz wurden die Simulationsergebnisse mit CFD-Ergebnissen verglichen. Ein Synchronisationssignal wird nur dann erzeugt, wenn zwei Signale innerhalb eines kurzen Zeitintervalls ( typischerweise innerhalb einer Nanosekunde )auftreten. Dies verhindert Ereignisüberlagerungen und stellt sicher, dass nur Ereignisse desselben Kanals weiterverarbeitet werden.
 \subsubsection{TAC Start und Stop Logik}
-Der Zeit-Amplituden-Wandler (TAC) wandelt das Zeitintervall zwischen zwei CFD-Signalen in eine proportionale analoge Spannung um. Das erste Signal bestimmt den Beginn der Messung, das zweite deren Ende (Stopp). Während dieses Zeitintervalls lädt der TAC einen Integrationskondensator auf, sodass die Ausgangsspannung direkt proportional zum Zeitintervall Δt ist. Der Vielkanalanalysator (MCA) misst diese Spannung und ordnet sie verschiedenen Kanälen zu. Für den korrekten Betrieb ist eine bestimmte Abfolge von Start- und Stoppsignalen erforderlich; eine fehlerhafte Signalkombination wird durch eine zusätzliche Gating-Logik verhindert.
+Der Zeit-Amplituden-Wandler (TAC) wandelt das Zeitintervall zwischen zwei CFD-Signalen in eine proportionale analoge Spannung um. Das erste Signal bestimmt den Beginn der Messung, das zweite deren Ende (Stopp). Während dieses Zeitintervalls lädt der TAC einen Integrationskondensator auf, sodass die Ausgangsspannung direkt proportional zum Zeitintervall $\delta t$ ist. Der Vielkanalanalysator (MCA) misst diese Spannung und ordnet sie verschiedenen Kanälen zu. Für den korrekten Betrieb ist eine bestimmte Abfolge von Start- und Stoppsignalen erforderlich; eine fehlerhafte Signalkombination wird durch eine zusätzliche Gating-Logik verhindert.
 \subsubsection{Promptkurve}
 Die  Promptkurve stellt ein Histogramm der zwischen zwei Detektoren gemessenen Zeitdifferenzen dar und bildet somit die zeitliche Korrelation der Ereignisse ab. Das Hauptmaximum der Promptkurve entspricht einer echten Koinzidenz, während der Untergrund aus einer zufälligen zeitlichen Überlagerung resultiert. Die Breite des Hauptmaximums der Kurve ist ein Maß für die Zeitauflösung des Detektorsystems. Durch Variation der Verzögerung in einem der Signalzweige lässt sich die Position des Maximums verschieben und so die optimale Einstellung für die zeitliche Synchronisation der Messreihe ermitteln.
 %--------------------------------------------------------
@@ -186,7 +186,7 @@ Nachdem die Anforderungen für den Fast und den Slow Zweig separat festgelegt wu
 Abstrakt betrachtet fungiert die Koinzidenzschaltung nun als Energiefilter, denn ein Signal wird nur erzeugt, wenn beide Detektoren ein 511-keV-Photon liefern. Im zweiten Oszilloskopkanal wird ein gleichförmiger Analogimpuls erwartet; die TAC-Schwankungen von 31,5 ns, die zwischen Start und Ende der Impulsamplitude interpoliert werden, ähneln dem in Abbildung \ref{fig:fast_5} bestätigten Phänomen. Die feste TAC-Zeit von $500ns$, sowie die Dauer des anhaltenden Pulses deuten darauf hin, dass die kürzere Schwankungszeit größer ist als die TAC-Zeit. Obwohl die Anstiegszeit des TAC die Anstiegszeit der Koinzidenzeinheit des langsamen Kanals überstieg, fiel der Impulspunkt in den vom GDG vorgegebenen Zeitbereich. Der gewählte Koinzidenzbereich eignet sich für Lebensdauermessungen.
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.75\textwidth]{fig2/SUSKO011.png}
+  \includegraphics[width=0.75\textwidth]{figs2/SUSKO11.png}
   \caption{Oszillogramm vom TAC-Fastkreis (CH 1) und dem Slowkreis über Koinzidenzeinheit und GDG (CH 2)}
   \label{fig:fast_5}
 \end{figure}
@@ -212,21 +212,26 @@ In diesem Fall liegen sechs Peaks innerhalb des Messbereichs des MCA. Für die s
 \[ G(K) = N \exp\!\left[-\frac{1}{2}\left(\frac{K - \mu}{\sigma}\right)^2\right]
 \]
 Die Anpassungskurven sind in Abbildung \ref{fig:fast_6} und die entsprechenden Parameter in Tabelle \ref{tab:kalibration} dargestellt. Die Lage des ersten Maximums bei \(t = 0\) ist willkürlich; da für die Abschätzung der Lebensdauern nur die zeitliche Verteilung relevant ist, haben Änderungen der Zeitkonstante keinen Einfluss auf die Ergebnisse.
-\begin{tabular}{c|c|c|c}
-\textbf{Peak} &
-\boldmath$\mu$ \textbf{ [Kanal]} &
-\boldmath$\sigma_i$ \textbf{ [Kanal]} &
-\boldmath$N_\text{max}$ \textbf{ [1]} \\
-\hline
-1 & 526  & $91.23 \pm 1.03$ & 133.0 \\
-2 & 1743 & $90.05 \pm 1.01$ & 140.0 \\
-3 & 3011 & $88.56 \pm 1.00$ & 134.0 \\
-4 & 4285 & $89.13 \pm 0.97$ & 139.0 \\
-5 & 5511 & $90.26 \pm 1.09$ & 137.0 \\
+\centering
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+  \hline
+  \textbf{Peak} &
+  \boldmath$\mu$ \textbf{ [Kanal]} &
+  \boldmath$\sigma_i$ \textbf{ [Kanal]} &
+  \boldmath$N_\text{max}$ \textbf{ [1]} \\
+  \hline
+  1 & 526  & $91.23 \pm 1.03$ & 133.0 \\
+  2 & 1743 & $90.05 \pm 1.01$ & 140.0 \\
+  3 & 3011 & $88.56 \pm 1.00$ & 134.0 \\
+  4 & 4285 & $89.13 \pm 0.97$ & 139.0 \\
+  5 & 5511 & $90.26 \pm 1.09$ & 137.0 \\
+  \hline
 \end{tabular}
 \caption{Zeit-Kanal-Zuordnung der Na-Promptkurve mit $a=75.8224\,\mathrm{ns/Kanal}$ und $b=528.2$.}
-  
-\end{tabular}
+\end{table}
+
 
 Die Gauß-Anpassungen wurden unter Verwendung der linearen Funktion \(\mu_i(t) = \gamma t + \delta\) gemittelt. Die resultierenden Parameter
 \[\gamma = 0.01319(4) 1/ns\,\text{ns}^{-1}, \qquad \delta = 528,2(3)
@@ -246,9 +251,8 @@ Die Integrationszeit des Systems wird durch die Halbwertsbreite (FWHM) des Ziels
 wurde für jede Kurve der entsprechende FWHM-Wert berechnet. Das arithmetische Mittel dieser Werte:
 \begin{align*}
   &\langle\sigma\rangle=\sum_{i=1}^{5}\sigma_i=89.84(1)\\
-  &\sigma_{\mathrm{FWHM}}=a\times\langle\sigma\rangle=6,81\mu m
+  &\sigma_{\mathrm{FWHM}}=a\times\langle\sigma\rangle=6,81(5)\mu m
 \end{align*}
 ergibt die Zeitauflösung des Systems:
-\[\Delta t = \langle \sigma_{\mathrm{FWHM}} \rangle = 16()\,\text{\mu s}.
-\]
+$\Delta t = \langle \sigma_{\mathrm{FWHM}} \rangle = 16,3(1)\,\text{\mu s}.$
 Die Unsicherheiten wurden mit der empirischen Varianz zur Abschätzung der wiederholten Messung einer konstanten Größe berechnet. Die Umrechnung von der Breite in die Zeitvariation erfolgte mittels linearer Kalibrierung und Gaußscher Fehlerfortpflanzung, analog zur Analyse der Energieauflösung im vorherigen Abschnitt. Die Ergebnisse, \(\Delta t = 16()\,\text{ns}\), stimmen mit früheren Werten für eine Periode von etwa ?? ns überein. Die Zeitauflösung von ?? ns ist ein wichtiger Parameter für die Lebensdauermessungen, da sie die Fähigkeit des Systems bestimmt, zeitlich nahe beieinanderliegende Ereignisse zu unterscheiden. Eine geringere Zeitauflösung könnte zu einer Überlappung von Signalen führen, was die Genauigkeit der Lebensdauermessungen beeinträchtigen würde. Daher ist die Kalibrierung des TAC und die Bestimmung der Zeitauflösung entscheidend für die Zuverlässigkeit der experimentellen Ergebnisse.
