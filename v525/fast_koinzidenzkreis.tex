@@ -215,7 +215,7 @@ Die Anpassungskurven sind in Abbildung \ref{fig:fast_6} und die entsprechenden P
 \begin{tabular}{c|c|c|c}
 \textbf{Peak} &
 \boldmath$\mu$ \textbf{ [Kanal]} &
-\boldmath$\sigma$ \textbf{ [Kanal]} &
+\boldmath$\sigma_i$ \textbf{ [Kanal]} &
 \boldmath$N_\text{max}$ \textbf{ [1]} \\
 \hline
 1 & 526  & $91.23 \pm 1.03$ & 133.0 \\
@@ -243,7 +243,12 @@ Die Gauß-Anpassungen wurden unter Verwendung der linearen Funktion \(\mu_i(t) =
 Die Integrationszeit des Systems wird durch die Halbwertsbreite (FWHM) des Zielsignals bestimmt. Eine größere Breite deutet auf eine größere Zeitdifferenz hin. Unter Verwendung der in Tabelle 9 aufgeführten \(\sigma\)-Werte und der Beziehung
 \[\sigma_{\mathrm{FWHM}} = 2\sqrt{2\ln 2}\,\sigma
 \]
-wurde für jede Kurve der entsprechende FWHM-Wert berechnet. Das arithmetische Mittel dieser Werte ergibt die Zeitauflösung des Systems:
-\[\Delta t = \langle \sigma_{\mathrm{FWHM}} \rangle = ()\,\text{ns}.
+wurde für jede Kurve der entsprechende FWHM-Wert berechnet. Das arithmetische Mittel dieser Werte:
+\begin{align*}
+  &\langle\sigma\rangle=\sum_{i=1}^{5}\sigma_i=89.84(1)\\
+  &\sigma_{\mathrm{FWHM}}=a\times\langle\sigma\rangle=6,81\mu m
+\end{align*}
+ergibt die Zeitauflösung des Systems:
+\[\Delta t = \langle \sigma_{\mathrm{FWHM}} \rangle = 16()\,\text{\mu s}.
 \]
-Die Unsicherheiten wurden auf der Grundlage der Unterschiede in den Messwerten bestimmt. Die Umrechnung von der Breite in die Zeitvariation erfolgte mittels linearer Kalibrierung und Gaußscher Fehlerfortpflanzung, analog zur Analyse der Energieauflösung in Abschnitt \ref{} Die Ergebnisse, \(\Delta t = ()\,\text{ns}\), stimmen mit früheren Werten für eine Periode von etwa ?? ns überein. Die Zeitauflösung von ?? ns ist ein wichtiger Parameter für die Lebensdauermessungen, da sie die Fähigkeit des Systems bestimmt, zeitlich nahe beieinanderliegende Ereignisse zu unterscheiden. Eine geringere Zeitauflösung könnte zu einer Überlappung von Signalen führen, was die Genauigkeit der Lebensdauermessungen beeinträchtigen würde. Daher ist die Kalibrierung des TAC und die Bestimmung der Zeitauflösung entscheidend für die Zuverlässigkeit der experimentellen Ergebnisse.
+Die Unsicherheiten wurden mit der empirischen Varianz zur Abschätzung der wiederholten Messung einer konstanten Größe berechnet. Die Umrechnung von der Breite in die Zeitvariation erfolgte mittels linearer Kalibrierung und Gaußscher Fehlerfortpflanzung, analog zur Analyse der Energieauflösung im vorherigen Abschnitt. Die Ergebnisse, \(\Delta t = 16()\,\text{ns}\), stimmen mit früheren Werten für eine Periode von etwa ?? ns überein. Die Zeitauflösung von ?? ns ist ein wichtiger Parameter für die Lebensdauermessungen, da sie die Fähigkeit des Systems bestimmt, zeitlich nahe beieinanderliegende Ereignisse zu unterscheiden. Eine geringere Zeitauflösung könnte zu einer Überlappung von Signalen führen, was die Genauigkeit der Lebensdauermessungen beeinträchtigen würde. Daher ist die Kalibrierung des TAC und die Bestimmung der Zeitauflösung entscheidend für die Zuverlässigkeit der experimentellen Ergebnisse.
