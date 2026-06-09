@@ -131,7 +131,8 @@ Die gemessenen Mittelwerte sind in Tabelle~\ref{tab:nim_spannungen} aufgeführt.
 Ein typischer zeitlicher Verlauf einer Versorgungsspannung ist exemplarisch in Abbildung~\ref{fig:nim_spannung} dargestellt.
 \begin{figure}[htbp] 
     \centering 
-    \begin{minipage}[t]{0.45\textwidth} 
+
+    \begin{subfigure}[t]{0.45\textwidth} 
         \centering 
         \begin{tabular}{cc} 
             \hline 
@@ -145,16 +146,19 @@ Ein typischer zeitlicher Verlauf einer Versorgungsspannung ist exemplarisch in A
             $-24$ & $-24{,}00(1)$ \\ 
             \hline 
         \end{tabular} 
-        \captionof{table}{Gemessene Versorgungsspannungen der NIM-Module.} 
+        \caption{Gemessene Versorgungsspannungen der NIM-Module.} 
         \label{tab:nim_spannungen} 
-    \end{minipage} 
+    \end{subfigure} 
     \hfill 
-    \begin{minipage}[t]{0.50\textwidth} 
+    \begin{subfigure}[t]{0.50\textwidth} 
         \centering 
         \includegraphics[width=\linewidth]{figs1/SUSKO01.PNG} 
         \caption{Exemplarischer zeitlicher Verlauf einer Versorgungsspannung. Gezeigt ist die $-6\,\mathrm{V}$-Versorgung auf Kanal~1 des Oszilloskops.} 
         \label{fig:nim_spannung} 
-    \end{minipage} 
+    \end{subfigure} 
+
+    \caption{Überprüfung der Versorgungsspannungen der NIM-Module.}
+    \label{fig:nim_versorgung}
 \end{figure} 
 Innerhalb der Auflösung des Oszilloskops konnten keine zeitlichen Schwankungen der Versorgungsspannungen festgestellt werden. 
 Die Spannungen können daher als stabil angesehen werden.
