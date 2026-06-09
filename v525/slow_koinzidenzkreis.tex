@@ -1,0 +1,735 @@
+\chapter{Der Slow-Koinzidenzkreis}
+\section{Theoretische Grundlagen}
+\subsection{Szintillationsspektrometer}
+
+Zur Detektion der $\gamma$-Strahlung werden Szintillationsspektrometer eingesetzt. 
+Diese bestehen aus einem NaI(Tl)-Szintillationskristall, einem Photomultiplier (PMT) sowie einer elektronischen Ausleseeinheit mit integriertem Vorverstärker.
+
+Trifft ionisierende Strahlung auf den Szintillationskristall, wird ein Teil der deponierten Energie in Form von Lichtblitzen im sichtbaren Spektralbereich emittiert. 
+Diese Photonen treffen auf die Photokathode des Photomultipliers und lösen dort durch den Photoeffekt Elektronen aus. 
+Durch die anschließende Vervielfachung der Elektronen an einer Reihe von Dynoden entsteht ein elektrischer Impuls, dessen Amplitude proportional zur im Kristall deponierten Energie ist.
+
+Das Signal kann an verschiedenen Stellen des Photomultipliers abgegriffen werden. 
+Für Zeitmessungen wird ein schneller Signalzweig genutzt, dessen Impulse an der Anode entnommen werden. 
+Aufgrund ihrer kurzen Anstiegszeiten ermöglichen diese Signale eine hohe zeitliche Auflösung. 
+Für die Energiemessung wird dagegen das Signal an einer der letzten Dynoden abgegriffen. 
+Dieses besitzt eine bessere Amplitudenauflösung und eignet sich daher besonders zur Aufnahme und Auswertung von Energiespektren.
+
+Das Szintillationsspektrometer erlaubt somit sowohl die präzise Bestimmung von Zeitdifferenzen als auch die Messung der Energie einfallender $\gamma$-Quanten.
+
+\subsection{Die Zerfallsschemata von $^{22}$Na und $^{133}$Ba}
+
+Zur Bestimmung der Lebensdauer des angeregten $\frac{5}{2}^{+}$-Zustands von $^{133}_{55}\mathrm{Cs}$ wird eine $^{133}_{56}\mathrm{Ba}$-Quelle verwendet. 
+Beim Zerfall von $^{133}_{56}\mathrm{Ba}$ werden verschiedene angeregte Zustände des Tochterkerns $^{133}_{55}\mathrm{Cs}$ besetzt. 
+Für die Lebensdauermessung ist insbesondere der Übergang relevant, bei dem ein $\gamma$-Quant der Energie $356\,\mathrm{keV}$ emittiert wird und dadurch der angeregte $\frac{5}{2}^{+}$-Zustand von $^{133}_{55}\mathrm{Cs}$ bevölkert wird (Abildung:\ref{fig:ZerfallBa}). 
+Dieses Signal dient als Startsignal der Lebensdauermessung.
+
+Der angeregte Zustand zerfällt anschließend unter Emission eines weiteren $\gamma$-Quants mit einer Energie von $81\,\mathrm{keV}$ in den Grundzustand. 
+Dieses Photon wird als Stoppsignal registriert. 
+Die Zeitdifferenz zwischen beiden Ereignissen entspricht der Aufenthaltsdauer des Kerns im angeregten Zustand und ermöglicht somit die Bestimmung der mittleren Lebensdauer.
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Ba.pdf} 
+        \caption{$^{133}$Ba} 
+        \label{fig:ZerfallBa} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Na.pdf} \caption{$^{22}$Na} 
+        \label{fig:ZerfallNa} 
+    \end{subfigure} 
+    \caption{Zerfallsschemata der im Versuch verwendeten Isotope.} 
+    \label{fig:zerfallsschemata} 
+\end{figure} 
+
+Neben diesem Zerfallspfad existieren weitere Übergänge, über die der $\frac{5}{2}^{+}$-Zustand ebenfalls bevölkert werden kann.
+ In diesen Fällen tritt kein zugehöriges $356\,\mathrm{keV}$-Startsignal auf, obwohl anschließend ein $81\,\mathrm{keV}$-Photon emittiert werden kann.
+Solche Ereignisse können zu zufälligen Koinzidenzen beitragen, wenn sie fälschlicherweise mit einem unabhängigen Startsignal korreliert werden.
+Diese tragen zu einem Untergrund in der Zeitverteilung bei und können die Auswertung beeinflussen. 
+Aufgrund der vergleichsweise geringen Aktivität der verwendeten Quelle ist ihr Beitrag jedoch klein.
+
+Zur Kalibration des Messaufbaus wird zusätzlich eine $^{22}_{11}\mathrm{Na}$-Quelle eingesetzt. 
+Dieses Nuklid zerfällt überwiegend durch $\beta^{+}$-Zerfall in $^{22}_{10}\mathrm{Ne}$ (Abbildung:\ref{fig:ZerfallNa}) und emittiert dabei unter anderem $\gamma$-Strahlung mit einer Energie von $1274{,}5\,\mathrm{keV}$.
+Das beim Zerfall entstehende Positron verliert seine kinetische Energie in der umgebenden Materie und annihiliert anschließend mit einem Elektron. 
+Dabei entstehen zwei Photonen mit jeweils $511\,\mathrm{keV}$, die aufgrund der Impulserhaltung nahezu in entgegengesetzte Richtungen ausgesandt werden. 
+
+Da beide Annihilationsphotonen praktisch gleichzeitig entstehen, eignen sie sich zur Bestimmung der Zeitauflösung und zur Justage der Koinzidenzschaltung. 
+Gleichzeitig kann die $^{22}\mathrm{Na}$-Quelle aufgrund ihrer bekannten Photonenenergien zur Energiekalibration verwendet werden. eser Koinzidenzereignisse ermöglicht daher die Bestimmung der Zeitauflösung des Detektionssystems sowie die Kalibration der Zeitskala. 
+Gleichzeitig eignet sich die Quelle aufgrund ihrer gut bekannten Photonenenergien für die Energiekalibration der verwendeten Detektoren.
+
+\subsection{Fast- und Slow-Kreis} 
+Abbildung~\ref{fig:schaltplan_slow_fast} zeigt den vollständigen Aufbau des Fast-Slow-Koinzidenzsystems, das zur Bestimmung der Lebensdauer des angeregten Zustands von $^{133}_{55}\mathrm{Cs}$ verwendet wird. 
+Die Detektion der $\gamma$-Strahlung erfolgt mit zwei NaI(Tl)-Szintillationsspektrometern, deren Signale anschließend in einem schnellen und einem langsamen Signalzweig verarbeitet werden. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \includegraphics[width=0.7\textwidth]{} 
+    \caption{Schaltplan des Fast-Slow-Koinzidenzkreises.(\cite{praktika})} 
+    \label{fig:schaltplan_slow_fast} 
+\end{figure} 
+
+Im Slow-Kreis werden die energieabhängigen Signale zunächst durch einen Hauptverstärker verstärkt und geformt.
+Anschließend werden sie einem Single Channel Analyzer (SCA) zugeführt. 
+Dieser überprüft, ob die Pulsamplitude innerhalb eines zuvor eingestellten Energiefensters liegt. 
+Nur wenn diese Bedingung erfüllt ist, wird ein digitales Ausgangssignal erzeugt. 
+Dadurch werden nur Ereignisse mit den gewünschten $\gamma$-Energien für die weitere Auswertung berücksichtigt. 
+
+Die digitalen Ausgangssignale der beiden SCAs werden einer Koinzidenzeinheit zugeführt. 
+Dort wird überprüft, ob beide Detektoren innerhalb eines festgelegten Zeitfensters ein Signal registrieren. 
+Bei einer erfolgreichen Koinzidenz wird ein digitales Signal ausgegeben, dessen Dauer mit einem Gate-Delay-Generator angepasst werden kann. 
+Dieses Gate-Signal steuert den Multi-Channel-Analyzer (MCA) und legt fest, wann eingehende Signale zur Datenerfassung akzeptiert werden. 
+
+Die Zeitmessung erfolgt im Fast-Kreis. 
+Hier werden die schnellen Signale zunächst in Constant Fraction Discriminators (CFDs) verarbeitet. 
+Ein CFD erzeugt aus einem analogen Puls ein digitales Signal, dessen Schaltzeitpunkt durch einen festen Bruchteil der Pulsamplitude bestimmt wird. 
+Dadurch wird der Zeitpunkt des Digitalsignals weitgehend unabhängig von der Pulshöhe. 
+
+Für eines der beiden Detektorsignale wird zusätzlich eine definierte Verzögerung mit einer Nanosekunden-Verzögerungsleitung eingestellt. 
+Die eigentliche Zeitdifferenzmessung erfolgt anschließend im Time-to-Amplitude-Converter (TAC). 
+Mit dem Eintreffen des Startsignals beginnt der TAC eine linear ansteigende Spannung zu erzeugen. 
+Beim Eintreffen des Stoppsignals wird der aktuelle Spannungswert festgehalten. 
+Die Höhe dieser Spannung ist proportional zur Zeitdifferenz zwischen beiden Signalen. 
+
+Das Ausgangssignal des TAC wird schließlich vom MCA registriert. 
+Der MCA ordnet jedem gemessenen Spannungswert einen Kanal zu und erstellt daraus ein Histogramm. 
+Da die TAC-Spannung proportional zur Zeitdifferenz ist, entspricht die Kanalnummer einer bestimmten Verzögerungszeit zwischen Start- und Stoppsignal. 
+Die Häufigkeitseinträge der einzelnen Kanäle ergeben somit die Zeitverteilung, aus der später die Lebensdauer bestimmt wird.
+
+%--------------------------------------------------------
+\section{Einstellung des Slow-Koinzidenzkreises}
+\subsection{Kontrolle der Versorgungsspannungen}
+
+Die Betriebsspannungen und die zugehörigen Ströme der verwendeten Szintillationsspektrometer sind in Tabelle~\ref{tab:betrieb} zusammengefasst. 
+Die Messung dient der Kontrolle, ob die Detektoren mit den vorgesehenen Betriebsparametern betrieben werden. 
+\begin{table}[htbp] 
+    \centering 
+    \caption{Betriebsparameter der Szintillationsspektrometer.} 
+    \label{tab:betrieb} 
+    \begin{tabular}{ccc} 
+        \hline 
+        Detektor & Hochspannung / V & Stromstärke / $\mu$A \\ 
+        \hline 
+        Links & $669(1)$ & $119(1)$ \\ 
+        Rechts & $626(1)$ & $112(1)$ \\ 
+        \hline 
+    \end{tabular} 
+\end{table} 
+
+Im nächsten Schritt wurden die von den NIM-Modulen bereitgestellten Versorgungsspannungen überprüft. 
+Dabei wurde kontrolliert, ob die ausgegebenen Niederspannungen den vorgesehenen Sollwerten entsprechen und während der Messdauer zeitlich stabil bleiben. 
+Abweichungen von den erwarteten Werten könnten auf eine Fehlfunktion der Spannungsversorgung hindeuten und die Arbeitsweise der angeschlossenen Elektronik beeinflussen. 
+Die verwendeten NIM-Module stellen Versorgungsspannungen von \[ U \in \{\pm 6\,\mathrm{V},\pm 12\,\mathrm{V},\pm 24\,\mathrm{V}\} \] bereit. 
+
+Mithilfe einer Messsonde mit BNC-Anschluss wurden diese Spannungen am Oszilloskop untersucht. 
+Dabei wurden sowohl die mittleren Spannungswerte als auch ihre zeitliche Stabilität überprüft.
+Es wurde zusätzlich mit dem Multimeter die Genauigkeit der spannung gemessen. 
+Die gemessenen Mittelwerte sind in Tabelle~\ref{tab:nim_spannungen} aufgeführt. 
+Ein typischer zeitlicher Verlauf einer Versorgungsspannung ist exemplarisch in Abbildung~\ref{fig:nim_spannung} dargestellt.
+\begin{figure}[htbp] 
+    \centering 
+    \begin{minipage}[t]{0.45\textwidth} 
+        \centering 
+        \captionof{table}{Gemessene Versorgungsspannungen der NIM-Module.} 
+        \label{tab:nim_spannungen} 
+        \begin{tabular}{cc} 
+            \hline 
+            Sollwert / V & Messwert / V \\ 
+            \hline 
+            $+6$ & $6{,}01(1)$ \\
+            $-6$ & $-6{,}00(1)$ \\ 
+            $+12$ & $12{,}01(1)$ \\ 
+            $-12$ & $-12{,}01(1)$ \\ 
+            $+24$ & $23{,}97(1)$ \\ 
+            $-24$ & $-24{,}00(1)$ \\ 
+            \hline 
+        \end{tabular} 
+    \end{minipage} 
+    \hfill 
+    \begin{minipage}[t]{0.50\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO01.PNG} 
+        \caption{Exemplarischer zeitlicher Verlauf einer Versorgungsspannung. Gezeigt ist die $-6\,\mathrm{V}$-Versorgung auf Kanal~1 des Oszilloskops.} 
+        \label{fig:nim_spannung} 
+    \end{minipage} 
+\end{figure} 
+Innerhalb der Auflösung des Oszilloskops konnten keine zeitlichen Schwankungen der Versorgungsspannungen festgestellt werden. 
+Die Spannungen können daher als stabil angesehen werden.
+
+\subsection{Slow-Pulse des Photomultipliers}
+
+
+Im ersten Teil der Versuchsdurchführung wurde der Einfluss des Hauptverstärkers auf die Slow-Signale untersucht. 
+Dazu wurden die Ausgangssignale eines Szintillationsdetektors sowohl direkt als auch nach Durchlaufen des Hauptverstärkers mit einem Oszilloskop aufgezeichnet.
+Als Strahlungsquelle wurde $^{22}_{11}\mathrm{Na}$ verwendet. 
+Der Messaufbau ist in Abb.~\ref{fig:schaltplan_slow} dargestellt. 
+\begin{figure}[htbp] 
+    \centering 
+    \includegraphics[width=0.7\textwidth]{} 
+    \caption{Schaltplan zur Untersuchung des Hauptverstärkers.} 
+    \label{fig:schaltplan_slow} 
+\end{figure} 
+
+Die aufgenommenen Oszillogramme in Abb.~\ref{fig:slow_pulse} zeigen den Einfluss des Hauptverstärkers auf die Signalform. 
+
+Das ungeformte Slow-Signal besitzt einen schnellen Anstieg und einen vergleichsweise langsamen Abfall. Nach Durchlaufen des Hauptverstärkers wird der Puls verstärkt und zeitlich geformt. 
+Das resultierende Signal besitzt eine deutlich symmetrischere Form und ist für die weitere Verarbeitung besser geeignet. 
+
+Ein Vergleich der Signalformen zeigt, dass die Pulsamplituden vor und nach dem Hauptverstärker proportional zueinander bleiben. 
+
+Der Verstärker verändert somit die relative Zuordnung zwischen Pulsamplitude und deponierter Energie nicht, sondern erhöht die Signalamplitude und formt den zeitlichen Verlauf der Pulse. 
+Jeder einzelne Spannungsimpuls entsteht durch die Wechselwirkung eines $\gamma$-Quants im Szintillator.
+Die Streuung der Pulshöhen ist auf unterschiedliche deponierte Energien sowie auf statistische Schwankungen bei der Lichtentstehung und Elektronenvervielfachung zurückzuführen. 
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO18.PNG} 
+        \caption{Linker Detektor} 
+        \label{fig:slowpulslinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO08.PNG} 
+        \caption{Rechter Detektor} 
+        \label{fig:slowpulsrechts} 
+    \end{subfigure} 
+    \caption{Oszillogramme des Slow-Signals vor und nach dem pulsformenden Hauptverstärker. Der Hauptverstärker erhöht die Signalamplitude und formt die Pulse in eine für die weitere elektronische Verarbeitung geeignete Gestalt.(Es ist nur für den Rechte Seite bei der  Hauptverstärker analyse dass die channel wie hier gelistet sind, ansonsten sind die Chanel wie in den Schaltpäne Beschrieben).} 
+    \label{fig:slow_pulse} 
+\end{figure}
+
+\subsection{Triggerung mit dem SCA}
+
+Im nächsten Schritt wurde der Single Channel Analyzer (SCA) in den Slow-Zweig integriert. 
+Der zugehörige Aufbau ist in Abb.~\ref{fig:sca_aufbau} dargestellt. 
+Das Ausgangssignal des Hauptverstärkers wurde mithilfe eines Splitters in zwei Signalpfade aufgeteilt. 
+Einer dieser Zweige wurde direkt dem SCA zugeführt, während der andere über einen Delay-Verstärker zum Oszilloskop geführt wurde. 
+Die Verzögerung des analogen Signals dient dazu, die Laufzeit des SCA auszugleichen, sodass beide Signale zeitgleich am Oszilloskop beziehungsweise später am MCA eintreffen. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{} 
+        \caption{Aufbau zur Untersuchung des SCA.} 
+        \label{fig:sca_aufbau} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{} 
+        \caption{Aufbau mit zusätzlichem Gate-Delay-Generator.} 
+        \label{fig:gdg_aufbau} 
+    \end{subfigure} 
+    \caption{Schaltpläne zur Justage des SCA- und GDG-Zweigs.} 
+    \label{fig:sca_gdg_aufbau} 
+\end{figure} 
+
+Zu Beginn der Justage wurde das Energiefenster des SCAs vollständig geöffnet. 
+Dazu wurde die untere Schwelle auf den kleinstmöglichen und die obere Schwelle auf den größtmöglichen Wert eingestellt. 
+Unter diesen Bedingungen erzeugt der SCA für nahezu jeden eintreffenden Puls ein digitales Ausgangssignal. 
+In den Oszillogrammen ist das digitale Ausgangssignal des SCA als Rechteckpuls erkennbar (siehe Abbilngung \ref{fig:sca_offen}). 
+
+Da das Energiefenster vollständig geöffnet war, werden innerhalb kurzer Zeit zahlreiche Ereignisse registriert, was zu einer hohen Dichte von Triggerimpulsen führt, dieses aber nicht deutlich zusehen ist auf den Aufgenommenen bildern da diese zu schnell waren. 
+Gleichzeitig sind die analogen Signale des Delay-Verstärkers sichtbar, deren Amplituden aufgrund unterschiedlicher Energiedepositionen im Detektor variieren.
+
+Besonders häufig tritt ein Signal mit charakteristischer Pulshöhe auf, das der $511\,\mathrm{keV}$-Linie des $^{22}\mathrm{Na}$-Zerfalls zugeordnet werden kann. 
+Diese Linie ist aufgrund ihrer hohen Intensität nahezu kontinuierlich sichtbar. 
+Zusätzlich kann die $1274{,}5\,\mathrm{keV}$-Linie beobachtet werden, die jedoch wegen ihrer geringeren Zählrate seltener auftritt. 
+Unterschiede in den beobachteten Pulshöhen zwischen den beiden Detektoren resultieren hauptsächlich aus noch nicht vollständig angeglichenen Verstärkungseinstellungen.
+
+Nach der Identifikation der relevanten Signale wurde die Verzögerung des Delay-Verstärkers so eingestellt, dass die analogen Pulse zeitlich mit den digitalen SCA-Signalen zusammenfallen. 
+Anschließend wurde ein Gate-Delay-Generator (GDG) in den digitalen Signalzweig integriert (siehe Abbildung:\ref{fig:gdg_aufbau}). 
+Seine Aufgabe besteht darin, die vom SCA erzeugten Triggerimpulse zeitlich zu verschieben und zu verbreitern. 
+Dadurch wird sichergestellt, dass die Maxima der analogen Pulse vollständig innerhalb des späteren Gate-Fensters des MCA liegen. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO19.PNG} 
+        \caption{Linker Detektor} 
+        \label{fig:scalinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO15.PNG} 
+        \caption{Rechter Detektor} 
+        \label{fig:scarechts} 
+    \end{subfigure} 
+    \caption{Oszillogramme des analogen Signals nach dem Delay-Verstärker (CH I) und des digitalen SCA-Signals (CH II) bei geöffnetem SCA-Fenster.} 
+    \label{fig:sca_offen} 
+\end{figure} 
+
+Die Ergebnisse der Justage mit dem GDG sind in Abb.~\ref{fig:gdg_justage} dargestellt. 
+Die digitalen Gate-Signale und die verzögerten analogen Pulse überlappen nun ausreichend, sodass die Signale vom MCA korrekt verarbeitet werden können. 
+Damit sind die Voraussetzungen für die Aufnahme energieaufgelöster Spektren erfüllt. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO20.PNG} 
+        \caption{Linker Detektor} 
+        \label{fig:gdglinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO17.PNG} 
+        \caption{Rechter Detektor} 
+        \label{fig:gdgrechts} 
+    \end{subfigure} 
+    \caption{Justage des Gate-Signals mit dem GDG. Die analogen Pulse liegen innerhalb des digitalen Gate-Fensters.} 
+    \label{fig:gdg_justage} 
+\end{figure}
+
+\section{Auswertung}
+\subsection{Identifikation des Energiespektrum der Na-Quelle, Einstellung der Verstärkung und Aufnahme des Energie spektrums vom Barium}
+
+Nach der Justage des Slow-Kreises wurde der in Abb.~\ref{fig:mca_aufbau} dargestellte Aufbau in Betrieb genommen. 
+Die Verzögerung des Delay-Verstärkers wurde unverändert aus dem vorherigen Justageschritt übernommen. 
+Das Ausgangssignal des Delay-Verstärkers wurde mit dem analogen Eingang des MCA verbunden, während das vom SCA und GDG erzeugte Gate-Signal den Aufnahmezeitraum des MCA definierte. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \includegraphics[width=0.7\textwidth]{} 
+    \caption{Schaltplan zur Aufnahme der Energiespektren mit dem MCA.} 
+    \label{fig:mca_aufbau} 
+\end{figure} 
+
+Zunächst wurde mit einer $^{22}_{11}\mathrm{Na}$-Quelle ein Energiespektrum aufgenommen. 
+Die Messung wurde so lange fortgeführt, bis die charakteristischen Strukturen des Natriumspektrums deutlich sichtbar waren. 
+Das resultierende Spektrum ist in Abb.~\ref{fig:na_spektrum} dargestellt. 
+Neben dem Compton-Untergrund ist insbesondere der Vollenergiepeak bei $511\,\mathrm{keV}$ erkennbar, der durch die Annihilationsstrahlung des Positron-Zerfalls entsteht. 
+Bei höheren Kanalnummern ist außerdem ein weiterer Peak sichtbar, der dem $1274{,}5\,\mathrm{keV}$-$\gamma$-Übergang des $^{22}\mathrm{Na}$-Zerfalls zugeordnet werden kann. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Nalinks.png} 
+        \caption{Linker Detektor} 
+        \label{fig:na_spektrumlinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Narechts.png} 
+        \caption{Rechter Detektor} 
+        \label{fig:na_spektrumrechts} 
+    \end{subfigure} 
+    \caption{Aufgenommene Energiespektren der $^{22}\mathrm{Na}$-Quelle.} 
+    \label{fig:na_spektrum} 
+\end{figure} 
+
+Anschließend wurde die Verstärkung des Hauptverstärkers angepasst. 
+Ziel war es, die $511\,\mathrm{keV}$-Linie möglichst nahe an den oberen Rand des vom MCA erfassten Kanalbereichs zu verschieben, ohne relevante Spektralanteile abzuschneiden. 
+Dadurch wird die verfügbare Kanalzahl des MCA optimal ausgenutzt und die Energieauflösung der nachfolgenden Messungen verbessert. 
+Das entsprechend verstärkte Spektrum ist in Abb.~\ref{fig:na_verstaerkt} dargestellt. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Naverschobenlinks.png} 
+        \caption{Linker Detektor} 
+        \label{fig:na_spektrumverschobenlinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Naverschobenrechts.png} 
+        \caption{Rechter Detektor} 
+        \label{fig:na_spektrumverschobenrechts} 
+    \end{subfigure} 
+    \caption{Natriumspektrum nach Anpassung der Verstärkung. 
+    Der $511\,\mathrm{keV}$-Peak liegt nahe am oberen Rand des aufgenommenen Kanalbereichs.} 
+    \label{fig:na_verstaerkt} 
+\end{figure} 
+
+Nach Abschluss dieser Justage wurde die Natriumquelle durch eine $^{133}_{56}\mathrm{Ba}$-Quelle ersetzt. 
+Das aufgenommene Spektrum ist in Abb.~\ref{fig:ba_spektrum} gezeigt. 
+Die zuvor gewählte Verstärkung musste nicht weiter verändert werden, da der erfasste Energiebereich sämtliche für die Untersuchung relevanten Bariumlinien abdeckt. 
+Im Spektrum sind mehrere charakteristische Linien des Barium-Zerfalls sichtbar. 
+Der intensivste Peak bei niedrigen Energien ist auf charakteristische Röntgenstrahlung zurückzuführen, die infolge des Elektroneneinfangs entsteht. 
+Für die Energiekalibration kann dieser Peak ebenfalls verwendet werden. 
+
+Für die Lebensdauermessung sind insbesondere die Linien bei etwa $81\,\mathrm{keV}$ und $356\,\mathrm{keV}$ von Bedeutung. 
+Die $81\,\mathrm{keV}$-Linie entsteht beim Übergang des angeregten $\frac{5}{2}^{+}$-Zustands von $^{133}\mathrm{Cs}$ in den Grundzustand und dient später als Stoppsignal. 
+Die $356\,\mathrm{keV}$-Linie kennzeichnet die Besetzung dieses Zustands und wird als Startsignal verwendet. 
+Beide Peaks sind im aufgenommenen Spektrum deutlich identifizierbar. 
+
+Nach der Festlegung der Verstärkung durfte diese nicht mehr verändert werden. 
+Eine Änderung der Verstärkung würde die Zuordnung zwischen Kanalnummer und Energie verschieben und damit die spätere Energiekalibration sowie die Vergleichbarkeit aller nachfolgenden Messungen beeinträchtigen. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Balinks1.png} 
+        \caption{Linker Detektor} 
+        \label{fig:baspektrumlinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Barechts1.png} 
+        \caption{Rechter Detektor} 
+        \label{fig:baspektrumrechts} 
+    \end{subfigure} 
+    \caption{Aufgenommene Energiespektren der $^{133}\mathrm{Ba}$-Quelle.} 
+    \label{fig:ba_spektrum} 
+\end{figure}
+
+\subsection{Energiekallibration des Slow-Koinzidenzkreises}
+
+Zur Bestimmung der Energie-Kanal-Beziehung des MCA wurde eine Energiekalibration anhand der aufgenommenen Natrium- und Bariumspektren durchgeführt. 
+Da der MCA zunächst nur Ereigniszahlen in Abhängigkeit von der Kanalnummer liefert, muss die Zuordnung zwischen Kanalnummer und Photonenergie experimentell bestimmt werden. 
+
+Hierzu wurden die charakteristischen Peaks der Spektren identifiziert und jeweils durch eine Gaußfunktion mit konstantem Untergrund beschrieben: 
+\[ G(K)=A\exp\!\left[-\frac{(K-\mu)^2}{2\sigma^2}\right]+C . \] 
+Dabei beschreibt $A$ die Peakhöhe, $\mu$ die Schwerpunktlage des Peaks, $\sigma$ die Standardabweichung und $C$ einen konstanten Untergrund. 
+Die Anpassungen der einzelnen Peaks sind in Abb.~\ref{fig:gaussfit_na} und Abb.~\ref{fig:gaussfit_ba} dargestellt. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/alle_fits_Naverschobenlinks.png} 
+        \caption{Linker Detektor} 
+        \label{fig:na_verschobenlinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/alle_fits_Naverschobenrechts.png} 
+        \caption{Rechter Detektor} 
+        \label{fig:na_verschobenrechts} 
+    \end{subfigure} 
+    \caption{Gaußanpassung an den $511\,\mathrm{keV}$-Peak des Natriumspektrums.} 
+    \label{fig:gaussfit_na} 
+\end{figure} 
+
+\begin{figure}[htbp] 
+    \centering \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/alle_fits_Balinks1.png} 
+        \caption{Linker Detektor} 
+        \label{fig:bagausslinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/alle_fits_Barechts1.png} 
+        \caption{Rechter Detektor} 
+        \label{fig:bagaussrechts} 
+    \end{subfigure} 
+    \caption{Gaußanpassungen an die charakteristischen Linien des Bariumspektrums.} \label{fig:gaussfit_ba} 
+\end{figure} 
+
+Für die Energiekalibration wurden die aus den Fits erhaltenen Schwerpunktlagen $\mu$ den bekannten Energien der jeweiligen Emissionslinien zugeordnet. 
+Verwendet wurden die $511\,\mathrm{keV}$-Linie von $^{22}\mathrm{Na}$ sowie die Linien bei etwa $31\,\mathrm{keV}$, $81\,\mathrm{keV}$, $302\,\mathrm{keV}$ und $356\,\mathrm{keV}$ im $^{133}\mathrm{Ba}$-Spektrum. 
+Die bei etwa $31\,\mathrm{keV}$ beobachtete Linie entspricht charakteristischer Röntgenstrahlung, die infolge des Elektroneneinfangs entsteht. 
+Da $^{133}_{56}\mathrm{Ba}$ ausschließlich über Elektroneneinfang zerfällt, tritt diese Linie mit hoher Intensität auf und eignet sich daher ebenfalls für die Kalibration.
+
+Nicht alle im Zerfallsschema vorhandenen Übergänge konnten im Spektrum eindeutig identifiziert werden, zum Beispiel die von dem $383\,\mathrm{keV}$. 
+Einige Linien besitzen nur geringe Intensitäten oder liegen im Bereich des statistischen Untergrunds. 
+Zudem können zusätzliche Strukturen durch charakteristische Röntgenstrahlung oder durch Summenereignisse entstehen. 
+Summenpeaks treten auf, wenn mehrere nahezu gleichzeitige Photonen innerhalb der Auflösungszeit des Detektors registriert werden und daher als einzelnes Ereignis mit entsprechend höherer Energie erscheinen. 
+Darüber hinaus können zusätzliche Strukturen durch charakteristische Röntgenstrahlung oder durch Summenereignisse entstehen. 
+Mögliche summenpeaks treten auf, wenn mehrere zeitlich nahezu gleichzeitige Photonen innerhalb der Auflösungszeit des Detektors registriert werden und daher als ein einzelnes Ereignis mit entsprechend höherer Energie erscheinen.
+
+Die aus den Gaußanpassungen bestimmten Peakpositionen sind in den Tabellen~\ref{tab:fit_links} und \ref{tab:fit_rechts} zusammengefasst. 
+
+\begin{table}[htbp] 
+    \centering 
+    \caption{Fitparameter der Gaußanpassungen für den linken Detektor.} 
+    \label{tab:fit_links} 
+    \begin{tabular}{c c c c} 
+        \hline 
+        $E$/keV & $\mu$/Kanal & $\sigma$/Kanal & $C$ \\ 
+        \hline 
+        31 & $408.774 \pm 0.092$ & $39.575 \pm 0.090$ & $95.440 \pm 1.211$ \\ 
+        81 & $1204.436 \pm 0.226$ & $49.150 \pm 0.745$ & $170.448 \pm 10.371$ \\ 
+        302 & $4420.512 \pm 2.272$ & $126.333 \pm 12.864$ & $54.481 \pm 6.761$ \\ 
+        356 & $5209.942 \pm 0.871$ & $198.631 \pm 6.845$ & $15.815 \pm 10.469$ \\ 
+        511 & $7408.988 \pm 0.859$ & $221.991 \pm 1.404$ & $5.292 \pm 0.517$ \\ 
+        \hline 
+    \end{tabular} 
+\end{table} 
+
+\begin{table}[htbp] 
+    \centering \caption{Fitparameter der Gaußanpassungen für den rechten Detektor.} 
+    \label{tab:fit_rechts} 
+    \begin{tabular}{c c c c} 
+        \hline 
+        $E$/keV & $\mu$/Kanal & $\sigma$/Kanal & $C$ \\ 
+        \hline 
+        31 & $202.763 \pm 0.082$ & $35.468 \pm 0.090$ & $196.739 \pm 2.039$ \\ 
+        81 & $990.051 \pm 0.170$ & $56.175 \pm 0.261$ & $67.481 \pm 2.379$ \\ 
+        302 & $4188.668 \pm 1.950$ & $206.406 \pm 54.359$ & $0.000 \pm 55.218$ \\ 
+        356 & $4979.468 \pm 0.916$ & $173.433 \pm 4.507$ & $75.262 \pm 6.565$ \\ 
+        511 & $7168.843 \pm 0.583$ & $228.681 \pm 0.928$ & $6.819 \pm 0.611$ \\ 
+        \hline 
+    \end{tabular} 
+\end{table} 
+
+Aus den Schwerpunktlagen und den bekannten Energien (\cite{praktikum}) wurde anschließend die Energie-Kanal-Beziehung bestimmt. 
+Dazu wurden die Energien gegen die jeweiligen Kanalnummern aufgetragen und mit einer linearen Funktion 
+\[ E(K)=aK+b \] beschrieben. 
+Die entsprechenden Kalibrationsgeraden sind in Abb.~\ref{fig:energiekalibration} dargestellt. 
+Die Messpunkte liegen näherungsweise auf einer Geraden, was die erwartete lineare Arbeitsweise des MCA im untersuchten Energiebereich bestätigt. 
+Die reduzierten $\chi^2$-Werte liegen jedoch deutlich über Eins. 
+Dies deutet darauf hin, dass die statistischen Unsicherheiten der Peakpositionen die tatsächlichen Unsicherheiten unterschätzen oder zusätzliche systematische Effekte vorhanden sind. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Energiekalibrierung_links.png} 
+        \caption{Linker Detektor} 
+        \label{fig:energiekalibrationlinks} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering \includegraphics[width=\linewidth]{figs1/Energiekalibrierung_rechts.png} 
+        \caption{Rechter Detektor} 
+        \label{fig:energiekalibrationrechts} 
+    \end{subfigure} 
+    \caption{Lineare Energiekalibration der beiden Detektoren.} 
+    \label{fig:energiekalibration} 
+\end{figure} 
+\begin{table}[htbp] 
+    \centering 
+    \caption{Ergebnisse der Energiekalibration für beide Detektoren.} 
+    \label{tab:energiekalibrierung} 
+    \begin{tabular}{lcc} 
+        \hline 
+        Detektor & $a$ / (keV/Kanal) & $b$ / keV \\ 
+        \hline 
+        Links & $0.06781785 \pm 0.00009758$ & $2.77127 \pm 0.10477$ \\ 
+        Rechts & $0.06835754 \pm 0.00007458$ & $16.47713 \pm 0.08208$ \\ 
+        \hline 
+    \end{tabular} 
+\end{table} 
+
+Der positive Achsenabschnitt der Kalibrationsgeraden zeigt, dass der Energie-Nullpunkt nicht mit dem ersten betrachteten MCA-Kanal zusammenfällt. 
+Dies ist plausibel, da der MCA jedem Kanal ein endliches Energieintervall zuordnet und die Kalibration nur über die gemessenen Spektrallinien im betrachteten Energiebereich erfolgt.
+Zusätzlich ist jeder Kanal in einem Intervall von Energien, da ein MCA wie mehrere SCAs, die im Energiebereich aneinander gereiht sind, funktioniert. 
+Diese Breite wird bei der Anpassung auf einen Punkt reduziert. 
+Deswegen ist es möglich, dass die angepasste Gerade nicht im Ursprung startet, sondern verschoben ist. 
+
+
+\subsection{Enrgieauflösung}
+
+Zur Bestimmung der Energieauflösung wurden die durch die Gaußanpassungen ermittelten Peakbreiten verwendet. 
+Die Standardabweichung $\sigma$ der Fitfunktion liegt zunächst in Einheiten der MCA-Kanalnummern vor. 
+
+Als Maß für die Energieauflösung wird die Halbwertsbreite der Gaußfunktion verwendet. 
+Für eine Gaußverteilung gilt 
+\[ \mathrm{FWHM}=2\sqrt{2\ln(2)}\,\sigma . \] 
+Da die FWHM (Full Width at Half Maximum) zunächst in Kanalnummern angegeben ist, wird sie mithilfe der Energiekalibration in Energieeinheiten umgerechnet. 
+Mit \[ E(K)=aK+b \] ergibt sich für die Energieauflösung \[ \Delta E = a\cdot \mathrm{FWHM} = 2\sqrt{2\ln(2)}\,a\,\sigma . \] 
+
+Die Unsicherheiten der Energieauflösung wurden mithilfe der Gaußschen Fehlerfortpflanzung aus den Unsicherheiten von $\sigma$ und $a$ bestimmt. 
+Die resultierenden Werte sind in den Tabellen~\ref{tab:aufloesung_rechts} und \ref{tab:aufloesung_links} aufgeführt. 
+
+\begin{table}[htbp] 
+    \centering 
+    \begin{minipage}{0.48\textwidth} 
+        \centering 
+        \caption{Energieauflösung des rechten Detektors.} 
+        \label{tab:aufloesung_rechts} 
+        \begin{tabular}{c c c} 
+            \hline 
+            $E$/keV & FWHM/Kanal & $\Delta E$/keV \\ 
+            \hline 
+            31 & $83.522 \pm 0.212$ & $5.709 \pm 0.016$ \\ 
+            81 & $132.283 \pm 0.614$ & $9.043 \pm 0.043$ \\ 
+            302 & $486.049 \pm 128.005$ & $33.225 \pm 8.750$ \\ 
+            356 & $408.403 \pm 10.614$ & $27.917 \pm 0.726$ \\ 
+            511 & $538.504 \pm 2.185$ & $36.811 \pm 0.155$ \\ 
+            \hline 
+        \end{tabular} 
+    \end{minipage} 
+    \hfill 
+    \begin{minipage}{0.48\textwidth} 
+        \centering 
+        \caption{Energieauflösung des linken Detektors.} 
+        \label{tab:aufloesung_links} 
+        \begin{tabular}{c c c} 
+            \hline 
+            $E$/keV & FWHM/Kanal & $\Delta E$/keV \\ 
+            \hline 
+            31 & $93.193 \pm 0.212$ & $6.320 \pm 0.017$ \\ 
+            81 & $115.738 \pm 1.755$ & $7.849 \pm 0.120$ \\ 
+            302 & $297.492 \pm 30.291$ & $20.175 \pm 2.054$ \\ 
+            356 & $467.740 \pm 16.118$ & $31.721 \pm 1.094$ \\ 
+            511 & $522.750 \pm 3.306$ & $35.452 \pm 0.230$ \\ 
+            \hline 
+        \end{tabular} 
+    \end{minipage} 
+\end{table} 
+Die Ergebnisse zeigen für beide Detektoren vergleichbare Energieauflösungen. 
+Mit zunehmender Energie nimmt die absolute Breite der Peaks zu, wodurch nahe beieinanderliegende Linien schlechter getrennt werden können. 
+Dies ist insbesondere im Bereich der $302\,\mathrm{keV}$- und $356\,\mathrm{keV}$-Linien relevant, wo benachbarte Linien nur schwach getrennt sichtbar sind.
+Hierbei handelt es sich vermutlich um die 276,4- und 383,8-keV-Linie des $^{133}_{56}\mathrm{Ba}$-Spektrums.
+
+
+\subsection{Einstellung des Einkanalfenster für die $^{22}$Na-Quelle}
+
+Im nächsten Schritt wurde die Funktion des SCA als Energiefilter überprüft. 
+Dazu wurde erneut die $^{22}_{11}\mathrm{Na}$-Quelle verwendet und ein Energiespektrum mit dem MCA aufgenommen. 
+Während der Messung wurden die Schwellenwerte des SCA so eingestellt, dass ausschließlich Ereignisse im Bereich der $511\,\mathrm{keV}$-Linie akzeptiert wurden. 
+Ziel war es, die Energiegrenzen des SCA zu bestimmen und zu überprüfen, ob der SCA die Signale wie erwartet nach ihrer Amplitude selektiert. 
+Bereits während der Justage konnte am MCA beobachtet werden, dass außerhalb des eingestellten Energiefensters keine zusätzlichen Ereignisse mehr registriert wurden. 
+Nach geeigneter Wahl der oberen und unteren Schwelle wuchs ausschließlich der $511\,\mathrm{keV}$-Peak weiter an, während die Zählraten in den übrigen Bereichen des Spektrums konstant blieben. 
+Das resultierende Spektrum ist in Abb.~\ref{fig:sca_511} dargestellt. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Nalinks551.png} 
+        \caption{Linker Detektor} 
+        \label{fig:sca_511_links} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/Spektrum_Na511.png} 
+        \caption{Rechter Detektor} 
+        \label{fig:sca_511_rechts} 
+    \end{subfigure} 
+    \caption{Einstellung des SCA-Fensters auf die $511\,\mathrm{keV}$-Linie der $^{22}\mathrm{Na}$-Quelle.} 
+    \label{fig:sca_511} 
+\end{figure} 
+
+Zur weiteren Überprüfung der Filterwirkung wurde der MCA anschließend durch ein Oszilloskop ersetzt. 
+Der verwendete Aufbau ist in Abb.~\ref{fig:schaltplan_sca_oszi} dargestellt. 
+Die aufgenommenen Oszillogramme sind in Abb.~\ref{fig:sca_oszi} gezeigt. 
+In beiden Oszillogrammen treten nahezu ausschließlich Pulse mit vergleichbarer Amplitude auf. 
+Dies bestätigt die erfolgreiche Selektion der $511\,\mathrm{keV}$-Linie durch den SCA. 
+Vereinzelt sichtbare zusätzliche Signale können auf elektronische Sättigungseffekte oder Restuntergrund zurückgeführt werden. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \includegraphics[width=0.7\textwidth]{} 
+    \caption{Schaltplan zur Überprüfung des eingestellten SCA-Fensters mit dem Oszilloskop.} 
+    \label{fig:schaltplan_sca_oszi} 
+\end{figure} 
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO23.PNG} 
+        \caption{Linker Detektor} 
+        \label{fig:sca_oszi_links} 
+    \end{subfigure} 
+    \hfill 
+    \begin{subfigure}[t]{0.48\textwidth} 
+        \centering 
+        \includegraphics[width=\linewidth]{figs1/SUSKO21.PNG} 
+        \caption{Rechter Detektor} 
+        \label{fig:sca_oszi_rechts} 
+    \end{subfigure} 
+    \caption{Oszillogramme nach Einstellung des SCA-Fensters auf die $511\,\mathrm{keV}$-Linie.} 
+    \label{fig:sca_oszi} 
+\end{figure} 
+
+Im Vergleich zu den zuvor aufgenommenen Oszillogrammen mit vollständig geöffnetem SCA-Fenster treten nun nur noch Pulse innerhalb eines engen Amplitudenbereichs auf. 
+Dies bestätigt die erwartete Arbeitsweise des SCA. 
+
+Für die nachfolgenden Messungen des Fast-Kreises wurden Splitter und Delay-Verstärker nicht mehr aktiv benötigt. 
+Dennoch verblieben beide Komponenten im Aufbau. 
+Der Delay-Verstärker wirkt in dieser Konfiguration als Abschlussimpedanz des Signalzweigs und reduziert mögliche Signalreflexionen. 
+Außerdem wurde vermieden, durch einen Umbau die zuvor optimierten Einstellungen zu verändern.
+
+
+\subsection{Energieintervall des SCAs und Energien der CFD-Schwellen}
+
+Nach der Bestimmung der Energie-Kanal-Beziehung konnten die eingestellten Schwellenwerte von SCA und CFD in Energieeinheiten umgerechnet werden. 
+Für die Bestimmung der SCA-Grenzen wurden die aufgenommenen Spektren ausgewertet. 
+Als untere beziehungsweise obere Schwelle wurde jeweils die erste bzw. letzte Kanalnummer definiert, bei der die Ereigniszahl einen festgelegten Schwellwert überschritt. 
+Einzelne isolierte Ereignisse außerhalb dieses Bereichs wurden als statistisches Rauschen interpretiert und nicht berücksichtigt. 
+Die Unsicherheit der Kanalgrenzen wurde aufgrund der endlichen Breite der Übergangsbereiche empirisch abgeschätzt. 
+
+Die so bestimmten Schwellenwerte wurden mithilfe der Energiekalibration in Energien umgerechnet und sind in Tabelle~\ref{tab:sca_schwellen} aufgeführt. 
+Dabei zeigt sich, dass die eingestellten SCA-Fenster die gewünschten Linien einschließen und dass für den linken Detektor ein etwas höher liegendes Energiefenster gewählt wurde als für den rechten. 
+
+\begin{table}[htbp] 
+    \centering 
+    \caption{Bestimmte SCA-Schwellen und die daraus resultierenden Energiebereiche.} 
+    \label{tab:sca_schwellen} 
+    \begin{tabular}{l c c c c} 
+        \hline 
+        Messung & $K_{\min}$ & $K_{\max}$ & $E_{\min}$/keV & $E_{\max}$/keV \\ 
+        \hline 
+        Ba356 & 440 & 5582 & $46.55 \pm 0.34$ & $398.05 \pm 0.34$ \\ 
+        Ba81 & 836 & 1185 & $59.47 \pm 0.34$ & $83.14 \pm 0.34$ \\ 
+        Na511 rechts & 6558 & 7800 & $464.77 \pm 0.34$ & $549.67 \pm 0.34$ \\ 
+        Na511 links & 6798 & 8046 & $463.80 \pm 0.34$ & $548.43 \pm 0.34$ \\ 
+        \hline 
+    \end{tabular} 
+\end{table} 
+
+Analog dazu wurden die Schwellen des Constant Fraction Discriminators (CFD) bestimmt. 
+Da die CFD-Signale einen stärkeren Rauschanteil aufweisen, wurde zur Bestimmung der Grenzen ein höherer Schwellwert für die registrierten Ereignisse verwendet. 
+Aufgrund der stärkeren Fluktuationen wurde die Unsicherheit der CFD-Schwellen größer gewählt als bei den SCA-Schwellen. 
+Die berechneten CFD-Grenzen sind in Tabelle~\ref{tab:cfd_schwellen} zusammengefasst. 
+Die für die Lebensdauermessung relevanten Bariumlinien liegen innerhalb des ausgewählten Energiebereichs. 
+Damit ist sichergestellt, dass die später verwendeten Start- und Stoppsignale zuverlässig verarbeitet werden können. 
+
+\begin{table}[htbp] 
+    \centering 
+    \caption{Bestimmte CFD-Schwellen und die daraus resultierenden Energiebereiche.} 
+    \label{tab:cfd_schwellen} 
+    \begin{tabular}{l c c c c} 
+        \hline 
+        Messung & $K_{\min}$ & $K_{\max}$ & $E_{\min}$/keV & $E_{\max}$/keV \\ 
+        \hline 
+        CFD rechts & 72 & 7313 & $21.40 \pm 0.68$ & $516.38 \pm 0.68$ \\ 
+        CFD links & 923 & 7729 & $65.37 \pm 0.68$ & $526.94 \pm 0.68$ \\ 
+        \hline 
+    \end{tabular} 
+\end{table}
+
+\subsection{Herstellung der Slow-Koinzidenz}
+
+Im letzten Schritt der Justage des Slow-Kreises wurde die zeitliche Koinzidenz der beiden SCA-Signale hergestellt. 
+Hierfür wurden die Ausgänge der SCAs beider Detektoren entsprechend des in Abb.~\ref{fig:slow_koinzidenz_aufbau} dargestellten Aufbaus mit dem Oszilloskop verbunden. 
+Als Strahlungsquelle wurde erneut $^{22}_{11}\mathrm{Na}$ verwendet, da die bei der Positron-Annihilation entstehenden $511\,\mathrm{keV}$-$\gamma$-Quanten näherungsweise gleichzeitig emittiert werden und somit ein geeignetes Referenzsignal für die Koinzidenzjustage darstellen. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \includegraphics[width=0.7\textwidth]{} 
+    \caption{Schaltplan zur Herstellung der Slow-Koinzidenz.} 
+    \label{fig:slow_koinzidenz_aufbau} 
+\end{figure} 
+
+Durch Anpassung der Verzögerung eines der beiden SCA-Signale konnte eine weitgehende zeitliche Überdeckung erreicht werden. 
+Das resultierende Oszillogramm ist in Abb.~\ref{fig:slow_koinzidenz} dargestellt. 
+Da das Oszilloskop auf einen der beiden Kanäle getriggert wurde, erscheint dieses Signal besonders stabil, während das zweite Signal weniger deutlich sichtbar ist. 
+Dennoch lässt sich erkennen, dass beide Pulse nahezu gleichzeitig auftreten und sich über einen Großteil ihrer Dauer überlappen. 
+
+\begin{figure}[htbp] 
+    \centering 
+    \includegraphics[width=0.7\textwidth]{figs1/SUSKO24.PNG} 
+    \caption{Zeitliche Überlagerung der beiden SCA-Signale zur Herstellung der Slow-Koinzidenz.} 
+    \label{fig:slow_koinzidenz} 
+\end{figure} 
+
+Die Signale besitzen annähernd rechteckige Formen, weisen jedoch an den Flanken leichte Abrundungen auf. 
+Diese Abweichung vom idealen Rechtecksignal ist auf die endliche Bandbreite der elektronischen Komponenten zurückzuführen. 
+Aus dem Oszillogramm ergibt sich für beide SCA-Ausgänge eine Pulslänge von etwa $(600 \pm 50)\,\mathrm{ns}$. 
+
+Die erreichte Überlappung genügt, damit die Koinzidenzeinheit beide Signale als gleichzeitig eintreffend erkennt. 
+Damit ist die notwendige Voraussetzung für die spätere Auswahl von Ereignissen geschaffen, bei denen beide Detektoren innerhalb des vorgegebenen Zeitfensters ein Signal registrieren. 
+Da die Pulslänge der SCA-Signale für eine zuverlässige Gate-Steuerung des MCA nicht in allen Fällen ausreichend ist, wird im weiteren Aufbau zusätzlich ein Gate-Delay-Generator verwendet, der die digitalen Signale zeitlich verbreitert.
