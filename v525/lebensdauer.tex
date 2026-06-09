@@ -7,53 +7,49 @@ Der $^{22}$Na-Kern zerfällt durch $\beta^+$-Zerfall in ein $^{22}$Ne-Atom. Das 
 
 Der Zerfall von $^{133}$Ba erfolgt durch Elektroneneinfang zu $^{133}$Cs. Der Schlüssel zur Messung der Lebensdauer liegt in der $\gamma$-Kaskade
 
-\[
+$
 356\,\mathrm{keV} \;\rightarrow\; 81\,\mathrm{keV},
-\]
+$\cite{praktikum}
 
 wobei die Lebensdauer des $81\,\mathrm{keV}$-Niveaus in der Größenordnung einer Nanosekunde liegt. Die beiden Photonen der Kaskade liefern das Start- und das Stoppsignal; die Lebensdauer hängt von der Differenz ihrer Emissionszeitpunkte ab.
 
 \subsubsection{Zerfallsgesetz und Lebensdauer}
 
-Die zeitliche Entwicklung der Kernpopulation folgt einem exponentiellen Zerfallsgesetz
+Die zeitliche Entwicklung der Kernpopulation folgt einem exponentiellen Zerfallsgesetz \cite{praktikum}
 
-\[
+$
 N(t) = N_0\, e^{-t/\tau},
-\]
+$
 
 wobei $\tau$ die mittlere Lebensdauer bezeichnet. Die Zerfallskonstante beträgt $\lambda = 1/\tau$ und die Halbwertszeit ist
 
-\[
+$
 T_{1/2} = \tau \ln 2.
-\]
+$
 
 Während der Messung entspricht die Zeitdifferenz zwischen den emittierten Start- und Stopp-Photonen der Zeit, die der Kern für den Übergang in den angeregten Zustand benötigt. Diese zeitliche Verteilung spiegelt das Zerfallsgesetz wider.
 \subsubsection{Zeitauflösung}
 
 Die effektive Zeitauflösung des Detektors wird durch verschiedene Faktoren beeinflusst, wie etwa die Beleuchtung, die Verteilung der internen Laufzeiten im Photomultiplier, Schwankungen im CFD (Constant Fraction Discriminator) sowie den Einfluss elektromagnetischen Rauschens auf den TAC (Time-to-Amplitude Converter) und den MCA (Multichannel Analyzer). Diese Verbreiterung wird durch die Gauß-Funktion beschrieben:
 
-\[
+$
 R(t) = \frac{1}{\sqrt{2\pi}\sigma_t}
 \exp\!\left(-\frac{t^2}{2\sigma_t^2}\right).
-\]
+$
 
 Die Breite $\sigma_t$ repräsentiert die Zeitskala des Systems und wird mit dem unter Verwendung von $^{22}$Na ermittelten Maximalwert verglichen. Durch die Kalibrierung
 
-\[ t = a(K − b)
-\]
+$t = a(K - b)$
 
 wird die während des Prozesses gemessene Breite ($\sigma_K$) in eine Zeitskala umgerechnet:
 
-\[
-\sigma_t = a\,\sigma_K.
-\]
+$\sigma_t = a\,\sigma_K.$
 
 \subsection{Kombination von Zerfall und Zeitauflösung}
 
 Die gemessene Zeitskala ergibt sich aus der Kombination des physikalischen exponentiellen Zerfalls und der zeitlichen Charakteristik des Detektionssystems:
 
-\[ M(t) = (N_0 e^{-t/\tau}) * R(t).
-\]
+$ M(t) = (N_0 e^{-t/\tau}) * R(t)$
 
 Die Kombination des exponentiellen Zerfalls mit einer Gauß-Funktion führt zu einer asymmetrischen Kurve: Die linke Seite wird durch die Gauß-Breite $\sigma_t$ bestimmt, während die rechte Seite den durch die tatsächliche Lebensdauer $\tau$ charakterisierten exponentiellen Zerfall aufweist. Auf diese Weise werden menschliche Leben aus dem Schatten geholt.
 
@@ -65,13 +61,13 @@ Nach umfangreichen Tests besteht der nächste Schritt darin, die Realisierbarkei
   \centering
   \begin{minipage}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=0.75\textwidth]{figs2/SUSKO012.png}
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO12.png}
     \caption{Links}
   \end{minipage}
   \hfill
   \begin{minipage}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=0.75\textwidth]{figs2/SUKSO013.png}
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO13.png}
     \caption{Rechts}
   \end{minipage}
   \caption{Herstellung von Koinzidenz zwischen Slow-Signal an Delay-Verstärker (CH I) und SCA mit GDG (CH II) zur
@@ -113,33 +109,19 @@ Die Messungen wurden im Rahmen der durch die Laborausbildung vorgegebenen Beding
 \subsubsection{Bestimmung der Lebensdauer}
 Bei einer idealen Zeitreihenmessung (frei von Störungen) zeigt die Lebensdauerkurve ein Maximum, auf das unmittelbar ein stetiger Abfall folgt. Dieses Verhalten entspricht dem bekannten Prinzip des radioaktiven Zerfalls. Bei realen Messungen unterliegt jedoch jeder aufgezeichnete Zeitpunkt einer Unsicherheit, die auf zahlreiche Faktoren im Zusammenhang mit dem Messprozess und den verwendeten Instrumenten zurückzuführen ist. So kann beispielsweise eine geringfügige Verzögerung zwischen dem Zeitpunkt des Bariumzerfalls und dessen Detektion durch den Szintillator auftreten; eine dominierende Rolle spielen jedoch zeitliche Schwankungen, die den elektronischen Komponenten inhärent sind (Instabilitäten im Zusammenhang mit Laufzeiten in Photomultipliern).
 
-Diese Unsicherheit führt dazu, dass die gemessene Zerfallszeit von der „idealen“ Exponentialverteilung abweicht. Analytisch äußert sich dies in der Faltung $M(t)$ der theoretischen Zerfallskurve $W(t)$ mit einer Zeitauflösungsfunktion $P(t)$, die einer Normalverteilung folgt (siehe Gleichungen \ref{}). Die Gauß-Funktion
-$P(t)$ fungiert als Wahrscheinlichkeitsverteilung, welche die Verteilung der zufälligen Messwerte beschreibt:
+Diese Unsicherheit führt dazu, dass die gemessene Zerfallszeit von der „idealen“ Exponentialverteilung abweicht. Analytisch äußert sich dies in der Faltung $M(t)$ der theoretischen Zerfallskurve $W(t)$ mit einer Zeitauflösungsfunktion $P(t)$, die einer Normalverteilung folgt. Die Gauß-Funktion $P(t)$ fungiert als Wahrscheinlichkeitsverteilung, welche die Verteilung der zufälligen Messwerte beschreibt:
 
-\[
-W(t) = \frac{I}{\tau}\,\exp\!\left(-\frac{t}{\tau}\right),
-\tag{7}
-\]
+$
+W(t) = \frac{I}{\tau}\,\exp\!\left(-\frac{t}{\tau}\right),$
 
-\[
-P(t) = \frac{1}{\sqrt{2\pi}\,\sigma}\,
-\exp\!\left[-\frac{1}{2}\left(\frac{t - t_0}{\sigma}\right)^2\right],
-\tag{8}
-\]
-
-\[
-M(t) = (W * P)(t)
-= \frac{I}{2}\,
-\exp\!\left(\frac{\sigma^2 - 2\tau(t - t_0)}{2\tau^2}\right)
-\left[
-1 + \text{erf}\!\left(
-\frac{1}{\sqrt{2}}
+$P(t) = \frac{1}{\sqrt{2\pi}\,\sigma}\,\exp\!\left[-\frac{1}{2}\left(\frac{t - t_0}{\sigma}\right)^2\right],$
+$M(t) = (W * P)(t)= \frac{I}{2}\,\exp\!\left(\frac{\sigma^2 - 2\tau(t - t_0)}{2\tau^2}\right)\left[1 + \text{erf}\!\left(\frac{1}{\sqrt{2}}
 \left(
 \frac{t - t_0}{\sigma} - \frac{\sigma}{\tau}
 \right)
 \right)
 \right].
-\] 
+$
 
 Die Funktion $M(t)$ enthält vier Parameter, die den experimentellen Bedingungen entsprechen:
 \begin{itemize}
@@ -160,15 +142,11 @@ Man erhält folgende Fitparameter für die Anpassung:
 
 Tatsächlich ergibt die Anpassung eine Lebensdauer von
 
-\[\tau = 7.826(7)\,\mathrm{ns}.
-
-\]
+$\tau = 7.826(7)\,\mathrm{ns}.$
 
 Die Multiplikation mit $\ln 2$ liefert eine Halbwertszeit von
 
-\[
-t_{1/2} = 5,43(8)\,\mathrm{ns},
-\]
+$t_{1/2} = 5,43(8)\,\mathrm{ns},$
 
 welche um zirka 13,6\% vom Literaturwert $t_{1/2,\mathrm{lit}} = 6,283(14)\,\mathrm{ns}$ abweicht. Die Literaturwerte liegen außerhalb des $1\sigma$-Intervalls der Ergebnisse, was auf andere systematische Fehler hinweist, die hätten betrachtet werden sollen.
 
