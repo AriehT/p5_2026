@@ -1,14 +1,249 @@
 \section{Der Fast-Koinzidenzkreis}
 \subsection{Theoretische Grundlagen}
 \subsubsection{Fast-Signal des Photomultipliers (Dynode)}
+Das an einer frühen Dynode abgegriffene „Fast-Signal“ des Photomultipliers wird für präzise Zeitmessungen verwendet. Aufgrund der geringen kapazitiven Last und der Tatsache, dass sich die Elektronenlawine noch nicht ausgebildet hat, weisen diese Signale eine relativ kurze Anstiegszeit in der Größenordnung von wenigen Nanosekunden auf. Dieses Signal ist unabhängig von Pulsform- und Amplitudenschwankungen, die in nachfolgenden Verstärkerstufen auftreten. Obwohl das schnelle Signal folglich weniger Energie transportiert, ist es mit dem Ankunftszeitpunkt des Photons korreliert und eignet sich daher zur Erzeugung eines schnellen Kontrasts.
 \subsubsection{CFD-Prinzip}
+Ein Constant-Fraction-Diskriminator (CFD) erzeugt aus einem Eingangsimpuls mit variabler Amplitude ein amplitudenunabhängiges Zeitsignal. Hierzu wird das Signal in zwei Kanäle aufgeteilt: Der eine durchläuft eine feste Zeitverzögerung, während der andere entsprechend einem Amplitudenschwellenwert abgeschwächt wird. Die Subtraktion der beiden Signale ergibt einen Impuls, dessen Nulldurchgang den Startzeitpunkt markiert. Da dieser Zeitpunkt unabhängig von der Impulsamplitude ist, kompensiert der CFD den Effekt des sogenannten „Time Walkings“ (amplitudenabhängige Zeitdrift) und verbessert so die Genauigkeit der Zeitbestimmung des Systems.
 \subsubsection{Fast-Koinzidenz}
+Zur Analyse der Signale in beiden Richtungen der Detektoren wird das Verfahren der Fast-Koinzidenz eingesetzt. Unter Verwendung des Modells der Fast-Koinzidenz wurden die Simulationsergebnisse mit CFD-Ergebnissen verglichen. Ein Synchronisationssignal wird nur dann erzeugt, wenn zwei Signale innerhalb eines kurzen Zeitintervalls ( typischerweise innerhalb einer Nanosekunde )auftreten. Dies verhindert Ereignisüberlagerungen und stellt sicher, dass nur Ereignisse desselben Kanals weiterverarbeitet werden.
 \subsubsection{TAC Start und Stop Logik}
+Der Zeit-Amplituden-Wandler (TAC) wandelt das Zeitintervall zwischen zwei CFD-Signalen in eine proportionale analoge Spannung um. Das erste Signal bestimmt den Beginn der Messung, das zweite deren Ende (Stopp). Während dieses Zeitintervalls lädt der TAC einen Integrationskondensator auf, sodass die Ausgangsspannung direkt proportional zum Zeitintervall Δt ist. Der Vielkanalanalysator (MCA) misst diese Spannung und ordnet sie verschiedenen Kanälen zu. Für den korrekten Betrieb ist eine bestimmte Abfolge von Start- und Stoppsignalen erforderlich; eine fehlerhafte Signalkombination wird durch eine zusätzliche Gating-Logik verhindert.
 \subsubsection{Promptkurve}
+Die  Promptkurve stellt ein Histogramm der zwischen zwei Detektoren gemessenen Zeitdifferenzen dar und bildet somit die zeitliche Korrelation der Ereignisse ab. Das Hauptmaximum der Promptkurve entspricht einer echten Koinzidenz, während der Untergrund aus einer zufälligen zeitlichen Überlagerung resultiert. Die Breite des Hauptmaximums der Kurve ist ein Maß für die Zeitauflösung des Detektorsystems. Durch Variation der Verzögerung in einem der Signalzweige lässt sich die Position des Maximums verschieben und so die optimale Einstellung für die zeitliche Synchronisation der Messreihe ermitteln.
 %--------------------------------------------------------
 \subsection{Einstellung des Fast-Koinzidenzkreises}
-\subsubsection{Fast-Pulse des Photomultipliers}
+%------------------------------------------------------------------------
+\subsubsection{Fast-Pulse des Photomultipliers kontrollieren}
+Zunächst untersuchen wir die funktionalen Unterschiede zwischen den Fast- und Slow- Ausgängen der verwendeten Photomultiplier. Hierfür werden beide Signale direkt an ein Oszilloskop angeschlossen (siehe Abbildung \ref{fig:aufbau_fast_1}). 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{aufbau_updated/kontrolle_fast_pulse.drawio.png}
+    \caption{Schaltplan zur Kontrolle des Fast-Pulses des PMTs}
+    \label{fig:aufbau_fast_1}
+\end{figure}
+
+\FloatBarrier
+
+Die resultierenden Signalverläufe sind in Abbildung \ref{fig:fast_1} dargestellt; zur besseren Vergleichbarkeit wurde das Nullniveau des Fast- Signals (Kanal 2) optisch nach oben verschoben. Die beiden Ausgangssignale unterscheiden sich dadurch, dass das Fast-Signal  eine negative Polarität aufweist, während das Slow-Signal positiv ist. Dies lässt sich durch die Schaltung des Photomultiplier-Sockels erklären, denn der Elektronenstrahl wird an der ersten Dynode abgegriffen, wodurch dort ein negativer Stromimpuls erzeugt wird. Das langsame Signal hingegen durchläuft eine Vorverstärkerschaltung, die unter anderem eine Polaritätsumkehr bewirkt.
+Die Impulsformen der Signale unterscheiden sich ebenfals. Aufgrund der kurzen Dauer des Elektronenstrahls weist das Fast-Signal steile Anstiegs- und Abfallflanken auf. Im Gegensatz dazu steigt das Slow-Signal wesentlich langsamer an. Diese Beobachtung ist auf den in die Vorverstärkerschaltung integrierten Kondensator zurückzuführen (vgl. Abbildung \ref{fig:aufbau_fast_1}), der das Signal glättet und zeitlich dehnt. Folglich zeigt das Slow-Signal deutlich geringere Amplitudenschwankungen als das Fast-Signal.
+Des Weiteren weisen die beiden Detektoren Unterschiede in der Signalamplitude auf, wie auf den Aufnahmen zu erkennen ist. Der rechte Detektor liefert Impulse mit einer etwas höherer Amplitude als der linke; dies deutet entweder auf eine bessere Lichtausbeute des Szintillators oder auf eine höhere Verstärkung des Photomultipliers hin.
+
+
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figs2/SUSKO02.png}
+    \caption{Rechts}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figs2/SUSKO03.png}
+    \caption{Links}
+  \end{minipage}
+  \caption{Vergleich des Slow- und Fast-Signals aus dem Photomultiplier am Oszilloskop. Die Slow-Pulse (CH1) haben genauere Amplituden, und die Fast-Pulse (CH2) haben kürzere Anstiegszeiten.}
+  \label{fig:fast_1}
+\end{figure}
+Die Anstiegszeit des Signals ist definiert als das Zeitintervall, in dem das Signal von 10 \% auf 90 \% seiner Maximalamplitude ansteigt. Basierend auf den Oszillogrammen in Abbildung \ref{fig:fast_1} ergeben sich für die Slow-Signale folgende Anstiegszeiten:
+\[
+\Delta t_{L,\text{slow}} = 100(40)\,\text{ns}, \qquad
+\Delta t_{R,\text{slow}} = 75(40)\,\text{ns}.
+\]
+
+Die Fast-Signale weisen wesentlich kürzere Anstiegszeiten auf, die ermittelten Anstiegszeiten betragen:
+\[
+\Delta t_{L,\text{fast}} = 150(60)\,\text{ns}, \qquad
+\Delta t_{R,\text{fast}} = 125(60)\,\text{ns}.
+\] Die beträchtliche Unsicherheit resultiert sowohl aus Ausleseschwankungen als auch aus der variablen Form der schnellen Impulse, was eine präzise Bestimmung erschwert. Insgesamt bestätigen die Messungen die theoretischen Vorhersagen: Das langsame Signal weist einen glatten Verlauf mit ausgedehnten Flanken auf, während das schnelle Signal eine Anstiegszeit besitzt, die nur etwa ein Zehntel derjenigen des langsamen Signals beträgt; dadurch lässt sich die zeitliche Struktur des Ereignisses mit wesentlich höherer Präzision erfassen. 
+%-----------------------------------------------------------
 \subsubsection{CFD-Diskriminatorschwelle}
+Um eine präzise Zeitaufnahme vom Fast-Schaltkreis zu erreichen, müssen die verwendeten CFD-Modelle sorgfältig optimiert werden, um die nötige Koinzidenz zwischen den Fast- und Slow-kreisen zu erzielen. Hierfür wurde zunächst der in Abbildung \ref{fig:aufbau_fast_2} dargestellte Aufbau gewählt, bei dem ein Gate- und Verzögerungsgenerator (GDG) zwischen den CFD und das Oszilloskop geschaltet ist. Der CFD-Parameter wird auf seinen Standardwert eingestellt. Im Idealfall gibt der CFD ein Logiksignal aus, sobald das unmittelbare Signal einen bestimmten Bruchteil seiner Breite überschreitet.
+
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{aufbau_updated/koinzidenz_slow_fast.drawio.png}
+    \caption{Hier wird Koinzidenz zwischen Slow- und Fast-Signal hergestellt.}
+    %\label{fig:aufbau_fast_2}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{aufbau_updated/energiespektrum.drawio.png}
+    \caption{Mit dieser Einstellung wird das Energiespektrum aufgenommen.}
+    %\label{fig:aufbau_fast_3}
+  \end{minipage}
+  \caption{Schaltpläne zur Einstelllung der Diskriminator-Schwellen }
+  \label{fig:aufbau_fast2}
+\end{figure}
+
+Das Oszilloskop zeigt das Slow-Signal (CH1) und das Fast-Signal (CH2) an. Der GDG dient dazu, das Slow-Signal so umzuwandeln, dass es zum Fast-Signal passt (siehe Abbildung \ref{fig:fast_2}). Abbildung \ref{fig:fast_2} zeigt, dass bei niedrigerer CFD-Schwelle auch Impulse mit geringerer Frequenz und Unregelmäßigkeit beobachtet werden. Im Gegensatz dazu zeigt Abbildung \ref{fig:fast_3} ein Verhalten mit deutlichen Unterschieden: es treten nur Spitzen mit hoher Amplitude auf. Dies verdeutlicht, dass eine Erhöhung der CFD-Schwelle schrittweise mehr Impulse mit niedriger Amplitude erzeugt und zuvor unsichtbare Impulse mit hoher Amplitude erscheinen. Dies bedeutet, dass die verwendeten CFD-Werkzeuge über ein angemessenes Amplitudenfenster verfügen und die Amplitude somit nicht überschätzen.
+
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO04.png}
+    \caption{Links}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO05.png}
+    \caption{Rechts}
+  \end{minipage}
+  \caption{Vergleich von Slow- und Fast-Signal am Oszilloskop nach Einstellung der CFD-Schwelle. Das Fast-Signal (CH2) ist nun deutlich besser zu erkennen, da nur noch Impulse über der Schwelle durchgelassen werden.}
+  \label{fig:fast_3}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO06.png}
+    \caption{Links}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO07.png}
+    \caption{Rechts}
+  \end{minipage}
+  \caption{Vergleich von Slow- und Fast-Signal am Oszilloskop nach Einstellung einer erhöten CFD-Schwelle.}
+  \label{fig:fast_3}
+\end{figure}
+\FloatBarrier
+Die schnellen bzw. langsamen Signale werden ohne weitere Bearbeitung den „Gate“- und „Signal“-Eingängen des MCA zugeführt (siehe Abbildung \ref{fig:aufbau_fast_3}). Wie beim vorherigen Spektrum repräsentiert das Gate-Signal eine höhere Frequenz als das Analogsignal. Da das Schwellenwertsignal in diesem Fall vom CFD-Modell abgeleitet wird, begrenzt es den Zeitpunkt, an dem der eingehende Impuls einen bestimmten Bruchteil seiner Breite erreicht. Zudem zeigt sich, dass der CFD bei höheren Drücken weniger auf niedrigere Drücke reagiert. Da der CFD als unerwünschter Massenfilter wirkt, kehrt die Differentialgleichung auf ihren Minimalwert zurück. Beim Vergleich der aufgezeichneten Spektren (Abbildung \ref{fig:fast_3}) mit dem zuvor gemessenen \(^{133}\)Ba-Spektrum (siehe Abbildung \ref{fig:aufbau_fast_3}) ist zu erkennen, dass der 31-keV-Peak im Vergleich zu Peaks höherer Energie, wie etwa dem 81-keV-Peak, unterschätzt wird. Dies bestätigt die zuvor beobachtete geringe CFD-Empfindlichkeit, die auf die niedrigen Ströme während der Niederspannungsphase zurückzuführen ist. Beim erweiterten CFD-Modell lässt sich die Ausdehnung der unteren Grenze unterdrücken. Zudem ist im linken Detektorkreis eine deutliche Verringerung des 31-keV-Peaks zu beobachten, was auf einen geringfügigen Unterschied zwischen den verwendeten Materialien hindeutet. Es zeigt sich, dass der CFD im linken Zweig niedrigere Amplituden stark unterdrückt, selbst bei niedrigerem Schwellenwert.
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{code/Ba_links_rechts_fast.png}
+    \caption{Messung vom Energiespektrum von $^{133}Ba$ am MCA nach Einstellung der CFD-Schwelle. Die Peaks bei 80 keV, ??? keV und 356 keV sind deutlich zu erkennen.}
+    \label{fig:fast_3}
+\end{figure}
+\FloatBarrier
+
+Die beiden aufgezeichneten Spektren zeigen die Ereignisverteilung für jeden Detektor in Abhängigkeit vom Kanalindex und der übertragenen Leistung. Beide Detektoren bilden denselben Verlauf ab, wie die relativen Peak-Positionen belegen. Dies demonstriert die Konsistenz der Energieniveaus und zeigt, dass beide Messsysteme dieselben Daten liefern. Trotz dieser Übereinstimmung unterscheiden sich die Spektren hinsichtlich der Peak-Intensitäten erheblich. Der rechte Detektor weist höhere Werte auf als der linke , insbesondere bei dem niederenergetischen Peak im Bereich $K \approx 750$ , während die höherenergetischen Peaks im rechten Spektrum nicht sichtbar sind. Der rechte Detektor liefert beispielsweise ein gutes Verhältnis zwischen niedriger und hoher Leistung. Diese Unterschiede können auf spezifische Detektoreigenschaften zurückzuführen sein, etwa auf die Sammlung des Szintillationslichts, die Verstärkung des Photomultipliers oder geringfügige Änderungen in der elektronischen Signalverarbeitung.
+
+Im Allgemeinen liefert ein besserer Detektor höhere Zählraten, insbesondere bei niedrigeren Energien; dies deutet auf eine bessere Photonendetektion oder geringere Verluste an der optischen Kopplungsstelle hin. Für den weiteren Verlauf des Experiments ist jedoch die Übereinstimmung der Peak-Flächen zwischen den beiden Spektren entscheidend, da die Lebensdauermessung lediglich von der Zeitskala und nicht vom Absolutwert abhängt. Der beobachtete Unterschied in der Peak-Höhe beeinträchtigt daher die nachfolgende Analyse nicht, auch wenn er darauf hinweist, dass die beiden Detektoren unterschiedliche Erfassungseigenschaften aufweisen.
+
+%---------------------------------------------------------------------------
 \subsubsection{Fast-Koinzidenz einstellen}
+Die Überprüfung der schnellen Koinzidenz ist essenziell, um den Unterschied in der Signallaufzeit zwischen den beiden  Modi präzise zu bestimmen. In diesem Versuchsteil wird erneut eine \(^{22}\)Na-Quelle verwendet, wobei beide Detektoren durch $\beta^+$-Zerfall ein 511-keV-Photon messen. Die Signale werden von den CFD-Geräten zum Oszilloskop geführt (siehe Abbildung \ref{fig:aufbau_fast_4}), und das Signal des linken Kanals wird durch eine Verzögerungsleitung (ns-Verzögerung) geleitet. Dies stellt sicher, dass das Stoppsignal auch bei gleichzeitigen Ereignissen erst nach dem Startsignal eintrifft.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{aufbau_updated/verzögerung_start_stop.drawio.png}
+    \caption{Schaltplan zur Einstellung der Verzögerung von Start- und Stopp-Signalen im Fast-Kreis. }
+    \label{fig:aufbau_fast_4}
+\end{figure}
+\FloatBarrier
+Der rechte Detektor wurde gewählt, um das Stoppsignal zu liefern, da er an beiden Ausgängen stärkere Impulse liefert als der linke Detektor. Da CFD-Geräte ein schwaches, amplitudenabhängiges Verhalten zeigen, ist es notwendig, das Stoppsignal vom PMT zu beziehen; dies ist am effektivsten, um ein Ausbleiben des Stoppsignals bei Ereignissen mit geringer Amplitude zu vermeiden. 
+ Für die weiteren Messungen wurden die negativen Ausgänge der CFDs verwendet. Um sicherzustellen, dass das Startsignal stets vor dem Stoppsignal erscheint, wurde Letzteres mittels einer ns-Verzögerungsleitung um 31,5 ns verzögert. Ein repräsentatives Oszillogramm ist in Abbildung \ref{fig:fast_4} dargestellt. Die zeitliche Korrelation der beiden Signale zeigt eine geringfügige Verschiebung des Stoppsignals, typischerweise innerhalb von ??? ns um den Referenzpunkt. Diese Schwankungen lassen sich durch die begrenzte **Zeitauflösung** der Messanordnung erklären. Es treten jedoch keinesfalls Stoppsignale vor dem Startsignal auf. Zudem ist zu beachten, dass trotz der Aktivität des Oszilloskops auf Kanal 1 das Stoppsignal auf Kanal 2 nicht bei allen aktiven Signalen sichtbar ist. Diese Ereignisse sind auf andere Zerfallswege des Natriums zurückzuführen, die nicht gleichzeitig ablaufen.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs2/SUSKO08.png}
+    \caption{Oszillogramm des linken Fast-Signals über den CFD (CH 1) im Vergleich zu rechten Fast-Signal über CFD und
+ns-Delay (CH 2), wobei das ns-Delay auf 31.5ns eingestellt ist. Die Signale sind nun zeitlich so ausgerichtet, dass sie innerhalb des Koinzidenzfensters liegen.}
+    \label{fig:fast_4}
+\end{figure}
+\FloatBarrier
+
+Das dargestellte Oszillogramm zeigt ein schnelles Signal, das von den CFDs zweier Detektoren erzeugt und mit einer zeitlichen Auflösung von 10 ns pro Verteilung aufgezeichnet wurde. Beide Impulse weisen kurze Dauern im Bereich weniger Nanosekunden auf , ähnlich wie schnelle Signale von Photomultipliern (PMT) . Zudem zeichnen sie sich durch einen steilen Anstieg gefolgt von einem exponentiellen Abfall aus. Die gelbe Kurve (CH1) repräsentiert den schnellen Ausgang des linken Detektors, während das cyanfarbene Signal (CH2) den schnellen Ausgang des rechten Detektors darstellt, nachdem dieser eine feste Verzögerungsleitung von etwa einer Nanosekunde durchlaufen hat. Die Unterschiede zwischen den beiden Signalen sind offensichtlich: Das rechte Signal trifft mit einer festen Verzögerung ein, ohne dass es zu einem nennenswerten Präzisionsverlust kommt. Die zeitliche Übereinstimmung der Impulse innerhalb desselben Zeitintervalls deutet darauf hin, dass die Verzögerung korrekt gewählt wurde und die beiden Signale koinzidieren.
+
+Die Impulsform stimmt mit früheren Beobachtungen überein: Beide weisen kurze Anstiegs- und Abfallzeiten auf, die auf die hohe Elektronendichte im Inneren des Photomultipliers zurückzuführen sind. Die Amplituden der beiden Impulse unterscheiden sich geringfügig; diese Variation ist entweder auf die unterschiedlichen Verstärkungsfaktoren der beiden PMTs oder auf einen kleinen Unterschied in der CFD-Elektronik zurückzuführen. Entscheidend ist jedoch, dass beide Signale eindeutig als Logikimpulse identifiziert werden, damit der TAC sie korrekt als „Start“- und „Stopp“-Signale interpretieren kann.
+
+Die zeitliche Stabilität der beiden Impulse ist deutlich erkennbar. Obwohl geringfügige Schwankungen im Bereich weniger Nanosekunden auftreten können, verbleiben die Signale in einem angemessenen Bereich und überlappen sich innerhalb der erwarteten Grenzen. Das Oszillogramm belegt, dass die Verzögerungseinstellung geeignet ist und die Start-Stopp-Logik des TAC für die nachfolgende Lebensdauermessung korrekt funktioniert.
+
 \subsubsection{Zeitlicher Abgleich von Fast- und Slow-Koinzidenz-Signalen}
+Nachdem die Anforderungen für den Fast und den Slow Zweig separat festgelegt wurden, kann das Modell abgeglichen werden. Hierfür wurde die Koinzidenzeinheit ; zusammen mit dem GDG; im langsamen Zweig platziert, während der TAC im schnellen Zweig angeordnet wurde. Abbildung \ref{fig:aufbau_fast_3} zeigt die Schaltungskonfiguration und die Einspeisung der beiden Signale in das Oszilloskop. Als Strahlenquelle dient weiterhin das $^{22}Na$-Präparat.
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png}
+    \caption{Links}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.75\textwidth]{aufbau_updated/Messung_Promptkurve_Na.drawio.png}
+    \caption{Rechts}
+  \end{minipage}
+  \caption{Schaltpläne zum Abgleich der Fast- und Slow-Koinzidenz-Signale (Links) und zur Messung der Promptkurve (Rechts)von $^{22}Na$.}
+  \label{fig:aufbau_fast_3}
+\end{figure}
+\FloatBarrier
+
+Abstrakt betrachtet fungiert die Koinzidenzschaltung nun als Energiefilter, denn ein Signal wird nur erzeugt, wenn beide Detektoren ein 511-keV-Photon liefern. Im zweiten Oszilloskopkanal wird ein gleichförmiger Analogimpuls erwartet; die TAC-Schwankungen von 31,5 ns, die zwischen Start und Ende der Impulsamplitude interpoliert werden, ähneln dem in Abbildung \ref{fig:fast_5} bestätigten Phänomen. Die feste TAC-Zeit von $500ns$, sowie die Dauer des anhaltenden Pulses deuten darauf hin, dass die kürzere Schwankungszeit größer ist als die TAC-Zeit. Obwohl die Anstiegszeit des TAC die Anstiegszeit der Koinzidenzeinheit des langsamen Kanals überstieg, fiel der Impulspunkt in den vom GDG vorgegebenen Zeitbereich. Der gewählte Koinzidenzbereich eignet sich für Lebensdauermessungen.
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{fig2/SUSKO011.png}
+  \caption{Oszillogramm vom TAC-Fastkreis (CH 1) und dem Slowkreis über Koinzidenzeinheit und GDG (CH 2)}
+  \label{fig:fast_5}
+\end{figure}
+\FloatBarrier
+Es ist wichtig anzumerken, dass das TAC-Symbol ; obwohl es wie eine flache „1“ aussieht; den aktuellen Zustand des Kondensators anzeigt. Dieses Verhalten steht im Einklang mit der zuvor beschriebenen Regelung der TAC-Aktivität und weist auf eine erfolgreiche Zeit-Amplituden-Modulation hin.
 \subsubsection{Zeitkalibration des TAC}
+Der Einsatz eines Zeit-Amplituden-Wandlers (TAC) zur Lebensdauermessung erfordert ; ähnlich wie bei der Spannungskalibrierung ; einen eindeutigen Zusammenhang zwischen dem MCA-Kanal und dem Zeitversatz. Diese Kanal-Zeit-Kalibrierung erfolgt durch die Aufnahme einer Kalibrierkurve. Die Quelle \(^{22}\)Na emittiert zeitlich synchronisierte 511-keV-Photonen zu zwei Detektoren; deren Ankunftszeiten lassen sich mithilfe einer Nanosekunden-Verzögerungsleitung optimieren. Die Ausgangssignale dienen als Start- und Endpunkte für den TAC, während der MCA ein Histogramm der resultierenden Amplituden erstellt. Somit entspricht der Aufbau für den Abgleich von Fast-Slow Koinzidenz in Abbildung \ref{fig:aufbau_fast_3} jenem, der für die Lebensdauerauswertung verwendet wird. Da der TAC eine Amplitude erzeugt, die der Verzögerungszeit entspricht, führt jede Erhöhung der Verzögerung zu Peaks gleicher Breite im MCA-Spektrum.
+
+
+Die Form der Kalibrierkurve wurde durch Messung der Verzögerung zwischen zwei gleichzeitigen Ereignissen in den Detektoren bestimmt. Die gleichzeitige Emission zweier 511-keV-Photonen erzeugt beim \(\beta^+\)-Zerfall Signale an beiden Detektoren. Da der TAC jedoch nicht bei Zeitintervallen von Null arbeiten kann, wird das Signal auf der rechten Seite durch die ns-Verzögerungsleitung verschoben; folglich misst der TAC stets die durch diese Verzögerungsleitung definierte Zeitdifferenz. Auf der Zeitskala entspricht die „Fast-Kurve“ (Kurve für kurze Zeiten) näherungsweise einer Delta-Funktion; numerische Schwankungen und Modellunsicherheiten führen jedoch zu einer glatten, gaußähnlichen Verteilung. Diese Symmetrie ist eine Folge der 511-keV-Photonen und lässt sich nur bei Verwendung einer \(^{22}\)Na-Quelle beobachten. 
+
+Für die Kalibrierung wurde ein Verzögerung von 15,5 ns eingestellt, und das resultierende Spektrum wurde aufgezeichnet, bis der entsprechende Peak deutlich sichtbar war; bedingt durch die kurze Verzögerung auf der rechten Seite des Spektrums. Bei Fortsetzung der Messung erhöht sich die gemessene Zeit in Schritten von 16 ns. Das resultierende Spektrum der Fast-Kurve ist in Abbildung \ref{fig:fast_6} dargestellt; es zeigt erwartungsgemäß mehrere sehr ausgeprägte Peaks mit ähnlicher Morphologie.
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{code/Na_Promptkurve.png}
+  \caption{Messung der Promptkurve mit $^{22}Na$ am MCA}
+  \label{fig:fast_6}
+\end{figure}
+\FloatBarrier
+
+
+In diesem Fall liegen sechs Peaks innerhalb des Messbereichs des MCA. Für die statistische Analyse wurde jede Trajektorie wie folgt an eine Gauß-Funktion angepasst:
+\[ G(K) = N \exp\!\left[-\frac{1}{2}\left(\frac{K - \mu}{\sigma}\right)^2\right]
+\]
+Die Anpassungskurven sind in Abbildung \ref{fig:fast_6} und die entsprechenden Parameter in Tabelle \ref{tab:kalibration} dargestellt. Die Lage des ersten Maximums bei \(t = 0\) ist willkürlich; da für die Abschätzung der Lebensdauern nur die zeitliche Verteilung relevant ist, haben Änderungen der Zeitkonstante keinen Einfluss auf die Ergebnisse.
+\begin{tabular}{c|c|c|c}
+\textbf{Peak} &
+\boldmath$\mu$ \textbf{ [Kanal]} &
+\boldmath$\sigma$ \textbf{ [Kanal]} &
+\boldmath$N_\text{max}$ \textbf{ [1]} \\
+\hline
+1 & 526  & $91.23 \pm 1.03$ & 133.0 \\
+2 & 1743 & $90.05 \pm 1.01$ & 140.0 \\
+3 & 3011 & $88.56 \pm 1.00$ & 134.0 \\
+4 & 4285 & $89.13 \pm 0.97$ & 139.0 \\
+5 & 5511 & $90.26 \pm 1.09$ & 137.0 \\
+\end{tabular}
+\caption{Zeit-Kanal-Zuordnung der Na-Promptkurve mit $a=75.8224\,\mathrm{ns/Kanal}$ und $b=528.2$.}
+  
+\end{tabular}
+
+Die Gauß-Anpassungen wurden unter Verwendung der linearen Funktion \(\mu_i(t) = \gamma t + \delta\) gemittelt. Die resultierenden Parameter
+\[\gamma = 0.01319(4) 1/ns\,\text{ns}^{-1}, \qquad \delta = 528,2(3)
+\] sind in Abbildung \ref{fig:fast_7} dargestellt. Die gute Übereinstimmung zwischen Simulation und Datenpunkten deutet auf einen linearen Zusammenhang zwischen TAC und dem Anstieg der Zerfallszeit hin. Es ist wichtig anzumerken, dass \(\delta\) dem Absolutwert von \(\mu_1\) entspricht; dies spiegelt den vorgegebenen Schwellenwert \(t = 0\) sowie die bessere Leistungsfähigkeit von TAC und MCA wider. Da nur \(\delta\) die Wahl des Nullpunkts bestimmt, ist dieser Parameter nicht relevant.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{code/Zeit_Kanal_Zuordnung.png}
+  \caption{Zeit-Kanal-Zuordnung von $^{22}Na$ }
+  \label{fig:fast_7}
+\end{figure}
+\FloatBarrier
+
+Die Integrationszeit des Systems wird durch die Halbwertsbreite (FWHM) des Zielsignals bestimmt. Eine größere Breite deutet auf eine größere Zeitdifferenz hin. Unter Verwendung der in Tabelle 9 aufgeführten \(\sigma\)-Werte und der Beziehung
+\[\sigma_{\mathrm{FWHM}} = 2\sqrt{2\ln 2}\,\sigma
+\]
+wurde für jede Kurve der entsprechende FWHM-Wert berechnet. Das arithmetische Mittel dieser Werte ergibt die Zeitauflösung des Systems:
+\[\Delta t = \langle \sigma_{\mathrm{FWHM}} \rangle = ()\,\text{ns}.
+\]
+Die Unsicherheiten wurden auf der Grundlage der Unterschiede in den Messwerten bestimmt. Die Umrechnung von der Breite in die Zeitvariation erfolgte mittels linearer Kalibrierung und Gaußscher Fehlerfortpflanzung, analog zur Analyse der Energieauflösung in Abschnitt \ref{} Die Ergebnisse, \(\Delta t = ()\,\text{ns}\), stimmen mit früheren Werten für eine Periode von etwa ?? ns überein. Die Zeitauflösung von ?? ns ist ein wichtiger Parameter für die Lebensdauermessungen, da sie die Fähigkeit des Systems bestimmt, zeitlich nahe beieinanderliegende Ereignisse zu unterscheiden. Eine geringere Zeitauflösung könnte zu einer Überlappung von Signalen führen, was die Genauigkeit der Lebensdauermessungen beeinträchtigen würde. Daher ist die Kalibrierung des TAC und die Bestimmung der Zeitauflösung entscheidend für die Zuverlässigkeit der experimentellen Ergebnisse.

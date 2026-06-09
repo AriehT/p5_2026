@@ -1,0 +1,35 @@
+Na-Promptkurve
+
+Gefundene Peaks: [ 526 1743 3011 4285 5511]
+
+Peak 1: Kanal 526, Max 133.0
+  Fit erfolgreich, χ²=305.63
+
+Peak 2: Kanal 1743, Max 140.0
+  Fit erfolgreich, χ²=272.90
+
+Peak 3: Kanal 3011, Max 134.0
+  Fit erfolgreich, χ²=300.67
+
+Peak 4: Kanal 4285, Max 139.0
+  Fit erfolgreich, χ²=286.29
+
+Peak 5: Kanal 5511, Max 137.0
+  Fit erfolgreich, χ²=340.77
+
+
+Zeit-Kanal Zuordnung:
+81 und 356keV-Fenster
+
+Fit-Parameter: a = 75.8224 ns/Kanal, b = 528.2 Kanäle
+
+
+Lebensdauer:
+
+--- Fitparameter ---
+I     = 1430.56
+tau   = 7.826 ns   <-- Lebensdauer
+t0    = 30.921 ns
+sigma = 2.750 ns
+
+

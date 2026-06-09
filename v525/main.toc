@@ -33,11 +33,11 @@
 \contentsline {subsubsection}{\nonumberline Fast-Koinzidenz}{15}{subsubsection*.58}%
 \contentsline {subsubsection}{\nonumberline TAC Start und Stop Logik}{15}{subsubsection*.60}%
 \contentsline {subsubsection}{\nonumberline Promptkurve}{15}{subsubsection*.62}%
-\contentsline {subsection}{\numberline {0.4.2}Einstellung des Fast-Koinzidenzkreises}{15}{subsection.0.4.2}%
-\contentsline {subsubsection}{\nonumberline Fast-Pulse des Photomultipliers}{15}{subsubsection*.64}%
-\contentsline {subsubsection}{\nonumberline CFD-Diskriminatorschwelle}{15}{subsubsection*.66}%
-\contentsline {subsubsection}{\nonumberline Fast-Koinzidenz einstellen}{15}{subsubsection*.68}%
-\contentsline {subsubsection}{\nonumberline Zeitlicher Abgleich von Fast- und Slow-Koinzidenz-Signalen}{15}{subsubsection*.70}%
-\contentsline {subsubsection}{\nonumberline Zeitkalibration des TAC}{15}{subsubsection*.72}%
-\contentsline {section}{\numberline {0.5}Fazit}{16}{section.0.5}%
+\contentsline {subsection}{\numberline {0.4.2}Einstellung des Fast-Koinzidenzkreises}{16}{subsection.0.4.2}%
+\contentsline {subsubsection}{\nonumberline Fast-Pulse des Photomultipliers kontrollieren}{16}{subsubsection*.64}%
+\contentsline {subsubsection}{\nonumberline CFD-Diskriminatorschwelle}{17}{subsubsection*.68}%
+\contentsline {subsubsection}{\nonumberline Fast-Koinzidenz einstellen}{19}{subsubsection*.74}%
+\contentsline {subsubsection}{\nonumberline Zeitlicher Abgleich von Fast- und Slow-Koinzidenz-Signalen}{22}{subsubsection*.78}%
+\contentsline {subsubsection}{\nonumberline Zeitkalibration des TAC}{23}{subsubsection*.82}%
+\contentsline {section}{\numberline {0.5}Fazit}{26}{section.0.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
