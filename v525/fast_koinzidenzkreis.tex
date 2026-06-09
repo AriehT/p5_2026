@@ -31,20 +31,24 @@ Des Weiteren weisen die beiden Detektoren Unterschiede in der Signalamplitude au
 
 
 \begin{figure}[htbp]
-  \centering
-  \begin{minipage}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{figs2/SUSKO02.png}
-    \caption{Rechts}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{figs2/SUSKO03.png}
-    \caption{Links}
-  \end{minipage}
-  \caption{Vergleich des Slow- und Fast-Signals aus dem Photomultiplier am Oszilloskop. Die Slow-Pulse (CH1) haben genauere Amplituden, und die Fast-Pulse (CH2) haben kürzere Anstiegszeiten.}
-  \label{fig:fast_1}
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs2/SUSKO02.png}
+        \caption{Rechter Detektor}
+        \label{fig:fast1rechts}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs2/SUSKO03.png}
+        \caption{Linker Detektor}
+        \label{fig:fast1links}
+    \end{subfigure}
+
+    \caption{Vergleich des Slow- und Fast-Signals aus dem Photomultiplier am Oszilloskop. Die Slow-Pulse (CH1) haben genauere Amplituden, und die Fast-Pulse (CH2) haben kürzere Anstiegszeiten.}
+    \label{fig:fast_1}
 \end{figure}
 Die Anstiegszeit des Signals ist definiert als das Zeitintervall, in dem das Signal von 10 \% auf 90 \% seiner Maximalamplitude ansteigt. Basierend auf den Oszillogrammen in Abbildung \ref{fig:fast_1} ergeben sich für die Slow-Signale folgende Anstiegszeiten:
 \[
@@ -63,60 +67,70 @@ Um eine präzise Zeitaufnahme vom Fast-Schaltkreis zu erreichen, müssen die ver
 
 
 \begin{figure}[htbp]
-  \centering
-  \begin{minipage}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=0.75\textwidth]{aufbau_updated/koinzidenz_slow_fast.drawio.png}
-    \caption{Hier wird Koinzidenz zwischen Slow- und Fast-Signal hergestellt.}
-    %\label{fig:aufbau_fast_2}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.48\textwidth}
-    \centering
-    \includegraphics[width=0.75\textwidth]{aufbau_updated/energiespektrum.drawio.png}
-    \caption{Mit dieser Einstellung wird das Energiespektrum aufgenommen.}
-    %\label{fig:aufbau_fast_3}
-  \end{minipage}
-  \caption{Schaltpläne zur Einstelllung der Diskriminator-Schwellen }
-  \label{fig:aufbau_fast2}
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{aufbau_updated/koinzidenz_slow_fast.drawio.png}
+        \caption{Einstellung zur Herstellung der Koinzidenz zwischen Fast- und Slow-Signal}
+        \label{fig:fastaufbau1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{aufbau_updated/energiespektrum.drawio.png}
+        \caption{Einstellung zur aufnahme des Energiespektrums}
+        \label{fig:fastaufbau2}
+    \end{subfigure}
+
+    \caption{Schaltpläne zur Einstellung der CFD-Schwellen.}
+    \label{fig:aufbau_fast2}
 \end{figure}
 
 Das Oszilloskop zeigt das Slow-Signal (CH1) und das Fast-Signal (CH2) an. Der GDG dient dazu, das Slow-Signal so umzuwandeln, dass es zum Fast-Signal passt (siehe Abbildung \ref{fig:fast_2}). Abbildung \ref{fig:fast_2} zeigt, dass bei niedrigerer CFD-Schwelle auch Impulse mit geringerer Frequenz und Unregelmäßigkeit beobachtet werden. Im Gegensatz dazu zeigt Abbildung \ref{fig:fast_3} ein Verhalten mit Unterschieden: es treten nur Spitzen mit hoher Amplitude auf. Dies verdeutlicht, dass eine Erhöhung der CFD-Schwelle schrittweise mehr Impulse mit niedriger Amplitude erzeugt und zuvor unsichtbare Impulse mit hoher Amplitude erscheinen. Dies bedeutet, dass die verwendeten CFD-Werkzeuge über ein angemessenes Amplitudenfenster verfügen und die Amplitude somit nicht überschätzen.
 
 
 \begin{figure}[htbp]
-  \centering
-  \begin{minipage}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=0.75\textwidth]{figs2/SUSKO04.png}
-    \caption{Links}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.48\textwidth}
-    \centering
-    \includegraphics[width=0.75\textwidth]{figs2/SUSKO05.png}
-    \caption{Rechts}
-  \end{minipage}
-  \caption{Vergleich von Slow- und Fast-Signal am Oszilloskop nach Einstellung der CFD-Schwelle. Das Fast-Signal (CH2) ist nun deutlich besser zu erkennen, da nur noch Impulse über der Schwelle durchgelassen werden.}
-  \label{fig:fast_3}
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs2/SUSKO04.png}
+        \caption{Linker Detektor}
+        \label{fig:cfdlinks1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs2/SUSKO05.png}
+        \caption{Rechter Detektor}
+        \label{fig:cfdrechts1}
+    \end{subfigure}
+
+    \caption{Vergleich von Slow- und Fast-Signal nach Einstellung der CFD-Schwelle. Das Fast-Signal (CH2) ist nun deutlich besser sichtbar, da nur noch Impulse oberhalb der eingestellten Schwelle verarbeitet werden.}
+    \label{fig:fast_3}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[htbp]
-  \centering
-  \begin{minipage}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=0.75\textwidth]{figs2/SUSKO06.png}
-    \caption{Links}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.48\textwidth}
-    \centering
-    \includegraphics[width=0.75\textwidth]{figs2/SUSKO07.png}
-    \caption{Rechts}
-  \end{minipage}
-  \caption{Vergleich von Slow- und Fast-Signal am Oszilloskop nach Einstellung einer erhöten CFD-Schwelle.}
-  \label{fig:fast_3}
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs2/SUSKO06.png}
+        \caption{Linker Detektor}
+        \label{fig:cfdlinks2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs2/SUSKO07.png}
+        \caption{Rechter Detektor}
+        \label{fig:cfdrechts2}
+    \end{subfigure}
+
+    \caption{Vergleich von Slow- und Fast-Signal nach Erhöhung der CFD-Schwelle.}
+    \label{fig:fast_4}
 \end{figure}
 \FloatBarrier
 Die schnellen bzw. langsamen Signale werden ohne weitere Bearbeitung den „Gate“- und „Signal“-Eingängen des MCA zugeführt (siehe Abbildung \ref{fig:aufbau_fast_3}). Wie beim vorherigen Spektrum repräsentiert das Gate-Signal eine höhere Frequenz als das Analogsignal. Da das Schwellenwertsignal in diesem Fall vom CFD-Modell abgeleitet wird, begrenzt es den Zeitpunkt, an dem der eingehende Impuls einen bestimmten Bruchteil seiner Breite erreicht. Zudem zeigt sich, dass der CFD bei höheren Drücken weniger auf niedrigere Drücke reagiert. Da der CFD in der Praxis als unerwünschter Amplitudenfilter wirkt, werden niederamplitudige Signale zunehmend unterdrückt. Dadurch kehrt die resultierende Zeitmarke des Systems bei hohen Schwellenwerten auf einen effektiven Minimalwert zurück. Beim Vergleich der aufgezeichneten Spektren (Abbildung \ref{fig:fast_3}) mit dem zuvor gemessenen 
@@ -167,20 +181,24 @@ Die zeitliche Stabilität der beiden Impulse ist deutlich erkennbar. Obwohl geri
 Nachdem die Anforderungen für den Fast und den Slow Zweig separat festgelegt wurden, kann das Modell abgeglichen werden. Hierfür wurde die Koinzidenzeinheit ; zusammen mit dem GDG; im langsamen Zweig platziert, während der TAC im schnellen Zweig angeordnet wurde. Abbildung \ref{fig:aufbau_fast_3} zeigt die Schaltungskonfiguration und die Einspeisung der beiden Signale in das Oszilloskop. Als Strahlenquelle dient weiterhin das $^{22}Na$-Präparat.
 
 \begin{figure}[htbp]
-  \centering
-  \begin{minipage}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=0.75\textwidth]{aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png}
-    \caption{Links}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.48\textwidth}
-    \centering
-    \includegraphics[width=0.75\textwidth]{aufbau_updated/Messung_Promptkurve_Na.drawio.png}
-    \caption{Rechts}
-  \end{minipage}
-  \caption{Schaltpläne zum Abgleich der Fast- und Slow-Koinzidenz-Signale (Links) und zur Messung der Promptkurve (Rechts)von $^{22}Na$.}
-  \label{fig:aufbau_fast_3}
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{aufbau_updated/Abgleich_Fast_Slow_Koinzidenz.drawio.png}
+        \caption{Abgleich der Fast- und Slow-Koinzidenz}
+        \label{fig:abgleich_fastslow}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{aufbau_updated/Messung_Promptkurve_Na.drawio.png}
+        \caption{Messung der Promptkurve mit $^{22}$Na}
+        \label{fig:promptkurve_aufbau}
+    \end{subfigure}
+
+    \caption{Schaltpläne zum Abgleich der Fast- und Slow-Koinzidenzsignale sowie zur Aufnahme der Promptkurve mit $^{22}$Na.}
+    \label{fig:aufbau_fast_3}
 \end{figure}
 \FloatBarrier
 
