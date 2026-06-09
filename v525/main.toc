@@ -30,4 +30,5 @@
 \contentsline {subsubsection}{\nonumberline Zeitlicher Abgleich von Fast- und Slow-Koinzidenz-Signalen}{24}{subsubsection*.54}%
 \contentsline {subsubsection}{\nonumberline Zeitkalibration des TAC}{25}{subsubsection*.58}%
 \contentsline {section}{\numberline {2.5}Fazit}{28}{section.2.5}%
+\contentsline {chapter}{\numberline {3}KI-Nutzung}{29}{chapter.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
