@@ -10,20 +10,27 @@ def gauss_with_bg(x, A, mu, sigma, m, b):
 
 # ------------------------------------------------------------
 # Peak-Fit-Funktion
-def fit_peak(x, y, fit_min, fit_max):
+def fit_peak(x, y, fit_min, fit_max, p0 = None):
     # Fitbereich 
     mask = (x >= fit_min) & (x <= fit_max)
     x_fit = x[mask]
     y_fit = y[mask]
 
     # Startwerte 
-    A0 = np.max(y_fit) - np.min(y_fit)
+    '''A0 = np.max(y_fit) - np.min(y_fit)
     mu0 = x_fit[np.argmax(y_fit)]
     sigma0 = (fit_max - fit_min) / 10
     m0 = 0
-    b0 = np.min(y_fit)
+    b0 = np.min(y_fit)'''
+    if p0 is None:
+        A0 = np.max(y_fit) - np.min(y_fit)
+        mu0 = x_fit[np.argmax(y_fit)]
+        sigma0 = (fit_max - fit_min) / 10
+        m0 = 0
+        b0 = np.min(y_fit)
+        p0 = [A0, mu0, sigma0, m0, b0]
 
-    p0 = [A0, mu0, sigma0, m0, b0]
+    #p0 = [A0, mu0, sigma0, m0, b0]
 
     #durchführen
     popt, pcov = curve_fit(gauss_with_bg, x_fit, y_fit, p0=p0)
@@ -69,3 +76,4 @@ plt.ylabel("Zählrate")
 plt.legend()
 plt.title("Peak-Fit (Gauß + Untergrund)")
 plt.show()
+plt.savefig("Voraufgabe_Plot.png")
