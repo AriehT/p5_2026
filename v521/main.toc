@@ -1,12 +1,14 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {0.1}Einleitung}{1}{section.0.1}%
 \contentsline {section}{\numberline {0.2}Aufbau}{2}{section.0.2}%
-\contentsline {section}{\numberline {0.3}Justage der Versuchanordnung}{3}{section.0.3}%
-\contentsline {section}{\numberline {0.4}Energiekalibrierung}{4}{section.0.4}%
-\contentsline {section}{\numberline {0.5}Bestimmung der Halbwertsbreite}{5}{section.0.5}%
-\contentsline {section}{\numberline {0.6}Intrinsische Halbwertsbreite des HPGe-Halbleiterdetektors}{6}{section.0.6}%
-\contentsline {section}{\numberline {0.7}Peak-to-Total-Verhältnis}{7}{section.0.7}%
-\contentsline {section}{\numberline {0.8}Bestimmung der Detektoreffizienz}{8}{section.0.8}%
-\contentsline {section}{\numberline {0.9}Nachweis der Radioaktivit¨at in einer Probe}{9}{section.0.9}%
-\contentsline {section}{\numberline {0.10}Fazit}{10}{section.0.10}%
+\contentsline {section}{\numberline {0.3}Vorbereitung der Versuchanordnung}{3}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}Justage des NaI-Szintillationsdetektor}{3}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}Justage des HPGe-Halbleiterdetektor}{3}{subsection.0.3.2}%
+\contentsline {section}{\numberline {0.4}Energiekalibrierung}{5}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Bestimmung der Halbwertsbreite}{6}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Intrinsische Halbwertsbreite des HPGe-Halbleiterdetektors}{7}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Peak-to-Total-Verhältnis}{8}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Bestimmung der Detektoreffizienz}{9}{section.0.8}%
+\contentsline {section}{\numberline {0.9}Nachweis der Radioaktivit¨at in einer Probe}{10}{section.0.9}%
+\contentsline {section}{\numberline {0.10}Fazit}{11}{section.0.10}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
