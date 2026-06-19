@@ -1,0 +1,221 @@
+Aktivitäten zum Messzeitpunkt
+====================================
+Cs-137 : 363398.21 Bq
+Co-60  : 36112.00 Bq
+Eu-152 : 557050.05 Bq
+
+Caesium: Peakdaten
+====================================
+
+Peak 1
+mittlerer Channel mu = 5679.91 ± 0.46
+FWHM in Channel      = 398.16 ± 0.96
+Peakfläche F         = 168625.83 ± 455.88
+chi_red              = 1.15
+E_gamma              = 661.7000 ± 0.1000 keV
+I_gamma              = 0.85100 ± 0.00200
+
+Cobalt: Peakdaten
+====================================
+
+Peak 1
+mittlerer Channel mu = 9825.55 ± 1.32
+FWHM in Channel      = 504.78 ± 3.37
+Peakfläche F         = 50957.58 ± 380.92
+chi_red              = 1.20
+E_gamma              = 1173.2000 ± 0.1000 keV
+I_gamma              = 0.99850 ± 0.00030
+
+Peak 2
+mittlerer Channel mu = 11140.27 ± 1.36
+FWHM in Channel      = 594.88 ± 5.48
+Peakfläche F         = 51216.06 ± 619.65
+chi_red              = 1.20
+E_gamma              = 1332.5000 ± 0.1000 keV
+I_gamma              = 0.99826 ± 0.00060
+
+Europium: Peakdaten
+====================================
+
+Peak 1
+mittlerer Channel mu = 1137.42 ± 0.31
+FWHM in Channel      = 116.54 ± 0.75
+Peakfläche F         = 59592.55 ± 402.71
+chi_red              = 1.01
+E_gamma              = 121.7817 ± 0.0003 keV
+I_gamma              = 0.28530 ± 0.00160
+
+Peak 2
+mittlerer Channel mu = 2181.51 ± 1.78
+FWHM in Channel      = 193.88 ± 5.01
+Peakfläche F         = 12943.84 ± 408.59
+chi_red              = 0.98
+E_gamma              = 244.6974 ± 0.0008 keV
+I_gamma              = 0.07550 ± 0.00040
+
+Peak 3
+mittlerer Channel mu = 3022.13 ± 1.04
+FWHM in Channel      = 268.12 ± 2.91
+Peakfläche F         = 38531.08 ± 523.33
+chi_red              = 1.11
+E_gamma              = 344.2785 ± 0.0012 keV
+I_gamma              = 0.26590 ± 0.00200
+
+Peak 4
+mittlerer Channel mu = 6618.14 ± 6.56
+FWHM in Channel      = 401.81 ± 23.94
+Peakfläche F         = 6701.10 ± 621.30
+chi_red              = 0.96
+E_gamma              = 778.9045 ± 0.0024 keV
+I_gamma              = 0.12930 ± 0.00080
+
+Peak 5
+mittlerer Channel mu = 8118.94 ± 7.14
+FWHM in Channel      = 430.94 ± 24.95
+Peakfläche F         = 5581.22 ± 500.11
+chi_red              = 1.01
+E_gamma              = 964.0570 ± 0.0050 keV
+I_gamma              = 0.14510 ± 0.00070
+
+Peak 6
+mittlerer Channel mu = 9065.91 ± 70.42
+FWHM in Channel      = 332.25 ± 73.48
+Peakfläche F         = 3534.74 ± 2473.89
+chi_red              = 1.09
+E_gamma              = 1085.8370 ± 0.0100 keV
+I_gamma              = 0.10110 ± 0.00050
+
+Peak 7
+mittlerer Channel mu = 9328.23 ± 65.15
+FWHM in Channel      = 359.99 ± 68.93
+Peakfläche F         = 5005.14 ± 2446.61
+chi_red              = 1.09
+E_gamma              = 1112.0760 ± 0.0030 keV
+I_gamma              = 0.13670 ± 0.00080
+
+Peak 8
+mittlerer Channel mu = 11702.26 ± 7.26
+FWHM in Channel      = 576.39 ± 22.60
+Peakfläche F         = 6094.19 ± 374.44
+chi_red              = 1.14
+E_gamma              = 1408.0130 ± 0.0030 keV
+I_gamma              = 0.20870 ± 0.00090
+
+Energieeichung
+====================================
+
+Energiekalibrierung
+chi²      = 16007.257
+ndf       = 9
+chi²_red  = 1778.584
+E(K) = a*K + b
+a = 0.120150 ± 0.000437 keV/Kanal
+b = -16.197 ± 1.827 keV
+
+#Es sieht gut aus, wegen den kleinen fehler ist chi^2 aber sehr gross.
+
+FWHM-Kalibrierung
+====================================
+chi²      = 272.937
+ndf       = 9
+chi²_red  = 30.326
+Delta E = y * sqrt(E_gamma) + z
+y = 2.24305 ± 0.00879
+z = -10.56407 ± 0.16731 keV
+
+#Weil die vorletzten peaks von Europium sehr klein und breit waren sind diese etwas niedriger als die Kurze, deswegen das chi^2
+
+
+Peak-to-Total-Verhältnis
+====================================
+
+Cs-137 bei 662 keV
+N_Photopeaks = 1.686e+05 ± 4.559e+02
+N_Total      = 5.050e+05 ± 7.899e+02
+P/T          = 0.33390 ± 0.00104
+
+Co-60 bei ca. 1252.8 keV
+N_Photopeaks = 1.022e+05 ± 7.274e+02
+N_Total      = 4.521e+05 ± 7.528e+02
+P/T          = 0.22602 ± 0.00165
+
+Detektoreffizienz
+====================================
+
+Raumwinkelfaktoren
+====================================
+Caesium: Omega/4pi = 1.538829e-02 ± 1.30e-04
+Cobalt: Omega/4pi = 3.168338e-01 ± 3.23e-03
+Europium: Omega/4pi = 3.984119e-03 ± 3.20e-05
+
+Caesium, E = 661.70 keV
+N_Detektor = 1.427657e+06
+epsilon_abs = 11.811 ± 0.108 %
+
+Europium, E = 121.78 keV
+N_Detektor = 1.899545e+05
+epsilon_abs = 31.372 ± 0.373 %
+
+Europium, E = 244.70 keV
+N_Detektor = 5.026837e+04
+epsilon_abs = 25.749 ± 0.850 %
+
+Europium, E = 344.28 keV
+N_Detektor = 1.770379e+05
+epsilon_abs = 21.764 ± 0.380 %
+
+Europium, E = 778.90 keV
+N_Detektor = 8.608874e+04
+epsilon_abs = 7.784 ± 0.726 %
+
+Europium, E = 964.06 keV
+N_Detektor = 9.660848e+04
+epsilon_abs = 5.777 ± 0.520 %
+
+Europium, E = 1085.84 keV
+N_Detektor = 6.731300e+04
+epsilon_abs = 5.251 ± 3.676 %
+
+Europium, E = 1112.08 keV
+N_Detektor = 9.101570e+04
+epsilon_abs = 5.499 ± 2.689 %
+
+Europium, E = 1408.01 keV
+N_Detektor = 1.389537e+05
+epsilon_abs = 4.386 ± 0.272 %
+
+Effizienzfit nur mit Eu-152
+====================================
+epsilon_abs(E_gamma)=exp(-a1*e+a2*e^2)
+e=ln(E_gamma/1.022 keV)
+a1       = -0.039229 ± 0.014094
+a2       = -0.056339 ± 0.002607
+chi2     = 214.862
+ndf      = 6
+chi2_red = 35.810
+
+#chi^2 ist etwas gross, aber warscheinlich wie bei der Halbwerts zeit.
+
+Absolute Effizienzen in Prozent
+====================================
+Eu-152, E = 121.78 keV: epsilon_abs = 31.372 ± 0.373 %
+Eu-152, E = 244.70 keV: epsilon_abs = 25.749 ± 0.850 %
+Eu-152, E = 344.28 keV: epsilon_abs = 21.764 ± 0.380 %
+Eu-152, E = 778.90 keV: epsilon_abs = 7.784 ± 0.726 %
+Eu-152, E = 964.06 keV: epsilon_abs = 5.777 ± 0.520 %
+Eu-152, E = 1085.84 keV: epsilon_abs = 5.251 ± 3.676 %
+Eu-152, E = 1112.08 keV: epsilon_abs = 5.499 ± 2.689 %
+Eu-152, E = 1408.01 keV: epsilon_abs = 4.386 ± 0.272 %
+Cs-137, E = 661.70 keV: epsilon_abs = 11.811 ± 0.108 %
+
+Aktivität der Cobalt-Quelle aus Effizienzkorrektur
+===================================================
+N_reach = 1.317784e+06
+B_Co    = 6.808565e+02 Bq
+B_Co    = 0.680857 kBq
+
+Vergleich mit Zerfallsgesetz
+===================================================
+A_Co aus Zerfallsgesetz = 3.611200e+04 Bq
+A_Co aus Zerfallsgesetz = 36.111995 kBq
+Verhältnis B_Co/A_Co    = 0.0189
