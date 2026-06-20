@@ -1,0 +1,186 @@
+Erde: Gauß-Fits ohne Untergrundabzug
+====================================
+
+Fitbereich : 715 - 830
+Peak 1
+mu         = 753.67 ± 0.28
+E_gamma    = 72.77 ± 0.03 keV
+sigma      = 4.53 ± 0.29
+FWHM       = 10.66 ± 0.68
+Fläche F   = 1873.13 ± 116.22
+
+wahrscheinlichster Übergang: Pb-Kα-Röntgenlinie / Pb X-ray, evtl. Abschirmung
+
+Peak 2
+mu         = 776.37 ± 0.16
+E_gamma    = 74.96 ± 0.02 keV
+sigma      = 4.72 ± 0.16
+FWHM       = 11.12 ± 0.38
+Fläche F   = 3747.81 ± 122.31
+chi2_red   = 1.02
+
+wahrscheinlichster Übergang: Pb-Kα / Bi-Kα-Röntgenlinie
+
+Fitbereich : 830 - 950
+Peak 3
+mu         = 878.35 ± 0.33
+E_gamma    = 84.79 ± 0.03 keV
+sigma      = 5.95 ± 0.35
+FWHM       = 14.01 ± 0.82
+Fläche F   = 2265.01 ± 129.01
+
+wahrscheinlichster Übergang: Pb-Kβ / Bi-Kβ-Röntgenlinie
+
+Peak 4
+mu         = 905.03 ± 0.62
+E_gamma    = 87.36 ± 0.06 keV
+sigma      = 4.82 ± 0.65
+FWHM       = 11.35 ± 1.54
+Fläche F   = 828.42 ± 107.59
+chi2_red   = 0.90
+
+wahrscheinlichster Übergang: Pb-Kβ / Bi-Kβ-Röntgenlinie
+
+Fitbereich : 2400 - 2550
+Peak 5
+mu         = 2474.84 ± 0.18
+E_gamma    = 238.67 ± 0.02 keV
+sigma      = 4.81 ± 0.18
+FWHM       = 11.32 ± 0.42
+Fläche F   = 2374.46 ± 82.38
+chi2_red   = 1.33
+
+wahrscheinlichster Übergang: 212^Pb, 238.6 keV, Thorium-Reihe
+
+Fitbereich : 3025 - 3100
+Peak 6
+mu         = 3061.66 ± 0.44
+E_gamma    = 295.23 ± 0.04 keV
+sigma      = 5.84 ± 0.46
+FWHM       = 13.74 ± 1.09
+Fläche F   = 965.47 ± 76.59
+chi2_red   = 0.86
+
+wahrscheinlichster Übergang: 214^Pb, 295.2 keV, Uran-/Radon-Reihe
+
+Fitbereich : 3463 - 3550
+Peak 7
+mu         = 3508.37 ± 0.62
+E_gamma    = 338.29 ± 0.06 keV
+sigma      = 5.20 ± 0.63
+FWHM       = 12.25 ± 1.48
+Fläche F   = 502.17 ± 59.72
+chi2_red   = 0.92
+
+wahrscheinlichster Übergang: wahrscheinlich 228^Ac, 338.3 keV
+
+Fitbereich : 3600 - 3700
+Peak 8
+mu         = 3650.12 ± 0.22
+E_gamma    = 351.95 ± 0.02 keV
+sigma      = 5.41 ± 0.22
+FWHM       = 12.74 ± 0.51
+Fläche F   = 1731.35 ± 67.47
+chi2_red   = 1.00
+
+wahrscheinlichster Übergang: 214^Pb, 351.9 keV
+
+Fitbereich : 5250 - 5370
+Peak 9
+mu         = 5299.70 ± 0.43
+E_gamma    = 510.94 ± 0.04 keV
+sigma      = 11.02 ± 0.46
+FWHM       = 25.95 ± 1.08
+Fläche F   = 1911.73 ± 81.79
+chi2_red   = 1.21
+
+wahrscheinlichster Übergang: Annihilationslinie, 511 keV
+
+Fitbereich : 6000 - 6100
+Peak 10
+mu         = 6049.29 ± 0.29
+E_gamma    = 583.19 ± 0.03 keV
+sigma      = 6.33 ± 0.27
+FWHM       = 14.90 ± 0.64
+Fläche F   = 1218.19 ± 53.04
+chi2_red   = 1.01
+
+wahrscheinlichster Übergang: 208^Tl, 583.2 keV
+
+Fitbereich : 6270 - 6365
+Peak 11
+mu         = 6321.09 ± 0.25
+E_gamma    = 609.39 ± 0.02 keV
+sigma      = 6.92 ± 0.24
+FWHM       = 16.30 ± 0.55
+Fläche F   = 1700.94 ± 58.93
+chi2_red   = 1.21
+
+wahrscheinlichster Übergang: 214^Bi, 609.3 keV
+
+Fitbereich : 9400 - 9500
+Peak 12
+mu         = 9452.59 ± 0.30
+E_gamma    = 911.22 ± 0.03 keV
+sigma      = 6.88 ± 0.28
+FWHM       = 16.21 ± 0.66
+Fläche F   = 1086.94 ± 45.20
+chi2_red   = 0.82
+
+wahrscheinlichster Übergang: 228^Ac, 911.2 keV
+
+Fitbereich : 9970 - 10100
+Peak 13
+mu         = 10008.44 ± 1.30
+E_gamma    = 964.80 ± 0.13 keV
+sigma      = 8.09 ± 1.47
+FWHM       = 19.06 ± 3.47
+Fläche F   = 204.21 ± 39.33
+
+wahrscheinlichster Übergang: 228^Ac, ca. 964.8 keV
+
+Peak 14
+mu         = 10052.17 ± 0.53
+E_gamma    = 969.01 ± 0.05 keV
+sigma      = 7.75 ± 0.52
+FWHM       = 18.26 ± 1.21
+Fläche F   = 589.87 ± 41.29
+chi2_red   = 0.76
+
+wahrscheinlichster Übergang: 228^Ac, 969.0 keV
+
+Fitbereich : 11580 - 11670
+Peak 15
+mu         = 11622.98 ± 0.58
+E_gamma    = 1120.41 ± 0.06 keV
+sigma      = 8.05 ± 0.58
+FWHM       = 18.95 ± 1.36
+Fläche F   = 540.16 ± 40.10
+chi2_red   = 0.98
+
+wahrscheinlichster Übergang: 214^Bi, 1120.3 keV
+
+Fitbereich : 15100 - 15200
+Peak 16
+mu         = 15155.14 ± 0.10
+E_gamma    = 1460.86 ± 0.02 keV
+sigma      = 8.44 ± 0.08
+FWHM       = 19.87 ± 0.19
+Fläche F   = 7589.41 ± 90.15
+chi2_red   = 1.24
+
+wahrscheinlichster Übergang: 40^K, 1460.8 keV nur von der Erde
+
+1-4: Blei-Röntgenlinien (sehr warscheinlich, direkt von der Abschirmung) Bleibox
+
+6, 8, 11, 15, Natürliche Zerfallsreihen von Rn -> Pb -> Bi
+möglicheweise aus der Luft
+
+5, 7, 10, 12, 14, Natürliche Zerfallsreihen von Thorium Th, 232^Th→228^Ra→228^Ac→228^Th→224^Ra→220^Rn→216^Po→212^Pb→212^Bi→208^Tl→208^Pb
+ausmögliche Bleiligierung, kann aber in !!erde!! vorkommen
+könnte aus mineralischen Beimengungen, Staub, Sand/Erde am Grüngut, oder natürlichen Spuren im Torf/Kompost stammen
+(aus dem Torf)
+
+6, 8, 11, 15, Natürliche Zerfallsreihen von Uran, U -> Rn -> Pb -> Bi
+könnte aus mineralischen Beimengungen, Staub, Sand/Erde am Grüngut, oder natürlichen Spuren im Torf/Kompost stammen
+(aus Phospate)
