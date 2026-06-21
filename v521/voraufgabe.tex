@@ -1,22 +1,25 @@
 \chapter{Voraufgabe: Funktionsanpassung an Energie-Spektren}
 
-Für die Auswertung der aufgenommenen Spektren wurde in einer VisualCodeStudio-Umgebung ein Python-Programm entwickelt, das eine Gaußfunktion mit linearem Untergrund an ausgewählte Bereiche eines Spektrums anpasst. 
-Als Eingabe dient ein zweispaltiger Datensatz, der die Kanalnummern und die zugehörigen Zählraten enthält. 
-Zusätzlich wird ein Fitbereich durch eine untere und obere Kanalgrenze festgelegt.
+Zur Auswertung der aufgenommenen Spektren wurde in einer VisualCodeStudio-Umgebung ein Python-Programm entwickelt, das die Anpassung von Gaußfunktionen mit linearem Untergrund an charakteristische Spektrallinien automatisiert. 
+Als Eingabedaten dient ein Spektrum in Form von Kanalnummern und den zugehörigen Zählraten. 
+Zusätzlich werden die Kanalbereiche festgelegt, in denen eine Anpassung durchgeführt werden soll.
 
-Innerhalb dieses Bereichs bestimmt das Programm automatisch geeignete Startwerte für die numerische Anpassung. 
-Die Anfangsamplitude wird aus der Differenz zwischen maximaler und minimaler Zählrate im Fitbereich abgeschätzt, während die Startposition des Peaks aus dem Kanal mit der höchsten Zählrate bestimmt wird. 
-Für die Breite der Gaußfunktion wird zunächst ein Zehntel der Breite des Fitintervalls angenommen. 
-Der lineare Untergrund wird anfänglich durch eine horizontale Gerade angenähert.
+Für jeden ausgewählten Bereich werden zunächst geeignete Startwerte für die Fitparameter automatisch aus den Messdaten bestimmt. 
+Die statistischen Unsicherheiten der einzelnen Messpunkte werden unter Annahme einer Poisson-Verteilung aus den Zählraten berechnet und bei der Anpassung als Gewichtung berücksichtigt. 
+Anschließend erfolgt die numerische Bestimmung der optimalen Fitparameter mithilfe der Funktion \texttt{curve_fit} aus dem Paket \texttt{SciPy}.
 
-Anschließend wird mithilfe von \texttt{curve_fit} eine Gaußfunktion mit linearem Untergrund an die ausgewählten Daten angepasst. 
-Aus der dabei bestimmten Kovarianzmatrix werden die Unsicherheiten der Fitparameter berechnet. 
-Darüber hinaus wird die Fläche der angepassten Gaußkomponente bestimmt, die proportional zur Anzahl der im Peak registrierten Ereignisse ist.
+Für isolierte Spektrallinien wird eine einzelne Gaußfunktion mit linearem Untergrund verwendet. 
+Treten mehrere überlappende Peaks innerhalb eines gemeinsamen Bereichs auf, können diese durch mehrere Gaußfunktionen mit gemeinsamem Untergrund simultan beschrieben werden. 
+Dadurch lassen sich auch teilweise überlagerte Strukturen zuverlässig auswerten.
 
-Die Ergebnisse werden anschließend ausgegeben und zusammen mit dem gemessenen Spektrum grafisch, in Abb. \ref{{fig:voraufgabe_fit} dargestellt. 
+Aus den Fitparametern werden die Schwerpunktlage, die Linienbreite, die Halbwertsbreite (FWHM) sowie die Fläche der jeweiligen Spektrallinie bestimmt. 
+Die Unsicherheiten dieser Größen werden aus der Kovarianzmatrix der Anpassung berechnet. 
+Zur Beurteilung der Anpassungsqualität wird zusätzlich das reduzierte Chi-Quadrat bestimmt.
 
-Eine Einschränkung dieses Ansatzes besteht darin, dass jeweils nur ein einzelner Peak mit einem linearen Untergrund angepasst wird. 
-Stark überlagerte Linien können dadurch nur unzureichend beschrieben werden, da Anteile benachbarter Peaks vom Programm möglicherweise als Untergrund interpretiert werden. Für solche Fälle wäre eine gleichzeitige Anpassung mehrerer Gaußfunktionen mit gemeinsamem Untergrund geeigneter, was im Dritten Fit zu sehen ist.
+Die Ergebnisse werden sowohl tabellarisch ausgegeben als auch grafisch dargestellt. 
+Dabei werden die angepassten Funktionen zusammen mit dem gemessenen Spektrum geplottet und die zugehörigen Werte des reduzierten Chi-Quadrats in der Legende angegeben. 
+Ein Beispiel für die Anwendung des Programms auf ein Testspektrum ist in Abb.~\ref{fig:voraufgabe_fit} dargestellt.
+
 
 \begin{figure}[H]
     \centering
