@@ -1,15 +1,34 @@
-\section{Vorbereitung der Versuchanordnung}
-\subsection{Justage des NaI-Szintillationsdetektor}
+\chapter{Vorbereitung der Versuchanordnung}
+\section{Theoretische Grundlagen}
+\section{Funktionsweise des Szintillationsdetektor}
+Ein Szintillationsdetektor misst ionisierende Strahlung, indem er die im Detektormaterial deponierte Energie in sichtbares Licht umwandelt und dieses Licht in elektrische Signale überführt. Das grundlegende Funktionsprinzip beruht auf der Wechselwirkung eines einfallenden Gamma-Photons mit dem Szintillatormaterial, wodurch ein schnelles Elektron erzeugt wird; dieses gibt seine Energie anschließend durch Ionisation und Anregung im Kristall ab. Die daraus resultierenden elektronischen Anregungen führen zur Emission von Szintillationslicht, dessen Intensität proportional zur deponierten Energie ist.
+
+Beim weit verbreiteten NaI(Tl)-Szintillationsdetektor ist der Kristall mit Thallium dotiert, um zusätzliche Energieniveaus innerhalb der Bandlücke zu schaffen. Diese sogenannten „Aktivierungszentren“ ermöglichen eine effiziente Lichtemission, da angeregte Elektronen bevorzugt über diese Zentren rekombinieren und dabei Photonen im sichtbaren Bereich (λ ≈ 415 nm) aussenden. Der Kristall weist eine hohe Lichtausbeute auf – in der Größenordnung von 40.000 Photonen pro MeV deponierter Energie – sowie eine charakteristische Zeitkonstante für den exponentiellen Abklingvorgang von etwa 230 ns. Da der Kristall für das von ihm erzeugte Licht transparent ist, kann ein großer Teil der Photonen ungehindert durch den Kristall gelangen und die Ausleseeinheit erreichen.
+
+Das erzeugte Licht wird über reflektierende Oberflächen und optische Kopplungsschichten zur Photokathode eines Photomultipliers (PMT) geleitet. Dort werden die Photonen mittels des photoelektrischen Effekts in Elektronen umgewandelt. Diese Elektronen werden beschleunigt und in einer Dynodenkette vervielfacht, wodurch an der Anode ein verstärkter Stromimpuls entsteht. Die Amplitude dieses Impulses ist proportional zur Anzahl der erzeugten Elektronen – und damit zur Lichtmenge –, was wiederum direkt mit der im Kristall deponierten Energie verknüpft ist. Die resultierenden Signale zeigen einen schnellen Anstieg, gefolgt von einem exponentiellen Abklingen, das durch die RC-Zeitkonstanten der Ausleseelektronik bestimmt wird. Zur weiteren Verarbeitung durchlaufen die Rohimpulse Vorverstärker und Impulsformungsverstärker, die ihnen eine definierte Form – typischerweise eine Gauß-Form – verleihen. Anschließend werden die Impulse mittels eines Vielkanalanalysators (MCA) nach ihrer Amplitude sortiert, um ein Energiespektrum zu erzeugen. Dieses Spektrum weist Merkmale wie Photopeaks, Compton-Kontinua und Escape-Peaks auf, anhand derer Energie und Art der einfallenden Strahlung bestimmt werden können.
+
+Ein wesentlicher Nachteil von Szintillationsdetektoren ist ihre relativ schlechte Energieauflösung. Bei NaI(Tl) liegt dieser Wert bei 662 keV typischerweise im Bereich von 6–7 \%, was deutlich schlechter ist als bei Halbleiterdetektoren. Diese begrenzte Auflösung ist auf statistische Schwankungen der Lichtausbeute, eine unvollständige Lichtsammlung im Kristall sowie Schwankungen der Verstärkung des Photomultipliers zurückzuführen. Dennoch bieten Szintillationsdetektoren – insbesondere bei Anwendungen, die hohe Verarbeitungsgeschwindigkeiten oder hohe Nachweiswahrscheinlichkeiten erfordern – wesentliche Vorteile, wie etwa eine hohe Effizienz, große aktive Volumina und eine schnelle Signalantwort.
+\section{Funktionsweise des Halbleiterdetektor}
+Halbleiterdetektoren zählen zu den vielversprechendsten Instrumenten für die Gammaspektroskopie und zeichnen sich insbesondere durch ihre hervorragenden Nachweiseigenschaften aus. Ihre Funktionsweise beruht auf der Bildung von Elektron-Loch-Paaren in einem Halbleitermaterial, typischerweise hochreinem Germanium (HPGe). Ein einfallendes Gamma-Photon wechselwirkt mit dem Kristall durch den photoelektrischen Effekt, Compton-Streuung oder Paarbildung und erzeugt dabei ein Elektron, das seine Energie durch Ionisation im Material abgibt. Pro Einheit der einfallenden Energie entsteht eine große Anzahl von Ladungsträgern; bei Germanium beträgt die zur Bildung eines Elektron-Loch-Paares erforderliche Energie lediglich 2,96 eV. Folglich erzeugt ein 1-MeV-Photon 300.000 Ladungsträger, was die hohe Empfindlichkeit dieser Detektoren erklärt.
+
+Um eine optimale Ladungssammlung zu gewährleisten, wird der Halbleiterkristall durch geeignete Dotierung und das Anlegen einer Hochspannung in einen **Verarmungszustand** (oder eine Raumladungszone) versetzt. In diesem Zustand werden freie Ladungsträger aus der aktiven Zone abgeführt. Dieser Bereich trennt die bei der Wechselwirkung mit der Strahlung erzeugten Elektron-Loch-Paare und lenkt Elektronen zur Anode sowie Löcher zur Kathode. Die Bewegung der elektrischen Ladungen erzeugt eine messbare Spannung, deren Amplitude proportional zur deponierten Energie ist. Das Verhalten des Detektors lässt sich durch das Shockley-Ramo-Theorem beschreiben, das einen Zusammenhang zwischen dem Potenzial an den Elektroden und der Bewegung der Ladungsträger herstellt.
+
+Da diese Detektoren einen möglichst geringen Leckstrom erfordern, müssen HPGe-Kristalle bei niedrigen Temperaturen betrieben werden, typischerweise bei 77 K (der Temperatur von flüssigem Stickstoff). Nur so lässt sich die thermische Erzeugung von Elektron-Loch-Paaren minimieren und die Wirksamkeit der Verarmungszone maximieren. Auch die Reinheit des Germaniums (Verunreinigungskonzentration < 10¹⁰ cm⁻³) ist entscheidend, da selbst eine geringe Konzentration von Defekten Ladungsfallen erzeugen kann, welche die Ladungsträgermobilität stören und die Energieauflösung beeinträchtigen.
+
+Der erzeugte Stromimpuls ist kurzlebig und wird von einem Vorverstärker in einen Spannungsimpuls umgewandelt. Anschließend erfolgt eine Impulsformung (typischerweise Gauß-förmig), um das Signal-Rausch-Verhältnis zu optimieren. Die Amplitude des resultierenden Impulses ist proportional zur einfallenden Energie und wird in einem Vielkanalanalysator (MCA) einem bestimmten Kanal zugeordnet. Das resultierende Energiespektrum zeigt schmale Photopeaks, ein Compton-Kontinuum sowie gegebenenfalls Escape-Peaks. Die Linienbreite liegt in der Größenordnung von einigen keV und ist damit deutlich geringer als bei Szintillationsdetektoren.
+
+Die Energieauflösung von HPGe-Detektoren beruht auf den geringen Schwankungen der Anzahl von Elektron-Loch-Paaren. Dieses Phänomen wird durch den Fano-Faktor beschrieben, dessen Wert bei Halbleitern wesentlich niedriger ist als bei Gasen oder Szintillatoren. Daraus resultiert eine Energieauflösung von etwa 0,1 \% bis 0,2 \% bei 1 MeV, was eine zufriedenstellende Leistungsfähigkeit für den Nachweis von Gammastrahlung gewährleistet. Allerdings weisen diese Detektoren eine geringere Empfindlichkeit bei hohen Flussdichten auf, da die Ordnungszahl von Germanium niedriger ist als beispielsweise die des Jods in NaI-Kristallen. Zudem sind HPGe-Detektoren komplex aufgebaut, strahlungsempfindlich und erfordern eine häufige Kalibrierung. Trotz dieser Einschränkungen sind Halbleiterdetektoren dank ihrer hohen Empfindlichkeit unverzichtbare Instrumente für die hochpräzise Gammaspektroskopie – insbesondere in der Kernphysik, der Umweltanalytik und der Elementcharakterisierung. Ihre Fähigkeit, benachbarte Peaks zu unterscheiden und feine Variationen zu erfassen, macht sie für zahlreiche Anwendungen von unschätzbarem Wert.
+\section{Justage des NaI-Szintillationsdetektor}
 
 Zunächst wird die Hochspannung des Photomultipliers so eingestellt, dass der Detektor in seinem stabilen Arbeitsbereich betrieben wird. Die Spannung wird schrittweise erhöht, bis eine ausreichende Impulsrate und eine deutlich erkennbare Impulsamplitude erreicht sind, ohne den Photomultiplier in seinen nichtlinearen Arbeitsbereich zu treiben. Das Ausgangssignal des Vorverstärkers wird anschließend direkt auf einem Oszilloskop betrachtet; dabei werden der charakteristische Signalverlauf, die Impulsdauer und die Amplitude aufgezeichnet. Der Signalverlauf wird bestimmt durch das Szintillationsereignis im NaI(Tl)-Kristall, die Lichtemission, die interne Verstärkung des Photomultipliers sowie die nachfolgende Impulsformung durch den Vorverstärker. Dieses Signal durchläuft anschließend eine weitere Verarbeitung im Hauptverstärker, bevor es zur digitalen Spektrenaufnahme an einen Vielkanalanalysator (MCA) weitergeleitet wird.\\
 
-Im nächsten Schritt werden Gammaspektren der verwendeten radioaktiven Quellen aufgenommen. Konkret werden nacheinander die Spektren von $^{60}Co$, $^{137}Cs$ und $^{152}Eu$ aufgezeichnet. Zusätzlich wird das Untergrundspektrum (ohne Quelle) gemessen, um eine spätere Subtraktion der Untergrundbeiträge zu ermöglichen. Die Messzeiten werden so gewählt, dass die Photopeaks scharf ausgeprägt und statistisch gut aufgelöst sind.\\
+% Abbildungen einfügen
 
-Auf der Grundlage der aufgenommenen Spektren wird eine Energiekalibrierung des Systems durchgeführt. Dabei werden die bekannten Gammaenergien der Quellen mit den Kanalnummern verknüpft, die den Photopeaks entsprechen. Mittels linearer Regression wird eine Kalibriergerade bestimmt, die die Umrechnung von Kanalnummern in Energiewerte ermöglicht.\\
 
-Nach erfolgreichem Abschluss der Kalibrierung wird die Halbwertsbreite (FWHM - Full Width at Half Maximum) der dominanten Peaks bestimmt. Dies umfasst zwei Linien aus dem $^{60}Co$-Spektrum, die 661-keV-Linie von $^{137}Cs$ sowie bestimmte, gut aufgelöste Linien aus dem Eu-152-Spektrum. Aus der Halbwertsbreite und der Peakenergie wird die Energieauflösung des Detektors berechnet und die Energieabhängigkeit der Auflösung untersucht. Als Nächstes wird das Peak-zu-Gesamt-Verhältnis für die Spektren von $^{137}Cs$ und $^{60}Co$ ermittelt. Hierzu wird die Fläche des Photopeaks ins Verhältnis zur Gesamtzahl der registrierten Ereignisse gesetzt. Dieses Verhältnis gibt Aufschluss über die Reinheit des Spektrums sowie über den relativen Anteil des Compton-Untergrunds und der Streuprozesse innerhalb des Detektors. Schließlich wird die Effizienz des NaI-Detektors mithilfe einer $^{137}Cs$-Quelle bestimmt. Die absolute Nachweiseffizienz wird unter Berücksichtigung der bekannten Aktivität, der Emissionswahrscheinlichkeit der 661-keV-Linie, der Messdauer sowie der Geometrie berechnet. Dies ermöglicht eine Abschätzung der Anzahl der emittierten Photonen, die tatsächlich vom Detektor registriert werden.
+%---------------------------------------------------------------------------------------------------------
 
-\subsection{Justage des HPGe-Halbleiterdetektor}
+
+\section{Justage des HPGe-Halbleiterdetektor}
 
 Zunächst wird das Signal des HPGe-Detektors direkt an der Vorverstärkerstufe mithilfe eines Oszilloskops analysiert. Dabei werden Signalform, Impulsdauer und Amplitude erfasst. Die Signalform wird durch die Bildung und Ansammlung von Elektron-Loch-Paaren im verarmten Germaniumkristall sowie durch die Ladungsansammlung im Vorverstärker bestimmt. Die Ausgangsspannung wird anschließend vom Hauptverstärker verarbeitet und in den Vielkanalanalysator eingespeist, um das Spektrum zu erhalten.\\
 
@@ -17,10 +36,45 @@ Im nächsten Schritt wurden Gammaspektren für die radioaktiven Elemente $^{60}C
 
 Auf der Grundlage dieser Spektren wird eine Intensitätskalibrierung des HPGe-Detektors durchgeführt. Dieser Prozess umfasst die Zuordnung der bekannten Gammaintensität zur Kanalnummer des Photopeaks und die Definition einer Umrechnungsfunktion mittels linearer Regression, wodurch die Umwandlung von Kanalnummern in Intensitätswerte ermöglicht wird.\\
 
-Anschließend wird die Halbwertsbreite (FWHM - Full Width at Half Maximum) der Hauptkomponenten berechnet. Zu diesen Komponenten gehören zwei Peaks aus dem $^{60}Co$-Spektrum, der 661-keV-Peak von $^{137}Cs$ sowie mehrere intensive, gut definierte Peaks aus dem $^{152}Eu$-Spektrum. Unter Verwendung der FWHM und der Peakintensität werden Intensitätswerte berechnet, was die Bestimmung der optimalen Empfindlichkeit des HPGe-Detektors ermöglicht.\\
 
-Das Peak-zu-Gesamt-Verhältnis für die $^{137}Cs$- und $^{60}Co$-Spektren wurde grafisch dargestellt. Hierfür werden die Positionen der Photopeaks relativ zur Anzahl der registrierten Ereignisse (Counts) normiert. Diese Auswertung erlaubt eine Beurteilung der spektralen Reinheit sowie der Größe des Compton-Untergrunds bei einem Halbleiterdetektor.\\
+% Abbildungen einfügen
 
-Der nächste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors. Hierfür wurden Spektren von $^{137}Cs$ und $^{152}Eu$ herangezogen. Unter Berücksichtigung der bekannten Aktivität, des Temperaturbereichs der jeweiligen Phase, der Messdauer und der Geometrie wurde das Effizienzverhältnis für verschiedene Energien berechnet und als Funktion der Gammaintensität ausgedrückt.\\
 
-Schließlich wird der HPGe-Detektor zur Analyse einer unbekannten Probe, beispielsweise einer Bodenprobe, eingesetzt. Zu diesem Zweck wurde ein kontinuierlicher 12-stündiger Test unter Verwendung einer Bleiabschirmung durchgeführt, um messbare Ergebnisse zu erzielen. Die Untergrundkorrektur erfolgte auf der Basis einer einzelnen Nullmessung, die ohne Signalaufnahme durchgeführt wurde. Nach Abzug des Untergrundspektrums wurden die im Spektrum sichtbaren Gammalinien identifiziert und spezifischen Nukliden sowie deren zugehörigen Zerfallsreihen zugeordnet. Dies ermöglicht die Bestimmung, ob natürliche oder künstliche Radioaktivität in der Probe vorliegt.\\
+%Schließlich wird der HPGe-Detektor zur Analyse einer unbekannten Probe, beispielsweise einer Bodenprobe, eingesetzt. Zu diesem Zweck wurde ein kontinuierlicher 12-stündiger Test unter Verwendung einer Bleiabschirmung durchgeführt, um messbare Ergebnisse zu erzielen. Die Untergrundkorrektur erfolgte auf der Basis einer einzelnen Nullmessung, die ohne Signalaufnahme durchgeführt wurde. Nach Abzug des Untergrundspektrums wurden die im Spektrum sichtbaren Gammalinien identifiziert und spezifischen Nukliden sowie deren zugehörigen Zerfallsreihen zugeordnet. Dies ermöglicht die Bestimmung, ob natürliche oder künstliche Radioaktivität in der Probe vorliegt.\\
+
+\section{Beobachtung der Signale}
+
+% Abbildungen einfügen
+Nach erfolgreicher Justierung der Detektoren werden an beiden Detektoren drei Standardproben sowie das Untergrundspektrum aufgenommen. Jede Messung dauert 300 Sekunden und wird hinsichtlich der Totzeit des Vielkanalanalysators (MCA) korrigiert. Zur Berücksichtigung der Untergrundstrahlung wird eine zusätzliche Messung ohne Strahlenquelle durchgeführt.
+
+Die Proben werden so positioniert, dass die Zählrate unter 2,5 kHz bleibt, da höhere Raten zu einer Zunahme von Summenpeaks führen, was die Qualität des Spektrums beeinträchtigen kann. Für jede Messung wird der Abstand *D* zwischen Probe und Detektor bestimmt, um die anschließende Berechnung der Gesamteffizienz zu ermöglichen.
+
+Die Anzahl der vom Szintillationsdetektor registrierten Signale nimmt mit der Spitzenspannung zu. Um die Zählrate zu erhöhen, werden die Spitzenspannung schließlich auf$ (691,0\pm0,1) $V eingestellt. Durch eine weitere Erhöhung der Trigger-Schwelle am Oszilloskop ermöglichen beide Detektoren die Identifizierung von Signalen, die dem 661-keV-Peak der $^{137}$Cs-Quelle entsprechen (Abbildung \ref{}).
+
+% add bilder oszilloskope
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/scope_1.png}
+        \caption{NaI-Szintillationsdetektor}
+        \label{fig:fast1rechts}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/scope_2.png}
+        \caption{HPGe-Halbleiterdetektor}
+        \label{fig:fast1links}
+    \end{subfigure}
+
+    \caption{Oszillogramme der Detektions-Signale vom 661 keV-Photopeak von $^{137}$Cs an beiden Detektoren}
+    \label{fig:justage_1}
+\end{figure}
+
+Die von den beiden Detektoren gelieferten Signale waren sehr ähnlich. Dies liegt daran, dass die Lichtausbeute im HPGe-Detektor und die Photomultiplier-Ströme im NaI-Detektor intern in Spannungsimpulse umgewandelt und anschließend verstärkt werden. Die unregelmäßige Beschaffenheit der Impulse deutet darauf hin, dass kapazitive Effekte von der Signalverarbeitung innerhalb beider Detektionssysteme abhängen.
+
+Die gemessene Spannung von 2 V liegt in einem konstanten Bereich, und die kurze Anstiegszeit ist besonders vorteilhaft für Anwendungen, die Zufallsschaltungen (Random-Schaltungen) nutzen. Im Vielkanalanalysator (MCA) werden die Impulse verstärkt und in Signale mit quasi-gaußförmigem Verlauf umgewandelt, die schließlich von der Ausleseelektronik in ein Impulsamplitudenspektrum überführt werden.
+
+(Um die Energieschwelle auf 1550 keV festzulegen, wurde der Schwellenwert für den HPGe-Detektor auf 5,0 und für den NaI-Detektor auf 1,5 eingestellt. Die Funktionen der verwendeten Proben ergeben sich aus deren Bezeichnungen und sind in Tabelle 2 aufgeführt, zusammen mit dem Abstand *D* zwischen Probe und Detektor.)
