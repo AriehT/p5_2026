@@ -1,1 +1,134 @@
-\section{Energiekalibrierung}
+\chapter{Energiekalibrierung}
+\section{Theoretische Grundlagen}
+\section{Durchführung}
+Im nächsten Schritt werden Gammaspektren der verwendeten radioaktiven Quellen aufgenommen. Konkret werden nacheinander die Spektren von $^{60}Co$, $^{137}Cs$ und $^{152}Eu$ aufgezeichnet. Zusätzlich wird das Untergrundspektrum (ohne Quelle) gemessen, um eine spätere Subtraktion der Untergrundbeiträge zu ermöglichen. Die Messzeiten werden so gewählt, dass die Photopeaks scharf ausgeprägt und statistisch gut aufgelöst sind.\\
+
+Auf der Grundlage der aufgenommenen Spektren wird eine Energiekalibrierung des Systems durchgeführt. Dabei werden die bekannten Gammaenergien der Quellen mit den Kanalnummern verknüpft, die den Photopeaks entsprechen. Mittels linearer Regression wird eine Kalibriergerade bestimmt, die die Umrechnung von Kanalnummern in Energiewerte ermöglicht.\\
+
+\section{Auswertung}
+Die aufgezeichneten Untergrundspektren sollten eigentlich das erwartete niederenergetische Rauschen sowie eine niedrige Ereignisrate zeigen; leider konnten diese aber nicht rechtzeitig abgeholt werden . Folglich wurde das Untergrundspektrum vor jeder weiteren Analyse von der jeweiligen Messreihe nicht abgezogen.(siehe Anhang, Abbildung \ref{fig:anhang_1})
+
+Zur Energiekalibrierung werden Gauß-Funktionen in Kombination mit einem linearen Untergrund an einen begrenzten Kanalbereich um die entsprechenden Photopeaks angepasst. Die verwendete Anpassungsfunktion lautet:
+\begin{align}
+    G(k) = \frac{A}{\sqrt{2\pi}\sigma}\cdot exp(\frac{-(\mu-k)^2}{2\sigma^2})+a\cdot k +b,\text{ wobei }\sigma_{FWHM}=22\sqrt{2ln(2)}\cdot\sigma
+\end{align}
+\label{eq_1}
+
+Hier bezeichnet  k den Kanalindex des Vielkanalanalysators (MCA) . Die Ergebnisse ermöglichen die Bestimmung der Peak-Mittenposition $\mu$, der Halbwertsbreite  $\sigma_{FWHM}$ sowie der Peak-Fläche $A$. Da der lineare Untergrund nicht berücksichtigt werden konnte, ist die Bestimmung der Emissionslinien nicht sehr präzise, insbesondere bei Spektren, die mit NaI-Detektoren aufgenommen wurden, da hier der Compton-Untergrund erheblich ist.
+
+Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden Detektoren von derselben Probe aufgenommen wurden. Zur Erleichterung der Auswertung wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden im weiteren Verlauf vorgestellt. Alle durch Gleichung\ref{eq_1} definierten Antwortparameter sind in den Tabellen \ref{} und \ref{} aufgeführt. Aufgrund der außergewöhnlichen Schärfe der HPGe-Spektrallinien werden diese zudem in den Abbildungen \ref{} bis \ref{} detailliert dargestellt.
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Cobalt_gauss.png}
+        \caption{NaI-Szintillationsdetektor}
+        \label{fig:kalib_1_1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Ge_Cobalt_gauss.png}
+        \caption{HPGe-Halbleiterdetektor}
+        \label{fig:kalib_1_2}
+    \end{subfigure}
+
+    \caption{Gemessenes Energie-Spektrum der $^{60}$Co-Quelle an beiden Detektoren}
+    \label{fig:kalib_1}
+\end{figure}
+% add plots
+
+Auf Abbildung \ref{fig:kalib_1} sind das gemessene Energiespektrum der $^{60}$Co-Quelle an beiden Detektoren zu sehen. Die charakteristischen Linien bei $1173 keV$ und $1332 keV$ sind in den Spektren der HPGe- und NaI-Detektoren deutlich erkennbar.
+Es ist ersichtlich, dass der Halbleiterdetektor eine bessere Empfindlichkeit bietet als der Szintillationsdetektor, was den Erwartungen entspricht. Dies zeigt sich an der geringen Breite der Photopeaks. Obwohl der Compton-Untergrund das NaI-Spektrum dominiert, ist er im Vergleich zur Peakhöhe im HPGe-Spektrum vernachlässigbar.
+
+Das Compton-Kontinuum resultiert aus dem Compton-Effekt im Detektormaterial: Der Bereich möglicher Streuwinkel $\theta$ (zwischen $0^\circ$ und $180^\circ$) für das gestreute Photon führt zu einer konstanten Verteilung der absorbierten Energie. Die auf das Elektron übertragene Energie erscheint im Spektrum als kontinuierliche Verteilung. Das typische Spektrum weist charakteristische Maxima bei $(2350\pm100)$ eV und  $(7500\pm100)$eV auf, die den extremalen Streuwinkeln $\theta = 180^\circ$ und $\theta = 0^\circ$ entsprechen.
+
+Die Cäsium-Konzentration ist in Abbildung \ref{fig:kalib_2} dargestellt. Sie zeigt ein ähnliches Verhalten wie die zuvor erwähnten Kobaltspektren und dient der Kalibrierung des 661-keV-Photopeaks.
+
+% add plots
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Caesium_gauss1.png}
+        \caption{NaI-Szintillationsdetektor}
+        \label{fig:kalib_2_1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Ge_ceasium_gauss.png}
+        \caption{HPGe-Halbleiterdetektor}
+        \label{fig:kalib_2_2}
+    \end{subfigure}
+
+    \caption{Gemessenes Energie-Spektrum der $^{137}$Cs-Quelle an beiden Detektoren}
+    \label{fig:kalib_2}
+\end{figure}
+
+Das Europium-Emissionsprofil ist in Abbildung \ref{fig:kalib_3} dargestellt. Während sich die maximal zu erwartende Umwandlungseffizienz für den Halbleiterdetektor leicht aus Tabelle 1 bestimmen lässt, gestaltet sich dies beim Szintillationsdetektor aufgrund der geringeren Ströme schwieriger. Folglich wird für den NaI-Detektor nur die kritische Phase für Kapazitätsmessungen herangezogen.
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Europium_gauss3.png}
+        \caption{NaI-Szintillationsdetektor}
+        \label{fig:kalib_3_1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Ge_Europium_gausss.png}
+        \caption{HPGe-Halbleiterdetektor}
+        \label{fig:kalib_3_2}
+    \end{subfigure}
+
+    \caption{Gemessenes Energie-Spektrum der $^{152}$Eu-Quelle an beiden Detektoren}
+    \label{fig:kalib_3}
+\end{figure}
+
+% eventuell mehr kommentare
+
+% lineare kalibirierung erklären usw
+Es wird eine Energie-Kalibration, unter der Annahme, dass es eine lineare Zuordnung zwischen der Kanalnummer $k$ und der gemessenen Energie $E$ besteht, durchgeführt:
+\begin{equation}
+    E(k)=\frac{k-b}{a}
+\end{equation}
+Wenn diesauf die ermittelten Maxima $\mu$ und die Literaturwerte $E(\mu)$ für zugehörigen Energien angewendet wird, ergeben sich
+für beide Detektoren die in Abbildung \ref{fig:kalib_4} gezeigten Zusammmenhänge:
+
+% add plots
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Energie_kalibrierung.png}
+        \caption{NaI-Szintillationsdetektor}
+        \label{fig:kalib_4_1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Ge_Energiekal.png}
+        \caption{HPGe-Halbleiterdetektor}
+        \label{fig:kalib_4_2}
+    \end{subfigure}
+
+    \caption{Energie-Kanal-Kalibration anhand der angepassten $\gamma$-Linien der verwendeten Quellen}
+    \label{fig:kalib_4}
+\end{figure}
+
+Die mit dem linearen Energie-Fit verbundenen Unsicherheiten sind vernachlässigbar, da die Litteraturwerte der Übergangsenergien gut bekannt sind und die Positionen der Spektralpeaks mit hinreichender Präzision bestimmt werden können. Selbst bei den sehr großen reduzierten $\chi^2$ -Werten liefert der lineare Fit gute Kalibriergeraden. Die Fitergebnisse lauten wie folgt:
+
+\begin{align*}
+    HPGe: a = (0.096385 \pm 0.000001)keV,b =(0.132 \pm 0.005) keV
+AndI: a = (0.120150 \pm 0.000437) keV,b =(-16.197 \pm 1.827) keV
+\end{align*}
+
+Auf der Grundlage dieser Parameter wurden Energieskalierungen für die vorangehenden und nachfolgenden Abbildungen berechnet. Die simulierten Spektren zeigen eine gute Übereinstimmung zwischen den erwarteten und den tatsächlich beobachteten Peakflächen.

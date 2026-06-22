@@ -1,1 +1,135 @@
-\section{Nachweis der Radioaktivit¨at in einer Probe}
+\chapter{Nachweis der Radioaktivit¨at in einer Probe}
+
+Im abschließenden Versuchsteil wurde mit dem HPGe-Detektor das Gammaspektrum einer Bodenprobe aufgenommen. 
+Durch den Vergleich der gemessenen Energien charakteristischer Linien mit bekannten Zerfallsdaten radioaktiver Nuklide können Rückschlüsse auf die in der Probe enthaltenen radioaktiven Stoffe gezogen werden.
+
+\section{Durchführung}
+
+Die untersuchte Probe bestand aus etwa einem Kilogramm handelsüblicher Blumenerde auf Basis von Hochmoortorf. 
+Das Material befand sich in einem dünnwandigen Kunststoffbeutel und wurde unmittelbar vor dem HPGe-Detektor positioniert, um die Nachweiswahrscheinlichkeit der emittierten $\gamma$-Quanten zu maximieren.
+
+Da für natürliche Bodenproben lediglich geringe Aktivitäten zu erwarten sind, wurde eine Messdauer von 15,h,45,min gewählt. 
+Durch die lange Messzeit wird die statistische Unsicherheit der registrierten Ereigniszahlen reduziert. 
+Für die relative statistische Unsicherheit gilt
+
+[
+\frac{\Delta N}{N}=\frac{1}{\sqrt{N}},
+]
+
+sodass größere Ereigniszahlen zu einer verbesserten Genauigkeit der späteren Auswertung führen.
+
+Zur Verringerung des Einflusses äußerer Strahlungsquellen wurden Probe und Detektor durch Bleiblöcke abgeschirmt (vgl. Abb.\ref{fig}). 
+Zusätzlich war vorgesehen, ein separates Hintergrundspektrum unter identischen Messbedingungen aufzunehmen, um die Umgebungsstrahlung vom Probenspektrum subtrahieren zu können. 
+Hierfür sollte die Probe aus dem Aufbau entfernt werden, während Geometrie und Messdauer unverändert bleiben.
+
+Die zugehörigen Messdaten standen jedoch für die vorliegende Auswertung nicht zur Verfügung. 
+Da es sich um eine Langzeitmessung handelte und der Versuchsaufbau bereits vor Bereitstellung der Daten abgebaut wurde, konnte keine Hintergrundkorrektur durchgeführt werden. 
+Die nachfolgende Analyse basiert daher ausschließlich auf dem gemessenen Rohspektrum der Bodenprobe.
+
+
+\section{Extraktion der $\gamma$-Energien}
+
+Das aufgenommene Spektrum der Bodenprobe ist in Abb.~\ref{fig} dargestellt. 
+Insgesamt konnten 16 deutlich ausgeprägte Linien identifiziert werden. 
+Zur Bestimmung ihrer Lage wurde jede Struktur mit einer Gaußfunktion unter Berücksichtigung eines linearen Untergrunds angepasst. 
+Die verwendete Fitfunktion wurde bereits in Gleichung~\ref{gl:} eingeführt.
+
+Die angepassten Kurven sind gemeinsam mit dem gemessenen Spektrum in Abb.~\ref{fig:erde_spektrum} dargestellt. 
+Aufgrund der geringen Breite einzelner Peaks wurden zusätzlich Detaildarstellungen der jeweiligen Fits angefertigt. 
+Die ermittelten Schwerpunktlagen der Peaks sind zusammen mit den daraus berechneten Energien in Tabelle~\ref{tab:erde_peaks} aufgeführt.
+
+Im niederenergetischen Bereich des Spektrums ist ein deutlicher Anstieg des Untergrunds zu erkennen, dessen Intensität mit zunehmender Energie kontinuierlich abnimmt. 
+Dieser Effekt kann auf verbleibende Untergrundstrahlung sowie auf charakteristische Röntgenstrahlung der verwendeten Bleiabschirmung zurückgeführt werden.
+
+Die Umrechnung der Peakpositionen in Energien erfolgte mithilfe der zuvor bestimmten Energiekalibration des HPGe-Detektors gemäß Gleichung~\ref{gl.}. Die hierfür verwendeten Kalibrationsparameter sind in Abschnitt~\ref{} angegeben.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Ge_Erde_ramen_gauss.png}
+    \caption{Gemessenes HPGe-Spektrum der untersuchten Blumenerdeprobe. 
+    Die eingezeichneten Kurven entsprechen den Gaußanpassungen der identifizierten Peaks. 
+    Eine Korrektur durch Subtraktion eines Hintergrundspektrums wurde nicht durchgeführt.}
+    \label{fig:erde_spektrum}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\caption{Identifizierte $\gamma$-Linien der Blumenerdeprobe ohne abzug der Untergrundes.}
+\label{tab:erde_peaks}
+\begin{tabular}{cccc}
+\toprule
+Peak & $E_\gamma$ / keV & Kanal $\mu$ & Zuordnung \\
+\midrule
+1  & $72.77 \pm 0.03$   & $753.67 \pm 0.28$   & Pb-K$\alpha$ \\
+2  & $74.96 \pm 0.02$   & $776.37 \pm 0.16$   & Pb-K$\alpha$ \\
+3  & $84.79 \pm 0.03$   & $878.35 \pm 0.33$   & Pb-K$\beta$ \\
+4  & $87.36 \pm 0.06$   & $905.03 \pm 0.62$   & Pb-K$\beta$ \\
+5  & $238.67 \pm 0.02$  & $2474.84 \pm 0.18$  & $^{212}$Pb \\
+6  & $295.23 \pm 0.04$  & $3061.66 \pm 0.44$  & $^{214}$Pb \\
+7  & $338.29 \pm 0.06$  & $3508.37 \pm 0.62$  & $^{228}$Ac \\
+8  & $351.95 \pm 0.02$  & $3650.12 \pm 0.22$  & $^{214}$Pb \\
+9  & $510.94 \pm 0.04$  & $5299.70 \pm 0.43$  & Annihilation \\
+10 & $583.19 \pm 0.03$  & $6049.29 \pm 0.29$  & $^{208}$Tl \\
+11 & $609.39 \pm 0.02$  & $6321.09 \pm 0.25$  & $^{214}$Bi \\
+12 & $911.22 \pm 0.03$  & $9452.59 \pm 0.30$  & $^{228}$Ac \\
+13 & $964.80 \pm 0.13$  & $10008.44 \pm 1.30$ & $^{228}$Ac \\
+14 & $969.01 \pm 0.05$  & $10052.17 \pm 0.53$ & $^{228}$Ac \\
+15 & $1120.41 \pm 0.06$ & $11622.98 \pm 0.58$ & $^{214}$Bi \\
+16 & $1460.86 \pm 0.02$ & $15155.14 \pm 0.10$ & $^{40}$K \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Zuordnung der $\gamma$-Energien zu ihren Quellen}
+
+Die aus den Fitparametern bestimmten Energien wurden mit den im NuDat-3-Datensatz aufgeführten Zerfallsdaten verglichen, um die beobachteten Linien geeigneten Nukliden zuzuordnen \cite{NuDat3}. Die im Folgenden genannten Intensitäten stammen ebenfalls aus den dort aufgeführten Kernzerfallsdaten.
+
+Die Peaks 1 bis 4 lassen sich mit hoher Wahrscheinlichkeit charakteristischen Röntgenlinien des Bleis zuordnen. Die entsprechenden Literaturwerte betragen 72,80542(24)\,keV, 74,97011(17)\,keV, 84,45045(60)\,keV und 84,93908(34)\,keV. 
+Die gute Übereinstimmung mit den gemessenen Energien spricht dafür, dass diese Linien überwiegend durch die verwendete Bleiabschirmung verursacht werden \cite{NIST_Xray}.
+
+Peak 5 wird dem Nuklid $^{212}$Pb aus der natürlichen Thorium-Zerfallsreihe zugeordnet. Die Literaturenergie der dominanten Linie beträgt 238,632(2)\,keV.
+Aufgrund der vergleichsweise hohen relativen Intensität von 43,6(5)\,\% sowie der Halbwertszeit von etwa 10\,h ist diese Identifikation sehr plausibel \cite{Auranen2020_212Pb}.
+
+Die Peaks 6 und 8 stimmen ausgezeichnet mit den bekannten $\gamma$-Linien von $^{214}$Pb überein. 
+Die Literaturwerte liegen bei 295,224(2)\,keV beziehungsweise 351,9320(21)\,keV. 
+Beide Übergänge besitzen hohe Emissionswahrscheinlichkeiten von 18,47(11)\,\% und 35,72(24)\,\%, wodurch ihre Beobachtung in natürlichen Proben zu erwarten ist \cite{Zhu2021_214Pb}.
+
+Die Linie bei etwa 511\,keV (Peak 9) entspricht der charakteristischen Annihilationsstrahlung eines Elektron-Positron-Paares. 
+Solche Photonen können als Folge verschiedener Zerfallsprozesse oder sekundärer Wechselwirkungen hochenergetischer $\gamma$-Quanten entstehen. 
+Eine eindeutige Zuordnung zu einem einzelnen Radionuklid ist daher nicht möglich.
+
+Die Peaks 7, 12, 13 und 14 werden dem Nuklid $^{228}$Ac aus der Thorium-Zerfallsreihe zugeschrieben. 
+Die entsprechenden Literaturenergien betragen 338,320(3)\,keV, 911,204(4)\,keV, 964,766(10)\,keV und 968,971(17)\,keV, mit relativen Intensitäten 11,27(19) \%, 25,8(4) \%, 4,99(9) \% und 15,8(3) \%.. 
+Insbesondere die Linien bei 338\,keV, 911\,keV und 969\,keV gelten als charakteristische Signaturen dieses Nuklids \cite{Abusaleem2014_228Ac}.
+
+Peak 10 bei etwa 583\,keV wird dem Nuklid $^{208}$Tl aus der Thorium-Zerfallsreihe zugeordnet.
+Die Literaturenergie beträgt 583,1118(20)\,keV oder 583,1855(20)\,keV. Mit relativen Intensitäten von 0,00415(6)\,\% beziehungsweise 0,00344(5)\,\% ist es warscheinlich das es eine überlappung ist mit gewichtung auf das erste und stimmt aber sehr gut mit dem gemessenen Wert überein. 
+Die Linie zählt zu den stärksten Übergängen dieses Nuklids und ist daher in natürlichen Proben häufig nachweisbar \cite{Martin2007_208Tl}.
+
+Die Peaks 11 und 15 lassen sich eindeutig dem Nuklid $^{214}$Bi zuordnen aus der Uran-Radium-Reihe (Halbwertszeit 19,71(2) min). 
+Die entsprechenden Literaturwerte betragen 609,321(7)\,keV und 1120,294(6)\,keV. 
+Mit relativen Intensitäten von 45,44\,\% beziehungsweise 14,90(8)\,\% gehören diese Übergänge zu den dominierenden Linien des Nuklids \cite{Zhu2021_214Pb}.
+
+Peak 16 wird dem natürlich vorkommenden Isotop $^{40}$K zugeordnet. 
+Die charakteristische $\gamma$-Linie besitzt eine Literaturenergie von 1460,820(5)\,keV und eine relative Intensität von 10,66(17)\,\% \cite{Chen2017_40K}. 
+Da $^{40}$K keine weiteren ausgeprägten $\gamma$-Linien emittiert, ist diese Identifikation eindeutig.
+Bereits in früheren Hintergrundmessungen ohne zusätzliche Probe konnte im Bereich dieser Energie eine schwache Struktur beobachtet werden (vgl,Abb.\ref{fig:Ge_Cobalt}). 
+Dies deutet darauf hin, dass ein Teil des Signals auf natürlich vorhandenes Kalium in der Umgebung oder auf Restaktivität des Messaufbaus zurückzuführen sein könnte. 
+Aufgrund der fehlenden Langzeit-Hintergrundmessung lässt sich dieser Beitrag jedoch nicht quantitativ bestimmen.
+
+
+
+Insgesamt zeigt die Untersuchung der Blumenerdeprobe das Vorhandensein mehrerer Nuklide aus den natürlichen Uran-Radium- und Thorium-Zerfallsreihen sowie des natürlich vorkommenden Isotops $^{40}$K. 
+Erwartet worden war primär der Nachweis von Kalium, da dieses explizit als Bestandteil der verwendeten Düngemittel angegeben wird. 
+Die zusätzlich beobachteten Zerfallsprodukte können plausibel durch weitere Bestandteile der Blumenerde erklärt werden, insbesondere durch Hochmoortorf sowie organische Materialien aus Garten-, Landschafts- und Forstwirtschaft.
+
+Eine eindeutige Aussage über die genaue Herkunft der nachgewiesenen Nuklide ist anhand der vorliegenden Daten jedoch nicht möglich.
+
+Grundsätzlich wäre auf Basis der bestimmten Peakflächen und unter Berücksichtigung der zuvor ermittelten energieabhängigen Nachweiseffizienz eine quantitative Aktivitätsbestimmung der einzelnen Nuklide möglich. 
+Eine derartige Analyse würde jedoch den Umfang der vorliegenden Auswertung deutlich überschreiten.
+
+
+
+

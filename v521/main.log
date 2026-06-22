@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  8 MAY 2026 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  22 JUN 2026 09:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1265,7 +1265,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./main.aux (./Einleitung.aux) (./aufbau.aux) (./justage.aux) (./energiekalibrierung.aux) (./halbwertsbreite.aux) (./intrinsisch.aux) (./peak-to-total.aux) (./detektoreffizienz.aux) (./radioaktivit√§t.aux) (./Fazit.aux))
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
@@ -1395,7 +1395,6 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 17.
-(./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1407,7 +1406,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
 (scrreprt)           before \begin{document} on input line 17.
- (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
@@ -1456,13 +1455,12 @@ LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <12.5> not available
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) (./main.toc
-Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
+No file main.toc.
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [2
+[2
 
 ]
 \openout2 = `Einleitung.aux'.
@@ -1494,44 +1492,1903 @@ l.44  \include{aufbau}
 
 
 ]
+\openout2 = `voraufgabe.aux'.
+
+ (./voraufgabe.tex
+chapter 1.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+./voraufgabe.tex:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...er mithilfe der Funktion \texttt{curve_fit}
+                                                   aus dem Paket \texttt{Sci...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./voraufgabe.tex:9: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.9 ...er mithilfe der Funktion \texttt{curve_fit}
+                                                   aus dem Paket \texttt{Sci...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./voraufgabe.tex:10: Missing $ inserted.
+<inserted text> 
+                $
+l.10 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (16.72049pt too wide) in paragraph at lines 11--14
+[]\T1/cmtt/m/n/10.95 F¸r isolierte Spektrallinien wird eine einzelne Gauˇfunktion mit linearem Untergrund
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 11--14
+\T1/cmtt/m/n/10.95 verwendet. Treten mehrere ¸berlappende Peaks innerhalb eines gemeinsamen Bereichs auf,
+ []
+
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 11--14
+\T1/cmtt/m/n/10.95 kˆnnen diese durch mehrere Gauˇfunktionen mit gemeinsamem Untergrund simultan beschrieben
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 11--14
+\T1/cmtt/m/n/10.95 werden. Dadurch lassen sich auch teilweise ¸berlagerte Strukturen zuverl‰ssig auswerten. 
+ []
+
+
+Overfull \hbox (33.6956pt too wide) in paragraph at lines 15--18
+[]\T1/cmtt/m/n/10.95 Aus den Fitparametern werden die Schwerpunktlage, die Linienbreite, die Halbwertsbreite
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 15--18
+\T1/cmtt/m/n/10.95 (FWHM) sowie die Fl‰che der jeweiligen Spektrallinie bestimmt. Die Unsicherheiten dieser
+ []
+
+
+Overfull \hbox (102.02492pt too wide) in paragraph at lines 15--18
+\T1/cmtt/m/n/10.95 Grˆˇen werden aus der Kovarianzmatrix der Anpassung berechnet. Zur Beurteilung der Anpassungsqualit‰t
+ []
+
+
+LaTeX Warning: Reference `fig:voraufgabe_fit' on page 3 undefined on input line 21.
+
+
+Overfull \hbox (11.06212pt too wide) in paragraph at lines 19--22
+[]\T1/cmtt/m/n/10.95 Die Ergebnisse werden sowohl tabellarisch ausgegeben als auch grafisch dargestellt.
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 19--22
+\T1/cmtt/m/n/10.95 Dabei werden die angepassten Funktionen zusammen mit dem gemessenen Spektrum geplottet
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 19--22
+\T1/cmtt/m/n/10.95 und die zugehˆrigen Werte des reduzierten Chi-Quadrats in der Legende angegeben. Ein
+ []
+
+
+Overfull \hbox (34.62267pt too wide) in paragraph at lines 19--22
+\T1/cmtt/m/n/10.95 Beispiel f¸r die Anwendung des Programms auf ein Testspektrum ist in Abb. [] dargestellt. 
+ []
+
+
+LaTeX Warning: File `figs/voraufgabe_fertig.png' not found on input line 26.
+
+
+./voraufgabe.tex:26: Package pdftex.def Error: File `figs/voraufgabe_fertig.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...th=\textwidth]{figs/voraufgabe_fertig.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [3
+
+
+
+
+] [4]
 \openout2 = `justage.aux'.
 
- (./justage.tex) [3
+ (./justage.tex
+chapter 2.
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Ein Szintillationsdetektor misst ionisierende Strahlung, indem er die im Detektormaterial
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 deponierte Energie in sichtbares Licht umwandelt und dieses Licht in elektrische Signale
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 ¸berf¸hrt. Das grundlegende Funktionsprinzip beruht auf der Wechselwirkung eines einfallenden
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Gamma-Photons mit dem Szintillatormaterial, wodurch ein schnelles Elektron erzeugt wird;
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 dieses gibt seine Energie anschlieˇend durch Ionisation und Anregung im Kristall ab.
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Die daraus resultierenden elektronischen Anregungen f¸hren zur Emission von Szintillationslicht,
+ []
+
+
+./justage.tex:6: LaTeX Error: Unicode character Œª (U+03BB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...nd dabei Photonen im sichtbaren Bereich (Œª
+                                                   ‚âà 415 nm) aussenden. De...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./justage.tex:6: LaTeX Error: Unicode character ‚âà (U+2248)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...abei Photonen im sichtbaren Bereich (Œª ‚âà
+                                                   415 nm) aussenden. Der Kr...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (11.06212pt too wide) in paragraph at lines 6--7
+[]\T1/cmtt/m/n/10.95 Beim weit verbreiteten NaI(Tl)-Szintillationsdetektor ist der Kristall mit Thallium
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 dotiert, um zus‰tzliche Energieniveaus innerhalb der Bandl¸cke zu schaffen. Diese sogenannten
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 ^^RAktivierungszentren^^P ermˆglichen eine effiziente Lichtemission, da angeregte Elektronen
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 bevorzugt ¸ber diese Zentren rekombinieren und dabei Photonen im sichtbaren Bereich
+ []
+
+
+Overfull \hbox (45.44121pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 (  415 nm) aussenden. Der Kristall weist eine hohe Lichtausbeute auf ^^U in der Grˆˇenordnung
+ []
+
+
+Overfull \hbox (51.09958pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 von 40.000 Photonen pro MeV deponierter Energie ^^U sowie eine charakteristische Zeitkonstante
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 f¸r den exponentiellen Abklingvorgang von etwa 230 ns. Da der Kristall f¸r das von ihm
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 erzeugte Licht transparent ist, kann ein groˇer Teil der Photonen ungehindert durch
+ []
+
+
+Overfull \hbox (33.6956pt too wide) in paragraph at lines 8--9
+[]\T1/cmtt/m/n/10.95 Das erzeugte Licht wird ¸ber reflektierende Oberfl‰chen und optische Kopplungsschichten
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 zur Photokathode eines Photomultipliers (PMT) geleitet. Dort werden die Photonen mittels
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 des photoelektrischen Effekts in Elektronen umgewandelt. Diese Elektronen werden beschleunigt
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 und in einer Dynodenkette vervielfacht, wodurch an der Anode ein verst‰rkter Stromimpuls
+ []
+
+
+Overfull \hbox (51.09958pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 entsteht. Die Amplitude dieses Impulses ist proportional zur Anzahl der erzeugten Elektronen
+ []
+
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 ^^U und damit zur Lichtmenge ^^U, was wiederum direkt mit der im Kristall deponierten Energie
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 verkn¸pft ist. Die resultierenden Signale zeigen einen schnellen Anstieg, gefolgt von
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 einem exponentiellen Abklingen, das durch die RC-Zeitkonstanten der Ausleseelektronik
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 bestimmt wird. Zur weiteren Verarbeitung durchlaufen die Rohimpulse Vorverst‰rker und
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 Impulsformungsverst‰rker, die ihnen eine definierte Form ^^U typischerweise eine Gauˇ-Form
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 ^^U verleihen. Anschlieˇend werden die Impulse mittels eines Vielkanalanalysators (MCA)
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 nach ihrer Amplitude sortiert, um ein Energiespektrum zu erzeugen. Dieses Spektrum weist
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 Merkmale wie Photopeaks, Compton-Kontinua und Escape-Peaks auf, anhand derer Energie
+ []
+
+
+Overfull \hbox (101.59605pt too wide) in paragraph at lines 10--11
+[]\T1/cmtt/m/n/10.95 Ein wesentlicher Nachteil von Szintillationsdetektoren ist ihre relativ schlechte Energieauflˆsung.
+ []
+
+
+Overfull \hbox (45.44121pt too wide) in paragraph at lines 10--11
+\T1/cmtt/m/n/10.95 Bei NaI(Tl) liegt dieser Wert bei 662 keV typischerweise im Bereich von 6^^U7 %, was deutlich
+ []
+
+
+Overfull \hbox (45.44121pt too wide) in paragraph at lines 10--11
+\T1/cmtt/m/n/10.95 schlechter ist als bei Halbleiterdetektoren. Diese begrenzte Auflˆsung ist auf statistische
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 10--11
+\T1/cmtt/m/n/10.95 Schwankungen der Lichtausbeute, eine unvollst‰ndige Lichtsammlung im Kristall sowie
+ []
+
+
+Overfull \hbox (124.6584pt too wide) in paragraph at lines 10--11
+\T1/cmtt/m/n/10.95 Schwankungen der Verst‰rkung des Photomultipliers zur¸ckzuf¸hren. Dennoch bieten Szintillationsdetektoren
+ []
+
+
+Overfull \hbox (152.95026pt too wide) in paragraph at lines 10--11
+\T1/cmtt/m/n/10.95 ^^U insbesondere bei Anwendungen, die hohe Verarbeitungsgeschwindigkeiten oder hohe Nachweiswahrscheinlichkeiten
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 10--11
+\T1/cmtt/m/n/10.95 erfordern ^^U wesentliche Vorteile, wie etwa eine hohe Effizienz, groˇe aktive Volumina
+ []
+
+
+Overfull \hbox (68.07469pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 Halbleiterdetektoren z‰hlen zu den vielversprechendsten Instrumenten f¸r die Gammaspektroskopie
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 und zeichnen sich insbesondere durch ihre hervorragenden Nachweiseigenschaften aus.
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 Ihre Funktionsweise beruht auf der Bildung von Elektron-Loch-Paaren in einem Halbleitermaterial,
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 typischerweise hochreinem Germanium (HPGe). Ein einfallendes Gamma-Photon wechselwirkt
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 mit dem Kristall durch den photoelektrischen Effekt, Compton-Streuung oder Paarbildung
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 und erzeugt dabei ein Elektron, das seine Energie durch Ionisation im Material abgibt.
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 Pro Einheit der einfallenden Energie entsteht eine groˇe Anzahl von Ladungstr‰gern;
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 bei Germanium betr‰gt die zur Bildung eines Elektron-Loch-Paares erforderliche Energie
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 12--13
+\T1/cmtt/m/n/10.95 lediglich 2,96 eV. Folglich erzeugt ein 1-MeV-Photon 300.000 Ladungstr‰ger, was die
+ []
+
+[5
+
 
 
 
 ]
+Overfull \hbox (16.72049pt too wide) in paragraph at lines 14--15
+[]\T1/cmtt/m/n/10.95 Um eine optimale Ladungssammlung zu gew‰hrleisten, wird der Halbleiterkristall durch
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 14--15
+\T1/cmtt/m/n/10.95 geeignete Dotierung und das Anlegen einer Hochspannung in einen **Verarmungszustand**
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 14--15
+\T1/cmtt/m/n/10.95 (oder eine Raumladungszone) versetzt. In diesem Zustand werden freie Ladungstr‰ger aus
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 14--15
+\T1/cmtt/m/n/10.95 der aktiven Zone abgef¸hrt. Dieser Bereich trennt die bei der Wechselwirkung mit der
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 14--15
+\T1/cmtt/m/n/10.95 Strahlung erzeugten Elektron-Loch-Paare und lenkt Elektronen zur Anode sowie Lˆcher
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 14--15
+\T1/cmtt/m/n/10.95 zur Kathode. Die Bewegung der elektrischen Ladungen erzeugt eine messbare Spannung,
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 14--15
+\T1/cmtt/m/n/10.95 deren Amplitude proportional zur deponierten Energie ist. Das Verhalten des Detektors
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 14--15
+\T1/cmtt/m/n/10.95 l‰sst sich durch das Shockley-Ramo-Theorem beschreiben, das einen Zusammenhang zwischen
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 16.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+
+./justage.tex:16: LaTeX Error: Unicode character ‚Å∞ (U+2070)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...ms (Verunreinigungskonzentration < 10¬π‚Å∞
+                                                   cm‚Åª¬≥) ist entscheidend...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./justage.tex:16: LaTeX Error: Unicode character ‚Åª (U+207B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...runreinigungskonzentration < 10¬π‚Å∞ cm‚Åª
+                                                  ¬≥) ist entscheidend, da s...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (33.6956pt too wide) in paragraph at lines 16--17
+[]\T1/cmtt/m/n/10.95 Da diese Detektoren einen mˆglichst geringen Leckstrom erfordern, m¸ssen HPGe-Kristalle
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 16--17
+\T1/cmtt/m/n/10.95 bei niedrigen Temperaturen betrieben werden, typischerweise bei 77 K (der Temperatur
+ []
+
+
+Overfull \hbox (62.41632pt too wide) in paragraph at lines 16--17
+\T1/cmtt/m/n/10.95 von fl¸ssigem Stickstoff). Nur so l‰sst sich die thermische Erzeugung von Elektron-Loch-Paaren
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 16--17
+\T1/cmtt/m/n/10.95 minimieren und die Wirksamkeit der Verarmungszone maximieren. Auch die Reinheit des
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 16--17
+\T1/cmtt/m/n/10.95 Germaniums (Verunreinigungskonzentration < 10\TS1/cmtt/m/n/10.95 π \T1/cmtt/m/n/10.95 cm\TS1/cmtt/m/n/10.95 ≥\T1/cmtt/m/n/10.95 ) ist entscheidend, da selbst eine
+ []
+
+
+Overfull \hbox (79.39143pt too wide) in paragraph at lines 16--17
+\T1/cmtt/m/n/10.95 geringe Konzentration von Defekten Ladungsfallen erzeugen kann, welche die Ladungstr‰germobilit‰t
+ []
+
+
+Overfull \hbox (84.62094pt too wide) in paragraph at lines 18--19
+[]\T1/cmtt/m/n/10.95 Der erzeugte Stromimpuls ist kurzlebig und wird von einem Vorverst‰rker in einen Spannungsimpuls
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 18--19
+\T1/cmtt/m/n/10.95 umgewandelt. Anschlieˇend erfolgt eine Impulsformung (typischerweise Gauˇ-fˆrmig), um
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 18--19
+\T1/cmtt/m/n/10.95 das Signal-Rausch-Verh‰ltnis zu optimieren. Die Amplitude des resultierenden Impulses
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 18--19
+\T1/cmtt/m/n/10.95 ist proportional zur einfallenden Energie und wird in einem Vielkanalanalysator (MCA)
+ []
+
+
+Overfull \hbox (62.41632pt too wide) in paragraph at lines 18--19
+\T1/cmtt/m/n/10.95 einem bestimmten Kanal zugeordnet. Das resultierende Energiespektrum zeigt schmale Photopeaks,
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 18--19
+\T1/cmtt/m/n/10.95 ein Compton-Kontinuum sowie gegebenenfalls Escape-Peaks. Die Linienbreite liegt in der
+ []
+
+
+Overfull \hbox (68.07469pt too wide) in paragraph at lines 18--19
+\T1/cmtt/m/n/10.95 Grˆˇenordnung von einigen keV und ist damit deutlich geringer als bei Szintillationsdetektoren. 
+ []
+
+
+Overfull \hbox (39.35397pt too wide) in paragraph at lines 20--21
+[]\T1/cmtt/m/n/10.95 Die Energieauflˆsung von HPGe-Detektoren beruht auf den geringen Schwankungen der Anzahl
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 von Elektron-Loch-Paaren. Dieses Ph‰nomen wird durch den Fano-Faktor beschrieben, dessen
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 Wert bei Halbleitern wesentlich niedriger ist als bei Gasen oder Szintillatoren. Daraus
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 resultiert eine Energieauflˆsung von etwa 0,1 % bis 0,2 % bei 1 MeV, was eine zufriedenstellende
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 Leistungsf‰higkeit f¸r den Nachweis von Gammastrahlung gew‰hrleistet. Allerdings weisen
+ []
+
+
+Overfull \hbox (68.07469pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 diese Detektoren eine geringere Empfindlichkeit bei hohen Flussdichten auf, da die Ordnungszahl
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 von Germanium niedriger ist als beispielsweise die des Jods in NaI-Kristallen. Zudem
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 sind HPGe-Detektoren komplex aufgebaut, strahlungsempfindlich und erfordern eine h‰ufige
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 Kalibrierung. Trotz dieser Einschr‰nkungen sind Halbleiterdetektoren dank ihrer hohen
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 Empfindlichkeit unverzichtbare Instrumente f¸r die hochpr‰zise Gammaspektroskopie ^^U
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 insbesondere in der Kernphysik, der Umweltanalytik und der Elementcharakterisierung.
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 20--21
+\T1/cmtt/m/n/10.95 Ihre F‰higkeit, benachbarte Peaks zu unterscheiden und feine Variationen zu erfassen,
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 Zun‰chst wird die Hochspannung des Photomultipliers so eingestellt, dass der Detektor
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 in seinem stabilen Arbeitsbereich betrieben wird. Die Spannung wird schrittweise erhˆht,
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 bis eine ausreichende Impulsrate und eine deutlich erkennbare Impulsamplitude erreicht
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 sind, ohne den Photomultiplier in seinen nichtlinearen Arbeitsbereich zu treiben. Das
+ []
+
+
+Overfull \hbox (51.09958pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 Ausgangssignal des Vorverst‰rkers wird anschlieˇend direkt auf einem Oszilloskop betrachtet;
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 dabei werden der charakteristische Signalverlauf, die Impulsdauer und die Amplitude
+ []
+
+
+Overfull \hbox (96.36655pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 aufgezeichnet. Der Signalverlauf wird bestimmt durch das Szintillationsereignis im NaI(Tl)-Kristall,
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 die Lichtemission, die interne Verst‰rkung des Photomultipliers sowie die nachfolgende
+ []
+
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 Impulsformung durch den Vorverst‰rker. Dieses Signal durchl‰uft anschlieˇend eine weitere
+ []
+
+
+Overfull \hbox (102.02492pt too wide) in paragraph at lines 23--24
+\T1/cmtt/m/n/10.95 Verarbeitung im Hauptverst‰rker, bevor es zur digitalen Spektrenaufnahme an einen Vielkanalanalysator
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[6]
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 33--34
+\T1/cmtt/m/n/10.95 Zun‰chst wird das Signal des HPGe-Detektors direkt an der Vorverst‰rkerstufe mithilfe
+ []
+
+
+Overfull \hbox (39.78284pt too wide) in paragraph at lines 33--34
+\T1/cmtt/m/n/10.95 eines Oszilloskops analysiert. Dabei werden Signalform, Impulsdauer und Amplitude erfasst.
+ []
+
+
+Overfull \hbox (39.78284pt too wide) in paragraph at lines 33--34
+\T1/cmtt/m/n/10.95 Die Signalform wird durch die Bildung und Ansammlung von Elektron-Loch-Paaren im verarmten
+ []
+
+
+Overfull \hbox (90.70818pt too wide) in paragraph at lines 33--34
+\T1/cmtt/m/n/10.95 Germaniumkristall sowie durch die Ladungsansammlung im Vorverst‰rker bestimmt. Die Ausgangsspannung
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 33--34
+\T1/cmtt/m/n/10.95 wird anschlieˇend vom Hauptverst‰rker verarbeitet und in den Vielkanalanalysator eingespeist,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Overfull \hbox (3.09622pt too wide) in paragraph at lines 35--36
+[]\T1/cmtt/m/n/10.95 Im n‰chsten Schritt wurden Gammaspektren f¸r die radioaktiven Elemente $[]\OML/ntxmi/m/it/10.95 Co$\T1/cmtt/m/n/10.95 , $[]\OML/ntxmi/m/it/10.95 Cs$
+ []
+
+
+Overfull \hbox (72.42267pt too wide) in paragraph at lines 35--36
+\T1/cmtt/m/n/10.95 und $[]\OML/ntxmi/m/it/10.95 Eu$ \T1/cmtt/m/n/10.95 gemessen. Zus‰tzlich wurde unter Verwendung derselben Geometrie das Untergrundspektrum
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 35--36
+\T1/cmtt/m/n/10.95 aufgezeichnet, um den Beitrag der Umgebungsstrahlung zu minimieren. Die Messdauer wurde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Overfull \hbox (28.03723pt too wide) in paragraph at lines 37--38
+[]\T1/cmtt/m/n/10.95 Auf der Grundlage dieser Spektren wird eine Intensit‰tskalibrierung des HPGe-Detektors
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 37--38
+\T1/cmtt/m/n/10.95 durchgef¸hrt. Dieser Prozess umfasst die Zuordnung der bekannten Gammaintensit‰t zur
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 37--38
+\T1/cmtt/m/n/10.95 Kanalnummer des Photopeaks und die Definition einer Umrechnungsfunktion mittels linearer
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 37--38
+\T1/cmtt/m/n/10.95 Regression, wodurch die Umwandlung von Kanalnummern in Intensit‰tswerte ermˆglicht wird. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Overfull \hbox (51.09958pt too wide) in paragraph at lines 48--49
+\T1/cmtt/m/n/10.95 Nach erfolgreicher Justierung der Detektoren werden an beiden Detektoren drei Standardproben
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 48--49
+\T1/cmtt/m/n/10.95 sowie das Untergrundspektrum aufgenommen. Jede Messung dauert 300 Sekunden und wird
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 48--49
+\T1/cmtt/m/n/10.95 hinsichtlich der Totzeit des Vielkanalanalysators (MCA) korrigiert. Zur Ber¸cksichtigung
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 48--49
+\T1/cmtt/m/n/10.95 der Untergrundstrahlung wird eine zus‰tzliche Messung ohne Strahlenquelle durchgef¸hrt. 
+ []
+
+
+Overfull \hbox (16.72049pt too wide) in paragraph at lines 50--51
+[]\T1/cmtt/m/n/10.95 Die Proben werden so positioniert, dass die Z‰hlrate unter 2,5 kHz bleibt, da hˆhere
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 50--51
+\T1/cmtt/m/n/10.95 Raten zu einer Zunahme von Summenpeaks f¸hren, was die Qualit‰t des Spektrums beeintr‰chtigen
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 50--51
+\T1/cmtt/m/n/10.95 kann. F¸r jede Messung wird der Abstand *D* zwischen Probe und Detektor bestimmt, um
+ []
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 52.
+
+
+Overfull \hbox (67.64583pt too wide) in paragraph at lines 52--53
+[]\T1/cmtt/m/n/10.95 Die Anzahl der vom Szintillationsdetektor registrierten Signale nimmt mit der Spitzenspannung
+ []
+
+
+Overfull \hbox (12.91295pt too wide) in paragraph at lines 52--53
+\T1/cmtt/m/n/10.95 zu. Um die Z‰hlrate zu erhˆhen, werden die Spitzenspannung schlieˇlich auf$\LMS/ntxsy/m/n/10.95 π\OT1/cmr/m/n/10.95 691\OML/ntxmi/m/it/10.95 ; \OT1/cmr/m/n/10.95 0 \LMS/ntxsy/m/n/10.95 ^^F \OT1/cmr/m/n/10.95 0\OML/ntxmi/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\LMS/ntxsy/m/n/10.95 ∫$\T1/cmtt/m/n/10.95 V
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 52--53
+\T1/cmtt/m/n/10.95 eingestellt. Durch eine weitere Erhˆhung der Trigger-Schwelle am Oszilloskop ermˆglichen
+ []
+
+
+Overfull \hbox (24.74117pt too wide) in paragraph at lines 52--53
+\T1/cmtt/m/n/10.95 beide Detektoren die Identifizierung von Signalen, die dem 661-keV-Peak der $[]$Cs-Quelle
+ []
+
+<figs/scope_1.png, id=61, 803.0pt x 504.88625pt>
+File: figs/scope_1.png Graphic file (type png)
+<use figs/scope_1.png>
+Package pdftex.def Info: figs/scope_1.png  used on input line 60.
+(pdftex.def)             Requested size: 225.34386pt x 141.68303pt.
+<figs/scope_2.png, id=62, 803.0pt x 504.88625pt>
+File: figs/scope_2.png Graphic file (type png)
+<use figs/scope_2.png>
+Package pdftex.def Info: figs/scope_2.png  used on input line 67.
+(pdftex.def)             Requested size: 225.34386pt x 141.68303pt.
+
+Overfull \hbox (33.6956pt too wide) in paragraph at lines 76--77
+[]\T1/cmtt/m/n/10.95 Die von den beiden Detektoren gelieferten Signale waren sehr ‰hnlich. Dies liegt daran,
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 76--77
+\T1/cmtt/m/n/10.95 dass die Lichtausbeute im HPGe-Detektor und die Photomultiplier-Strˆme im NaI-Detektor
+ []
+
+
+Overfull \hbox (45.44121pt too wide) in paragraph at lines 76--77
+\T1/cmtt/m/n/10.95 intern in Spannungsimpulse umgewandelt und anschlieˇend verst‰rkt werden. Die unregelm‰ˇige
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 76--77
+\T1/cmtt/m/n/10.95 Beschaffenheit der Impulse deutet darauf hin, dass kapazitive Effekte von der Signalverarbeitung
+ []
+
+[7]
+Overfull \hbox (61.98746pt too wide) in paragraph at lines 78--79
+[]\T1/cmtt/m/n/10.95 Die gemessene Spannung von 2 V liegt in einem konstanten Bereich, und die kurze Anstiegszeit
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 78--79
+\T1/cmtt/m/n/10.95 ist besonders vorteilhaft f¸r Anwendungen, die Zufallsschaltungen (Random-Schaltungen)
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 78--79
+\T1/cmtt/m/n/10.95 nutzen. Im Vielkanalanalysator (MCA) werden die Impulse verst‰rkt und in Signale mit
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 78--79
+\T1/cmtt/m/n/10.95 quasi-gauˇfˆrmigem Verlauf umgewandelt, die schlieˇlich von der Ausleseelektronik in
+ []
+
+)
+Overfull \hbox (78.96257pt too wide) in paragraph at lines 80--46
+[]\T1/cmtt/m/n/10.95 (Um die Energieschwelle auf 1550 keV festzulegen, wurde der Schwellenwert f¸r den HPGe-Detektor
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 80--46
+\T1/cmtt/m/n/10.95 auf 5,0 und f¸r den NaI-Detektor auf 1,5 eingestellt. Die Funktionen der verwendeten
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 80--46
+\T1/cmtt/m/n/10.95 Proben ergeben sich aus deren Bezeichnungen und sind in Tabelle 2 aufgef¸hrt, zusammen
+ []
+
+[8 <./figs/scope_1.png (PNG copy)> <./figs/scope_2.png (PNG copy)>]
 \openout2 = `energiekalibrierung.aux'.
 
- (./energiekalibrierung.tex) [4
+ (./energiekalibrierung.tex
+chapter 3.
+
+Overfull \hbox (39.78284pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Im n‰chsten Schritt werden Gammaspektren der verwendeten radioaktiven Quellen aufgenommen.
+ []
+
+
+Overfull \hbox (47.48166pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Konkret werden nacheinander die Spektren von $[]\OML/ntxmi/m/it/10.95 Co$\T1/cmtt/m/n/10.95 , $[]\OML/ntxmi/m/it/10.95 Cs$ \T1/cmtt/m/n/10.95 und $[]\OML/ntxmi/m/it/10.95 Eu$ \T1/cmtt/m/n/10.95 aufgezeichnet. Zus‰tzlich
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 wird das Untergrundspektrum (ohne Quelle) gemessen, um eine sp‰tere Subtraktion der
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Untergrundbeitr‰ge zu ermˆglichen. Die Messzeiten werden so gew‰hlt, dass die Photopeaks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Overfull \hbox (28.03723pt too wide) in paragraph at lines 6--7
+[]\T1/cmtt/m/n/10.95 Auf der Grundlage der aufgenommenen Spektren wird eine Energiekalibrierung des Systems
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 durchgef¸hrt. Dabei werden die bekannten Gammaenergien der Quellen mit den Kanalnummern
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 verkn¸pft, die den Photopeaks entsprechen. Mittels linearer Regression wird eine Kalibriergerade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+LaTeX Warning: Reference `fig:anhang_1' on page 9 undefined on input line 9.
+
+
+Overfull \hbox (39.78284pt too wide) in paragraph at lines 9--10
+\T1/cmtt/m/n/10.95 Die aufgezeichneten Untergrundspektren sollten eigentlich das erwartete niederenergetische
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 9--10
+\T1/cmtt/m/n/10.95 Rauschen sowie eine niedrige Ereignisrate zeigen; leider konnten diese aber nicht rechtzeitig
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 9--10
+\T1/cmtt/m/n/10.95 abgeholt werden . Folglich wurde das Untergrundspektrum vor jeder weiteren Analyse von
+ []
+
+
+Overfull \hbox (56.32909pt too wide) in paragraph at lines 11--12
+[]\T1/cmtt/m/n/10.95 Zur Energiekalibrierung werden Gauˇ-Funktionen in Kombination mit einem linearen Untergrund
+ []
+
+
+Overfull \hbox (45.44121pt too wide) in paragraph at lines 11--12
+\T1/cmtt/m/n/10.95 an einen begrenzten Kanalbereich um die entsprechenden Photopeaks angepasst. Die verwendete
+ []
+
+
+Overfull \hbox (61.98746pt too wide) in paragraph at lines 17--18
+[]\T1/cmtt/m/n/10.95 Hier bezeichnet k den Kanalindex des Vielkanalanalysators (MCA) . Die Ergebnisse ermˆglichen
+ []
+
+
+Overfull \hbox (44.86418pt too wide) in paragraph at lines 17--18
+\T1/cmtt/m/n/10.95 die Bestimmung der Peak-Mittenposition $\OML/ntxmi/m/it/10.95 ^^V$\T1/cmtt/m/n/10.95 , der Halbwertsbreite $\OML/ntxmi/m/it/10.95 ^^[[]$ \T1/cmtt/m/n/10.95 sowie der Peak-Fl‰che
+ []
+
+
+Overfull \hbox (2.16989pt too wide) in paragraph at lines 17--18
+\OML/ntxmi/m/it/10.95 A$\T1/cmtt/m/n/10.95 . Da der lineare Untergrund nicht ber¸cksichtigt werden konnte, ist die Bestimmung
+ []
+
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 17--18
+\T1/cmtt/m/n/10.95 der Emissionslinien nicht sehr pr‰zise, insbesondere bei Spektren, die mit NaI-Detektoren
+ []
+
+
+LaTeX Warning: Reference `eq_1' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 19.
+
+
+Overfull \hbox (28.03723pt too wide) in paragraph at lines 19--20
+[]\T1/cmtt/m/n/10.95 Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 19--20
+\T1/cmtt/m/n/10.95 Detektoren von derselben Probe aufgenommen wurden. Zur Erleichterung der Auswertung
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 19--20
+\T1/cmtt/m/n/10.95 wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden
+ []
+
+
+Overfull \hbox (6.33081pt too wide) in paragraph at lines 19--20
+\T1/cmtt/m/n/10.95 im weiteren Verlauf vorgestellt. Alle durch Gleichung[] definierten Antwortparameter
+ []
+
+
+Overfull \hbox (12.48738pt too wide) in paragraph at lines 19--20
+\T1/cmtt/m/n/10.95 sind in den Tabellen [] und [] aufgef¸hrt. Aufgrund der auˇergewˆhnlichen Sch‰rfe der
+ []
+
+
+Overfull \hbox (52.09598pt too wide) in paragraph at lines 19--20
+\T1/cmtt/m/n/10.95 HPGe-Spektrallinien werden diese zudem in den Abbildungen [] bis [] detailliert dargestellt. 
+ []
+
+
+LaTeX Warning: File `figs/Cobalt_gauss.png' not found on input line 26.
+
+
+./energiekalibrierung.tex:26: Package pdftex.def Error: File `figs/Cobalt_gauss.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...s[width=\linewidth]{figs/Cobalt_gauss.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Ge_Cobalt_gauss.png, id=77, 867.24pt x 433.62pt>
+File: figs/Ge_Cobalt_gauss.png Graphic file (type png)
+<use figs/Ge_Cobalt_gauss.png>
+Package pdftex.def Info: figs/Ge_Cobalt_gauss.png  used on input line 33.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+
+LaTeX Warning: Reference `fig:kalib_1' on page 9 undefined on input line 43.
+
+
+Overfull \hbox (37.53555pt too wide) in paragraph at lines 43--45
+[]\T1/cmtt/m/n/10.95 Auf Abbildung [] sind das gemessene Energiespektrum der $[]$Co-Quelle an beiden Detektoren
+ []
+
+
+Overfull \hbox (8.1272pt too wide) in paragraph at lines 43--45
+\T1/cmtt/m/n/10.95 zu sehen. Die charakteristischen Linien bei $\OT1/cmr/m/n/10.95 1173\OML/ntxmi/m/it/10.95 keV$ \T1/cmtt/m/n/10.95 und $\OT1/cmr/m/n/10.95 1332\OML/ntxmi/m/it/10.95 keV$ \T1/cmtt/m/n/10.95 sind in den Spektren
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 43--45
+\T1/cmtt/m/n/10.95 der HPGe- und NaI-Detektoren deutlich erkennbar. Es ist ersichtlich, dass der Halbleiterdetektor
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 43--45
+\T1/cmtt/m/n/10.95 eine bessere Empfindlichkeit bietet als der Szintillationsdetektor, was den Erwartungen
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 43--45
+\T1/cmtt/m/n/10.95 entspricht. Dies zeigt sich an der geringen Breite der Photopeaks. Obwohl der Compton-Untergrund
+ []
+
+
+Overfull \hbox (68.07469pt too wide) in paragraph at lines 43--45
+\T1/cmtt/m/n/10.95 das NaI-Spektrum dominiert, ist er im Vergleich zur Peakhˆhe im HPGe-Spektrum vernachl‰ssigbar. 
+ []
+
+
+Overfull \hbox (39.35397pt too wide) in paragraph at lines 46--47
+[]\T1/cmtt/m/n/10.95 Das Compton-Kontinuum resultiert aus dem Compton-Effekt im Detektormaterial: Der Bereich
+ []
+
+
+Overfull \hbox (13.95535pt too wide) in paragraph at lines 46--47
+\T1/cmtt/m/n/10.95 mˆglicher Streuwinkel $\OML/ntxmi/m/it/10.95 ^^R$ \T1/cmtt/m/n/10.95 (zwischen $\OT1/cmr/m/n/10.95 0[]$ \T1/cmtt/m/n/10.95 und $\OT1/cmr/m/n/10.95 180[]$\T1/cmtt/m/n/10.95 ) f¸r das gestreute Photon f¸hrt zu einer
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 46--47
+\T1/cmtt/m/n/10.95 konstanten Verteilung der absorbierten Energie. Die auf das Elektron ¸bertragene Energie
+ []
+
+
+Overfull \hbox (90.70818pt too wide) in paragraph at lines 46--47
+\T1/cmtt/m/n/10.95 erscheint im Spektrum als kontinuierliche Verteilung. Das typische Spektrum weist charakteristische
+ []
+
+[9
+
 
 
 
 ]
+
+LaTeX Warning: Reference `fig:kalib_2' on page 10 undefined on input line 48.
+
+
+Overfull \hbox (0.24358pt too wide) in paragraph at lines 48--49
+[]\T1/cmtt/m/n/10.95 Die C‰sium-Konzentration ist in Abbildung [] dargestellt. Sie zeigt ein ‰hnliches
+ []
+
+
+Overfull \hbox (90.70818pt too wide) in paragraph at lines 48--49
+\T1/cmtt/m/n/10.95 Verhalten wie die zuvor erw‰hnten Kobaltspektren und dient der Kalibrierung des 661-keV-Photopeaks. 
+ []
+
+<figs/Caesium_gauss1.png, id=90, 867.24pt x 433.62pt>
+File: figs/Caesium_gauss1.png Graphic file (type png)
+<use figs/Caesium_gauss1.png>
+Package pdftex.def Info: figs/Caesium_gauss1.png  used on input line 56.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+
+LaTeX Warning: File `figs/Ge_ceasium_gauss.png' not found on input line 63.
+
+
+./energiekalibrierung.tex:63: Package pdftex.def Error: File `figs/Ge_ceasium_gauss.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...dth=\linewidth]{figs/Ge_ceasium_gauss.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:kalib_3' on page 10 undefined on input line 72.
+
+
+Overfull \hbox (28.53543pt too wide) in paragraph at lines 72--73
+[]\T1/cmtt/m/n/10.95 Das Europium-Emissionsprofil ist in Abbildung [] dargestellt. W‰hrend sich die maximal
+ []
+
+
+Overfull \hbox (51.09958pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 zu erwartende Umwandlungseffizienz f¸r den Halbleiterdetektor leicht aus Tabelle 1 bestimmen
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 l‰sst, gestaltet sich dies beim Szintillationsdetektor aufgrund der geringeren Strˆme
+ []
+
+
+Overfull \hbox (68.07469pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 schwieriger. Folglich wird f¸r den NaI-Detektor nur die kritische Phase f¸r Kapazit‰tsmessungen
+ []
+
+<figs/Europium_gauss3.png, id=91, 867.24pt x 433.62pt>
+File: figs/Europium_gauss3.png Graphic file (type png)
+<use figs/Europium_gauss3.png>
+Package pdftex.def Info: figs/Europium_gauss3.png  used on input line 79.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+<figs/Ge_Europium_gausss.png, id=92, 867.24pt x 433.62pt>
+File: figs/Ge_Europium_gausss.png Graphic file (type png)
+<use figs/Ge_Europium_gausss.png>
+Package pdftex.def Info: figs/Ge_Europium_gausss.png  used on input line 86.
+(pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
+
+Overfull \hbox (11.06212pt too wide) in paragraph at lines 98--99
+[]\T1/cmtt/m/n/10.95 Es wird eine Energie-Kalibration, unter der Annahme, dass es eine lineare Zuordnung
+ []
+
+
+LaTeX Warning: Reference `fig:kalib_4' on page 10 undefined on input line 103.
+
+
+Overfull \hbox (41.54865pt too wide) in paragraph at lines 101--104
+\T1/cmtt/m/n/10.95 Wenn diesauf die ermittelten Maxima $\OML/ntxmi/m/it/10.95 ^^V$ \T1/cmtt/m/n/10.95 und die Literaturwerte $\OML/ntxmi/m/it/10.95 E\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 ^^V\LMS/ntxsy/m/n/10.95 ∫$ \T1/cmtt/m/n/10.95 f¸r zugehˆrigen Energien
+ []
+
+
+Overfull \hbox (74.23126pt too wide) in paragraph at lines 101--104
+\T1/cmtt/m/n/10.95 angewendet wird, ergeben sich f¸r beide Detektoren die in Abbildung [] gezeigten Zusammmenh‰nge: 
+ []
+
+<figs/Energie_kalibrierung.png, id=93, 578.16pt x 361.35pt>
+File: figs/Energie_kalibrierung.png Graphic file (type png)
+<use figs/Energie_kalibrierung.png>
+Package pdftex.def Info: figs/Energie_kalibrierung.png  used on input line 111.
+(pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
+<figs/Ge_Energiekal.png, id=94, 578.16pt x 361.35pt>
+File: figs/Ge_Energiekal.png Graphic file (type png)
+<use figs/Ge_Energiekal.png>
+Package pdftex.def Info: figs/Ge_Energiekal.png  used on input line 118.
+(pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
+
+Overfull \hbox (5.40375pt too wide) in paragraph at lines 127--128
+[]\T1/cmtt/m/n/10.95 Die mit dem linearen Energie-Fit verbundenen Unsicherheiten sind vernachl‰ssigbar,
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 127--128
+\T1/cmtt/m/n/10.95 da die Litteraturwerte der ‹bergangsenergien gut bekannt sind und die Positionen der
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 127--128
+\T1/cmtt/m/n/10.95 Spektralpeaks mit hinreichender Pr‰zision bestimmt werden kˆnnen. Selbst bei den sehr
+ []
+
+
+Overfull \hbox (63.12042pt too wide) in paragraph at lines 127--128
+\T1/cmtt/m/n/10.95 groˇen reduzierten $\OML/ntxmi/m/it/10.95 ^^_[]$ \T1/cmtt/m/n/10.95 -Werten liefert der lineare Fit gute Kalibriergeraden. Die Fitergebnisse
+ []
+
+
+Overfull \hbox (122.95587pt too wide) detected at line 132
+[]
+ []
+
+)
+Overfull \hbox (11.06212pt too wide) in paragraph at lines 134--49
+[]\T1/cmtt/m/n/10.95 Auf der Grundlage dieser Parameter wurden Energieskalierungen f¸r die vorangehenden
+ []
+
+
+Overfull \hbox (85.0498pt too wide) in paragraph at lines 134--49
+\T1/cmtt/m/n/10.95 und nachfolgenden Abbildungen berechnet. Die simulierten Spektren zeigen eine gute ‹bereinstimmung
+ []
+
+[10 <./figs/Ge_Cobalt_gauss.png>] [11 <./figs/Caesium_gauss1.png> <./figs/Europium_gauss3.png> <./figs/Ge_Europium_gausss.png> <./figs/Energie_kalibrierung.png> <./figs/Ge_Energiekal.png>]
 \openout2 = `halbwertsbreite.aux'.
 
- (./halbwertsbreite.tex) [5
+ (./halbwertsbreite.tex
+chapter 4.
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Nach erfolgreichem Abschluss der Kalibrierung wird die Halbwertsbreite (FWHM - Full
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 Width at Half Maximum) der dominanten Peaks bestimmt. Dies umfasst zwei Linien aus dem
+ []
+
+
+Overfull \hbox (9.18346pt too wide) in paragraph at lines 4--5
+[]\OML/ntxmi/m/it/10.95 Co$\T1/cmtt/m/n/10.95 -Spektrum, die 661-keV-Linie von $[]\OML/ntxmi/m/it/10.95 Cs$ \T1/cmtt/m/n/10.95 sowie bestimmte, gut aufgelˆste Linien aus
+ []
+
+
+Overfull \hbox (30.39954pt too wide) in paragraph at lines 4--5
+\T1/cmtt/m/n/10.95 dem $[]$Eu-Spektrum. Aus der Halbwertsbreite und der Peakenergie wird die Energieauflˆsung
+ []
+
+
+LaTeX Warning: Reference `' on page 12 undefined on input line 6.
+
+
+LaTeX Warning: Reference `' on page 12 undefined on input line 6.
+
+
+Overfull \hbox (16.72049pt too wide) in paragraph at lines 6--7
+[]\T1/cmtt/m/n/10.95 Im vorherigen Abschnitt wurde gezeigt, dass die Bandbreite eines Halbleiterdetektors
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 wesentlich schmaler ist als die eines Szintillationsdetektors. Dieser Unterschied l‰sst
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 6--7
+\T1/cmtt/m/n/10.95 sich durch die Bestimmung der Halbwertsbreite (FWHM) der Photopeaks, bezeichnet als
+ []
+
+
+Overfull \hbox (22.40457pt too wide) in paragraph at lines 6--7
+\U/ntxmia/m/it/10.95 ^^A\OML/ntxmi/m/it/10.95 E$\T1/cmtt/m/n/10.95 , charakterisieren. Hierzu werden die beiden Parameter $\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 E; ^^[\LMS/ntxsy/m/n/10.95 ∫$ \T1/cmtt/m/n/10.95 aus den Tabellen [] und
+ []
+
+
+LaTeX Warning: Reference `eq_2' on page 12 undefined on input line 8.
+
+
+Overfull \hbox (22.37886pt too wide) in paragraph at lines 8--9
+[]\T1/cmtt/m/n/10.95 Der f¸r einen Halbleiterdetektor zu erwartende theoretische Zusammenhang (bei dem die
+ []
+
+
+Overfull \hbox (14.64099pt too wide) in paragraph at lines 8--9
+\T1/cmtt/m/n/10.95 intrinsische Halbwertsbreite $\U/ntxmia/m/it/10.95 ^^A\OML/ntxmi/m/it/10.95 E[]$ \T1/cmtt/m/n/10.95 mit der Photonenenergie zunimmt) wird durch folgende
+ []
+
+
+LaTeX Warning: Reference `eq_3' on page 12 undefined on input line 13.
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 11--14
+[][] \T1/cmtt/m/n/10.95 Im Gegensatz dazu wird das bei einem Funkendetektor beobachtete Verhalten durch diese
+ []
+
+
+LaTeX Warning: Reference `fig:halbw_1' on page 12 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq_2' on page 12 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq_3' on page 12 undefined on input line 19.
+
+<figs/Na(I)_Halbwertsbreite.png, id=115, 578.16pt x 361.35pt>
+File: figs/Na(I)_Halbwertsbreite.png Graphic file (type png)
+<use figs/Na(I)_Halbwertsbreite.png>
+Package pdftex.def Info: figs/Na(I)_Halbwertsbreite.png  used on input line 24.
+(pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
+<figs/Ge_Halbwerts.png, id=116, 578.16pt x 361.35pt>
+File: figs/Ge_Halbwerts.png Graphic file (type png)
+<use figs/Ge_Halbwerts.png>
+Package pdftex.def Info: figs/Ge_Halbwerts.png  used on input line 31.
+(pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
+
+Overfull \hbox (17.21869pt too wide) in paragraph at lines 19--40
+[]\T1/cmtt/m/n/10.95 Abbildung [] zeigt die in Abh‰ngigkeit von der Intensit‰t berechneten FWHM-Werte f¸r
+ []
+
+
+Overfull \hbox (12.48738pt too wide) in paragraph at lines 19--40
+\T1/cmtt/m/n/10.95 beide Detektoren sowie die entsprechenden, aus den Gleichungen [] und [] abgeleiteten
+ []
+
+
+Overfull \hbox (45.01234pt too wide) in paragraph at lines 41--42
+[]\T1/cmtt/m/n/10.95 Der Vergleich der beiden Datens‰tze best‰tigt, was bereits anhand der Intensit‰tsspektren
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 41--42
+\T1/cmtt/m/n/10.95 zu beobachten war: Die dem Szintillationsdetektor zugeordnete Breite ist etwa 33-mal
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 41--42
+\T1/cmtt/m/n/10.95 grˆˇer als die des Halbleiterdetektors. Beide Korrelationsfunktionen zeigen eine Breite
+ []
+
+
+Overfull \hbox (29.1702pt too wide) in paragraph at lines 41--42
+\T1/cmtt/m/n/10.95 der Photopeaks bei hohen reduzierten $\OML/ntxmi/m/it/10.95 ^^_[]$\T1/cmtt/m/n/10.95 -Wert (grˆˇer als 1). Lediglich beim NaI-Detektor
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 41--42
+\T1/cmtt/m/n/10.95 tritt bei hˆheren Energien eine deutlichere Diskrepanz zwischen Modell und Messdaten
+ []
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+Missing character: There is no ± in font cmr10!
+Missing character: There is no ± in font cmr10!
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \textpm invalid in math mode on input line 47.
+
+Missing character: There is no ± in font cmr10!
+Missing character: There is no ± in font cmr10!
+
+Overfull \hbox (75.87242pt too wide) detected at line 47
+[]
+ []
+
+[12
 
 
 
-]
+
+ <./figs/Na(I)_Halbwertsbreite.png> <./figs/Ge_Halbwerts.png>])
+Overfull \hbox (45.44121pt too wide) in paragraph at lines 47--50
+\T1/cmtt/m/n/10.95 Im untersuchten Energiebereich liegt die Halbwertsbreite (FWHM) des HPGe-Detektors zwischen
+ []
+
+
+Overfull \hbox (8.11061pt too wide) in paragraph at lines 47--50
+\T1/cmtt/m/n/10.95 ??? keV und ??? keV. Folglich hat die Elektronenstrahlbreite $\U/ntxmia/m/it/10.95 ^^A\OML/ntxmi/m/it/10.95 E[]$ \T1/cmtt/m/n/10.95 einen signifikanten
+ []
+
+
+Overfull \hbox (73.73306pt too wide) in paragraph at lines 47--50
+\T1/cmtt/m/n/10.95 Einfluss auf die Energiebilanz. Bei sehr hohen Energien (MeV-Bereich) ist dieser verlustbedingte
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 47--50
+\T1/cmtt/m/n/10.95 Beitrag vernachl‰ssigbar im Vergleich zu der energieabh‰ngigen Komponente (propto x),
+ []
+
+[13]
 \openout2 = `intrinsisch.aux'.
 
- (./intrinsisch.tex) [6
+
+No file intrinsisch.tex.
+\openout2 = `peak-to-total.aux'.
+
+(./peak-to-total.tex
+chapter 5.
+
+Overfull \hbox (60.1088pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 Als N‰chstes wird das Peak-zu-Gesamt-Verh‰ltnis f¸r die Spektren von $[]\OML/ntxmi/m/it/10.95 Cs$ \T1/cmtt/m/n/10.95 und $[]\OML/ntxmi/m/it/10.95 Co$ \T1/cmtt/m/n/10.95 ermittelt.
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 Hierzu wird die Fl‰che des Photopeaks ins Verh‰ltnis zur Gesamtzahl der registrierten
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 Ereignisse gesetzt. Dieses Verh‰ltnis gibt Aufschluss ¸ber die Reinheit des Spektrums
+ []
+
+
+Overfull \hbox (22.80772pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 sowie ¸ber den relativen Anteil des Compton-Untergrunds und der Streuprozesse innerhalb
+ []
+
+
+Overfull \hbox (43.01389pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 des Detektors. Schlieˇlich wird die Effizienz des NaI-Detektors mithilfe einer $[]\OML/ntxmi/m/it/10.95 Cs$\T1/cmtt/m/n/10.95 -Quelle
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 bestimmt. Die absolute Nachweiseffizienz wird unter Ber¸cksichtigung der bekannten Aktivit‰t,
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 der Emissionswahrscheinlichkeit der 661-keV-Linie, der Messdauer sowie der Geometrie
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 berechnet. Dies ermˆglicht eine Absch‰tzung der Anzahl der emittierten Photonen, die
+ []
+
+
+Overfull \hbox (31.69714pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 tats‰chlich vom Detektor registriert werden. Das Peak-zu-Gesamt-Verh‰ltnis f¸r die $[]\OML/ntxmi/m/it/10.95 Cs$\T1/cmtt/m/n/10.95 -
+ []
+
+
+Overfull \hbox (39.90263pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 und $[]\OML/ntxmi/m/it/10.95 Co$\T1/cmtt/m/n/10.95 -Spektren wurde grafisch dargestellt. Hierf¸r werden die Positionen der Photopeaks
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 relativ zur Anzahl der registrierten Ereignisse (Counts) normiert. Diese Auswertung
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 4--6
+\T1/cmtt/m/n/10.95 erlaubt eine Beurteilung der spektralen Reinheit sowie der Grˆˇe des Compton-Untergrunds
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 7--8
+\T1/cmtt/m/n/10.95 Das Peak-zu-Gesamt-Verh‰ltnis (Peak-to-Total Ratio) ist eine weitere Mˆglichkeit, die
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 7--8
+\T1/cmtt/m/n/10.95 Detektorqualit‰t zu bewerten. Die Anzahl der einem Photopeak zugeordneten Ereignisse
+ []
+
+
+Overfull \hbox (5.26884pt too wide) in paragraph at lines 7--8
+\T1/cmtt/m/n/10.95 ergibt sich aus der Fl‰che $\OML/ntxmi/m/it/10.95 A$ \T1/cmtt/m/n/10.95 unter der entsprechenden Gauˇ-Funktion $\OML/ntxmi/m/it/10.95 G\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 K\LMS/ntxsy/m/n/10.95 ∫$\T1/cmtt/m/n/10.95 . Bei einer
+ []
+
+
+Overfull \hbox (113.34166pt too wide) in paragraph at lines 7--8
+\T1/cmtt/m/n/10.95 C‰sium-Messung, bei der nur ein dominanter Photopeak auftritt, erh‰lt man das Peak-zu-Gesamt-Verh‰ltnis
+ []
+
+
+Overfull \hbox (14.69069pt too wide) in paragraph at lines 7--8
+\OML/ntxmi/m/it/10.95 P[]$ \T1/cmtt/m/n/10.95 durch Division dieser Fl‰che durch die Gesamtzahl der registrierten Ereignisse $\OML/ntxmi/m/it/10.95 N[]$\T1/cmtt/m/n/10.95 . 
+ []
+
+
+Overfull \hbox (5.40375pt too wide) in paragraph at lines 9--10
+[]\T1/cmtt/m/n/10.95 Ein ‰hnliches Verh‰ltnis l‰sst sich f¸r eine Kobalt-Quelle bestimmen. Da in diesem
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 9--10
+\T1/cmtt/m/n/10.95 Fall zwei sehr eng beieinander liegende Emissionslinien vorliegen, wird die Gesamtzahl
+ []
+
+
+Overfull \hbox (24.51732pt too wide) in paragraph at lines 9--10
+\T1/cmtt/m/n/10.95 der Photopeak-Ereignisse als Summe der beiden Fl‰chen definiert: $\OML/ntxmi/m/it/10.95 A\LMS/ntxsy/m/n/10.95 π\OT1/cmr/m/n/10.95 1173 []\LMS/ntxsy/m/n/10.95 ∫ œ \OML/ntxmi/m/it/10.95 A\LMS/ntxsy/m/n/10.95 π\OT1/cmr/m/n/10.95 1332 []\LMS/ntxsy/m/n/10.95 ∫$\T1/cmtt/m/n/10.95 .
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 9--10
+\T1/cmtt/m/n/10.95 Als Energie des kombinierten Peaks wird der Mittelwert der beiden ‹bergangsenergien
+ []
+
+
+Overfull \hbox (16.72049pt too wide) in paragraph at lines 22--23
+[]\T1/cmtt/m/n/10.95 Die Ergebnisse zeigen, dass der Szintillationsdetektor (NaI) einen deutlich grˆˇeren
+ []
+
+
+Overfull \hbox (62.41632pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 Anteil der registrierten Ereignisse dem Photopeak zuordnet. Dies deutet auf eine **spezifische
+ []
+
+
+Overfull \hbox (124.6584pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 Ansprechfunktion** des NaI-Detektors hin. Zudem nimmt bei beiden Detektoren das Peak-zu-Gesamt-Verh‰ltnis
+ []
+
+
+Overfull \hbox (35.84001pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 mit steigender Photonenenergie $\OML/ntxmi/m/it/10.95 E[]$ \T1/cmtt/m/n/10.95 ab. Eine plausible Erkl‰rung hierf¸r ist eine **Abnahme
+ []
+
+
+Overfull \hbox (51.09958pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 der Detektoreffizienz** bei hohen Energien; dies f¸hrt zu einer relativen ‹berrepr‰sentation
+ []
+
+
+Overfull \hbox (130.31677pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 nieder- und mittelenergetischer Ereignisse und bewirkt somit ein Absinken des Peak-zu-Gesamt-Verh‰ltnisses
+ []
+
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 bei hˆheren Energien. Die Berechnung basiert auf Spektren, die nach Abzug des Untergrunds
+ []
+
+
+Overfull \hbox (51.09958pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 f¸r die bekannten Quellen erhalten wurden. Dieses Vorgehen ist sinnvoll, da die Auswirkungen
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 externer Untergrundstrahlung nicht als ^^RFehlfunktion^^P des Detektors interpretiert werden
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 22--23
+\T1/cmtt/m/n/10.95 d¸rfen und daher vor der Bestimmung des Peak-zu-Gesamt-Verh‰ltnisses eliminiert werden
+ []
+
+[14
+
+
+
+
 
 
 
 ]
-\openout2 = `peak-to-total.aux'.
+chapter 6.
 
- (./peak-to-total.tex) [7
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 27--29
+\T1/cmtt/m/n/10.95 Der n‰chste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors.
+ []
 
 
+Overfull \hbox (2.0949pt too wide) in paragraph at lines 27--29
+\T1/cmtt/m/n/10.95 Hierf¸r wurden Spektren von $[]\OML/ntxmi/m/it/10.95 Cs$ \T1/cmtt/m/n/10.95 und $[]\OML/ntxmi/m/it/10.95 Eu$ \T1/cmtt/m/n/10.95 herangezogen. Unter Ber¸cksichtigung der
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 27--29
+\T1/cmtt/m/n/10.95 bekannten Aktivit‰t, des Temperaturbereichs der jeweiligen Phase, der Messdauer und
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 27--29
+\T1/cmtt/m/n/10.95 der Geometrie wurde das Effizienzverh‰ltnis f¸r verschiedene Energien berechnet und
+ []
+
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 27--29
+\T1/cmtt/m/n/10.95 Die Effizienz der C‰siumquelle wurde unter Verwendung von Gleichung (1) und der bekannten
+ []
+
+
+Overfull \hbox (68.73445pt too wide) in paragraph at lines 27--29
+\T1/cmtt/m/n/10.95 Kristalldurchmesser $\OML/ntxmi/m/it/10.95 d$ \T1/cmtt/m/n/10.95 der beiden Detektoren (NaI und HPGe) berechnet. Die Schwellenwertfunktion
+ []
+
+
+Overfull \hbox (10.67801pt too wide) in paragraph at lines 27--29
+\OML/ntxmi/m/it/10.95 B\LMS/ntxsy/m/n/10.95 π[]∫$ \T1/cmtt/m/n/10.95 sowie der Abstand sind Tabelle 2 zu entnehmen. Basierend auf der Detektionsrate
+ []
+
+
+Overfull \hbox (9.05943pt too wide) in paragraph at lines 27--29
+\OML/ntxmi/m/it/10.95 N[] \U/ntxmia/m/it/10.95 = \OML/ntxmi/m/it/10.95 A$ \T1/cmtt/m/n/10.95 (Tabellen 4 und 5), die dem 661-keV-Photopeak zugeordnet ist, ergeben sich
+ []
+
+
+Overfull \hbox (22.37886pt too wide) in paragraph at lines 40--41
+[]\T1/cmtt/m/n/10.95 Die Ergebnisse zeigen, dass nur ein geringer Anteil der einfallenden 661-keV-Photonen
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 40--41
+\T1/cmtt/m/n/10.95 im Photopeak erscheint. Die meisten Photonen durchlaufen den Detektor, werden gestreut
+ []
+
+
+Overfull \hbox (102.02492pt too wide) in paragraph at lines 40--41
+\T1/cmtt/m/n/10.95 oder erzeugen kein Signal im Photopeak ^^U sei es aufgrund von Effekten w‰hrend der **Ladungssammlung**
+ []
+
+
+Overfull \hbox (68.07469pt too wide) in paragraph at lines 40--41
+\T1/cmtt/m/n/10.95 (z. B. Rekombination) oder durch das Ausbleiben photoelektrischer Ereignisse im Photomultiplier
+ []
+
+
+Overfull \hbox (22.37886pt too wide) in paragraph at lines 42--43
+[]\T1/cmtt/m/n/10.95 Des Weiteren ist die Effizienz von Szintillationsdetektoren bei diesen Energien hˆher
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 42--43
+\T1/cmtt/m/n/10.95 als die von Halbleiterdetektoren. Dieses Ergebnis entspricht den Erwartungen, da die
+ []
+
+
+Overfull \hbox (28.12532pt too wide) in paragraph at lines 42--43
+\T1/cmtt/m/n/10.95 hˆhere Ordnungszahl von Iod ($\OML/ntxmi/m/it/10.95 Z \U/ntxmia/m/it/10.95 = \OT1/cmr/m/n/10.95 53$\T1/cmtt/m/n/10.95 ) im Vergleich zu Germanium ($\OML/ntxmi/m/it/10.95 Z \U/ntxmia/m/it/10.95 = \OT1/cmr/m/n/10.95 32$\T1/cmtt/m/n/10.95 ) zu einem grˆˇeren
+ []
+
+
+Overfull \hbox (16.72049pt too wide) in paragraph at lines 44--45
+[]\T1/cmtt/m/n/10.95 Analog zum C‰sium-Fall lassen sich die Effizienzen f¸r das gesamte Europium-Spektrum
+ []
+
+
+Overfull \hbox (3.8782pt too wide) in paragraph at lines 44--45
+\T1/cmtt/m/n/10.95 bestimmen. Dabei ist zu beachten, dass die Referenzfunktion $\OML/ntxmi/m/it/10.95 B\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 E\LMS/ntxsy/m/n/10.95 ∫$ \T1/cmtt/m/n/10.95 f¸r jede Energie $\OML/ntxmi/m/it/10.95 E$
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 44--45
+\T1/cmtt/m/n/10.95 mit der entsprechenden Z‰hlrate verglichen werden muss (siehe Tabelle 1). Abbildung
+ []
+
+
+Overfull \hbox (21.78767pt too wide) in paragraph at lines 48--49
+[]\T1/cmtt/m/n/10.95 Abbildung 11 zeigt, dass die Effizienz $\OML/ntxmi/m/it/10.95 ^^O\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 E\LMS/ntxsy/m/n/10.95 ∫$ \T1/cmtt/m/n/10.95 beider Detektoren mit zunehmender Energie
+ []
+
+
+Overfull \hbox (25.14919pt too wide) in paragraph at lines 48--49
+\T1/cmtt/m/n/10.95 im Bereich $\OML/ntxmi/m/it/10.95 E \LMS/ntxsy/m/n/10.95 2 ª\OT1/cmr/m/n/10.95 100 []\OML/ntxmi/m/it/10.95 ; \OT1/cmr/m/n/10.95 1500 []\LMS/ntxsy/m/n/10.95 º$ \T1/cmtt/m/n/10.95 deutlich abnimmt. Dieses Verhalten ist bekannt und l‰sst
+ []
+
+
+Overfull \hbox (61.98746pt too wide) in paragraph at lines 55--56
+[]\T1/cmtt/m/n/10.95 Die in den Abbildungen 11a und 11b dargestellten Effizienzkurven folgen dieser Funktionsform
+ []
+
+
+Overfull \hbox (56.32909pt too wide) in paragraph at lines 67--68
+[]\T1/cmtt/m/n/10.95 Allerdings gibt diese Anpassungsfunktion den erwarteten Effizienzverlauf bei sehr niedrigen
+ []
+
+
+Overfull \hbox (56.75795pt too wide) in paragraph at lines 67--68
+\T1/cmtt/m/n/10.95 Energien nicht pr‰zise wieder [11, S. 242]. Eine genauere Betrachtung der niederenergetischen
+ []
+
+
+Overfull \hbox (11.49098pt too wide) in paragraph at lines 67--68
+\T1/cmtt/m/n/10.95 Datenpunkte in Abbildung 11 legt nahe, dass die Effizienzkurve in diesem Bereich eine
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 67--68
+\T1/cmtt/m/n/10.95 Glockenform annimmt und zu niedrigeren Effizienzwerten hin konvergiert. Dieses Verhalten
+ []
+
+
+Overfull \hbox (34.12447pt too wide) in paragraph at lines 67--68
+\T1/cmtt/m/n/10.95 l‰sst sich jedoch mit den verf¸gbaren Mitteln nicht best‰tigen, da der niederenergetische
+ []
+
+[15
+
+]
+Overfull \hbox (11.06212pt too wide) in paragraph at lines 69--70
+[]\T1/cmtt/m/n/10.95 Insgesamt beschreibt die Regressionsfunktion den Effizienzabfall bei hohen Energien
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 69--70
+\T1/cmtt/m/n/10.95 korrekt und stimmt mit der zuvor aus der C‰sium-Messung ermittelten Effizienz ¸berein.
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 69--70
+\T1/cmtt/m/n/10.95 Sie liefert somit eine konsistente Darstellung der **Detektoreffizienz** in Abh‰ngigkeit
+ []
+
+[16]
+chapter 7.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 71.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.1> not available
+(Font)              size <17.28> substituted on input line 71.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <11.4> not available
+(Font)              size <10.95> substituted on input line 71.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <16.1> not available
+(Font)              size <17.28> substituted on input line 71.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <11.4> not available
+(Font)              size <10.95> substituted on input line 71.
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 Schlieˇlich wird die G¸ltigkeit der berechneten Effizienzkurven ¸berpr¸ft, indem die
+ []
+
+
+Overfull \hbox (17.14935pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 Aktivit‰t der Kobaltquelle aus dem gemessenen Spektrum rekonstruiert wird. Hierzu wird
+ []
+
+
+Overfull \hbox (0.17424pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 das Spektrum zun‰chst mithilfe der Effizienzkurve korrigiert. Die Effizienzfunktion
+ []
+
+
+Overfull \hbox (39.78284pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 beruht auf der Annahme, dass nur Ereignisse innerhalb des Gauˇ-Fit-Bereichs des Photopeaks
+ []
+
+
+Overfull \hbox (28.4661pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 korrekt detektiert werden. Folglich m¸ssen f¸r die Fl‰chen der beiden Kobalt-Photopeaks,
+ []
+
+
+Overfull \hbox (1.36641pt too wide) in paragraph at lines 72--73
+\OML/ntxmi/m/it/10.95 A\LMS/ntxsy/m/n/10.95 π\OT1/cmr/m/n/10.95 1173 []\LMS/ntxsy/m/n/10.95 ∫$ \T1/cmtt/m/n/10.95 und $\OML/ntxmi/m/it/10.95 A\LMS/ntxsy/m/n/10.95 π\OT1/cmr/m/n/10.95 1332 []\LMS/ntxsy/m/n/10.95 ∫$\T1/cmtt/m/n/10.95 , die entsprechenden Ereignisanzahlen unter Verwendung von
+ []
+
+
+Overfull \hbox (49.96547pt too wide) in paragraph at lines 72--73
+\OML/ntxmi/m/it/10.95 ^^O\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 E[]\LMS/ntxsy/m/n/10.95 ∫$ \T1/cmtt/m/n/10.95 hinsichtlich der Energieabh‰ngigkeit korrigiert werden. Unter Verwendung der Parameter
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/10.95 der beiden Gauˇ-Funktionen wird zun‰chst ein ^^Rbereinigtes^^P Kobalt-Spektrum erstellt,
+ []
+
+
+Overfull \hbox (10.62157pt too wide) in paragraph at lines 84--85
+[]\T1/cmtt/m/n/10.95 Dieses bereinigte Spektrum wird anschlieˇend kanalweise durch die Effizienz $\OML/ntxmi/m/it/10.95 ^^O\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 E\LMS/ntxsy/m/n/10.95 π\OML/ntxmi/m/it/10.95 K\LMS/ntxsy/m/n/10.95 ∫∫$
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 84--85
+\T1/cmtt/m/n/10.95 dividiert und ¸ber alle Kan‰le aufsummiert. Dies ergibt die Anzahl der Photonen, die
+ []
+
+
+Overfull \hbox (12.88269pt too wide) in paragraph at lines 84--85
+\T1/cmtt/m/n/10.95 den Detektor w‰hrend der Messdauer (T = 300 s) erreichen, bezeichnet als $\OML/ntxmi/m/it/10.95 N[]$\T1/cmtt/m/n/10.95 . Durch
+ []
+
+
+Overfull \hbox (5.83261pt too wide) in paragraph at lines 84--85
+\T1/cmtt/m/n/10.95 Division durch den Raumwinkel des Detektors und die Messdauer erh‰lt man schlieˇlich
+ []
+
+
+./peak-to-total.tex:92: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \] \]
+           \tag{10}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./peak-to-total.tex:92: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \] \]
+           \tag{10}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./peak-to-total.tex:92: Missing $ inserted.
+<inserted text> 
+                $
+l.92 \] \]
+           \tag{10}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./peak-to-total.tex:92: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.92 \] \]
+           \tag{10}
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./peak-to-total.tex:92: Missing } inserted.
+<inserted text> 
+                }
+l.92 \] \]
+           \tag{10}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./peak-to-total.tex:92: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.92 \] \]
+           \tag{10}
+Things are pretty mixed up, but I think the worst is over.
+
+
+./peak-to-total.tex:92: Package amsmath Error: \tag not allowed here.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \] \] \tag
+               {10}
+\tag cannot be used at this point. If you don't understand why
+you should consult the documentation.
+But don't worry: just continue, and I'll forget what happened. 
+
+
+./peak-to-total.tex:93: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \]
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./peak-to-total.tex:93: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \]
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./peak-to-total.tex:93: Missing $ inserted.
+<inserted text> 
+                $
+l.93 \]
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./peak-to-total.tex:93: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.93 \]
+       
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./peak-to-total.tex:93: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.93 \]
+       
+Things are pretty mixed up, but I think the worst is over.
+
+) [17
 
 ]
 \openout2 = `detektoreffizienz.aux'.
 
- (./detektoreffizienz.tex) [8
+ (./detektoreffizienz.tex) [18
 
 
 
@@ -1539,14 +3396,150 @@ l.44  \include{aufbau}
 \openout2 = `radioaktivit√§t.aux'.
 
  (./radioaktivit√§t.tex
+chapter 8.
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 1.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)) [9
+)
+./radioaktivit√§t.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16 \frac{\Delta N}{N}
+                       =\frac{1}{\sqrt{N}},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./radioaktivit√§t.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16 \frac{\Delta N}{N}
+                       =\frac{1}{\sqrt{N}},
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./radioaktivit√§t.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16 \frac{\Delta N}{N}
+                       =\frac{1}{\sqrt{N}},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./radioaktivit√§t.tex:16: Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.16 \frac{\Delta N}{N}
+                       =\frac{1}{\sqrt{N}},
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./radioaktivit√§t.tex:18: Missing $ inserted.
+<inserted text> 
+                $
+l.18 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Reference `fig' on page 19 undefined on input line 21.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 30.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 30.
+
+
+LaTeX Warning: Reference `fig' on page 19 undefined on input line 32.
+
+
+LaTeX Warning: Reference `gl:' on page 19 undefined on input line 35.
+
+
+LaTeX Warning: Reference `fig:erde_spektrum' on page 19 undefined on input line 37.
+
+
+LaTeX Warning: Reference `tab:erde_peaks' on page 19 undefined on input line 39.
+
+
+LaTeX Warning: Reference `gl.' on page 19 undefined on input line 44.
+
+
+LaTeX Warning: Reference `' on page 19 undefined on input line 44.
+
+<figs//Ge_Erde_ramen_gauss.png, id=169, 867.24pt x 433.62pt>
+File: figs//Ge_Erde_ramen_gauss.png Graphic file (type png)
+<use figs//Ge_Erde_ramen_gauss.png>
+Package pdftex.def Info: figs//Ge_Erde_ramen_gauss.png  used on input line 49.
+(pdftex.def)             Requested size: 469.47055pt x 234.74017pt.
+[19
+
 
 
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 85.
+
+
+LaTeX Warning: Citation 'NuDat3' on page 20 undefined on input line 87.
+
+
+LaTeX Warning: Citation 'NIST_Xray' on page 20 undefined on input line 90.
+
+[20 <./figs//Ge_Erde_ramen_gauss.png>]
+
+LaTeX Warning: Citation 'Auranen2020_212Pb' on page 21 undefined on input line 93.
+
+
+LaTeX Warning: Citation 'Zhu2021_214Pb' on page 21 undefined on input line 97.
+
+
+LaTeX Warning: Citation 'Abusaleem2014_228Ac' on page 21 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'Martin2007_208Tl' on page 21 undefined on input line 109.
+
+
+LaTeX Warning: Citation 'Zhu2021_214Pb' on page 21 undefined on input line 113.
+
+
+LaTeX Warning: Citation 'Chen2017_40K' on page 21 undefined on input line 116.
+
+
+LaTeX Warning: Reference `fig:Ge_Cobalt' on page 21 undefined on input line 118.
+
+[21]) [22]
 \openout2 = `Fazit.aux'.
 
  (./Fazit.tex
@@ -1554,40 +3547,61 @@ Overfull \hbox (3.36946pt too wide) in paragraph at lines 8--9
 []\T1/cmr/m/n/10.95 Das Ef-fi-zi-enz-ver-h‰lt-nis wur-de eben-falls be-stimmt. Es er-wies sich als ????? wie das des Sz-Detektors.
  []
 
-) [10
+) [23
 
 
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 59.
+LaTeX Warning: Empty bibliography on input line 62.
 
 (./main.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 22.
- (./Einleitung.aux) (./aufbau.aux) (./justage.aux) (./energiekalibrierung.aux) (./halbwertsbreite.aux) (./intrinsisch.aux) (./peak-to-total.aux) (./detektoreffizienz.aux) (./radioaktivit√§t.aux) (./Fazit.aux))
+ (./Einleitung.aux) (./aufbau.aux) (./voraufgabe.aux) (./justage.aux) (./energiekalibrierung.aux) (./halbwertsbreite.aux) (./intrinsisch.aux) (./peak-to-total.aux) (./detektoreffizienz.aux) (./radioaktivit√§t.aux) (./Fazit.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
+(Font)              up to 1.18pt have occurred.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 16 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 48432 strings out of 477884
- 993330 string characters out of 5835937
- 1970052 words of memory out of 5000000
- 67801 multiletter control sequences out of 15000+600000
- 560029 words of font info for 137 fonts, out of 8000000 for 9000
+ 49110 strings out of 477884
+ 1007792 string characters out of 5835937
+ 1950360 words of memory out of 5000000
+ 68396 multiletter control sequences out of 15000+600000
+ 602274 words of font info for 231 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
- 108i,19n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (12 pages, 150724 bytes).
+ 108i,20n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (25 pages, 746239 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
