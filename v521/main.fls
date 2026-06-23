@@ -1785,6 +1785,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT ./figs/scope_1.png
 INPUT ./figs/scope_1.png
 INPUT figs/scope_1.png
@@ -1795,7 +1797,6 @@ INPUT ./figs/scope_2.png
 INPUT figs/scope_2.png
 INPUT ./figs/scope_2.png
 INPUT ./figs/scope_2.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT ./energiekalibrierung.tex
 INPUT ./energiekalibrierung.tex
 INPUT ./energiekalibrierung.tex
@@ -1816,9 +1817,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txmiaSTbb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxmi5.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/NewTXMI5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxexx.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txexs.tfm
 INPUT ./figs/Cobalt_gausss.png
 INPUT ./figs/Cobalt_gausss.png
 INPUT figs/Cobalt_gausss.png
@@ -1849,6 +1847,8 @@ INPUT ./figs/Ge_Europium_gausss.png
 INPUT figs/Ge_Europium_gausss.png
 INPUT ./figs/Ge_Europium_gausss.png
 INPUT ./figs/Ge_Europium_gausss.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxexx.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txexs.tfm
 INPUT ./figs/Energie_kalibrierung.png
 INPUT ./figs/Energie_kalibrierung.png
 INPUT figs/Energie_kalibrierung.png

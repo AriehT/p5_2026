@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  23 JUN 2026 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  23 JUN 2026 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1714,65 +1714,61 @@ Underfull \hbox (badness 7451) in paragraph at lines 65--65
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 [9]
 
-LaTeX Warning: Reference `tab_2' on page 10 undefined on input line 90.
+LaTeX Warning: Reference `tab_2' on page 10 undefined on input line 92.
 
-<figs/Cobalt_gausss.png, id=175, 867.24pt x 433.62pt>
+<figs/Cobalt_gausss.png, id=172, 867.24pt x 433.62pt>
 File: figs/Cobalt_gausss.png Graphic file (type png)
 <use figs/Cobalt_gausss.png>
-Package pdftex.def Info: figs/Cobalt_gausss.png  used on input line 97.
+Package pdftex.def Info: figs/Cobalt_gausss.png  used on input line 99.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Cobalt_gauss.png, id=176, 867.24pt x 433.62pt>
+<figs/Ge_Cobalt_gauss.png, id=173, 867.24pt x 433.62pt>
 File: figs/Ge_Cobalt_gauss.png Graphic file (type png)
 <use figs/Ge_Cobalt_gauss.png>
-Package pdftex.def Info: figs/Ge_Cobalt_gauss.png  used on input line 104.
+Package pdftex.def Info: figs/Ge_Cobalt_gauss.png  used on input line 106.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Caesium_gauss1.png, id=179, 867.24pt x 433.62pt>
+<figs/Caesium_gauss1.png, id=176, 867.24pt x 433.62pt>
 File: figs/Caesium_gauss1.png Graphic file (type png)
 <use figs/Caesium_gauss1.png>
-Package pdftex.def Info: figs/Caesium_gauss1.png  used on input line 127.
+Package pdftex.def Info: figs/Caesium_gauss1.png  used on input line 129.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_caesium_gauss.png, id=180, 867.24pt x 433.62pt>
+<figs/Ge_caesium_gauss.png, id=177, 867.24pt x 433.62pt>
 File: figs/Ge_caesium_gauss.png Graphic file (type png)
 <use figs/Ge_caesium_gauss.png>
-Package pdftex.def Info: figs/Ge_caesium_gauss.png  used on input line 134.
+Package pdftex.def Info: figs/Ge_caesium_gauss.png  used on input line 136.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Europium_gauss3.png, id=182, 867.24pt x 433.62pt>
+<figs/Europium_gauss3.png, id=179, 867.24pt x 433.62pt>
 File: figs/Europium_gauss3.png Graphic file (type png)
 <use figs/Europium_gauss3.png>
-Package pdftex.def Info: figs/Europium_gauss3.png  used on input line 150.
+Package pdftex.def Info: figs/Europium_gauss3.png  used on input line 152.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Europium_gausss.png, id=183, 867.24pt x 433.62pt>
+<figs/Ge_Europium_gausss.png, id=180, 867.24pt x 433.62pt>
 File: figs/Ge_Europium_gausss.png Graphic file (type png)
 <use figs/Ge_Europium_gausss.png>
-Package pdftex.def Info: figs/Ge_Europium_gausss.png  used on input line 157.
+Package pdftex.def Info: figs/Ge_Europium_gausss.png  used on input line 159.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Energie_kalibrierung.png, id=185, 578.16pt x 361.35pt>
+[10 <./figs/Cobalt_gausss.png> <./figs/Ge_Cobalt_gauss.png>]
+<figs/Energie_kalibrierung.png, id=195, 578.16pt x 361.35pt>
 File: figs/Energie_kalibrierung.png Graphic file (type png)
 <use figs/Energie_kalibrierung.png>
-Package pdftex.def Info: figs/Energie_kalibrierung.png  used on input line 182.
+Package pdftex.def Info: figs/Energie_kalibrierung.png  used on input line 184.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Ge_Energiekal.png, id=186, 578.16pt x 361.35pt>
+<figs/Ge_Energiekal.png, id=196, 578.16pt x 361.35pt>
 File: figs/Ge_Energiekal.png Graphic file (type png)
 <use figs/Ge_Energiekal.png>
-Package pdftex.def Info: figs/Ge_Energiekal.png  used on input line 189.
+Package pdftex.def Info: figs/Ge_Energiekal.png  used on input line 191.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-[10 <./figs/Cobalt_gausss.png> <./figs/Ge_Cobalt_gauss.png>] [11 <./figs/Caesium_gauss1.png> <./figs/Ge_caesium_gauss.png> <./figs/Europium_gauss3.png> <./figs/Ge_Europium_gausss.png> <./figs/Energie_kalibrierung.png> <./figs/Ge_Energiekal.png>]
-Overfull \hbox (122.95587pt too wide) detected at line 203
+
+Overfull \hbox (135.62823pt too wide) detected at line 206
 []
  []
 
-) [12]
+[11 <./figs/Caesium_gauss1.png> <./figs/Ge_caesium_gauss.png> <./figs/Europium_gauss3.png> <./figs/Ge_Europium_gausss.png>]) [12 <./figs/Energie_kalibrierung.png> <./figs/Ge_Energiekal.png>]
 \openout2 = `halbwertsbreite.aux'.
 
  (./halbwertsbreite.tex
@@ -1810,6 +1806,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1824,7 +1825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-) [15
+[15
 
 
 
@@ -1832,7 +1833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 
 
-] [16]
+]) [16]
 \openout2 = `detektoreffizienz.aux'.
 
  (./detektoreffizienz.tex
@@ -1983,12 +1984,7 @@ LaTeX Warning: Reference `fig:Ge_Cobalt' on page 22 undefined on input line 113.
 [22]) [23]
 \openout2 = `Fazit.aux'.
 
- (./Fazit.tex
-Overfull \hbox (3.36946pt too wide) in paragraph at lines 8--9
-[]\T1/cmr/m/n/10.95 Das Ef-fi-zi-enz-ver-hält-nis wur-de eben-falls be-stimmt. Es er-wies sich als ????? wie das des Sz-Detektors.
- []
-
-) [24
+ (./Fazit.tex) [24
 
 
 
@@ -2181,13 +2177,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  49498 strings out of 477884
  1014915 string characters out of 5835937
- 2011450 words of memory out of 5000000
+ 2011451 words of memory out of 5000000
  68692 multiletter control sequences out of 15000+600000
  614152 words of font info for 255 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  108i,20n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (31 pages, 1900699 bytes).
+Output written on main.pdf (31 pages, 1904151 bytes).
 PDF statistics:
  626 PDF objects out of 1000 (max. 8388607)
  470 compressed objects within 5 object streams
