@@ -1,5 +1,76 @@
 \chapter{Energiekalibrierung}
 \section{Theoretische Grundlagen}
+\paragraph{Compton-Streuung}
+
+Die in diesem Versuch eingesetzte $\gamma$-Strahlung stammt aus dem Zerfall von $^{137}$Cs und besitzt eine Energie von etwa $661{,}7\,\mathrm{keV}$. 
+In diesem Energiebereich dominiert die Compton-Streuung die Wechselwirkung der Photonen mit Materie. 
+Dabei wird ein Photon an einem quasi freien Elektron gestreut und überträgt einen Teil seiner Energie auf dieses Elektron.
+
+Die Energie des gestreuten Photons hängt vom Streuwinkel $\theta$ ab und wird durch die Compton-Beziehung beschrieben \cite{Wermes}:
+
+\begin{align}
+    E'_\gamma = \frac{E_\gamma}
+    {1+\frac{E_\gamma}{m_e c^2}(1-\cos\theta)}
+    \label{eq:compton}
+\end{align}
+
+Hierbei bezeichnet $m_e$ die Elektronenmasse und $c$ die Lichtgeschwindigkeit.
+
+\paragraph{Abschwächung der Strahlung}
+
+Da die Bindungsenergien der Elektronen im Aluminium im Vergleich zur Photonenergie klein sind, können die Elektronen näherungsweise als frei betrachtet werden. 
+Die Intensitätsabnahme der $\gamma$-Strahlung beim Durchgang durch Materie lässt sich mit dem Lambert-Beer-Gesetz \cite{compton_uzh} beschreiben:
+
+\begin{align}
+    I(d)=I_0 e^{-\mu d}
+    \label{eq:beer}
+\end{align}
+
+Dabei ist $I_0$ die Anfangsintensität, $d$ die Materialdicke und $\mu$ der lineare Schwächungskoeffizient.
+
+Der totale Wirkungsquerschnitt $\sigma$ \cite{Knoll}\cite{Leo} ergibt sich über die Elektronendichte des Materials zu
+
+\begin{align}
+    \sigma = \frac{\mu}{n_e},
+\end{align}
+
+wobei die Elektronendichte \cite{Knoll}\cite{Leo} durch
+
+\begin{align}
+    n_e = \frac{Z \rho N_A}{M}
+\end{align}
+
+gegeben ist. 
+Hierbei stehen $Z$ für die Ordnungszahl, $\rho$ für die Dichte, $M$ für die molare Masse und $N_A$ für die Avogadro-Konstante.
+
+Im betrachteten Energiebereich spielt die Paarbildung keine Rolle, da hierfür mindestens $1{,}022\,\mathrm{MeV}$ erforderlich wären. 
+Der Photoeffekt liefert in Aluminium lediglich einen kleinen Beitrag zur Gesamtabschwächung.
+Die Energiekalibrierung eines Gammaspektrometers basiert auf der Zuordnung von Kanalnummern eines Multikanalanalysators (MCA) zu bekannten $\gamma$-Übergangsenergien. Hierfür werden Proben mit bekannten Zerfallsprofilen und spektraler Vielfalt verwendet. Der $^{152}$Eu-Kern eignet sich besonders gut für die Kalibrierung im Energiebereich zwischen etwa 100 keV und 1,4 MeV, da er eine große Anzahl von Gamma-Übergängen enthält. Zusätzlich wird der 662-keV-Übergang von $^{137}$Cs verwendet, um die Kalibrierung im mittleren Energiebereich zu stabilisieren.
+\paragraph{$\gamma$-Spektrum von $^{152}$Eu}
+Der Zerfall von $^{152}$Eu führt über mehrere angeregte Zustände des $^{152}$Sm zu einer Vielzahl charakteristischer $\gamma$-Linien.\\
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|c|c}
+        \textbf{Energie (keV)} & \textbf{Intensität (\%)} & \textbf{Übergang} \\
+        \hline
+        $121,7817\pm0,0003 $ & $28,53 \pm 0,16$ & $^{152}$Eu $\rightarrow$ $^{152}$Sm \\
+        $244,6974 \pm 0,0008 $ & $7,55 \pm 0,04$ & $^{152}$Eu $\rightarrow$ $^{152}$Sm \\
+        $344,2785 \pm 0,0012 $ & $26,59 \pm 0,20$ & $^{152}$Eu $\rightarrow$ $^{152}$Gd \\
+        $411,1165 \pm 0,0012 $ & $2,237 \pm 0,013$ & $^{152}$Eu $\rightarrow$ $^{152}$Gd \\
+        $443,9606 \pm 0,0016 $ & $2,827 \pm 0,014$ & $^{152}$Eu $\rightarrow$ $^{152}$Sm \\
+        $778,9045 \pm 0,0024 $ & $12,93 \pm 0,08$ & $^{152}$Eu $\rightarrow$ $^{152}$Gd \\
+        $867,380 \pm 0,003 $ & $4,23 \pm 0,03$ & $^{152}$Eu $\rightarrow$ $^{152}$Sm \\
+        $964,057 \pm 0,005$&$14,51 \pm 0,07$&$^{152}$Eu $\rightarrow$ $^{152}$Sm\\
+    \end{tabular}
+    \caption{Auswahl der häufgisten $\gamma$-Übergänge von $^{152}$Eu mit ihren Energien und Intensitäten.\cite{Eu-peaks}}
+    \label{tab:europium_lines}
+    \end{table}
+
+Aufgrund der begrenzten Energieauflösung des Detektors können sich mehrere nahe beieinander liegende Übergänge überlappen und einen einzigen Peak bilden. 
+Diese Überlappung tritt besonders häufig bei Spannungen über 400 keV auf, da der Linienabstand dann kleiner als die Halbwertsbreite (FWHM) des Detektors ist.
+Zur genauen Identifizierung der Linien wird eine Hintergrundmessung ohne Probe durchgeführt und anschließend vom Spektrum subtrahiert, um die Auswirkungen von Umgebungsstrahlung und elektrischem Rauschen zu eliminieren.
+
+
 \section{Durchführung}
 Im nächsten Schritt werden Gammaspektren der verwendeten radioaktiven Quellen aufgenommen. Konkret werden nacheinander die Spektren von $^{60}Co$, $^{137}Cs$ und $^{152}Eu$ aufgezeichnet. Zusätzlich wird das Untergrundspektrum (ohne Quelle) gemessen, um eine spätere Subtraktion der Untergrundbeiträge zu ermöglichen. Die Messzeiten werden so gewählt, dass die Photopeaks scharf ausgeprägt und statistisch gut aufgelöst sind.\\
 
@@ -16,7 +87,7 @@ Zur Energiekalibrierung werden Gauß-Funktionen in Kombination mit einem lineare
 
 Hier bezeichnet  k den Kanalindex des Vielkanalanalysators (MCA) . Die Ergebnisse ermöglichen die Bestimmung der Peak-Mittenposition $\mu$, der Halbwertsbreite  $\sigma_{FWHM}$ sowie der Peak-Fläche $A$. Da der lineare Untergrund nicht berücksichtigt werden konnte, ist die Bestimmung der Emissionslinien nicht sehr präzise, insbesondere bei Spektren, die mit NaI-Detektoren aufgenommen wurden, da hier der Compton-Untergrund erheblich ist.
 
-Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden Detektoren von derselben Probe aufgenommen wurden. Zur Erleichterung der Auswertung wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden im weiteren Verlauf vorgestellt. Alle durch Gleichung\ref{eq_1} definierten Antwortparameter sind in den Tabellen \ref{} und \ref{} aufgeführt. Aufgrund der außergewöhnlichen Schärfe der HPGe-Spektrallinien werden diese zudem in den Abbildungen \ref{} bis \ref{} detailliert dargestellt.
+Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden Detektoren von derselben Probe aufgenommen wurden. Zur Erleichterung der Auswertung wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden im weiteren Verlauf vorgestellt. Alle durch Gleichung\ref{eq_1} definierten Parameter sind in den Tabellen \ref{} und \ref{} aufgeführt. Aufgrund der außergewöhnlichen Schärfe der HPGe-Spektrallinien werden diese zudem in den Abbildungen \ref{} bis \ref{} detailliert dargestellt.
 
 \begin{figure}[htbp]
     \centering

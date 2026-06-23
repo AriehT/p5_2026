@@ -1,32 +1,38 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {0.1}Einleitung}{1}{section.0.1}%
-\contentsline {section}{\numberline {0.2}Aufbau}{2}{section.0.2}%
-\contentsline {chapter}{\numberline {1}Voraufgabe: Funktionsanpassung an Energie-Spektren}{3}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Vorbereitung der Versuchanordnung}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Theoretische Grundlagen}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Funktionsweise des Szintillationsdetektor}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Funktionsweise des Halbleiterdetektor}{4}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Justage des NaI-Szintillationsdetektor}{5}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Justage des HPGe-Halbleiterdetektor}{6}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Beobachtung der Signale}{6}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Energiekalibrierung}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Theoretische Grundlagen}{8}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Durchführung}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Auswertung}{8}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Bestimmung der Halbwertsbreite}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Durchführung}{12}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Peak-to-Total-Verhältnis}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Theoretische Grundlagen}{14}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Durchführung}{14}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Auswertung}{14}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Bestimmung der Detektoreffizienz}{16}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Theoretische Grundlagen}{16}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Durchführung}{16}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Aktivität $^{60}$Co}{18}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Nachweis der Radioaktivit¨at in einer Probe}{19}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Durchführung}{19}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Extraktion der $\gamma $-Energien}{19}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{20}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Fazit}{23}{section.8.4}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Aufbau}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Voraufgabe: Funktionsanpassung an Energie-Spektren}{3}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Vorbereitung der Versuchanordnung}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{4}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Funktionsweise des Szintillationsdetektor}{4}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Funktionsweise des Halbleiterdetektor}{4}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Justage des NaI-Szintillationsdetektor}{5}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Justage des HPGe-Halbleiterdetektor}{6}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Beobachtung der Signale}{6}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Energiekalibrierung}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Theoretische Grundlagen}{8}{section.5.1}%
+\contentsline {paragraph}{\nonumberline Compton-Streuung}{8}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Abschwächung der Strahlung}{8}{paragraph*.9}%
+\contentsline {paragraph}{\nonumberline $\gamma $-Spektrum von $^{152}$Eu}{9}{paragraph*.11}%
+\contentsline {section}{\numberline {5.2}Durchführung}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Auswertung}{9}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Bestimmung der Halbwertsbreite}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Theoretische Grundlagen}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Durchführung}{13}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Peak-to-Total-Verhältnis}{15}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Theoretische Grundlagen}{15}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Durchführung}{15}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Auswertung}{15}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{17}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{17}{section.8.1}%
+\contentsline {paragraph}{\nonumberline Detektoreffizienz}{17}{paragraph*.21}%
+\contentsline {section}{\numberline {8.2}Durchführung}{17}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{19}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{20}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Durchführung}{20}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Extraktion der $\gamma $-Energien}{20}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{21}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Fazit}{24}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Intrinsische Halbwertsbreite des HPGe-Halbleiterdetektors}{25}{section.10.5}%
+\contentsline {chapter}{\numberline {11}KI-Nutzung}{28}{chapter.11}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

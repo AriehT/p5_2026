@@ -1,14 +1,18 @@
 \chapter{Bestimmung der Detektoreffizienz}
 \section{Theoretische Grundlagen}
-\section{Durchführung}
-Der nächste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors. Hierfür wurden Spektren von $^{137}Cs$ und $^{152}Eu$ herangezogen. Unter Berücksichtigung der bekannten Aktivität, des Temperaturbereichs der jeweiligen Phase, der Messdauer und der Geometrie wurde das Effizienzverhältnis für verschiedene Energien berechnet und als Funktion der Gammaintensität ausgedrückt.\\
-Die Effizienz der Cäsiumquelle wurde unter Verwendung von Gleichung \ref{eq_5} und der bekannten Kristalldurchmesser \(d\) der beiden Detektoren (NaI und HPGe) berechnet:
-
+\paragraph{Detektoreffizienz}
+Die Wahrscheinlichkeit, dass ein $\gamma$-Photon mit der Energie $E$ im Detektor ein vollständiges Signal erzeugt, wird mit der Detektoreffizienz $\epsilon(E)$ beschrieben. Diese hängt von der Anzahl der detektierten $\gamma$-Photonen $N_\gamma(E)_{detektiert}$ und der $N_{erreicht}$ ab:
 \begin{equation}
     \epsilon(E_\gamma)=\frac{N_{detektiert}}{N_{erreicht}}\approx\frac{N_{detektiert}}{B}\cdot\frac{4\pi D^2}{\pi d^2}, \text{wobei B die Aktivität der Probe ist}
 \end{equation}
 \label{eq_5}
+Die absolute Aktivität der Probe ist unbekannt, also kann nur die relative Effizienz bestimmt werden. Aber das ist für die Energieabhängigkeit der Effizienz ausreichend, denn der unbekannte Proportionalitätsfaktor ist für alle Energien der gleiche und fällt beim Normalisieren während der Analyse weg.\\
+Im üblichen Fall fällt die Detektoreffizienz mit steigender Energie ab, denn hochenergetische $\gamma$-Photonen haben eine geringere Wahrscheinlichkeit, vollständig im Detektor absorbiert zu werden. 
+Daher ist es wichtig, die Effizienzkurve über den gesamten Energiebereich zu bestimmen, um die gemessenen Spektren korrekt interpretieren zu können.
 
+\section{Durchführung}
+Der nächste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors. Hierfür wurden Spektren von $^{137}Cs$ und $^{152}Eu$ herangezogen. Unter Berücksichtigung der bekannten Aktivität, des Temperaturbereichs der jeweiligen Phase, der Messdauer und der Geometrie wurde das Effizienzverhältnis für verschiedene Energien berechnet und als Funktion der Gammaintensität ausgedrückt.\\
+Die Effizienz der Cäsiumquelle wurde unter Verwendung von Gleichung \ref{eq_5} und der bekannten Kristalldurchmesser \(d\) der beiden Detektoren (NaI und HPGe) berechnet.
 
 Die Schwellenwertfunktion \(B(\text{Cs})\) sowie der Abstand sind Tabelle \ref{} zu entnehmen. Basierend auf der Detektionsrate \(N_\text{detect} = A\) (Tabellen \ref{} und \ref{}), die dem 661-keV-Photopeak zugeordnet ist, ergeben sich folgende optimale Werte:
 
