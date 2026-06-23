@@ -1,17 +1,17 @@
 \chapter{Bestimmung der Detektoreffizienz}
 \section{Theoretische Grundlagen}
-\paragraph{Detektoreffizienz}
+\subsection{Detektoreffizienz}
 Die Wahrscheinlichkeit, dass ein $\gamma$-Photon mit der Energie $E$ im Detektor ein vollständiges Signal erzeugt, wird mit der Detektoreffizienz $\epsilon(E)$ beschrieben. Diese hängt von der Anzahl der detektierten $\gamma$-Photonen $N_\gamma(E)_{detektiert}$ und der $N_{erreicht}$ ab:
 \begin{equation}
     \epsilon(E_\gamma)=\frac{N_{detektiert}}{N_{erreicht}}\approx\frac{N_{detektiert}}{B}\cdot\frac{4\pi D^2}{\pi d^2}, \text{wobei B die Aktivität der Probe ist}
 \end{equation}
 \label{eq_5}
-Die absolute Aktivität der Probe ist unbekannt, also kann nur die relative Effizienz bestimmt werden. Aber das ist für die Energieabhängigkeit der Effizienz ausreichend, denn der unbekannte Proportionalitätsfaktor ist für alle Energien der gleiche und fällt beim Normalisieren während der Analyse weg.\\
+Die absolute Aktivität der Probe ist unbekannt, also kann nur die relative Effizienz bestimmt werden. Aber das ist für die Energieabhängigkeit der Effizienz ausreichend, denn der unbekannte Proportionalitätsfaktor ist für alle Energien der gleiche und fällt beim Normalisieren während der Analyse weg.
 Im üblichen Fall fällt die Detektoreffizienz mit steigender Energie ab, denn hochenergetische $\gamma$-Photonen haben eine geringere Wahrscheinlichkeit, vollständig im Detektor absorbiert zu werden. 
 Daher ist es wichtig, die Effizienzkurve über den gesamten Energiebereich zu bestimmen, um die gemessenen Spektren korrekt interpretieren zu können.
 
 \section{Durchführung}
-Der nächste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors. Hierfür wurden Spektren von $^{137}Cs$ und $^{152}Eu$ herangezogen. Unter Berücksichtigung der bekannten Aktivität, des Temperaturbereichs der jeweiligen Phase, der Messdauer und der Geometrie wurde das Effizienzverhältnis für verschiedene Energien berechnet und als Funktion der Gammaintensität ausgedrückt.\\
+Der nächste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors. Hierfür wurden Spektren von $^{137}Cs$ und $^{152}Eu$ herangezogen. Unter Berücksichtigung der bekannten Aktivität, des Temperaturbereichs der jeweiligen Phase, der Messdauer und der Geometrie wurde das Effizienzverhältnis für verschiedene Energien berechnet und als Funktion der Gammaintensität ausgedrückt.
 Die Effizienz der Cäsiumquelle wurde unter Verwendung von Gleichung \ref{eq_5} und der bekannten Kristalldurchmesser \(d\) der beiden Detektoren (NaI und HPGe) berechnet.
 
 Die Schwellenwertfunktion \(B(\text{Cs})\) sowie der Abstand sind Tabelle \ref{tab_eff_1} zu entnehmen. Basierend auf der Detektionsrate \(N_\text{detect} = A\) (Tabellen \ref{taba_2} und \ref{taba_3}), die dem 661-keV-Photopeak zugeordnet ist, ergeben sich folgende optimale Werte:
@@ -33,7 +33,7 @@ Des Weiteren ist die Effizienz von Szintillationsdetektoren bei diesen Energien 
 Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Spektrum bestimmen. Dabei ist zu beachten, dass die Referenzfunktion \(B(E)\) für jede Energie \(E\) mit der entsprechenden Zählrate verglichen werden muss (siehe Tabelle \ref{tab_eff_1}). Abbildung \ref{fig:eff_1} stellt die erzielten Ergebnisse in Form einer Effizienzkurve dar.
 
 % add plots
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
@@ -53,7 +53,7 @@ Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Sp
     \label{fig:eff_1}
 \end{figure}
 
-Abbildung \ref{fig:eff_1} zeigt, dass die Effizienz \(\epsilon(E)\) beider Detektoren mit zunehmender Energie im Bereich \(E \in [90\,\text{keV}, 1400\,\text{keV}]\) deutlich abnimmt. Dieses Verhalten ist bekannt und lässt sich durch die folgende empirische Anpassungsfunktion beschreiben \ref{}:
+Abbildung \ref{fig:eff_1} zeigt, dass die Effizienz \(\epsilon(E)\) beider Detektoren mit zunehmender Energie im Bereich \(E \in [90\,\text{keV}, 1400\,\text{keV}]\) deutlich abnimmt. Dieses Verhalten ist bekannt und lässt sich durch die folgende empirische Anpassungsfunktion beschreiben:
 
 \[\epsilon(e) = \exp\!\left(-a_1\, e + a_2\, e^2\right),
 \qquad e = \ln\!\left(\frac{E}{1.022\,\text{keV}}\right).
@@ -62,17 +62,14 @@ Abbildung \ref{fig:eff_1} zeigt, dass die Effizienz \(\epsilon(E)\) beider Detek
 
 Die in den Abbildungen \ref{fig:eff_1_1} und \ref{fig:eff_1_2} dargestellten Effizienzkurven folgen dieser Funktionsform mit den folgenden Parametern:
 
-HPGe:
+HPGe:\\
+$a_1 = (0.242496 \pm 0.005806), \qquad a_2 = (-0.047522 \pm 0.000903)$\\
 
-\[
-a_1 = (0.242496 \pm 0.005806), \qquad a_2 = (-0.047522 \pm 0.000903)
-\]
 
-NaI:
+NaI:\\
 
-\[
-a_1 = (-0.039229 \pm 0.014094), \qquad a_2 = (-0.056339 \pm 0.002607)
-\]
+$a_1 = (-0.039229 \pm 0.014094), \qquad a_2 = (-0.056339 \pm 0.002607)$
+
 
 Allerdings gibt diese Anpassungsfunktion den erwarteten Effizienzverlauf bei sehr niedrigen Energien nicht präzise wieder. Eine genauere Betrachtung der niederenergetischen Datenpunkte in Abbildung \ref{fig:eff_1} legt nahe, dass die Effizienzkurve in diesem Bereich eine Glockenform annimmt und zu niedrigeren Effizienzwerten hin konvergiert. 
 
