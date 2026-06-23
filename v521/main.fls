@@ -1879,7 +1879,6 @@ INPUT ./figs/Ge_Halbwerts.png
 INPUT figs/Ge_Halbwerts.png
 INPUT ./figs/Ge_Halbwerts.png
 INPUT ./figs/Ge_Halbwerts.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 OUTPUT intrinsisch.aux
 INPUT ./peak-to-total.tex
 INPUT ./peak-to-total.tex

@@ -3,7 +3,7 @@
 \section{Durchführung}
 Nach erfolgreichem Abschluss der Kalibrierung wird die Halbwertsbreite (FWHM - Full Width at Half Maximum) der dominanten Peaks bestimmt. Dies umfasst zwei Linien aus dem $^{60}Co$-Spektrum, die 661-keV-Linie von $^{137}Cs$ sowie bestimmte, gut aufgelöste Linien aus dem $^{152}$Eu-Spektrum. Aus der Halbwertsbreite und der Peakenergie wird die Energieauflösung des Detektors berechnet und die Energieabhängigkeit der Auflösung untersucht.
 
-Im vorherigen Abschnitt wurde gezeigt, dass die Bandbreite eines Halbleiterdetektors wesentlich schmaler ist als die eines Szintillationsdetektors. Dieser Unterschied lässt sich durch die Bestimmung der Halbwertsbreite (FWHM) der Photopeaks, bezeichnet als $\Delta E$, charakterisieren. Hierzu werden die beiden Parameter $(E, \sigma)$ aus den Tabellen \ref{} und \ref{} gegeneinander aufgetragen.
+Im vorherigen Abschnitt wurde gezeigt, dass die Bandbreite eines Halbleiterdetektors wesentlich schmaler ist als die eines Szintillationsdetektors. Dieser Unterschied lässt sich durch die Bestimmung der Halbwertsbreite (FWHM) der Photopeaks, bezeichnet als $\Delta E$, charakterisieren. Hierzu werden die beiden Parameter $(E, \sigma)$ aus den Tabellen \ref{tab_2} und \ref{tab_3} gegeneinander aufgetragen.
 
 Der für einen Halbleiterdetektor zu erwartende theoretische Zusammenhang (bei dem die intrinsische Halbwertsbreite $\Delta E_d$ mit der Photonenenergie zunimmt) wird durch folgende Gleichung \ref{eq_2} beschrieben:
 \begin{equation}
@@ -32,8 +32,7 @@ Abbildung \ref{fig:halbw_1} zeigt die in Abhängigkeit von der Intensität berec
         \caption{HPGe-Halbleiterdetektor}
         \label{fig:halbw_1_2}
     \end{subfigure}
-    
-    \caption{}
+    \caption{FWHM-Halbwertsbreiten in Abhängigkeit von der Energie }
     \label{fig:halbw_1}
 \end{figure}
 % add plots
@@ -41,8 +40,15 @@ Abbildung \ref{fig:halbw_1} zeigt die in Abhängigkeit von der Intensität berec
 Der Vergleich der beiden Datensätze bestätigt, was bereits anhand der Intensitätsspektren zu beobachten war: Die dem Szintillationsdetektor zugeordnete Breite ist etwa 33-mal größer als die des Halbleiterdetektors. Beide Korrelationsfunktionen zeigen eine Breite der Photopeaks bei hohen reduzierten $\chi^2$-Wert (größer als 1). Lediglich beim NaI-Detektor tritt bei höheren Energien eine deutlichere Diskrepanz zwischen Modell und Messdaten auf.
 
 Die Fitparameter lauten wie folgt:
+
 \begin{align*}
-    HPGe: y= (0.02947 ± 0.00030) , z=(0.80282 ± 0.00616)keV
-    NaI: y= (2.24305 \pm 0.00879) , z=(-10.56407 \pm 0.16731)keV
+    HPGe: y= (0,02947 \pm 0,00030) , z=(0,80282 \pm 0,00616)keV\\
+    NaI: y= (2,24305 \pm 0,00879) , z=(-10,56407 \pm 0,16731)keV\\
+    \implies \text{Für den HPGe-Detektor (z.B)}:\\
+    \Delta E_{122} = (1,13\pm 0,01)keV\\
+    \Delta E_{344} = (1,35\pm 0,01)keV\\
+    \Delta E_{778} = (1,63\pm 0,01)keV\\
+    \Delta E_{1408} = (1,91\pm 0,01)keV
 \end{align*}
-Im untersuchten Energiebereich liegt die Halbwertsbreite (FWHM) des HPGe-Detektors zwischen ??? keV und ??? keV. Folglich hat die Elektronenstrahlbreite $\Delta E_e$ einen signifikanten Einfluss auf die Energiebilanz. Bei sehr hohen Energien (MeV-Bereich) ist dieser verlustbedingte Beitrag vernachlässigbar im Vergleich zu der energieabhängigen Komponente (propto x), die mit dem elektrischen Feld verknüpft ist. 
+
+Im untersuchten Energiebereich liegt die Halbwertsbreite (FWHM) des HPGe-Detektors zwischen  1,1 keV und 2,1 keV. Folglich hat die Elektronenstrahlbreite $\Delta E_e$ einen signifikanten Einfluss auf die Energiebilanz. Bei sehr hohen Energien (MeV-Bereich) ist dieser verlustbedingte Beitrag vernachlässigbar im Vergleich zu der energieabhängigen Komponente ($\propto$ x), die mit dem elektrischen Feld verknüpft ist. 

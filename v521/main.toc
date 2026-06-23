@@ -33,6 +33,6 @@
 \contentsline {section}{\numberline {10.2}Extraktion der $\gamma $-Energien}{20}{section.10.2}%
 \contentsline {section}{\numberline {10.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{21}{section.10.3}%
 \contentsline {section}{\numberline {10.4}Fazit}{24}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Intrinsische Halbwertsbreite des HPGe-Halbleiterdetektors}{25}{section.10.5}%
+\contentsline {section}{\numberline {10.5}Anhang}{25}{section.10.5}%
 \contentsline {chapter}{\numberline {11}KI-Nutzung}{28}{chapter.11}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
