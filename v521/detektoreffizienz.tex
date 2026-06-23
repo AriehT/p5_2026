@@ -1,1 +1,110 @@
-\section{Bestimmung der Detektoreffizienz}
+\chapter{Bestimmung der Detektoreffizienz}
+\section{Theoretische Grundlagen}
+\section{Durchführung}
+Der nächste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors. Hierfür wurden Spektren von $^{137}Cs$ und $^{152}Eu$ herangezogen. Unter Berücksichtigung der bekannten Aktivität, des Temperaturbereichs der jeweiligen Phase, der Messdauer und der Geometrie wurde das Effizienzverhältnis für verschiedene Energien berechnet und als Funktion der Gammaintensität ausgedrückt.\\
+Die Effizienz der Cäsiumquelle wurde unter Verwendung von Gleichung \ref{eq_5} und der bekannten Kristalldurchmesser \(d\) der beiden Detektoren (NaI und HPGe) berechnet:
+
+\begin{equation}
+    \epsilon(E_\gamma)=\frac{N_{detektiert}}{N_{erreicht}}\approx\frac{N_{detektiert}}{B}\cdot\frac{4\pi D^2}{\pi d^2}, \text{wobei B die Aktivität der Probe ist}
+\end{equation}
+\label{eq_5}
+
+
+Die Schwellenwertfunktion \(B(\text{Cs})\) sowie der Abstand sind Tabelle \ref{} zu entnehmen. Basierend auf der Detektionsrate \(N_\text{detect} = A\) (Tabellen \ref{} und \ref{}), die dem 661-keV-Photopeak zugeordnet ist, ergeben sich folgende optimale Werte:
+
+HPGe:
+\[
+\epsilon(661\,\text{keV}) = (4,775 \pm0,042)\%
+\]
+
+NaI:
+\[
+\epsilon(661\,\text{keV}) = (11,811\pm0,108)\%
+\]
+
+Die Ergebnisse zeigen, dass nur ein geringer Anteil der einfallenden 661-keV-Photonen im Photopeak erscheint. Die meisten Photonen durchlaufen den Detektor, werden gestreut oder erzeugen kein Signal im Photopeak, sei es aufgrund von Effekten während der Ladungssammlung (z. B. Rekombination) oder durch das Ausbleiben photoelektrischer Ereignisse im Photomultiplier (PMT).
+
+Des Weiteren ist die Effizienz von Szintillationsdetektoren bei diesen Energien höher als die von Halbleiterdetektoren. Dieses Ergebnis entspricht den Erwartungen, da die höhere Ordnungszahl von Iod (\(Z = 53\)) im Vergleich zu Germanium (\(Z = 32\)) zu einem größeren Wirkungsquerschnitt für den photoelektrischen Effekt (\(\sigma_\text{photo} \propto Z^5\)) führt.
+
+Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Spektrum bestimmen. Dabei ist zu beachten, dass die Referenzfunktion \(B(E)\) für jede Energie \(E\) mit der entsprechenden Zählrate verglichen werden muss (siehe Tabelle \ref{}). Abbildung 11 stellt die erzielten Ergebnisse in Form einer Effizienzkurve dar.
+
+% add plots
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Na_effizienz.png}
+        \caption{NaI-Szintillationsdetektor}
+        \label{fig:eff_1_1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Ge_effizienz.png}
+        \caption{HPGe-Halbleiterdetektor}
+        \label{fig:eff_1_2}
+    \end{subfigure}
+    
+    \caption{Effizienz $\epsilon(E_\gamma)$ der Detektoren anhand des $^{152}$Eu-Spektrums}
+    \label{fig:eff_1}
+\end{figure}
+
+Abbildung \ref{fig:eff_1} zeigt, dass die Effizienz \(\epsilon(E)\) beider Detektoren mit zunehmender Energie im Bereich \(E \in [90\,\text{keV}, 1400\,\text{keV}]\) deutlich abnimmt. Dieses Verhalten ist bekannt und lässt sich durch die folgende empirische Anpassungsfunktion beschreiben \ref{}:
+
+\[\epsilon(e) = \exp\!\left(-a_1\, e + a_2\, e^2\right),
+\qquad e = \ln\!\left(\frac{E}{1.022\,\text{keV}}\right).
+\tag{8}
+\]
+
+Die in den Abbildungen \ref{fig:eff_1_1} und \ref{fig:eff_1_2} dargestellten Effizienzkurven folgen dieser Funktionsform mit den folgenden Parametern:
+
+HPGe:
+
+\[
+a_1 = (0.242496 \pm 0.005806), \qquad a_2 = (-0.047522 \pm 0.000903)
+\]
+
+NaI:
+
+\[
+a_1 = (-0.039229 \pm 0.014094), \qquad a_2 = (-0.056339 \pm 0.002607)
+\]
+
+Allerdings gibt diese Anpassungsfunktion den erwarteten Effizienzverlauf bei sehr niedrigen Energien nicht präzise wieder \ref{}. Eine genauere Betrachtung der niederenergetischen Datenpunkte in Abbildung \ref{fig:eff_1} legt nahe, dass die Effizienzkurve in diesem Bereich eine Glockenform annimmt und zu niedrigeren Effizienzwerten hin konvergiert. 
+
+Insgesamt beschreibt die Regressionsfunktion den Effizienzabfall bei hohen Energien korrekt und stimmt mit der zuvor aus der Cäsium-Messung ermittelten Effizienz überein. Sie liefert somit eine konsistente Darstellung der Detektoreffizienz in Abhängigkeit von der Energie im untersuchten Bereich.
+
+\chapter{Aktivität $^{60}$Co}
+Schließlich wird die Gültigkeit der berechneten Effizienzkurven überprüft, indem die Aktivität der Kobaltquelle aus dem gemessenen Spektrum rekonstruiert wird. Hierzu wird das Spektrum zunächst mithilfe der Effizienzkurve korrigiert. Die Effizienzfunktion beruht auf der Annahme, dass nur Ereignisse innerhalb des Gauß-Fit-Bereichs des Photopeaks korrekt detektiert werden. Folglich müssen für die Flächen der beiden Kobalt-Photopeaks, \(A(1173\,\text{keV})\) und \(A(1332\,\text{keV})\), die entsprechenden Ereignisanzahlen unter Verwendung von \(\epsilon(E_\gamma)\) hinsichtlich der Energieabhängigkeit korrigiert werden. Unter Verwendung der Parameter der beiden Gauß-Funktionen wird zunächst ein „bereinigtes“ Kobalt-Spektrum erstellt, das keine linearen Untergrundkomponenten enthält:
+
+\[
+N'(K) =
+\frac{A_1}{\sqrt{2\pi}\sigma_1}
+\exp\!\left[-\frac{(K-\mu_1)^2}{2\sigma_1^2}\right]
++
+\frac{A_2}{\sqrt{2\pi}\sigma_2}
+\exp\!\left[-\frac{(K-\mu_2)^2}{2\sigma_2^2}\right].
+\tag{9}
+\]
+
+Dieses bereinigte Spektrum wird anschließend kanalweise durch die Effizienz \(\epsilon(E(K))\) dividiert und über alle Kanäle aufsummiert. Dies ergibt die Anzahl der Photonen, die den Detektor während der Messdauer (T = 300 s) erreichen, bezeichnet als \(N_\text{reach}\). Durch Division durch den Raumwinkel des Detektors und die Messdauer erhält man schließlich die Quellenaktivität \(B\):
+
+\begin{equation}
+    B = \frac{N_\text{reach}}{T} \frac{4\pi D^2}{\pi d^2}
+    = \frac{4D^2}{d^2 T}\sum_i \frac{N'(K_i)}{\epsilon(E(K_i))}.   
+\end{equation}
+
+Die auf diese Weise berechneten Aktivitäten der Kobaltprobe betragen (Nennwert: \(B = 36.11\,\text{kBq}\) beim Vergleich mit Zerfallsgesetz):
+HPGe:\\
+
+\[
+B(\text{Co}) = (12,1\pm1,7)\,\text{kBq}
+\]
+
+NaI:\\
+
+\[
+B(\text{Co}) = (6,8\pm0,7)\,\text{kBq}
+\]
+
+Die berechneten Werte stimmen nicht mit der erwarteten Aktivität überein und bestätigen kaum die Gültigkeit der Effizienzkurven im Hochenergiebereich. Die relativ hohen Unsicherheiten sind vor allem auf die ungenaue Bestimmung der Abstände \(D\) und den daraus resultierenden Fehler durch den kleinsten Raumwinkel zurückzuführen. Dazu kommt noch, dass der Untergrund nicht betrachtet wurde, was alle anderen Messgrößen beiinträächtigt hat und sommit zu sehr ungenauen Ergebnissen geführt hat. 

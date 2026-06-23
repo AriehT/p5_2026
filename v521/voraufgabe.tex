@@ -6,7 +6,7 @@ Zusätzlich werden die Kanalbereiche festgelegt, in denen eine Anpassung durchge
 
 Für jeden ausgewählten Bereich werden zunächst geeignete Startwerte für die Fitparameter automatisch aus den Messdaten bestimmt. 
 Die statistischen Unsicherheiten der einzelnen Messpunkte werden unter Annahme einer Poisson-Verteilung aus den Zählraten berechnet und bei der Anpassung als Gewichtung berücksichtigt. 
-Anschließend erfolgt die numerische Bestimmung der optimalen Fitparameter mithilfe der Funktion \texttt{curve_fit} aus dem Paket \texttt{SciPy}.
+Anschließend erfolgt die numerische Bestimmung der optimalen Fitparameter mithilfe der Funktion \texttt{curve\_fit} aus dem Paket \texttt{SciPy}.
 
 Für isolierte Spektrallinien wird eine einzelne Gaußfunktion mit linearem Untergrund verwendet. 
 Treten mehrere überlappende Peaks innerhalb eines gemeinsamen Bereichs auf, können diese durch mehrere Gaußfunktionen mit gemeinsamem Untergrund simultan beschrieben werden. 

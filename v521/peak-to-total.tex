@@ -6,102 +6,33 @@
  \section{Auswertung }
  Das Peak-zu-Gesamt-Verhältnis (Peak-to-Total Ratio) ist eine weitere Möglichkeit, die Detektorqualität zu bewerten. Die Anzahl der einem Photopeak zugeordneten Ereignisse ergibt sich aus der Fläche \(A\) unter der entsprechenden Gauß-Funktion \(G(K)\). Bei einer Cäsium-Messung, bei der nur ein dominanter Photopeak auftritt, erhält man das Peak-zu-Gesamt-Verhältnis \(P_T\) durch Division dieser Fläche durch die Gesamtzahl der registrierten Ereignisse \(N_\text{t}\).
 
-Ein ähnliches Verhältnis lässt sich für eine Kobalt-Quelle bestimmen. Da in diesem Fall zwei sehr eng beieinander liegende Emissionslinien vorliegen, wird die Gesamtzahl der Photopeak-Ereignisse als Summe der beiden Flächen definiert: \(A(1173\,\text{keV}) + A(1332\,\text{keV})\). Als Energie des kombinierten Peaks wird der Mittelwert der beiden Übergangsenergien herangezogen, d. h. etwa 1250 keV.
+Ein ähnliches Verhältnis lässt sich für eine Kobalt-Quelle bestimmen. Da in diesem Fall zwei sehr eng beieinander liegende Emissionslinien vorliegen, wird die Gesamtzahl der Photopeak-Ereignisse als Summe der beiden Flächen definiert: \(A(1173\,\text{keV}) + A(1332\,\text{keV})\). Als Energie des kombinierten Peaks wird der Mittelwert der beiden Übergangsenergien herangezogen, d. h. etwa 1250 keV.\\
 
-**HPGe:**
+
+
+Für $E_\gamma(Cs)=661,7 keV$\\
+HPGe:\\
 \[
-P_T(\text{Cs}) = 19,59(8)\%, \qquad P_T(\text{Co}) = 12,75(7)\%
+P_T(\text{Cs}) = (18,424 \pm 0,07)\%, \qquad P_T(\text{Co}) = (11,251\pm0,017)\%
+\]
+NaI:
+\[
+P_T(\text{Cs}) = (33,39\pm 1,04)\%, \qquad P_T(\text{Co}) = (22,60\pm0,17)\%
+\tag{7}
+\]\\
+
+Für $E_\gamma(Co)=1250 keV$\\
+HPGe:
+\[
+P_T(\text{Cs}) = (18,42\pm0,07)\%, \qquad P_T(\text{Co}) = (11,25\pm0,017)\%
 \]
 
-**NaI:**
+NaI:
 \[
-P_T(\text{Cs}) = 33,18(10)\%, \qquad P_T(\text{Co}) = 22,79(18)\%
+P_T(\text{Cs}) = (33,39\pm1,04)\%, \qquad P_T(\text{Co}) = (22,60\pm0,17)\%
 \tag{7}
 \]
 
-Die Ergebnisse zeigen, dass der Szintillationsdetektor (NaI) einen deutlich größeren Anteil der registrierten Ereignisse dem Photopeak zuordnet. Dies deutet auf eine **spezifische Ansprechfunktion** des NaI-Detektors hin. Zudem nimmt bei beiden Detektoren das Peak-zu-Gesamt-Verhältnis mit steigender Photonenenergie \(E_\gamma\) ab. Eine plausible Erklärung hierfür ist eine **Abnahme der Detektoreffizienz** bei hohen Energien; dies führt zu einer relativen Überrepräsentation nieder- und mittelenergetischer Ereignisse und bewirkt somit ein Absinken des Peak-zu-Gesamt-Verhältnisses bei höheren Energien. Die Berechnung basiert auf Spektren, die nach Abzug des Untergrunds für die bekannten Quellen erhalten wurden. Dieses Vorgehen ist sinnvoll, da die Auswirkungen externer Untergrundstrahlung nicht als „Fehlfunktion“ des Detektors interpretiert werden dürfen und daher vor der Bestimmung des Peak-zu-Gesamt-Verhältnisses eliminiert werden müssen.
 
-\chapter{Detektoreffizienz}
-\section{Theoretische Grundlagen}
-\section{Durchführung}
-Der nächste Schritt umfasst die Bestimmung der Betriebsleistung des HPGe-Detektors. Hierfür wurden Spektren von $^{137}Cs$ und $^{152}Eu$ herangezogen. Unter Berücksichtigung der bekannten Aktivität, des Temperaturbereichs der jeweiligen Phase, der Messdauer und der Geometrie wurde das Effizienzverhältnis für verschiedene Energien berechnet und als Funktion der Gammaintensität ausgedrückt.\\
-Die Effizienz der Cäsiumquelle wurde unter Verwendung von Gleichung (1) und der bekannten Kristalldurchmesser \(d\) der beiden Detektoren (NaI und HPGe) berechnet. Die Schwellenwertfunktion \(B(\text{Cs})\) sowie der Abstand sind Tabelle 2 zu entnehmen. Basierend auf der Detektionsrate \(N_\text{detect} = A\) (Tabellen 4 und 5), die dem 661-keV-Photopeak zugeordnet ist, ergeben sich folgende optimale Werte:
+Die Ergebnisse zeigen, dass der Szintillationsdetektor (NaI) fast doppelt so viel der registrierten Ereignisse dem Photopeak zuordnet. Dies deutet auf eine besonders gute Ansprechfunktion des NaI-Detektors hin. Zudem nimmt bei beiden Detektoren das Peak-zu-Gesamt-Verhältnis mit steigender Photonenenergie \(E_\gamma\) ab. Eine plausible Erklärung hierfür ist eine Abnahme der Detektoreffizienz bei hohen Energien; dies führt zu einer relativen Überrepräsentation nieder- und mittelenergetischer Ereignisse und bewirkt somit ein Absinken des Peak-zu-Gesamt-Verhältnisses bei höheren Energien. Die Berechnung basiert auf Spektren, die nach Abzug des Untergrunds für die bekannten Quellen erhalten wurden. Dieses Vorgehen ist sinnvoll, da die Auswirkungen externer Untergrundstrahlung nicht als „Fehlfunktion“ des Detektors interpretiert werden dürfen und daher vor der Bestimmung des Peak-zu-Gesamt-Verhältnisses eliminiert werden müssen.
 
-**HPGe:**
-\[
-\epsilon(661\,\text{keV}) = 3,9(4)\%
-\]
-
-**NaI:**
-\[
-\epsilon(661\,\text{keV}) = 9,8(10)\%
-\]
-
-Die Ergebnisse zeigen, dass nur ein geringer Anteil der einfallenden 661-keV-Photonen im Photopeak erscheint. Die meisten Photonen durchlaufen den Detektor, werden gestreut oder erzeugen kein Signal im Photopeak – sei es aufgrund von Effekten während der **Ladungssammlung** (z. B. Rekombination) oder durch das Ausbleiben photoelektrischer Ereignisse im Photomultiplier (PMT).
-
-Des Weiteren ist die Effizienz von Szintillationsdetektoren bei diesen Energien höher als die von Halbleiterdetektoren. Dieses Ergebnis entspricht den Erwartungen, da die höhere Ordnungszahl von Iod (\(Z = 53\)) im Vergleich zu Germanium (\(Z = 32\)) zu einem größeren Wirkungsquerschnitt für den photoelektrischen Effekt (\(\sigma_\text{photo} \propto Z^5\)) führt.
-
-Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Spektrum bestimmen. Dabei ist zu beachten, dass die Referenzfunktion \(B(E)\) für jede Energie \(E\) mit der entsprechenden Zählrate verglichen werden muss (siehe Tabelle 1). Abbildung 11 stellt die erzielten Ergebnisse in Form einer Effizienzkurve dar.
-
-% add plots
-
-Abbildung 11 zeigt, dass die Effizienz \(\epsilon(E)\) beider Detektoren mit zunehmender Energie im Bereich \(E \in [100\,\text{keV}, 1500\,\text{keV}]\) deutlich abnimmt. Dieses Verhalten ist bekannt und lässt sich durch die folgende empirische Anpassungsfunktion beschreiben [10, S. 299]:
-
-\[\epsilon(e) = \exp\!\left(-a_1\, e + a_2\, e^2\right),
-\qquad e = \ln\!\left(\frac{E}{1.022\,\text{keV}}\right).
-\tag{8}
-\]
-
-Die in den Abbildungen 11a und 11b dargestellten Effizienzkurven folgen dieser Funktionsform mit den folgenden Parametern:
-
-**HPGe:**
-\[
-a_1 = -1.456(32), \qquad a_2 = -0.1887(49)
-\]
-
-**NaI:**
-\[
-a_1 = -1.767(36), \qquad a_2 = -0.2177(60)
-\]
-
-Allerdings gibt diese Anpassungsfunktion den erwarteten Effizienzverlauf bei sehr niedrigen Energien nicht präzise wieder [11, S. 242]. Eine genauere Betrachtung der niederenergetischen Datenpunkte in Abbildung 11 legt nahe, dass die Effizienzkurve in diesem Bereich eine Glockenform annimmt und zu niedrigeren Effizienzwerten hin konvergiert. Dieses Verhalten lässt sich jedoch mit den verfügbaren Mitteln nicht bestätigen, da der niederenergetische Bereich nicht hinreichend dokumentiert ist.
-
-Insgesamt beschreibt die Regressionsfunktion den Effizienzabfall bei hohen Energien korrekt und stimmt mit der zuvor aus der Cäsium-Messung ermittelten Effizienz überein. Sie liefert somit eine konsistente Darstellung der **Detektoreffizienz** in Abhängigkeit von der Energie im untersuchten Bereich.
-
-\chapter{Aktivität $^{60}$Co}
-Schließlich wird die Gültigkeit der berechneten Effizienzkurven überprüft, indem die Aktivität der Kobaltquelle aus dem gemessenen Spektrum rekonstruiert wird. Hierzu wird das Spektrum zunächst mithilfe der Effizienzkurve korrigiert. Die Effizienzfunktion beruht auf der Annahme, dass nur Ereignisse innerhalb des Gauß-Fit-Bereichs des Photopeaks korrekt detektiert werden. Folglich müssen für die Flächen der beiden Kobalt-Photopeaks, \(A(1173\,\text{keV})\) und \(A(1332\,\text{keV})\), die entsprechenden Ereignisanzahlen unter Verwendung von \(\epsilon(E_\gamma)\) hinsichtlich der Energieabhängigkeit korrigiert werden. Unter Verwendung der Parameter der beiden Gauß-Funktionen wird zunächst ein „bereinigtes“ Kobalt-Spektrum erstellt, das keine linearen Untergrundkomponenten enthält:
-
-\[
-N'(K) =
-\frac{A_1}{\sqrt{2\pi}\sigma_1}
-\exp\!\left[-\frac{(K-\mu_1)^2}{2\sigma_1^2}\right]
-+
-\frac{A_2}{\sqrt{2\pi}\sigma_2}
-\exp\!\left[-\frac{(K-\mu_2)^2}{2\sigma_2^2}\right].
-\tag{9}
-\]
-
-Dieses bereinigte Spektrum wird anschließend kanalweise durch die Effizienz \(\epsilon(E(K))\) dividiert und über alle Kanäle aufsummiert. Dies ergibt die Anzahl der Photonen, die den Detektor während der Messdauer (T = 300 s) erreichen, bezeichnet als \(N_\text{reach}\). Durch Division durch den Raumwinkel des Detektors und die Messdauer erhält man schließlich die Quellenaktivität \(B\):
-
-\[
-B
-= \frac{N_\text{reach}}{T}
-\frac{4\pi D^2}{\pi d^2}
-= \frac{4D^2}{d^2 T}
-\sum_i \frac{N'(K_i)}{\epsilon(E(K_i))}.
-\] \] \tag{10}
-\]
-
-Die auf diese Weise berechneten Aktivitäten der Kobaltprobe betragen (Nennwert: \(B = 39\,\text{kBq}\)):
-
-**HPGe:**
-\[
-B(\text{Co}) = 33(16)\,\text{kBq}
-\]
-
-**NaI:**
-\[
-B(\text{Co}) = 35(18)\,\text{kBq}
-\]
-
-Die berechneten Werte stimmen sehr gut mit der erwarteten Aktivität überein und bestätigen die Gültigkeit der Effizienzkurven im Hochenergiebereich. Die relativ hohen Unsicherheiten sind vor allem auf die ungenaue Bestimmung der Abstände \(D\) und den daraus resultierenden Fehler durch den kleinsten Raumwinkel zurückzuführen. Dennoch weichen die rekonstruierten Aktivitäten um weniger als 20 % von den Literaturwerten ab und sind somit konsistent.
