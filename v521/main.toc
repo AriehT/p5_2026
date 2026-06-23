@@ -12,8 +12,8 @@
 \contentsline {chapter}{\numberline {5}Energiekalibrierung}{8}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Theoretische Grundlagen}{8}{section.5.1}%
 \contentsline {paragraph}{\nonumberline Compton-Streuung}{8}{paragraph*.7}%
-\contentsline {paragraph}{\nonumberline Abschwächung der Strahlung}{8}{paragraph*.9}%
-\contentsline {paragraph}{\nonumberline $\gamma $-Spektrum von $^{152}$Eu}{9}{paragraph*.11}%
+\contentsline {subsection}{\numberline {5.1.1}Photoeffekt}{8}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}$\gamma $-Spektrum von $^{152}$Eu}{9}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}Durchführung}{9}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Auswertung}{9}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Bestimmung der Halbwertsbreite}{13}{chapter.6}%
@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {7.3}Auswertung}{15}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{17}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{17}{section.8.1}%
-\contentsline {paragraph}{\nonumberline Detektoreffizienz}{17}{paragraph*.20}%
+\contentsline {paragraph}{\nonumberline Detektoreffizienz}{17}{paragraph*.15}%
 \contentsline {section}{\numberline {8.2}Durchführung}{17}{section.8.2}%
 \contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{19}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{20}{chapter.10}%

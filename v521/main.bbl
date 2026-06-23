@@ -23,25 +23,11 @@
       \field{labelalpha}{26}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{extraalpha}{1}
       \field{labeltitlesource}{title}
       \field{day}{20}
       \field{isbn}{978-3-662-73067-6}
       \field{month}{6}
       \field{title}{Teilchendetektoren, Wermes}
-      \field{year}{2026}
-      \field{dateera}{ce}
-    \endentry
-    \entry{Leo}{book}{}
-      \field{labelalpha}{26}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{extraalpha}{2}
-      \field{labeltitlesource}{title}
-      \field{day}{22}
-      \field{isbn}{3540173862}
-      \field{month}{6}
-      \field{title}{Leo, Techniques for Nuclear and Particle Physics Experiments: A How-to Approach}
       \field{year}{2026}
       \field{dateera}{ce}
     \endentry
@@ -58,8 +44,8 @@
       \strng{authornamehash}{76419c031f0366bb61d889408628d8d1}
       \strng{authorfullhash}{76419c031f0366bb61d889408628d8d1}
       \field{labelalpha}{Nat}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -88,8 +74,8 @@
       \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
       \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
       \field{labelalpha}{Nat}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -125,8 +111,8 @@
       \strng{authornamehash}{c998b8f41d2c73c62261211d04bdde0c}
       \strng{authorfullhash}{c998b8f41d2c73c62261211d04bdde0c}
       \field{labelalpha}{AM20}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 168, 117}
@@ -163,8 +149,8 @@
       \strng{authornamehash}{51ac937e8982833721fc22fb6ec222da}
       \strng{authorfullhash}{51ac937e8982833721fc22fb6ec222da}
       \field{labelalpha}{ZM21}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 175, 1}
@@ -196,8 +182,8 @@
       \strng{authornamehash}{6095a875d40e9b020ab456ee63ebca3c}
       \strng{authorfullhash}{6095a875d40e9b020ab456ee63ebca3c}
       \field{labelalpha}{Abu14}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 116, 163}
@@ -229,8 +215,8 @@
       \strng{authornamehash}{6eba98f640d322c68d2f4d1c4e562738}
       \strng{authorfullhash}{6eba98f640d322c68d2f4d1c4e562738}
       \field{labelalpha}{Mar07}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 108, 1583}
@@ -259,8 +245,8 @@
       \strng{authornamehash}{af06704764d8034ca33edc1493e66b7b}
       \strng{authorfullhash}{af06704764d8034ca33edc1493e66b7b}
       \field{labelalpha}{Che17}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 140, 1}
@@ -278,9 +264,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Eu-peaks}
-  \missing{Knoll}
-  \missing{compton_uzh}
 \endrefsection
 \endinput
 

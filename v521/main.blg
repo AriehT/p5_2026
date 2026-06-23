@@ -1,0 +1,18 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[28] biber:340> INFO - === Tue Jun 23, 2026, 11:52:16
+[46] Biber.pm:418> INFO - Reading 'main.bcf'
+[90] Biber.pm:978> INFO - Found 8 citekeys in bib section 0
+[95] Biber.pm:4401> INFO - Processing section 0
+[103] Biber.pm:4592> INFO - Looking for bibtex file 'refs.bib' for section 0
+[109] bibtex.pm:1713> INFO - LaTeX decoding ...
+[116] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[146] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[147] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[147] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[147] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[150] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[206] bbl.pm:757> INFO - Output to main.bbl
+[352] Biber.pm:130> WARN - Duplicate entry key: 'demtröder' in file 'refs.bib', skipping ...
+[477] Biber.pm:130> WARN - Entry 'Martin2007_208Tl' (refs.bib): Invalid format '2026-6-21' of date field 'urldate' - ignoring
+[580] Biber.pm:132> INFO - WARNINGS: 2
