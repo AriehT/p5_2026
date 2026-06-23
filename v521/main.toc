@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {7.3}Auswertung}{15}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{17}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{17}{section.8.1}%
-\contentsline {paragraph}{\nonumberline Detektoreffizienz}{17}{paragraph*.21}%
+\contentsline {paragraph}{\nonumberline Detektoreffizienz}{17}{paragraph*.20}%
 \contentsline {section}{\numberline {8.2}Durchführung}{17}{section.8.2}%
 \contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{19}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{20}{chapter.10}%

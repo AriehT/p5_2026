@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  23 JUN 2026 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  23 JUN 2026 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1863,7 +1863,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[15
+) [15
 
 
 
@@ -1871,7 +1871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 
 
-]) [16]
+] [16]
 \openout2 = `detektoreffizienz.aux'.
 
  (./detektoreffizienz.tex
@@ -1888,12 +1888,12 @@ LaTeX Warning: Reference `' on page 17 undefined on input line 17.
 
 LaTeX Warning: Reference `' on page 17 undefined on input line 33.
 
-<figs/Na_effizienz.png, id=242, 722.7pt x 433.62pt>
+<figs/Na_effizienz.png, id=241, 722.7pt x 433.62pt>
 File: figs/Na_effizienz.png Graphic file (type png)
 <use figs/Na_effizienz.png>
 Package pdftex.def Info: figs/Na_effizienz.png  used on input line 40.
 (pdftex.def)             Requested size: 225.34386pt x 135.20818pt.
-<figs/Ge_effizienz.png, id=243, 722.7pt x 433.62pt>
+<figs/Ge_effizienz.png, id=242, 722.7pt x 433.62pt>
 File: figs/Ge_effizienz.png Graphic file (type png)
 <use figs/Ge_effizienz.png>
 Package pdftex.def Info: figs/Ge_effizienz.png  used on input line 47.
@@ -1992,7 +1992,7 @@ LaTeX Warning: Reference `gl.' on page 20 undefined on input line 39.
 
 LaTeX Warning: Reference `' on page 20 undefined on input line 39.
 
-<figs//Ge_Erde_ramen_gauss.png, id=273, 867.24pt x 433.62pt>
+<figs//Ge_Erde_ramen_gauss.png, id=272, 867.24pt x 433.62pt>
 File: figs//Ge_Erde_ramen_gauss.png Graphic file (type png)
 <use figs//Ge_Erde_ramen_gauss.png>
 Package pdftex.def Info: figs//Ge_Erde_ramen_gauss.png  used on input line 44.
@@ -2035,32 +2035,32 @@ Overfull \hbox (3.36946pt too wide) in paragraph at lines 8--9
 \openout2 = `anhang.aux'.
 
  (./anhang.tex
-<figs/Cobalt_roh.png, id=314, 867.24pt x 433.62pt>
+<figs/Cobalt_roh.png, id=313, 867.24pt x 433.62pt>
 File: figs/Cobalt_roh.png Graphic file (type png)
 <use figs/Cobalt_roh.png>
 Package pdftex.def Info: figs/Cobalt_roh.png  used on input line 7.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Cobalt_roh.png, id=315, 867.24pt x 433.62pt>
+<figs/Ge_Cobalt_roh.png, id=314, 867.24pt x 433.62pt>
 File: figs/Ge_Cobalt_roh.png Graphic file (type png)
 <use figs/Ge_Cobalt_roh.png>
 Package pdftex.def Info: figs/Ge_Cobalt_roh.png  used on input line 14.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Caesium_roh.png, id=316, 867.24pt x 433.62pt>
+<figs/Caesium_roh.png, id=315, 867.24pt x 433.62pt>
 File: figs/Caesium_roh.png Graphic file (type png)
 <use figs/Caesium_roh.png>
 Package pdftex.def Info: figs/Caesium_roh.png  used on input line 27.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Caesium_roh.png, id=317, 867.24pt x 433.62pt>
+<figs/Ge_Caesium_roh.png, id=316, 867.24pt x 433.62pt>
 File: figs/Ge_Caesium_roh.png Graphic file (type png)
 <use figs/Ge_Caesium_roh.png>
 Package pdftex.def Info: figs/Ge_Caesium_roh.png  used on input line 34.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Europium_roh.png, id=318, 867.24pt x 433.62pt>
+<figs/Europium_roh.png, id=317, 867.24pt x 433.62pt>
 File: figs/Europium_roh.png Graphic file (type png)
 <use figs/Europium_roh.png>
 Package pdftex.def Info: figs/Europium_roh.png  used on input line 47.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_europium_roh.png, id=319, 867.24pt x 433.62pt>
+<figs/Ge_europium_roh.png, id=318, 867.24pt x 433.62pt>
 File: figs/Ge_europium_roh.png Graphic file (type png)
 <use figs/Ge_europium_roh.png>
 Package pdftex.def Info: figs/Ge_europium_roh.png  used on input line 54.
@@ -2079,67 +2079,67 @@ LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 94.
 
 [26]
-<figs/Erde_1.png, id=341, 578.16pt x 361.35pt>
+<figs/Erde_1.png, id=340, 578.16pt x 361.35pt>
 File: figs/Erde_1.png Graphic file (type png)
 <use figs/Erde_1.png>
 Package pdftex.def Info: figs/Erde_1.png  used on input line 174.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_2.png, id=342, 578.16pt x 361.35pt>
+<figs/Erde_2.png, id=341, 578.16pt x 361.35pt>
 File: figs/Erde_2.png Graphic file (type png)
 <use figs/Erde_2.png>
 Package pdftex.def Info: figs/Erde_2.png  used on input line 180.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_3.png, id=343, 578.16pt x 361.35pt>
+<figs/Erde_3.png, id=342, 578.16pt x 361.35pt>
 File: figs/Erde_3.png Graphic file (type png)
 <use figs/Erde_3.png>
 Package pdftex.def Info: figs/Erde_3.png  used on input line 186.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_4.png, id=344, 578.16pt x 361.35pt>
+<figs/Erde_4.png, id=343, 578.16pt x 361.35pt>
 File: figs/Erde_4.png Graphic file (type png)
 <use figs/Erde_4.png>
 Package pdftex.def Info: figs/Erde_4.png  used on input line 192.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_5.png, id=345, 578.16pt x 361.35pt>
+<figs/Erde_5.png, id=344, 578.16pt x 361.35pt>
 File: figs/Erde_5.png Graphic file (type png)
 <use figs/Erde_5.png>
 Package pdftex.def Info: figs/Erde_5.png  used on input line 198.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_6.png, id=346, 578.16pt x 361.35pt>
+<figs/Erde_6.png, id=345, 578.16pt x 361.35pt>
 File: figs/Erde_6.png Graphic file (type png)
 <use figs/Erde_6.png>
 Package pdftex.def Info: figs/Erde_6.png  used on input line 204.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_7.png, id=347, 578.16pt x 361.35pt>
+<figs/Erde_7.png, id=346, 578.16pt x 361.35pt>
 File: figs/Erde_7.png Graphic file (type png)
 <use figs/Erde_7.png>
 Package pdftex.def Info: figs/Erde_7.png  used on input line 210.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_8.png, id=348, 578.16pt x 361.35pt>
+<figs/Erde_8.png, id=347, 578.16pt x 361.35pt>
 File: figs/Erde_8.png Graphic file (type png)
 <use figs/Erde_8.png>
 Package pdftex.def Info: figs/Erde_8.png  used on input line 216.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_9.png, id=349, 578.16pt x 361.35pt>
+<figs/Erde_9.png, id=348, 578.16pt x 361.35pt>
 File: figs/Erde_9.png Graphic file (type png)
 <use figs/Erde_9.png>
 Package pdftex.def Info: figs/Erde_9.png  used on input line 222.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_10.png, id=350, 578.16pt x 361.35pt>
+<figs/Erde_10.png, id=349, 578.16pt x 361.35pt>
 File: figs/Erde_10.png Graphic file (type png)
 <use figs/Erde_10.png>
 Package pdftex.def Info: figs/Erde_10.png  used on input line 227.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_11.png, id=351, 578.16pt x 361.35pt>
+<figs/Erde_11.png, id=350, 578.16pt x 361.35pt>
 File: figs/Erde_11.png Graphic file (type png)
 <use figs/Erde_11.png>
 Package pdftex.def Info: figs/Erde_11.png  used on input line 233.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_12.png, id=352, 578.16pt x 361.35pt>
+<figs/Erde_12.png, id=351, 578.16pt x 361.35pt>
 File: figs/Erde_12.png Graphic file (type png)
 <use figs/Erde_12.png>
 Package pdftex.def Info: figs/Erde_12.png  used on input line 239.
 (pdftex.def)             Requested size: 117.36763pt x 73.35492pt.
-<figs/Erde_13.png, id=353, 578.16pt x 361.35pt>
+<figs/Erde_13.png, id=352, 578.16pt x 361.35pt>
 File: figs/Erde_13.png Graphic file (type png)
 <use figs/Erde_13.png>
 Package pdftex.def Info: figs/Erde_13.png  used on input line 246.
@@ -2218,18 +2218,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49499 strings out of 477884
- 1014929 string characters out of 5835937
+ 49498 strings out of 477884
+ 1014923 string characters out of 5835937
  2011318 words of memory out of 5000000
  68691 multiletter control sequences out of 15000+600000
  614493 words of font info for 256 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  108i,20n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (31 pages, 1900555 bytes).
+Output written on main.pdf (31 pages, 1900247 bytes).
 PDF statistics:
- 624 PDF objects out of 1000 (max. 8388607)
- 468 compressed objects within 5 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 623 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
  454 words of extra memory for PDF output out of 10000 (max. 10000000)
 
