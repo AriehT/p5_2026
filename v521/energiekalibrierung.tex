@@ -50,12 +50,63 @@ Detektormaterials sowie der Photonenenergie ab. Näherungsweise gilt:
 wobei $n$ im Bereich von $4$ bis $5$ liegt. Daraus folgt, dass Materialien mit hoher
 Ordnungszahl eine deutlich höhere Photoeffizienz besitzen. Der HPGe-Detektor weist aufgrund seiner geringen Bandlücke und der präzisen Ladungssammlung eine exzellente Energieauflösung auf, jedoch eine geringere Wahrscheinlichkeit für vollständige Energieabsorption.
 
+\subsubsection*{5.1.x \,$\gamma$-Spektrum von $^{137}$Cs}
+
+Der Zerfall von $^{137}$Cs erfolgt überwiegend über den angeregten Zustand des
+$^{137}$Ba-Kerns, wodurch eine einzelne charakteristische $\gamma$-Linie bei
+$661.7\,\mathrm{keV}$ entsteht. Diese Linie bildet im Spektrum den dominanten
+Photopeak und eignet sich daher besonders gut für die Energiekalibrierung.
+
+Aufgrund der einfachen Zerfallsstruktur treten beim $^{137}$Cs-Spektrum nur
+wenige Überlagerungen auf. Dennoch können Compton-Kontinuum, Rückstreuung
+sowie Röntgenlinien des Barium-Tochterkerns zu zusätzlichen Strukturen im
+Spektrum führen. Um diese Effekte zu minimieren, wird eine Hintergrundmessung
+ohne Probe durchgeführt und vom Spektrum subtrahiert. Dadurch lassen sich
+Umgebungsstrahlung, elektronische Störungen und Untergrundereignisse
+unterdrücken, sodass der Photopeak klar isoliert werden kann.
+\subsubsection*{5.1.x \,$\gamma$-Spektrum von $^{60}$Co}
+
+Der Zerfall von $^{60}$Co führt über zwei aufeinanderfolgende angeregte Zustände
+des $^{60}$Ni-Kerns zu zwei charakteristischen und gut getrennten
+$\gamma$-Linien bei $1173\,\mathrm{keV}$ und $1332\,\mathrm{keV}$. Diese beiden
+Übergänge besitzen nahezu identische Emissionswahrscheinlichkeiten und bilden
+im Spektrum zwei deutlich ausgeprägte Photopeaks.
+
+Aufgrund der höheren Photonenenergien ist das Compton-Kontinuum im
+$^{60}$Co-Spektrum besonders ausgeprägt. Die Compton-Kante sowie der
+Rückstreupeak sind klar sichtbar und überlagern teilweise den Untergrund im
+Bereich zwischen den beiden Photopeaks. Da die Halbwertsbreite des Detektors
+mit steigender Energie zunimmt, können sich die Flanken der beiden Peaks
+annähern, ohne jedoch zu überlappen.
+
 
 \subsection{$\gamma$-Spektrum von $^{152}$Eu}
 Der Zerfall von $^{152}$Eu führt über mehrere angeregte Zustände des $^{152}$Sm zu einer Vielzahl charakteristischer $\gamma$-Linien.\\
 Aufgrund der begrenzten Energieauflösung des Detektors können sich mehrere nahe beieinander liegende Übergänge überlappen und einen einzigen Peak bilden. 
 Diese Überlappung tritt besonders häufig bei Spannungen über 400 keV auf, da der Linienabstand dann kleiner als die Halbwertsbreite (FWHM) des Detektors ist.
 Zur genauen Identifizierung der Linien wird eine Hintergrundmessung ohne Probe durchgeführt und anschließend vom Spektrum subtrahiert, um die Auswirkungen von Umgebungsstrahlung und elektrischem Rauschen zu eliminieren.
+\begin{table}[H]
+\centering
+\caption{Literaturwerte der $\gamma$-Energien und relativen Intensitäten von $^{152}$Eu}
+\begin{tabular}{c c}
+\hline
+$E_{\text{lit}}\,/\,\mathrm{keV}$ & rel.\ Intens.\ $I\,/\,\%$ \\
+\hline
+121.7817(3)  & 28.53(16) \\
+244.6974(8)  & 7.550(40) \\
+344.2785(12) & 26.59(20) \\
+411.1165(12) & 2.237(13) \\
+443.9606(16) & 2.827(14) \\
+778.9045(24) & 12.930(80) \\
+867.3800(30) & 4.230(30) \\
+964.0570(50) & 14.510(70) \\
+1085.837(10) & 10.110(50) \\
+1112.0760(30) & 13.670(80) \\
+1408.0130(30) & 20.870(90) \\
+\hline
+\end{tabular}
+\label{tab_eff_1}
+\end{table}
 
 
 \section{Durchführung}
@@ -76,7 +127,7 @@ Zur Energiekalibrierung werden Gauß-Funktionen in Kombination mit einem lineare
 
 Hier bezeichnet  k den Kanalindex des Vielkanalanalysators (MCA) . Die Ergebnisse ermöglichen die Bestimmung der Peak-Mittenposition $\mu$, der Halbwertsbreite  $\sigma_{FWHM}$ sowie der Peak-Fläche $A$. Da der lineare Untergrund nicht berücksichtigt werden konnte, ist die Bestimmung der Emissionslinien nicht sehr präzise, insbesondere bei Spektren, die mit NaI-Detektoren aufgenommen wurden, da hier der Compton-Untergrund erheblich ist.\\
 
-Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden Detektoren von derselben Probe aufgenommen wurden. Zur Erleichterung der Auswertung wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden im weiteren Verlauf vorgestellt. Alle durch Gleichung\ref{eq_1} definierten Parameter sind in den Tabellen \ref{tab_2} und \ref{tab_3} aufgeführt. Aufgrund der außergewöhnlichen Schärfe der HPGe-Spektrallinien werden diese zudem in den Abbildungen \ref{fig:anhang_1} detailliert dargestellt.
+Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden Detektoren von derselben Probe aufgenommen wurden. Zur Erleichterung der Auswertung wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden im weiteren Verlauf vorgestellt. Alle durch Gleichung \ref{eq_1} definierten Parameter sind in den Tabellen \ref{taba_2} und \ref{taba_3} aufgeführt. Aufgrund der außergewöhnlichen Schärfe der HPGe-Spektrallinien werden diese zudem in den Abbildungen \ref{fig:anhang_1} detailliert dargestellt.
 
 \begin{figure}[htbp]
     \centering
@@ -159,7 +210,7 @@ Es wird eine Energie-Kalibration, unter der Annahme, dass es eine lineare Zuordn
 \begin{equation}
     E(k)=\frac{k-b}{a}
 \end{equation}
-Wenn diesauf die ermittelten Maxima $\mu$ und die Literaturwerte $E(\mu)$ für zugehörigen Energien angewendet wird, ergeben sich
+Wenn dies auf die ermittelten Maxima $\mu$ und die Literaturwerte $E(\mu)$ für zugehörigen Energien angewendet wird, ergeben sich
 für beide Detektoren die in Abbildung \ref{fig:kalib_4} gezeigten Zusammmenhänge:
 
 % add plots
