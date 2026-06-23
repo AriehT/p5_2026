@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  23 JUN 2026 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  23 JUN 2026 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1265,98 +1265,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./main.aux (./Einleitung.aux) (./aufbau.aux) (./voraufgabe.aux) (./justage.aux) (./energiekalibrierung.aux) (./halbwertsbreite.aux) (./intrinsisch.aux) (./peak-to-total.aux) (./detektoreffizienz.aux) (./radioaktivität.aux) (./Fazit.aux) (./anhang.aux
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:anhang_1' multiply defined.
-
-
-LaTeX Warning: Label `fig:anhang_1@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:anhang_1' multiply defined.
-
-
-LaTeX Warning: Label `fig:anhang_1@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:zoom_2' multiply defined.
-
-
-LaTeX Warning: Label `fig:zoom_2@cref' multiply defined.
-
-) (./AI use.aux))
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
@@ -1492,7 +1401,6 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 17.
-(./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1504,7 +1412,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
 (scrreprt)           before \begin{document} on input line 17.
- (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
@@ -1553,13 +1461,12 @@ LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <12.5> not available
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) (./main.toc
-Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
+No file main.toc.
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [2
+[2
 
 ]
 \openout2 = `Einleitung.aux'.
@@ -1586,16 +1493,19 @@ l.43  \include{Einleitung}
 
  (./aufbau.tex
 chapter 2.
-<figs/NaI-detektor.jpeg, id=96, 1204.5pt x 1606.0pt>
+<figs/NaI-detektor.jpeg, id=28, 1204.5pt x 1606.0pt>
 File: figs/NaI-detektor.jpeg Graphic file (type jpg)
 <use figs/NaI-detektor.jpeg>
 Package pdftex.def Info: figs/NaI-detektor.jpeg  used on input line 8.
 (pdftex.def)             Requested size: 225.34386pt x 300.43811pt.
-<figs/HPGe_detektor.jpeg, id=97, 1204.5pt x 1606.0pt>
+<figs/HPGe_detektor.jpeg, id=29, 1204.5pt x 1606.0pt>
 File: figs/HPGe_detektor.jpeg Graphic file (type jpg)
 <use figs/HPGe_detektor.jpeg>
 Package pdftex.def Info: figs/HPGe_detektor.jpeg  used on input line 15.
 (pdftex.def)             Requested size: 225.34386pt x 300.43811pt.
+
+LaTeX Warning: Reference `fig:aufbau_1' on page 2 undefined on input line 27.
+
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
@@ -1619,7 +1529,10 @@ Overfull \hbox (7.46326pt too wide) in paragraph at lines 15--18
 []\T1/cmr/m/n/10.95 Aus den Fit-pa-ra-me-tern wer-den die Schwer-punkt-la-ge, die Li-ni-en-brei-te, die Halb-werts-brei-te (FWHM)
  []
 
-<figs/voraufgabe_fertig.png, id=106, 867.24pt x 433.62pt>
+
+LaTeX Warning: Reference `fig:voraufgabe_fit' on page 3 undefined on input line 21.
+
+<figs/voraufgabe_fertig.png, id=38, 867.24pt x 433.62pt>
 File: figs/voraufgabe_fertig.png Graphic file (type png)
 <use figs/voraufgabe_fertig.png>
 Package pdftex.def Info: figs/voraufgabe_fertig.png  used on input line 26.
@@ -1659,37 +1572,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-<figs/scope_1.png, id=128, 803.0pt x 504.88625pt>
+
+LaTeX Warning: Reference `fig:justage_1' on page 6 undefined on input line 52.
+
+<figs/scope_1.png, id=65, 803.0pt x 504.88625pt>
 File: figs/scope_1.png Graphic file (type png)
 <use figs/scope_1.png>
 Package pdftex.def Info: figs/scope_1.png  used on input line 60.
 (pdftex.def)             Requested size: 225.34386pt x 141.68303pt.
-<figs/scope_2.png, id=129, 803.0pt x 504.88625pt>
+<figs/scope_2.png, id=66, 803.0pt x 504.88625pt>
 File: figs/scope_2.png Graphic file (type png)
 <use figs/scope_2.png>
 Package pdftex.def Info: figs/scope_2.png  used on input line 67.
 (pdftex.def)             Requested size: 225.34386pt x 141.68303pt.
-[6]) [7 <./figs/scope_1.png (PNG copy)> <./figs/scope_2.png (PNG copy)>]
+
+LaTeX Warning: Reference `tab_1' on page 6 undefined on input line 80.
+
+)
 \openout2 = `energiekalibrierung.aux'.
 
  (./energiekalibrierung.tex
 chapter 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
-
- []
-
-[8
-
-
-
-
-]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 83.
@@ -1715,98 +1618,157 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 83.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
+LaTeX Warning: Reference `fig:anhang_1' on page 6 undefined on input line 120.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+LaTeX Warning: Reference `eq_1' on page 6 undefined on input line 130.
 
- []
 
-<figs/Cobalt_gausss.png, id=168, 867.24pt x 433.62pt>
+LaTeX Warning: Reference `taba_2' on page 6 undefined on input line 130.
+
+
+LaTeX Warning: Reference `taba_3' on page 6 undefined on input line 130.
+
+
+LaTeX Warning: Reference `fig:anhang_1' on page 6 undefined on input line 130.
+
+
+./energiekalibrierung.tex:132: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Cobalt_gausss.png, id=68, 867.24pt x 433.62pt>
 File: figs/Cobalt_gausss.png Graphic file (type png)
 <use figs/Cobalt_gausss.png>
 Package pdftex.def Info: figs/Cobalt_gausss.png  used on input line 137.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Cobalt_gauss.png, id=169, 867.24pt x 433.62pt>
+<figs/Ge_Cobalt_gauss.png, id=69, 867.24pt x 433.62pt>
 File: figs/Ge_Cobalt_gauss.png Graphic file (type png)
 <use figs/Ge_Cobalt_gauss.png>
 Package pdftex.def Info: figs/Ge_Cobalt_gauss.png  used on input line 144.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
+LaTeX Warning: Reference `fig:kalib_1' on page 6 undefined on input line 154.
 
- []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+LaTeX Warning: Reference `fig:kalib_2' on page 6 undefined on input line 159.
 
- []
 
-<figs/Caesium_gauss1.png, id=183, 867.24pt x 433.62pt>
+./energiekalibrierung.tex:162: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Caesium_gauss1.png, id=70, 867.24pt x 433.62pt>
 File: figs/Caesium_gauss1.png Graphic file (type png)
 <use figs/Caesium_gauss1.png>
 Package pdftex.def Info: figs/Caesium_gauss1.png  used on input line 167.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_caesium_gauss.png, id=184, 867.24pt x 433.62pt>
+<figs/Ge_caesium_gauss.png, id=71, 867.24pt x 433.62pt>
 File: figs/Ge_caesium_gauss.png Graphic file (type png)
 <use figs/Ge_caesium_gauss.png>
 Package pdftex.def Info: figs/Ge_caesium_gauss.png  used on input line 174.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Europium_gauss3.png, id=186, 867.24pt x 433.62pt>
+
+LaTeX Warning: Reference `fig:kalib_3' on page 6 undefined on input line 183.
+
+
+./energiekalibrierung.tex:185: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Europium_gauss3.png, id=72, 867.24pt x 433.62pt>
 File: figs/Europium_gauss3.png Graphic file (type png)
 <use figs/Europium_gauss3.png>
 Package pdftex.def Info: figs/Europium_gauss3.png  used on input line 190.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Europium_gausss.png, id=187, 867.24pt x 433.62pt>
+<figs/Ge_Europium_gausss.png, id=73, 867.24pt x 433.62pt>
 File: figs/Ge_Europium_gausss.png Graphic file (type png)
 <use figs/Ge_Europium_gausss.png>
 Package pdftex.def Info: figs/Ge_Europium_gausss.png  used on input line 197.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-[11 <./figs/Cobalt_gausss.png> <./figs/Ge_Cobalt_gauss.png> <./figs/Caesium_gauss1.png> <./figs/Ge_caesium_gauss.png>]
-<figs/Energie_kalibrierung.png, id=201, 578.16pt x 361.35pt>
+
+LaTeX Warning: Reference `fig:kalib_4' on page 6 undefined on input line 215.
+
+
+./energiekalibrierung.tex:218: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Energie_kalibrierung.png, id=74, 578.16pt x 361.35pt>
 File: figs/Energie_kalibrierung.png Graphic file (type png)
 <use figs/Energie_kalibrierung.png>
-Package pdftex.def Info: figs/Energie_kalibrierung.png  used on input line 222.
+Package pdftex.def Info: figs/Energie_kalibrierung.png  used on input line 223.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Ge_Energiekal.png, id=202, 578.16pt x 361.35pt>
+<figs/Ge_Energiekal.png, id=75, 578.16pt x 361.35pt>
 File: figs/Ge_Energiekal.png Graphic file (type png)
 <use figs/Ge_Energiekal.png>
-Package pdftex.def Info: figs/Ge_Energiekal.png  used on input line 229.
+Package pdftex.def Info: figs/Ge_Energiekal.png  used on input line 230.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
- [12 <./figs/Europium_gauss3.png> <./figs/Ge_Europium_gausss.png> <./figs/Energie_kalibrierung.png> <./figs/Ge_Energiekal.png>]) [13]
+)
 \openout2 = `halbwertsbreite.aux'.
 
  (./halbwertsbreite.tex
 chapter 6.
 
-LaTeX Warning: Reference `tab_2' on page 14 undefined on input line 6.
+LaTeX Warning: Reference `tab_2' on page 6 undefined on input line 6.
 
 
-LaTeX Warning: Reference `tab_3' on page 14 undefined on input line 6.
+LaTeX Warning: Reference `tab_3' on page 6 undefined on input line 6.
 
-<figs/Na(I)_Halbwertsbreite.png, id=221, 578.16pt x 361.35pt>
+
+LaTeX Warning: Reference `eq_2' on page 6 undefined on input line 8.
+
+
+LaTeX Warning: Reference `eq_3' on page 6 undefined on input line 13.
+
+
+LaTeX Warning: Reference `fig:halbw_1' on page 6 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq_2' on page 6 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq_3' on page 6 undefined on input line 19.
+
+<figs/Na(I)_Halbwertsbreite.png, id=76, 578.16pt x 361.35pt>
 File: figs/Na(I)_Halbwertsbreite.png Graphic file (type png)
 <use figs/Na(I)_Halbwertsbreite.png>
 Package pdftex.def Info: figs/Na(I)_Halbwertsbreite.png  used on input line 24.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Ge_Halbwerts.png, id=222, 578.16pt x 361.35pt>
+<figs/Ge_Halbwerts.png, id=77, 578.16pt x 361.35pt>
 File: figs/Ge_Halbwerts.png Graphic file (type png)
 <use figs/Ge_Halbwerts.png>
 Package pdftex.def Info: figs/Ge_Halbwerts.png  used on input line 31.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-[14
-
-
-
-
- <./figs/Na(I)_Halbwertsbreite.png> <./figs/Ge_Halbwerts.png>]) [15]
+)
 \openout2 = `intrinsisch.aux'.
 
 
@@ -1815,63 +1777,66 @@ No file intrinsisch.tex.
 
 (./peak-to-total.tex
 chapter 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-[16
-
-
-
-
-
-
-
-]) [17]
+)
 \openout2 = `detektoreffizienz.aux'.
 
  (./detektoreffizienz.tex
 chapter 8.
-<figs/Na_effizienz.png, id=253, 722.7pt x 433.62pt>
+
+LaTeX Warning: Reference `eq_5' on page 6 undefined on input line 15.
+
+
+LaTeX Warning: Reference `tab_eff_1' on page 6 undefined on input line 17.
+
+
+LaTeX Warning: Reference `taba_2' on page 6 undefined on input line 17.
+
+
+LaTeX Warning: Reference `taba_3' on page 6 undefined on input line 17.
+
+
+LaTeX Warning: Reference `tab_eff_1' on page 6 undefined on input line 33.
+
+
+LaTeX Warning: Reference `fig:eff_1' on page 6 undefined on input line 33.
+
+
+./detektoreffizienz.tex:36: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \begin{figure}[htbp]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Na_effizienz.png, id=78, 722.7pt x 433.62pt>
 File: figs/Na_effizienz.png Graphic file (type png)
 <use figs/Na_effizienz.png>
 Package pdftex.def Info: figs/Na_effizienz.png  used on input line 40.
 (pdftex.def)             Requested size: 225.34386pt x 135.20818pt.
-<figs/Ge_effizienz.png, id=254, 722.7pt x 433.62pt>
+<figs/Ge_effizienz.png, id=79, 722.7pt x 433.62pt>
 File: figs/Ge_effizienz.png Graphic file (type png)
 <use figs/Ge_effizienz.png>
 Package pdftex.def Info: figs/Ge_effizienz.png  used on input line 47.
 (pdftex.def)             Requested size: 225.34386pt x 135.20818pt.
 
-LaTeX Warning: Reference `' on page 18 undefined on input line 56.
-
-[18
+LaTeX Warning: Reference `fig:eff_1' on page 6 undefined on input line 56.
 
 
+LaTeX Warning: Reference `' on page 6 undefined on input line 56.
 
 
-] [19 <./figs/Na_effizienz.png> <./figs/Ge_effizienz.png>]
+LaTeX Warning: Reference `fig:eff_1_1' on page 6 undefined on input line 63.
+
+
+LaTeX Warning: Reference `fig:eff_1_2' on page 6 undefined on input line 63.
+
+
+LaTeX Warning: Reference `fig:eff_1' on page 6 undefined on input line 77.
+
 chapter 9.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1901,25 +1866,13 @@ LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <16.1> not available
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <11.4> not available
 (Font)              size <10.95> substituted on input line 81.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-) [20
-
-]
+)
 \openout2 = `radioaktivität.aux'.
 
  (./radioaktivität.tex
 chapter 10.
 
-LaTeX Warning: Reference `fig' on page 21 undefined on input line 16.
+LaTeX Warning: Reference `fig:aufbau_1_2' on page 6 undefined on input line 16.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
@@ -1942,28 +1895,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 25.
 
 
-LaTeX Warning: Reference `fig' on page 21 undefined on input line 27.
+LaTeX Warning: Reference `fig:boden_2' on page 6 undefined on input line 27.
 
 
-LaTeX Warning: Reference `gl:' on page 21 undefined on input line 30.
+LaTeX Warning: Reference `eq_1' on page 6 undefined on input line 30.
 
 
-LaTeX Warning: Reference `gl.' on page 21 undefined on input line 39.
+LaTeX Warning: Reference `fig:erde_spektrum' on page 6 undefined on input line 32.
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 39.
+LaTeX Warning: Reference `tab:erde_peaks' on page 6 undefined on input line 34.
 
-<figs//Ge_Erde_ramen_gauss.png, id=283, 867.24pt x 433.62pt>
+
+LaTeX Warning: Reference `gl:eq_e' on page 6 undefined on input line 39.
+
+
+LaTeX Warning: Reference `energiekalwerte' on page 6 undefined on input line 39.
+
+<figs//Ge_Erde_ramen_gauss.png, id=80, 867.24pt x 433.62pt>
 File: figs//Ge_Erde_ramen_gauss.png Graphic file (type png)
 <use figs//Ge_Erde_ramen_gauss.png>
 Package pdftex.def Info: figs//Ge_Erde_ramen_gauss.png  used on input line 44.
 (pdftex.def)             Requested size: 469.47055pt x 234.74017pt.
-[21
-
-
-
-
-]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 80.
@@ -1976,56 +1929,57 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 80.
 
-[22 <./figs//Ge_Erde_ramen_gauss.png>]
 
-LaTeX Warning: Reference `fig:Ge_Cobalt' on page 23 undefined on input line 113.
+LaTeX Warning: Reference `fig:Ge_Cobalt' on page 6 undefined on input line 113.
 
-[23]) [24]
+)
 \openout2 = `Fazit.aux'.
 
- (./Fazit.tex) [25
-
-
-
-]
+ (./Fazit.tex
+chapter 11.
+)
 \openout2 = `anhang.aux'.
 
  (./anhang.tex
-<figs/Cobalt_roh.png, id=324, 867.24pt x 433.62pt>
+./anhang.tex:1: Undefined control sequence.
+l.1 \Chapter
+            {Anhang}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figs/Cobalt_roh.png, id=89, 867.24pt x 433.62pt>
 File: figs/Cobalt_roh.png Graphic file (type png)
 <use figs/Cobalt_roh.png>
 Package pdftex.def Info: figs/Cobalt_roh.png  used on input line 7.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Cobalt_roh.png, id=325, 867.24pt x 433.62pt>
+<figs/Ge_Cobalt_roh.png, id=90, 867.24pt x 433.62pt>
 File: figs/Ge_Cobalt_roh.png Graphic file (type png)
 <use figs/Ge_Cobalt_roh.png>
 Package pdftex.def Info: figs/Ge_Cobalt_roh.png  used on input line 14.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Caesium_roh.png, id=326, 867.24pt x 433.62pt>
+<figs/Caesium_roh.png, id=91, 867.24pt x 433.62pt>
 File: figs/Caesium_roh.png Graphic file (type png)
 <use figs/Caesium_roh.png>
 Package pdftex.def Info: figs/Caesium_roh.png  used on input line 27.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Caesium_roh.png, id=327, 867.24pt x 433.62pt>
+<figs/Ge_Caesium_roh.png, id=92, 867.24pt x 433.62pt>
 File: figs/Ge_Caesium_roh.png Graphic file (type png)
 <use figs/Ge_Caesium_roh.png>
 Package pdftex.def Info: figs/Ge_Caesium_roh.png  used on input line 34.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Europium_roh.png, id=328, 867.24pt x 433.62pt>
+<figs/Europium_roh.png, id=93, 867.24pt x 433.62pt>
 File: figs/Europium_roh.png Graphic file (type png)
 <use figs/Europium_roh.png>
 Package pdftex.def Info: figs/Europium_roh.png  used on input line 47.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_europium_roh.png, id=329, 867.24pt x 433.62pt>
+<figs/Ge_europium_roh.png, id=94, 867.24pt x 433.62pt>
 File: figs/Ge_europium_roh.png Graphic file (type png)
 <use figs/Ge_europium_roh.png>
 Package pdftex.def Info: figs/Ge_europium_roh.png  used on input line 54.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
- [26
-
-
-
- <./figs/Cobalt_roh.png> <./figs/Ge_Cobalt_roh.png> <./figs/Caesium_roh.png> <./figs/Ge_Caesium_roh.png> <./figs/Europium_roh.png> <./figs/Ge_europium_roh.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 94.
@@ -2034,101 +1988,144 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 94.
 
-<figs/Ge_Cobalt_peak1.png, id=343, 650.43pt x 361.35pt>
+
+./anhang.tex:151: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Ge_Cobalt_peak1.png, id=95, 650.43pt x 361.35pt>
 File: figs/Ge_Cobalt_peak1.png Graphic file (type png)
 <use figs/Ge_Cobalt_peak1.png>
 Package pdftex.def Info: figs/Ge_Cobalt_peak1.png  used on input line 156.
 (pdftex.def)             Requested size: 225.34386pt x 125.18968pt.
-<figs/Ge_Cobalt_peak2.png, id=344, 650.43pt x 361.35pt>
+<figs/Ge_Cobalt_peak2.png, id=96, 650.43pt x 361.35pt>
 File: figs/Ge_Cobalt_peak2.png Graphic file (type png)
 <use figs/Ge_Cobalt_peak2.png>
 Package pdftex.def Info: figs/Ge_Cobalt_peak2.png  used on input line 162.
 (pdftex.def)             Requested size: 225.34386pt x 125.18968pt.
-<figs/Ge_Erde_ramen_gauss.png, id=345, 867.24pt x 433.62pt>
+
+./anhang.tex:189: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Ge_Erde_ramen_gauss.png, id=97, 867.24pt x 433.62pt>
 File: figs/Ge_Erde_ramen_gauss.png Graphic file (type png)
 <use figs/Ge_Erde_ramen_gauss.png>
 Package pdftex.def Info: figs/Ge_Erde_ramen_gauss.png  used on input line 194.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Erde_ramen_roh.png, id=346, 867.24pt x 433.62pt>
+<figs/Ge_Erde_ramen_roh.png, id=98, 867.24pt x 433.62pt>
 File: figs/Ge_Erde_ramen_roh.png Graphic file (type png)
 <use figs/Ge_Erde_ramen_roh.png>
 Package pdftex.def Info: figs/Ge_Erde_ramen_roh.png  used on input line 200.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-[27]
-<figs/Erde_1.png, id=354, 578.16pt x 361.35pt>
+
+./anhang.tex:208: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \begin{figure}[htbp]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figs/Erde_1.png, id=99, 578.16pt x 361.35pt>
 File: figs/Erde_1.png Graphic file (type png)
 <use figs/Erde_1.png>
 Package pdftex.def Info: figs/Erde_1.png  used on input line 211.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_2.png, id=355, 578.16pt x 361.35pt>
+<figs/Erde_2.png, id=100, 578.16pt x 361.35pt>
 File: figs/Erde_2.png Graphic file (type png)
 <use figs/Erde_2.png>
 Package pdftex.def Info: figs/Erde_2.png  used on input line 217.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_3.png, id=356, 578.16pt x 361.35pt>
+<figs/Erde_3.png, id=101, 578.16pt x 361.35pt>
 File: figs/Erde_3.png Graphic file (type png)
 <use figs/Erde_3.png>
 Package pdftex.def Info: figs/Erde_3.png  used on input line 223.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_4.png, id=357, 578.16pt x 361.35pt>
+<figs/Erde_4.png, id=102, 578.16pt x 361.35pt>
 File: figs/Erde_4.png Graphic file (type png)
 <use figs/Erde_4.png>
 Package pdftex.def Info: figs/Erde_4.png  used on input line 229.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_5.png, id=358, 578.16pt x 361.35pt>
+<figs/Erde_5.png, id=103, 578.16pt x 361.35pt>
 File: figs/Erde_5.png Graphic file (type png)
 <use figs/Erde_5.png>
 Package pdftex.def Info: figs/Erde_5.png  used on input line 235.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_6.png, id=359, 578.16pt x 361.35pt>
+<figs/Erde_6.png, id=104, 578.16pt x 361.35pt>
 File: figs/Erde_6.png Graphic file (type png)
 <use figs/Erde_6.png>
 Package pdftex.def Info: figs/Erde_6.png  used on input line 241.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_7.png, id=360, 578.16pt x 361.35pt>
+<figs/Erde_7.png, id=105, 578.16pt x 361.35pt>
 File: figs/Erde_7.png Graphic file (type png)
 <use figs/Erde_7.png>
 Package pdftex.def Info: figs/Erde_7.png  used on input line 247.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_8.png, id=361, 578.16pt x 361.35pt>
+<figs/Erde_8.png, id=106, 578.16pt x 361.35pt>
 File: figs/Erde_8.png Graphic file (type png)
 <use figs/Erde_8.png>
 Package pdftex.def Info: figs/Erde_8.png  used on input line 253.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_9.png, id=362, 578.16pt x 361.35pt>
+<figs/Erde_9.png, id=107, 578.16pt x 361.35pt>
 File: figs/Erde_9.png Graphic file (type png)
 <use figs/Erde_9.png>
 Package pdftex.def Info: figs/Erde_9.png  used on input line 259.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_10.png, id=363, 578.16pt x 361.35pt>
+<figs/Erde_10.png, id=108, 578.16pt x 361.35pt>
 File: figs/Erde_10.png Graphic file (type png)
 <use figs/Erde_10.png>
 Package pdftex.def Info: figs/Erde_10.png  used on input line 264.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_11.png, id=364, 578.16pt x 361.35pt>
+<figs/Erde_11.png, id=109, 578.16pt x 361.35pt>
 File: figs/Erde_11.png Graphic file (type png)
 <use figs/Erde_11.png>
 Package pdftex.def Info: figs/Erde_11.png  used on input line 270.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_12.png, id=365, 578.16pt x 361.35pt>
+<figs/Erde_12.png, id=110, 578.16pt x 361.35pt>
 File: figs/Erde_12.png Graphic file (type png)
 <use figs/Erde_12.png>
 Package pdftex.def Info: figs/Erde_12.png  used on input line 276.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-<figs/Erde_13.png, id=366, 578.16pt x 361.35pt>
+<figs/Erde_13.png, id=111, 578.16pt x 361.35pt>
 File: figs/Erde_13.png Graphic file (type png)
 <use figs/Erde_13.png>
 Package pdftex.def Info: figs/Erde_13.png  used on input line 283.
 (pdftex.def)             Requested size: 187.78535pt x 117.36568pt.
-
-
-LaTeX Warning: Float too large for page by 302.82932pt on input line 289.
-
-) [28 <./figs/Ge_Cobalt_peak1.png> <./figs/Ge_Cobalt_peak2.png> <./figs/Ge_Erde_ramen_gauss.png> <./figs/Ge_Erde_ramen_roh.png>] [29 <./figs/Erde_1.png> <./figs/Erde_2.png> <./figs/Erde_3.png> <./figs/Erde_4.png> <./figs/Erde_5.png> <./figs/Erde_6.png> <./figs/Erde_7.png> <./figs/Erde_8.png> <./figs/Erde_9.png> <./figs/Erde_10.png> <./figs/Erde_11.png> <./figs/Erde_12.png> <./figs/Erde_13.png>]
+)
 \openout2 = `"AI use.aux"'.
 
  (./AI use.tex
-chapter 11.
+chapter 12.
+
+./AI use.tex:4: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{table}[h!]
+                     
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 []|\T1/cmr/m/n/10.95 Ideensammlung,
@@ -2164,21 +2161,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 []|\T1/cmr/m/n/10.95 Berechnugn der
  []
 
-) [30
+)
 
+/home/s6norupp/physik/p5_2026/v521/main.tex:67: LaTeX Error: \begin{table} on input line 81 ended by \end{document}.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-
-]
-Overfull \hbox (1.9773pt too wide) in paragraph at lines 63--63
-\T1/cmr/m/n/10.95 ar Da-ta Sheets 168, 117. 2020. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.95 : []$\T1/cmtt/m/n/10.95 https : / / www . nndc . bnl . gov / nudat3 / decaysearchdirect .
- []
-
-[31
-
-
-
-] (./main.aux
+(./main.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 22.
  (./Einleitung.aux) (./aufbau.aux) (./voraufgabe.aux) (./justage.aux) (./energiekalibrierung.aux) (./halbwertsbreite.aux) (./intrinsisch.aux) (./peak-to-total.aux) (./detektoreffizienz.aux) (./radioaktivität.aux) (./Fazit.aux) (./anhang.aux) (./AI use.aux))
 
@@ -2189,27 +2186,71 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) 
-Here is how much of TeX's memory you used:
- 49591 strings out of 477884
- 1016928 string characters out of 5835937
- 2013026 words of memory out of 5000000
- 68780 multiletter control sequences out of 15000+600000
- 631696 words of font info for 294 fonts, out of 8000000 for 9000
- 83 hyphenation exceptions out of 8191
- 108i,20n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (33 pages, 2078855 bytes).
-PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 488 compressed objects within 5 object streams
- 118 named destinations out of 1000 (max. 500000)
- 490 words of extra memory for PDF output out of 10000 (max. 10000000)
+/home/s6norupp/physik/p5_2026/v521/main.tex:67: You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.67 \end{document}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
+
+/home/s6norupp/physik/p5_2026/v521/main.tex:67: LaTeX Error: \begin{table} on input line 81 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/s6norupp/physik/p5_2026/v521/main.tex:67: Missing } inserted.
+<inserted text> 
+                }
+l.67 \end{document}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> /home/s6norupp/physik/p5_2026/v521/main.tex
+                                               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 49302 strings out of 477884
+ 1012564 string characters out of 5835937
+ 2045359 words of memory out of 5000000
+ 68615 multiletter control sequences out of 15000+600000
+ 626128 words of font info for 279 fonts, out of 8000000 for 9000
+ 83 hyphenation exceptions out of 8191
+ 108i,19n,106p,10654b,2691s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
