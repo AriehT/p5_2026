@@ -1,0 +1,38 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Aufbau}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Voraufgabe: Funktionsanpassung an Energie-Spektren}{3}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Vorbereitung der Versuchanordnung}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{4}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Funktionsweise des Szintillationsdetektor}{4}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Funktionsweise des Halbleiterdetektor}{4}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Justage des NaI-Szintillationsdetektor}{5}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Justage des HPGe-Halbleiterdetektor}{6}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Beobachtung der Signale}{6}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Energiekalibrierung}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Theoretische Grundlagen}{8}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Compton-Streuung}{8}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Photoeffekt}{8}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}$\gamma $-Spektrum von $^{152}$Eu}{9}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Durchführung}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Auswertung}{10}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Bestimmung der Halbwertsbreite}{16}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Theoretische Grundlagen}{16}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Durchführung}{16}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Peak-to-Total-Verhältnis}{18}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Theoretische Grundlagen}{18}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Durchführung}{18}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Auswertung}{18}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{20}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{20}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Detektoreffizienz}{20}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}Durchführung}{20}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{22}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{23}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Durchführung}{23}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Extraktion der $\gamma $-Energien}{23}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{24}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Fazit}{27}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Anhang}{28}{chapter.12}%
+\contentsline {chapter}{\numberline {13}KI-Nutzung}{32}{chapter.13}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
