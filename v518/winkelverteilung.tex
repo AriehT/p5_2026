@@ -2,12 +2,88 @@
 \section{Theoretische Grundlagen}
 \subsection{Höhenstrahlung}
 \subsubsection{Primärkomponente}
+Die Primärkomponente der Höhenstrahlung besteht aus kosmischen Teilchen, deren Energien von wenigen GeV bis zu mehr als 
+$10^{10}$GeV reichen und damit weit über dem liegen, was heutige Teilchenbeschleuniger erreichen können. Das zugehörige Energiespektrum ist in Abbildung \ref{} dargestellt. Die enorme Spannweite der Energien lässt sich auf die Vielzahl astrophysikalischer Beschleunigungsmechanismen zurückführen \cite{} (füge Einstieg in die Astroteilchenphysik, Claus Grupen ein )
+Typischerweise wird die primäre Höhenstrahlung in eine geladene und eine neutrale Komponente unterteilt. Die neutrale Komponente besteht aus Neutrinos. Die geladene Komponente setzt sich überwiegend aus Wasserstoffkernen und Heliumkernen zusammen; darüber hinaus sind auch Kerne schwererer Elemente vertreten.
 \subsubsection{Sekundärkomponente}
+Auf Meereshöhe lässt sich von der primären kosmischen Strahlung kaum noch etwas direkt beobachten. Eine Ausnahme bilden lediglich die nur schwach wechselwirkenden Neutrinos, die die Atmosphäre nahezu ungehindert durchdringen. Der Grund dafür ist, dass die geladenen kosmischen Primärteilchen bereits in den oberen Atmosphärenschichten mit den Nukleonen der Luftmoleküle kollidieren. Dabei kommt es zu Kernreaktionen, in deren Verlauf neue Teilchen entstehen. Dies beschreibt die Sekundärstrahlung.
+Die häufigsten Reaktionen eines einfallenden Nukleons $ N$ mit einem Proton $p$ lassen sich schematisch durch:
+\begin{align*}
+    p+N\rightarrow p'+N'+k\pi^+ +k\pi^- +r\pi^0
+\end{align*}
+beschreiben. Es entstehen also zunächst zahlreiche geladene und neutrale Pionen. Neben Pionen können auch Kaonen oder sogar Antiprotonen erzeugt werden, jedoch dominieren aufgrund ihres großen Produktionsquerschnitts eindeutig die Pionen. 
+Die kurzlebigen Pionen zerfallen anschließend weiter. Für neutrale Pionen ist der Hauptzerfall:
+\begin{align*}
+    \pi^0\rightarrow\gamma\gamma
+\end{align*}
+Die dabei entstehenden hochenergetischen Photonen erzeugen Elektron-Positron-Paare, deren Teilchen über Bremsstrahlung wiederum neue Photonen emittieren. Diese Photonen können erneut Paarbildung auslösen, sodass sich ein elektromagnetischer Schauer entwickelt.
+Geladene Pionen zerfallen bevorzugt in Myonen:
+\begin{align*}
+    &\pi^+\rightarrow\mu^++\nu_\mu\\
+    &\pi^-\rightarrow\mu^-+\bar{\nu}_\mu
+\end{align*}
+Prinzipiell wäre auch der Zerfall in Elektron bzw. Positron und das zugehörige Neutrino möglich, dieser Kanal ist jedoch stark unterdrückt. Betrachtet man den $\pi$-Zerfall, so legen Impulserhaltung und die Linkshändigkeit des Neutrinos die Helizität des Elektrons oder Myons überwiegend rechtshändig fest. Da das W-Boson nur an linkshändige Teilchen und rechtshändige Antiteilchen koppelt, ist die Wahrscheinlichkeit für diesen Zerfall stark abhängig von der Masse des erzeugten Leptons. Die linkshändige Komponente ist beim Myon aufgrund seiner größeren Masse deutlich ausgeprägter als beim Elektron, weshalb der Zerfall in Myonen bevorzugt stattfindet.
 \subsubsection{Winkelverteilung}
+Teilchen, die unter einem flachen Einfallswinkel auf die Erde treffen, legen eine deutlich längere Wegstrecke in der Atmosphäre zurück, bevor sie den Erdboden erreichen. Dadurch steigt die Wahrscheinlichkeit, dass sie unterwegs zerfallen oder absorbiert werden. Myonen bilden hier keine Ausnahme. Entsprechend ist zu erwarten, dass der gemessene Myonenfluss eine Abhängigkeit vom Einfallswinkel $\theta$ zeigt.
+Empirisch ergibt sich für die Intensität der kosmischen Myonen ein Zusammenhang der Form:
+\begin{align*}
+    I(\theta)\propto cos^2(\theta)
+\end{align*}
+wobei der Winkel $\theta$ relativ zum Lot definiert ist. Diese Winkelabhängigkeit spiegelt die zunehmende atmosphärische Weglänge und damit die höhere Verlustwahrscheinlichkeit schräg einfallender Myonen wider.
 \subsection{Landau-Verteilung}
+Geladene Teilchen können auf verschiedene Weise Energie an das durchdrungene Material abgeben. Ein wichtiger Mechanismus ist die Bremsstrahlung, die immer dann entsteht, wenn sich die Geschwindigkeit eines geladenen Teilchens ändert. Da der Energieverlust über diesen Kanal umgekehrt proportional zur Quadratmasse des Teilchens ist, spielt Bremsstrahlung insbesondere bei leichten Elektronen eine große Rolle \cite{}.
+Darüber hinaus können die Teilchen mit den Atomen des Materials wechselwirken und diese ionisieren. Der mittlere Energieverlust durch Ionisation wird durch die Bethe--Bloch--Gleichung beschrieben:
+\begin{align*}
+    -\frac{dE}{dx} = K \cdot \frac{z^2 Z}{A} \cdot \frac{1}{\beta^2}\frac{1}{2} \ln\left( \frac{2 m_e c^2 \beta^2 \gamma^2 T_{\text{max}}}{I^2} \right) - \beta^2 - \frac{\delta}{2} 
+\end{align*}
+Hierbei bezeichnet $E$ die Energie des einfallenden Teilchens, $x$ die zurückgelegte Strecke, z die Ladung des Projektils, Z und A die Kernladungs- und Massenzahl des Targetmaterials, $\beta$ = v/c die normierte Geschwindigkeit, $m_e$ die Elektronenmasse, $\gamma = 1/\sqrt{1-\beta^2}$, I die mittlere Ionisationsenergie des Materials und $\delta$ die Dichtekorrektur. 
+Die Konstante $K = 4\pi N_A r_e^2 m_e c^2$ enthält die Avogadro-Konstante $N_A$ und den klassischen Elektronenradius$ r_e$. 
+Die maximal übertragbare Energie $T_{\text{max}}$ ergibt sich aus der Masse $m_0$ des Projektils sowie dessen Impuls p:
+\begin{align*}
+    T_{\text{max}} = \frac{2 m_e p^2}{m_0^2 + m_e^2 + 2 m_e E/c}.
+\end{align*}
+
+Die Bethe-Bloch-Gleichung beschreibt jedoch nur den mittleren Energieverlust. Da die Energieabgabe ein statistischer Prozess ist, folgt die tatsächliche Verteilung einer Wahrscheinlichkeitsverteilung. Für dünne Materialien ergibt sich charakteristischerweise eine Landau-Verteilung: eine asymmetrische Verteilung mit einem ausgeprägten rechten Flügel, der durch seltene, aber große Energieübertragungen gekennzeichnet ist \cite{}.
+ 
+\section{Durchführung der kurzen Messung}
+Ziel dieses Versuchsteils war es, über mehrere Tage die Ereignisse in verschiedenen Winkelbereichen zu registrieren und anschließend die Winkelverteilung auszuwerten. Damit dies zuverlässig gelingt, müssen zunächst die Diskriminatoren korrekt eingestellt werden. Die Schwellspannung muss so gewählt werden, dass Rauschen weitgehend unterdrückt wird, echte Myonereignisse jedoch weiterhin sicher erfasst werden. Um Zeit zu sparen, waren für die meisten Diskriminatoren bereits geeignete Schwellwerte vorgegeben. Im Folgenden wird daher exemplarisch nur für den Diskriminator D12 die optimale Schwellspannung bestimmt.
+Bevor die Messung durchgeführt werden konnte, mussten die FPGAs entsprechend konfiguriert werden. Dies erfolgte mittels LabVIEW; der für die erste Messung verwendete grafische Programmcode ist in Abbildung \ref{} dargestellt.Die Schaltung erfüllt dabei folgende Aufgaben:
+Die Signale der Zähler D1, D2, D23 und D24 werden zu einem logischen ODER zusammengeführt. Anschließend werden die Koinzidenzen zwischen diesem ODER-Signal und D12 bestimmt. Dazu werden beide Signale in einen Koinzidenzzähler geleitet. Zusätzlich werden die Zählraten von D12, D25 und des ODER-Signals separat erfasst. Zur Kontrolle wurden LEDs eingebaut, die aufleuchten, sobald in den jeweiligen Zählern Ereignisse registriert werden.
+Das LabVIEW-Programm enthält zudem eine Schleife, die die Messung über einen definierten Zeitraum für verschiedene Schwellspannungen von -200 mV bis -50 mV in Schritten von 10 mV durchführt. Ursprünglich war geplant, diese Messung über Nacht laufen zu lassen, um eine möglichst lange Messdauer zu erreichen und statistische Unsicherheiten zu minimieren.
+
 \section{Bestimmung der Schwellenspannung}
-Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden. 
-\section{Durchführung der Messung}
+Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden. Die Rohdaten der Zählrate im zwölften Zähler wurden zunächst testweise auf die Counts der ODER-Schaltung, der Koinzidenzschaltung sowie auf die Zählrate von Z25 normiert (Tabelle \ref{}). (Da die Anzahl der Koinzidenzen jedoch direkt von der eingestellten Schwellspannung abhängt, erwies sich diese Normierung als ungeeignet und wurde verworfen. )
+Im Folgenden wird die Schwellspannung mit $U_{\mathrm{thr}}$ und das Pulshöhenspektrum mit $N(U)$ bezeichnet. Dabei ist U die Spannung des PMT-Signals, das ein Ereignis auslöst, und hängt von der Energie des einfallenden Teilchens ab. Ein Ereignis wird nur dann registriert, wenn $U > U_{\mathrm{thr}}$, da der Diskriminator andernfalls kein Signal an den Zähler weitergibt. Gemessen wird 
+somit die Anzahl der Ereignisse oberhalb einer bestimmten Energie. Die entsprechende Schwellkurve ergibt sich zu:
+\begin{align*}
+    S(U_{\mathrm{thr}}) = \int_{U_{\mathrm{thr}}}^{\infty} N(U)\, dU.
+\end{align*}
+Das Pulshöhenspektrum setzt sich aus zwei Komponenten zusammen: dem elektronischen Rauschen des PMT, verursacht durch thermische Fluktuationen, und den Myonereignissen, deren Energieverlustverteilung einer Landau-Verteilung folgt. Diese beiden Komponenten sollten sich auch in der Schwellkurve widerspiegeln. Bei niedrigen Schwellspannungen dominiert das Rauschen, sodass man einen exponentiellen Abfall erwartet, bis ein Bereich erreicht wird, in dem das Rauschen weitgehend unterdrückt ist, das Myonensignal jedoch noch nicht beeinflusst wird. An dieser Stelle sollte ein Sattelpunkt der Schwellkurve auftreten, der die optimale Schwellspannung markiert. Für höhere Schwellspannungen wird zunehmend das Myonenspektrum abgeschnitten, sodass die Kurve steiler abfällt. 
+\section{Durchführung der langen Messung}
+Die ermittelte Schwellspannung wurde anschließend eingestellt. Zur Vermessung der Winkelverteilung steht ein LabVIEW-Programm zur Verfügung, das die Koinzidenzen in drei auf einer Geraden liegenden Detektoren zählt. Darüber hinaus wurden weitere Koinzidenzen aufgenommen, die im folgenden Abschnitt zur Untersuchung der Zufallskoinzidenzen benötigt werden: die Koinzidenz dreier räumlich nicht auf einer Geraden liegender Detektoren sowie die Koinzidenz dreier Detektoren auf einer Geraden, bei der einer ohne Verzögerung, einer mit zwei Verzögerungskabeln und einer mit vier Verzögerungskabeln betrieben wurde. Zusätzlich wurden die Ereignisse im zentralen Detektor $Z25 $ registriert. Diese Messung wurde am letzten Versuchstag gestartet und nach einer Messzeit von T = ??? s in der folgenden Woche beendet.
+Für die Messung der Energieverlustverteilung wurde der Zähler \(Z12\) verwendet. 
+Das vom Photomultiplier (PMT) kommende Signal, das vor der Diskriminierung noch nicht normiert ist, wird zunächst auf einen Shaping-Amplifier gegeben. Die Amplitude dieses Signals hängt von der Energie ab, die das einfallende Teilchen im Szintillatormaterial deponiert hat. Liegt eine Koinzidenz zwischen D12, D25 und D24 vor, wird ein Gate geöffnet, sodass das geformte Signal des Shaping-Amplifiers an den MCA weitergeleitet und dort amplitudenabhängig gezählt wird. Auch hier wird ein Verzögerungskabel eingesetzt, um sicherzustellen, dass das Signal genau dann am MCA ankommt, wenn das Gate geöffnet ist. Eine schematische Darstellung der verwendeten Schaltung ist in Abbildung\ref{} gezeigt.
+
+
 \section{Auswertung}
 \subsection{Winkelverteilung}
+Nach einer Messdauer von T = ??? s, , zeigte das Messprogramm die in Abbildung\ref{} dargestellten Messwerte. 
+Die registrierten Koinzidenzen müssen jedoch zunächst in Winkel umgerechnet werden. 
+Da die Verbindungslinie zwischen Z12 und Z24 vertikal verläuft, wird diese Koinzidenz als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{} dargestellt.
+Da eine Winkelverteilung der Form $\cos^2\theta$ erwartet wird, wurde folgende Funktion an die Messdaten angepasst:
+\begin{align*}
+    \mathrm{counts} = f(\theta) = A \cdot \cos^2(\theta + \Delta) + \mathrm{offset}.
+\end{align*}
+Das Ergebnis der Anpassung ist in Abbildung\ref{} dargestellt. Die Fitparameter lauten:
+\begin{align*}
+    f(\theta) = (\pm )\,\cos^2(\theta + ( \pm )°) + ( \pm ).
+\end{align*}
 \subsection{Pulshöhenspektrum}
+Die gesamte Verteilung ist in Abbildung \ref{} aufgetragen. Dabei fallen einige Charakteristiken auf.
+!!!ADD STUFF!!!
+Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert 
+\cite{}:
+\begin{align*}
+    \rho(x) = c \cdot \exp(-\frac{1}{2}(\frac{x - m}{f}+ \exp(-\frac{x - m}{f})))
+\end{align*}
+Der Parameter m verschiebt die Verteilung entlang der x-Achse, da die Standard-Landauverteilung ihr Maximum bei x = 0 besitzt. Die Parameter c und f dienen der Skalierung der Funktion: c streckt die Verteilung entlang der y-Achse, während f die Breite der Verteilung entlang der x-Achse bestimmt.
