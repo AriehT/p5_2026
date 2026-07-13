@@ -17,22 +17,20 @@
 \contentsline {section}{\numberline {5.2}Durchführung}{10}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Auswertung}{10}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Bestimmung der Halbwertsbreite}{16}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Theoretische Grundlagen}{16}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Durchführung}{16}{section.6.2}%
+\contentsline {section}{\numberline {6.1}Durchführung}{16}{section.6.1}%
 \contentsline {chapter}{\numberline {7}Peak-to-Total-Verhältnis}{18}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Theoretische Grundlagen}{18}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Durchführung}{18}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Auswertung}{18}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{20}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{20}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Detektoreffizienz}{20}{subsection.8.1.1}%
-\contentsline {section}{\numberline {8.2}Durchführung}{20}{section.8.2}%
-\contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{22}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{23}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Durchführung}{23}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Extraktion der $\gamma $-Energien}{23}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{24}{section.10.3}%
-\contentsline {chapter}{\numberline {11}Fazit}{27}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Anhang}{28}{chapter.12}%
+\contentsline {section}{\numberline {7.1}Durchführung}{18}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Auswertung}{18}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{19}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{19}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Detektoreffizienz}{19}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}Durchführung}{19}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{21}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{22}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Durchführung}{22}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Extraktion der $\gamma $-Energien}{22}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{23}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Fazit}{26}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Anhang}{27}{chapter.12}%
 \contentsline {chapter}{\numberline {13}KI-Nutzung}{32}{chapter.13}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -23,6 +23,7 @@
       \field{labelalpha}{26}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraalpha}{1}
       \field{labeltitlesource}{title}
       \field{day}{20}
       \field{isbn}{978-3-662-73067-6}
@@ -30,6 +31,24 @@
       \field{title}{Teilchendetektoren, Wermes}
       \field{year}{2026}
       \field{dateera}{ce}
+    \endentry
+    \entry{Knoll}{book}{}
+      \field{labelalpha}{00}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780470131480}
+      \field{title}{Knoll, Radiation Detection and Measurement}
+      \field{year}{2000}
+    \endentry
+    \entry{Siegbahn}{book}{}
+      \field{labelalpha}{09}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-7204-0083-0}
+      \field{title}{Siegbahn, $\alpha$, $\beta$ and $\gamma$ Spectroscopy}
+      \field{year}{2009}
     \endentry
     \entry{NuDat3}{online}{}
       \name{author}{1}{}{%
@@ -44,8 +63,8 @@
       \strng{authornamehash}{76419c031f0366bb61d889408628d8d1}
       \strng{authorfullhash}{76419c031f0366bb61d889408628d8d1}
       \field{labelalpha}{Nat}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -61,6 +80,55 @@
       \verb https://www.nndc.bnl.gov/nudat3/
       \endverb
     \endentry
+    \entry{praktikum}{book}{}
+      \field{labelalpha}{26}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraalpha}{2}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Uni Bonn}
+      \field{day}{22}
+      \field{month}{6}
+      \field{title}{Physikalisches Praktikum Teil V:\\Kern- und Teilchenphysik}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Knoll1989_RadDet}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b3b1b42c7c2fbd3232b45837ae3874e0}{%
+           family={Knoll},
+           familyi={K\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d332d0a949b5e0e9f954d9a27f0e3aaf}{%
+           family={Knoll},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e44d535fd0e192b48a5adc507d4338d}
+      \strng{fullhash}{6e44d535fd0e192b48a5adc507d4338d}
+      \strng{bibnamehash}{6e44d535fd0e192b48a5adc507d4338d}
+      \strng{authorbibnamehash}{6e44d535fd0e192b48a5adc507d4338d}
+      \strng{authornamehash}{6e44d535fd0e192b48a5adc507d4338d}
+      \strng{authorfullhash}{6e44d535fd0e192b48a5adc507d4338d}
+      \field{labelalpha}{KK89}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A}
+      \field{number}{2}
+      \field{title}{Radiation detection and measurement techniques}
+      \field{volume}{278}
+      \field{year}{1989}
+      \field{pages}{515\bibrangedash 522}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/0168-9002(89)90394-X
+      \endverb
+    \endentry
     \entry{NIST_Xray}{online}{}
       \name{author}{1}{}{%
         {{hash=ef9cb61878e61d434507444346b29d1a}{%
@@ -74,8 +142,8 @@
       \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
       \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
       \field{labelalpha}{Nat}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -111,8 +179,8 @@
       \strng{authornamehash}{c998b8f41d2c73c62261211d04bdde0c}
       \strng{authorfullhash}{c998b8f41d2c73c62261211d04bdde0c}
       \field{labelalpha}{AM20}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 168, 117}
@@ -149,8 +217,8 @@
       \strng{authornamehash}{51ac937e8982833721fc22fb6ec222da}
       \strng{authorfullhash}{51ac937e8982833721fc22fb6ec222da}
       \field{labelalpha}{ZM21}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 175, 1}
@@ -182,8 +250,8 @@
       \strng{authornamehash}{6095a875d40e9b020ab456ee63ebca3c}
       \strng{authorfullhash}{6095a875d40e9b020ab456ee63ebca3c}
       \field{labelalpha}{Abu14}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 116, 163}
@@ -215,8 +283,8 @@
       \strng{authornamehash}{6eba98f640d322c68d2f4d1c4e562738}
       \strng{authorfullhash}{6eba98f640d322c68d2f4d1c4e562738}
       \field{labelalpha}{Mar07}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 108, 1583}
@@ -245,8 +313,8 @@
       \strng{authornamehash}{af06704764d8034ca33edc1493e66b7b}
       \strng{authorfullhash}{af06704764d8034ca33edc1493e66b7b}
       \field{labelalpha}{Che17}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 140, 1}
