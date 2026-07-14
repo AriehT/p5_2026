@@ -1,0 +1,46 @@
+\chapter{Lebensdauer von Myonen}
+\section{Theoretische Grundlagen}
+\section{Durchführung}
+Die Zeitspanne zwischen START- und STOP-Signal wird, wenn ein STOP-Signal auftritt, gemessen und entsprechend ihrer Länge einem von zehn Sichtzählern zugeordnet, die jeweils ein Zeitintervall von $1\mu s$ repräsentieren. Für die Verteilung der Sichtzählerstände erwartet man einen exponentiellen Abfall, aus dem die Myonlebensdauer bestimmt werden kann.
+
+Da in diesem Aufbau prinzipiell zu jedem START-Impuls auch ein STOP-Impuls erzeugt wird, denn es wird nicht unterschieden, ob ein Signal in Z2 durch ein einfallendes Myon oder durch den Zerfall eines zuvor gestoppten Myons hervorgerufen wurde, verzögert man das START-Signal mittels eines Verzögerungskabels um etwa $100ns$ gegenüber dem STOP-Signal. Dies führt lediglich zu einer Verschiebung der gemessenen Zeitverteilung, beeinflusst jedoch weder den exponentiellen Verlauf noch die daraus bestimmte
+Lebensdauer.
+
+\section{Bestimmung der Schwellenspannung}
+Für die Messung der Myonlebensdauer müssen die Detektorsignale erneut diskriminiert werden. Daher wird für die beiden Diskriminatoren D1 und D2 jeweils eine eigene Schwellenkurve aufgenommen. Die Schwellenspannung lässt sich über eine mechanische
+Stellschraube einstellen und mit einem Digitalmultimeter kontrollieren. Für die Messung werden Spannungen zwischen $-50mV$ und $-200mV$ gewählt; für jede eingestellte Spannung werden sowohl die Anzahl der Impulse am Ausgang des
+Diskriminators als auch die Anzahl der Koinzidenzen über einen Zeitraum von $300s$ bestimmt.
+
+Da die Intensität der Höhenstrahlung und damit die Impulsrate zeitlich schwankt, werden die Detektorsignale zusätzlich geteilt und in einem Monitorkreis ein weiteres Mal gezählt. Die dort verwendeten Diskriminatoren bleiben für alle Messungen auf einer
+festen Schwellenspannung von $-50mV$. Abbildung~3.2 zeigt den für die Aufnahme der Schwellenkurven verwendeten Aufbau schematisch.
+
+Vor Beginn der Messung muss die Breite der diskriminierten Signale im Mess- und Monitorkreis so eingestellt werden, dass ein ausreichender zeitlicher Überlapp für die Koinzidenzeinheit gewährleistet ist. Dies erfolgt über die width-Schraube an den Diskriminatoren. Der Überlapp wird mit dem Oszilloskop überprüft; ein Beispiel ist in Abbildung\ref{} dargestellt.
+
+Die Tabellen mit den Messwerten für die Anzahl $N$ der diskriminierten Impulse und die Anzahl $K$ der Koinzidenzen im Mess- und Monitorkreis befinden sich im Anhang (siehe Tabellen \ref{} und \ref{}). 
+
+Die grafische Darstellung der Verhältnisse der Zählerstände aus Mess- und Monitorkreis ist in den Abbildungen\ref{} und \ref{} dargestellt.
+\section{Bestimmung der Lebensdauer}
+Der Myonzerfall folgt dem exponentiellen Zerfallsgesetz
+\begin{equation}
+N(t) = N_0 \, e^{-\lambda t} = N_0 \, e^{-t/\tau},
+\end{equation}
+wobei $\lambda$ die Zerfallskonstante und $\tau$ die Lebensdauer bezeichnet. Im Versuch wird jedoch nicht direkt die Anzahl $N(t)$ der vorhandenen Myonen gemessen, sondern die Aktivität
+\begin{equation}
+A(t) = -\frac{\mathrm{d}N(t)}{\mathrm{d}t}
+      = \frac{N_0}{\tau} \, e^{-t/\tau}
+      \equiv A_0 \, e^{-t/\tau},
+\end{equation}
+die denselben exponentiellen Zeitverlauf aufweist. Durch das Anpassen einer Funktion dieser Form an die Sichtzählerstände lässt sich somit die Lebensdauer $\tau$ des Myons bestimmen.
+
+Die Messzeit betrug – wie bereits bei der Winkelverteilung und dem Pulshöhenspektrum:insgesamt $???h$. Die abgelesenen Sichtzählerstände sind in Tabelle\ref{} aufgeführt; die Unsicherheit der Zählerstände beträgt jeweils $\sqrt{N}$. Die grafische
+Darstellung der Daten findet sich in Abbildung\ref{}.
+An die Messpunkte wird anschließend eine Funktion gemäß Gleichung\ref{} angepasst, wobei ein konstanter Offset $c$ berücksichtigt wird. Die Fitparameter ergeben sich zu
+\begin{align*}
+    N_0 =  (\pm )\\
+\tau = ( \pm \mu s) 
+c = ( \pm )\times 10^{?}.
+\end{align*}
+
+
+
+
