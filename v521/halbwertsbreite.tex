@@ -6,12 +6,12 @@ Im vorherigen Abschnitt wurde gezeigt, dass die Bandbreite eines Halbleiterdetek
 
 Der für einen Halbleiterdetektor zu erwartende theoretische Zusammenhang (bei dem die intrinsische Halbwertsbreite $\Delta E_d$ mit der Photonenenergie zunimmt) wird durch folgende Gleichung \ref{eq_2} beschrieben:
 \begin{equation}
-    \Delta E = \sqrt{\Delta E_d^2+\Delta E_e^2}.
+\Delta E (E_\gamma) = \sqrt{\Delta E_d(E_gamma)^2+\Delta E_e^2}.
 \end{equation}
 \label{eq_2}
-Im Gegensatz dazu wird das bei einem Funkendetektor beobachtete Verhalten durch diese Funktion \ref{eq_3} dargestellt:
+Die Intrinsische Anteil der Halbwertsbreite ergibt den Zusammenhang welches in Gleichung \ref{eq_3} dargestellt ist:
 \begin{equation}
-    \Delta E = y\cdot\sqrt{E_\gamma}+z
+    \Delta E (E_\gamma) = c\cdot\sqrt{E_\gamma}
 \end{equation}
 \label{eq_3}
 
@@ -27,7 +27,7 @@ Abbildung \ref{fig:halbw_1} zeigt die in Abhängigkeit von der Intensität berec
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{figs/Ge_Halbwerts.png}
+        \includegraphics[width=\linewidth]{figs/Hablwertsbreite richtig.png}
         \caption{HPGe-Halbleiterdetektor}
         \label{fig:halbw_1_2}
     \end{subfigure}
@@ -37,18 +37,24 @@ Abbildung \ref{fig:halbw_1} zeigt die in Abhängigkeit von der Intensität berec
 % add plots
 
 Der Vergleich der beiden Datensätze bestätigt, was bereits anhand der Intensitätsspektren zu beobachten war: Die dem Szintillationsdetektor zugeordnete Breite ist etwa 33-mal größer als die des Halbleiterdetektors. Beide Korrelationsfunktionen zeigen eine Breite der Photopeaks bei hohen reduzierten $\chi^2$-Wert (größer als 1). Lediglich beim NaI-Detektor tritt bei höheren Energien eine deutlichere Diskrepanz zwischen Modell und Messdaten auf.
+Im gegensatz dazu ist der $\chi^2$-Wert des HPGe-Detektors nur 2.23 Was nicht perfect ist, aber Zeigt, dass der Fit sehr gut mit den Werten Übereinstimmt, die Werte dafür sind in Tabelle \ref{tab:fwhm_messwerte}.
 
 Die Fitparameter lauten wie folgt:
 
-\begin{align*}
-    HPGe: y= (0,02947 \pm 0,00030) , z=(0,80282 \pm 0,00616)keV\\
-    NaI: y= (2,24305 \pm 0,00879) , z=(-10,56407 \pm 0,16731)keV\\
-    \implies \text{Für den HPGe-Detektor (z.B)}:\\
-    \Delta E_{122} = (1,13\pm 0,01)keV\\
-    \Delta E_{344} = (1,35\pm 0,01)keV\\
-    \Delta E_{778} = (1,63\pm 0,01)keV\\
-    \Delta E_{1408} = (1,91\pm 0,01)keV
-\end{align*}
+\begin{table}[H]
+    \centering
+    \caption{Fitparameter des Modells $\Delta E=\sqrt{\Delta E_\mathrm{e}^{\,2}+c^2E_\gamma}$ für HPGe-Detektor.}
+    \label{tab:fwhm_parameter}
+    \begin{tabular}{lc}
+        \toprule
+        Parameter & Wert \\
+        \midrule
+        $\Delta E_\mathrm{e}$ / keV & $1.0249 \pm 0.0046$ \\
+        $c$ / $\sqrt{\mathrm{keV}}$ & $0.04527 \pm 0.00024$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
 
 Im untersuchten Energiebereich liegt die Halbwertsbreite (FWHM) des HPGe-Detektors zwischen  1,1 keV und 2,1 keV. Folglich hat die Elektronenstrahlbreite $\Delta E_e$ einen signifikanten Einfluss auf die Energiebilanz. Bei sehr hohen Energien (MeV-Bereich) ist dieser verlustbedingte Beitrag vernachlässigbar im Vergleich zu der energieabhängigen Komponente ($\propto$ x), die mit dem elektrischen Feld verknüpft ist. 
 Die Bestimmung der Halbwertsbreite (FWHM) ist besonders empfindlich gegenüber einem nicht abgezogenen Untergrund. Da der Fit eine Gaußfunktion auf einen Peak mit zusätzlichem Compton-Anteil anpasst, werden die Flanken des Peaks künstlich verbreitert. Dies führt zu einer systematischen Überschätzung der FWHM, insbesondere beim NaI-Detektor. Die Energieabhängigkeit der Auflösung zeigt dennoch den erwarteten Trend, wobei die HPGe-Daten deutlich besser mit dem theoretischen Modell übereinstimmen. Die Abweichungen im NaI-Spektrum sind auf die schlechtere Peakform und den fehlenden Untergrundabzug zurückzuführen.
