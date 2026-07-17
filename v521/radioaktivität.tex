@@ -51,28 +51,28 @@ Die Umrechnung der Peakpositionen in Energien erfolgte mithilfe der zuvor bestim
 
 \begin{table}[H]
 \centering
-\caption{Identifizierte $\gamma$-Linien der Blumenerdeprobe ohne abzug der Untergrundes.}
+\caption{Identifizierte $\gamma$-Linien der Blumenerdeprobe ohne Abzug des Untergrundes. \cite{NuDat3}}
 \label{tab:erde_peaks}
-\begin{tabular}{cccc}
+\begin{tabular}{ccccc}
 \toprule
-Peak & $E_\gamma$ / keV & Kanal $\mu$ & Zuordnung \\
+Peak & $E_{\gamma,\mathrm{mess}}$ / keV & Kanal $\mu$ & Zuordnung & $E_{\gamma,\mathrm{Lit}}$ / keV \\
 \midrule
-1  & $72.77 \pm 0.03$   & $753.67 \pm 0.28$   & Pb-K$\alpha$ \\
-2  & $74.96 \pm 0.02$   & $776.37 \pm 0.16$   & Pb-K$\alpha$ \\
-3  & $84.79 \pm 0.03$   & $878.35 \pm 0.33$   & Pb-K$\beta$ \\
-4  & $87.36 \pm 0.06$   & $905.03 \pm 0.62$   & Pb-K$\beta$ \\
-5  & $238.67 \pm 0.02$  & $2474.84 \pm 0.18$  & $^{212}$Pb \\
-6  & $295.23 \pm 0.04$  & $3061.66 \pm 0.44$  & $^{214}$Pb \\
-7  & $338.29 \pm 0.06$  & $3508.37 \pm 0.62$  & $^{228}$Ac \\
-8  & $351.95 \pm 0.02$  & $3650.12 \pm 0.22$  & $^{214}$Pb \\
-9  & $510.94 \pm 0.04$  & $5299.70 \pm 0.43$  & Annihilation \\
-10 & $583.19 \pm 0.03$  & $6049.29 \pm 0.29$  & $^{208}$Tl \\
-11 & $609.39 \pm 0.02$  & $6321.09 \pm 0.25$  & $^{214}$Bi \\
-12 & $911.22 \pm 0.03$  & $9452.59 \pm 0.30$  & $^{228}$Ac \\
-13 & $964.80 \pm 0.13$  & $10008.44 \pm 1.30$ & $^{228}$Ac \\
-14 & $969.01 \pm 0.05$  & $10052.17 \pm 0.53$ & $^{228}$Ac \\
-15 & $1120.41 \pm 0.06$ & $11622.98 \pm 0.58$ & $^{214}$Bi \\
-16 & $1460.86 \pm 0.02$ & $15155.14 \pm 0.10$ & $^{40}$K \\
+1  & $72.77 \pm 0.03$   & $753.67 \pm 0.28$   & Pb-K$\alpha$      & 72.805 \\
+2  & $74.96 \pm 0.02$   & $776.37 \pm 0.16$   & Pb-K$\alpha$      & 74.970 \\
+3  & $84.79 \pm 0.03$   & $878.35 \pm 0.33$   & Pb-K$\beta$       & 84.450 \\
+4  & $87.36 \pm 0.06$   & $905.03 \pm 0.62$   & Pb-K$\beta$       & 84.939 \\
+5  & $238.67 \pm 0.02$  & $2474.84 \pm 0.18$  & $^{212}$Pb        & 238.632 \\
+6  & $295.23 \pm 0.04$  & $3061.66 \pm 0.44$  & $^{214}$Pb        & 295.224 \\
+7  & $338.29 \pm 0.06$  & $3508.37 \pm 0.62$  & $^{228}$Ac        & 338.320 \\
+8  & $351.95 \pm 0.02$  & $3650.12 \pm 0.22$  & $^{214}$Pb        & 351.932 \\
+9  & $510.94 \pm 0.04$  & $5299.70 \pm 0.43$  & $^{208}$Tl        & 510.770 \\
+10 & $583.19 \pm 0.03$  & $6049.29 \pm 0.29$  & $^{208}$Tl        & 583.186 \\
+11 & $609.39 \pm 0.02$  & $6321.09 \pm 0.25$  & $^{214}$Bi        & 609.321 \\
+12 & $911.22 \pm 0.03$  & $9452.59 \pm 0.30$  & $^{228}$Ac        & 911.204 \\
+13 & $964.80 \pm 0.13$  & $10008.44 \pm 1.30$ & $^{228}$Ac        & 964.766 \\
+14 & $969.01 \pm 0.05$  & $10052.17 \pm 0.53$ & $^{228}$Ac        & 968.971 \\
+15 & $1120.41 \pm 0.06$ & $11622.98 \pm 0.58$ & $^{214}$Bi        & 1120.294 \\
+16 & $1460.86 \pm 0.02$ & $15155.14 \pm 0.10$ & $^{40}$K          & 1460.820 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -81,44 +81,34 @@ Peak & $E_\gamma$ / keV & Kanal $\mu$ & Zuordnung \\
 
 Die aus den Fitparametern bestimmten Energien wurden mit den im NuDat-3-Datensatz aufgeführten Zerfallsdaten verglichen, um die beobachteten Linien geeigneten Nukliden zuzuordnen \cite{NuDat3}. Die im Folgenden genannten Intensitäten stammen ebenfalls aus den dort aufgeführten Kernzerfallsdaten.
 
-Die Peaks 1 bis 4 lassen sich mit hoher Wahrscheinlichkeit charakteristischen Röntgenlinien des Bleis zuordnen. Die entsprechenden Literaturwerte betragen 72,80542(24)\,keV, 74,97011(17)\,keV, 84,45045(60)\,keV und 84,93908(34)\,keV. 
+Die Peaks 1 bis 4 lassen sich mit hoher Wahrscheinlichkeit charakteristischen Röntgenlinien des Bleis zuordnen. 
 Die gute Übereinstimmung mit den gemessenen Energien spricht dafür, dass diese Linien überwiegend durch die verwendete Bleiabschirmung verursacht werden \cite{NIST_Xray}.
 
-Peak 5 wird dem Nuklid $^{212}$Pb aus der natürlichen Thorium-Zerfallsreihe zugeordnet. Die Literaturenergie der dominanten Linie beträgt 238,632(2)\,keV.
-Aufgrund der vergleichsweise hohen relativen Intensität von 43,6(5)\,\% sowie der Halbwertszeit von etwa 10\,h ist diese Identifikation sehr plausibel \cite{Auranen2020_212Pb}.
+Peak 5 wird dem Nuklid $^{212}$Pb aus der natürlichen Thorium-Zerfallsreihe zugeordnet. 
+Aufgrund der vergleichsweise hohen relativen Intensität von 43,6(5)\,\% ist diese Identifikation sehr plausibel \cite{Auranen2020_212Pb}.
 
 Die Peaks 6 und 8 stimmen ausgezeichnet mit den bekannten $\gamma$-Linien von $^{214}$Pb überein. 
-Die Literaturwerte liegen bei 295,224(2)\,keV beziehungsweise 351,9320(21)\,keV. 
 Beide Übergänge besitzen hohe Emissionswahrscheinlichkeiten von 18,47(11)\,\% und 35,72(24)\,\%, wodurch ihre Beobachtung in natürlichen Proben zu erwarten ist \cite{Zhu2021_214Pb}.
 
-Die Linie bei etwa 511\,keV (Peak 9) entspricht der charakteristischen Annihilationsstrahlung eines Elektron-Positron-Paares. 
-Solche Photonen können als Folge verschiedener Zerfallsprozesse oder sekundärer Wechselwirkungen hochenergetischer $\gamma$-Quanten entstehen. 
-Eine eindeutige Zuordnung zu einem einzelnen Radionuklid ist daher nicht möglich.
-
 Die Peaks 7, 12, 13 und 14 werden dem Nuklid $^{228}$Ac aus der Thorium-Zerfallsreihe zugeschrieben. 
-Die entsprechenden Literaturenergien betragen 338,320(3)\,keV, 911,204(4)\,keV, 964,766(10)\,keV und 968,971(17)\,keV, mit relativen Intensitäten 11,27(19) \%, 25,8(4) \%, 4,99(9) \% und 15,8(3) \%.. 
 Insbesondere die Linien bei 338\,keV, 911\,keV und 969\,keV gelten als charakteristische Signaturen dieses Nuklids \cite{Abusaleem2014_228Ac}.
 
-Peak 10 bei etwa 583\,keV wird dem Nuklid $^{208}$Tl aus der Thorium-Zerfallsreihe zugeordnet.
-Die Literaturenergie beträgt 583,1118(20)\,keV oder 583,1855(20)\,keV. Mit relativen Intensitäten von 0,00415(6)\,\% beziehungsweise 0,00344(5)\,\% ist es warscheinlich das es eine überlappung ist mit gewichtung auf das erste und stimmt aber sehr gut mit dem gemessenen Wert überein. 
-Die Linie zählt zu den stärksten Übergängen dieses Nuklids und ist daher in natürlichen Proben häufig nachweisbar \cite{Martin2007_208Tl}.
+Die Peaks 9 und 10 werden dem Nuklid $^{208}$Tl aus der Thorium-Zerfallsreihe zugeordnet.
+Während die Linie bei etwa 583\,keV zu den stärksten Übergängen dieses Nuklids zählt, besitzt die Linie bei etwa 511\,keV nur eine geringe Emissionswahrscheinlichkeit, welches auch annihilationsstrahltung sein könnte. Beide gemessenen Energien stimmen jedoch gut mit den Literaturwerten überein \cite{Martin2007_208Tl}.
 
-Die Peaks 11 und 15 lassen sich eindeutig dem Nuklid $^{214}$Bi zuordnen aus der Uran-Radium-Reihe (Halbwertszeit 19,71(2) min). 
-Die entsprechenden Literaturwerte betragen 609,321(7)\,keV und 1120,294(6)\,keV. 
+Die Peaks 11 und 15 lassen sich eindeutig dem Nuklid $^{214}$Bi zuordnen aus der Uran-Radium-Reihe. 
 Mit relativen Intensitäten von 45,44\,\% beziehungsweise 14,90(8)\,\% gehören diese Übergänge zu den dominierenden Linien des Nuklids \cite{Zhu2021_214Pb}.
 
-Peak 16 wird dem natürlich vorkommenden Isotop $^{40}$K zugeordnet. 
-Die charakteristische $\gamma$-Linie besitzt eine Literaturenergie von 1460,820(5)\,keV und eine relative Intensität von 10,66(17)\,\% \cite{Chen2017_40K}. 
-Da $^{40}$K keine weiteren ausgeprägten $\gamma$-Linien emittiert, ist diese Identifikation eindeutig.
-Bereits in früheren Hintergrundmessungen ohne zusätzliche Probe konnte im Bereich dieser Energie eine schwache Struktur beobachtet werden (vgl,Abb.\ref{fig:Ge_Cobalt}). 
-Dies deutet darauf hin, dass ein Teil des Signals auf natürlich vorhandenes Kalium in der Umgebung oder auf Restaktivität des Messaufbaus zurückzuführen sein könnte. 
+Peak 16 wird dem natürlich vorkommenden Isotop $^{40}$K zugeordnet.
+Da $^{40}$K keine weiteren ausgeprägten $\gamma$-Linien emittiert, ist diese Identifikation sehr wahrscheinlich \cite{Chen2017_40K}.
+Bereits in früheren Hintergrundmessungen ohne zusätzliche Probe konnte im Bereich dieser Energie eine schwache Struktur beobachtet werden (vgl. Abb.~\ref{fig:Ge_Cobalt}).
+Dies deutet darauf hin, dass ein Teil des Signals auf natürlich vorhandenes Kalium in der Umgebung oder auf Restaktivität des Messaufbaus zurückzuführen sein könnte.
 Aufgrund der fehlenden Langzeit-Hintergrundmessung lässt sich dieser Beitrag jedoch nicht quantitativ bestimmen.
-
 
 
 Insgesamt zeigt die Untersuchung der Blumenerdeprobe das Vorhandensein mehrerer Nuklide aus den natürlichen Uran-Radium- und Thorium-Zerfallsreihen sowie des natürlich vorkommenden Isotops $^{40}$K. 
 Erwartet worden war primär der Nachweis von Kalium, da dieses explizit als Bestandteil der verwendeten Düngemittel angegeben wird. 
-Die zusätzlich beobachteten Zerfallsprodukte können plausibel durch weitere Bestandteile der Blumenerde erklärt werden, insbesondere durch Hochmoortorf sowie organische Materialien aus Garten-, Landschafts- und Forstwirtschaft.
+Die zusätzlich beobachteten Zerfallsprodukte können durch weitere Bestandteile der Blumenerde erklärt werden, insbesondere durch Hochmoortorf sowie organische Materialien aus Garten-, Landschafts- und Forstwirtschaft, diese sind aber nicht typisch für organische Materialien.
 
 Eine eindeutige Aussage über die genaue Herkunft der nachgewiesenen Nuklide ist anhand der vorliegenden Daten jedoch nicht möglich.
 
