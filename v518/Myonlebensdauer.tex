@@ -12,7 +12,13 @@ Stellschraube einstellen und mit einem Digitalmultimeter kontrollieren. Für die
 Diskriminators als auch die Anzahl der Koinzidenzen über einen Zeitraum von $300s$ bestimmt.
 
 Da die Intensität der Höhenstrahlung und damit die Impulsrate zeitlich schwankt, werden die Detektorsignale zusätzlich geteilt und in einem Monitorkreis ein weiteres Mal gezählt. Die dort verwendeten Diskriminatoren bleiben für alle Messungen auf einer
-festen Schwellenspannung von $-50mV$. Abbildung~3.2 zeigt den für die Aufnahme der Schwellenkurven verwendeten Aufbau schematisch.
+festen Schwellenspannung von $-100mV$. Abbildung~\ref{fig:Schwellspa2} zeigt den für die Aufnahme der Schwellenkurven verwendeten Aufbau schematisch.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figs/Schwellspannung_teil2.png}
+    \caption{Schwellenkurve zur Bestimmung der Schwellenspannung vom Diskriminator D1}
+    \label{fig:Schwellspa2}
+\end{figure}
 
 Vor Beginn der Messung muss die Breite der diskriminierten Signale im Mess- und Monitorkreis so eingestellt werden, dass ein ausreichender zeitlicher Überlapp für die Koinzidenzeinheit gewährleistet ist. Dies erfolgt über die width-Schraube an den Diskriminatoren. Der Überlapp wird mit dem Oszilloskop überprüft; ein Beispiel ist in Abbildung\ref{} dargestellt.
 
@@ -24,6 +30,7 @@ Der Myonzerfall folgt dem exponentiellen Zerfallsgesetz
 \begin{equation}
 N(t) = N_0 \, e^{-\lambda t} = N_0 \, e^{-t/\tau},
 \end{equation}
+\label{eq_leben}
 wobei $\lambda$ die Zerfallskonstante und $\tau$ die Lebensdauer bezeichnet. Im Versuch wird jedoch nicht direkt die Anzahl $N(t)$ der vorhandenen Myonen gemessen, sondern die Aktivität
 \begin{equation}
 A(t) = -\frac{\mathrm{d}N(t)}{\mathrm{d}t}
@@ -32,15 +39,53 @@ A(t) = -\frac{\mathrm{d}N(t)}{\mathrm{d}t}
 \end{equation}
 die denselben exponentiellen Zeitverlauf aufweist. Durch das Anpassen einer Funktion dieser Form an die Sichtzählerstände lässt sich somit die Lebensdauer $\tau$ des Myons bestimmen.
 
-Die Messzeit betrug – wie bereits bei der Winkelverteilung und dem Pulshöhenspektrum:insgesamt $???h$. Die abgelesenen Sichtzählerstände sind in Tabelle\ref{} aufgeführt; die Unsicherheit der Zählerstände beträgt jeweils $\sqrt{N}$. Die grafische
-Darstellung der Daten findet sich in Abbildung\ref{}.
-An die Messpunkte wird anschließend eine Funktion gemäß Gleichung\ref{} angepasst, wobei ein konstanter Offset $c$ berücksichtigt wird. Die Fitparameter ergeben sich zu
-\begin{align*}
-    N_0 =  (\pm )\\
-\tau = ( \pm \mu s) 
-c = ( \pm )\times 10^{?}.
-\end{align*}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figs/06_Myonlebensdauer_Vergleich.png}
+    \caption{Anpassung der Zerfallskurve mit und ohne untergrund, \(\chi^2_\mathrm{red, mit} = 2747\) , \(\chi^2_\mathrm{red, ohne} = 13164\)}
+    \label{fig:leben}
+\end{figure}
 
+Die Messzeit betrug – wie bereits bei der Winkelverteilung und dem Pulshöhenspektrum:insgesamt $51400s$. Die abgelesenen Sichtzählerstände sind in Tabelle\ref{} aufgeführt; die Unsicherheit der Zählerstände beträgt jeweils $\sqrt{N}$. Die grafische
+Darstellung der Daten findet sich in Abbildung\ref{fig:leben}.
+An die Messpunkte wird anschließend eine Funktion gemäß Gleichung\ref{eq_leben} angepasst, wobei ein konstanter Offset $c$ berücksichtigt wird. Die Fitparameter ergeben sich zu
+\begin{table}[H]
+    \centering
+    \caption{Ergebnisse der Anpassungen der Myonlebensdauer mit und ohne Berücksichtigung eines konstanten Untergrunds.}
+    \label{tab:myon_fit}
+    \begin{tabular}{lcc}
+        \toprule
+        Parameter & Ohne Untergrund & Mit Untergrund \\
+        \midrule
+        $N_0$ & $(2.200 \pm 0.006)\times 10^6$ & $(2.909 \pm 0.010)\times 10^6$ \\
+        $\tau$ / \si{\micro\second} & $0.7549 \pm 0.0011$ & $0.6307 \pm 0.0011$ \\
+        $C$ & -- & $13360 \pm 45$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
+Die Anpassung der Zerfallsfunktion mit konstantem Untergrund an die Messdaten ergibt eine Myonlebensdauer von
+\[
+\tau = (\num{0.631} \pm \num{0.001})\,\si{\micro\second}.
+\]
+Dieser Wert liegt deutlich unter dem Literaturwert von \(\tau = \SI{2.1969811(22)}{\micro\second}\) \cite{}. Um zu untersuchen, ob der konstante Untergrund die Anpassung beeinflusst, wurde zusätzlich eine Anpassung ohne Untergrund durchgeführt. Zwar liefert diese einen etwas größeren Wert für die Lebensdauer und liegt damit näher am Literaturwert, dennoch weisen beide Anpassungen mit einem reduzierten Chi-Quadrat von \(\chi^2_\mathrm{red}=2747\) beziehungsweise \(\chi^2_\mathrm{red}=13164\) eine unzureichende Übereinstimmung mit den Messdaten auf. Die hohen Werte des reduzierten Chi-Quadrats deuten darauf hin, dass die aufgenommenen Daten nicht mit dem Physikalischen übereinstimmt.
 
+Zur Abschätzung des Untergrundes wurde außerdem die Anzahl der zufälligen Zweifachkoinzidenzen bestimmt. Aus den Start- und Stoppraten ergibt sich für die Zufallskoinzidenzrate
 
+\begin{equation}
+R_\mathrm{Z}=R_1R_2\tau_\mathrm{a},
+\end{equation}
+
+wobei \(R_1\) und \(R_2\) die Zählraten der beiden Detektoren und \(\tau_\mathrm{a}=\SI{10}{\micro\second}\) die Auflösungszeit des Koinzidenzkreises bezeichnen. Für die Gesamtzahl der Zufallskoinzidenzen während der Messdauer \(T\) ergibt sich damit
+
+\begin{equation}
+N_\mathrm{Z}
+=
+\frac{N_1N_2\tau_\mathrm{a}}{T},
+\end{equation}
+
+wobei \(N_1\) und \(N_2\) die registrierten Start- beziehungsweise Stoppsignale darstellen.
+
+Für eine Messdauer von \(T=(\SI{514000 \pm 200}{\second})\), \(N_1=(2059408 \pm 1435)\) Startsignalen und \(N_2=(365368230 \pm 19115)\) Stoppsignalen ergibt sich eine entsprechende Anzahl an Zufallskoinzidenzen. Der statistische Fehler wurde dabei mithilfe der gaußschen Fehlerfortpflanzung bestimmt.
+
+Der aus den Zählraten berechnete Zufallsuntergrund liegt über dem durch die Anpassung bestimmten konstanten Untergrund. Dies deutet darauf hin, dass zusätzliche Zufallskoinzidenzen auftraten, die vom verwendeten Modell nicht vollständig berücksichtigt werden. Eine mögliche Ursache hierfür ist eine zu niedrig gewählte Diskriminatorschwelle, wodurch neben den eigentlichen Myonensignalen auch thermisches Rauschen oder elektronische Störpulse häufiger als gültige Ereignisse registriert wurden.
