@@ -72,12 +72,48 @@ Die registrierten Koinzidenzen müssen jedoch zunächst in Winkel umgerechnet we
 Da die Verbindungslinie zwischen Z12 und Z24 vertikal verläuft, wird diese Koinzidenz als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{} dargestellt.
 Da eine Winkelverteilung der Form $\cos^2\theta$ erwartet wird, wurde folgende Funktion an die Messdaten angepasst:
 \begin{align*}
-    \mathrm{counts} = f(\theta) = A \cdot \cos^2(\theta + \Delta) + \mathrm{offset}.
+    \mathrm{counts} = f(\theta) = A \cdot \cos(\theta + \Delta)^c + \mathrm{offset}.
 \end{align*}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/01_Winkelverteilung_Rohdaten.png}
+        \caption{Rohdaten der Winkelverteilung}
+        \label{fig:Winkelroh}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figs/Ge_Cobalt_roh.png}
+        \caption{Anopassung der Kosinus-Quadrat-Funktion}
+        \label{fig:Winkelfit}
+    \end{subfigure}
+    \caption{Langzeitmessung der Höhenstrahlung für die Winkelverteilung}
+    \label{fig:Winkelverteilung}
+\end{figure}
+
 Das Ergebnis der Anpassung ist in Abbildung\ref{} dargestellt. Die Fitparameter lauten:
-\begin{align*}
-    f(\theta) = (\pm )\,\cos^2(\theta + ( \pm )°) + ( \pm ).
-\end{align*}
+
+\begin{table}[H]
+    \centering
+    \caption{Ergebnisse des Fits der Winkelverteilung.}
+    \label{tab:winkel_fit}
+    \begin{tabular}{lc}
+        \toprule
+        Parameter & Wert \\
+        \midrule
+        $a$ & $3126.33 \pm 41.09$ \\
+        $b$ / $^\circ$ & $-1.540 \pm 0.697$ \\
+        $c$ & $2.006 \pm 0.0879$ \\
+        $d$ & $69.75 \pm 11.19$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+
 \subsection{Pulshöhenspektrum}
 Die gesamte Verteilung ist in Abbildung \ref{} aufgetragen. Dabei fallen einige Charakteristiken auf.
 !!!ADD STUFF!!!
