@@ -69,7 +69,7 @@ Das vom Photomultiplier (PMT) kommende Signal, das vor der Diskriminierung noch 
 \subsection{Winkelverteilung}
 Nach einer Messdauer von T = 514240 s, , zeigte das Messprogramm die in Abbildung\ref{} dargestellten Messwerte. 
 Die registrierten Koinzidenzen müssen jedoch zunächst in Winkel umgerechnet werden. 
-Da die Verbindungslinie zwischen Z12 und Z24 vertikal verläuft, wird diese Koinzidenz als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{} dargestellt.
+Da die Verbindungslinie zwischen Z12, Z24 und Z25 vertikal verläuft, wird diese Koinzidenz als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{} dargestellt.
 Da eine Winkelverteilung der Form $\cos^2\theta$ erwartet wird, wurde folgende Funktion an die Messdaten angepasst:
 \begin{align*}
     \mathrm{counts} = f(\theta) = A \cdot \cos(\theta + \Delta)^c + \mathrm{offset}.
@@ -86,7 +86,7 @@ Da eine Winkelverteilung der Form $\cos^2\theta$ erwartet wird, wurde folgende F
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{figs/Ge_Cobalt_roh.png}
+        \includegraphics[width=\linewidth]{figs/02_Winkelverteilung_Fit.png}
         \caption{Anopassung der Kosinus-Quadrat-Funktion}
         \label{fig:Winkelfit}
     \end{subfigure}
@@ -112,14 +112,47 @@ Das Ergebnis der Anpassung ist in Abbildung\ref{} dargestellt. Die Fitparameter 
     \end{tabular}
 \end{table}
 
+Aus den Messdaten ergibt sich eine Winkelverteilung der Höhenstrahlung, die näherungsweise durch eine Kosinusfunktion mit einer Potenz von
+\[
+c = (2{,}01 \pm 0{,}09)
+\]
+beschrieben werden kann. Dieser Wert stimmt innerhalb der Messunsicherheit sehr gut mit der theoretisch erwarteten Kosinus-Quadrat-Abhängigkeit überein. Allerdings ergibt die Anpassung mit einem reduzierten Chi-Quadrat von
+\[
+\chi^2_\mathrm{red} = 11{,}02
+\]
+keine zufriedenstellende Übereinstimmung zwischen Modell und Messdaten. Ein derart hoher Wert deutet darauf hin, dass die Streuung der Messwerte durch die berücksichtigten statistischen Unsicherheiten allein nicht vollständig beschrieben werden kann.
 
+Obwohl bereits eine vergleichsweise große Winkelunsicherheit berücksichtigt wurde, ist davon auszugehen, dass zusätzliche systematische Fehlerquellen das Messergebnis beeinflusst haben. Während der Versuchsdurchführung standen zeitweise zwei der drei Zählrohre nicht zur Verfügung, sodass die Messpunkte der Kombination (12--24--25) nicht aufgenommen werden konnten. Die dadurch verringerte Anzahl an Messpunkten schränkt die Aussagekraft der Anpassung ein und trägt vermutlich zu dem hohen reduzierten Chi-Quadrat bei. Darüber hinaus könnten weitere systematische Einflüsse, beispielsweise Unterschiede in den Eigenschaften oder der Empfindlichkeit der verwendeten Szintillatoren sowie mögliche Ungenauigkeiten bei deren Ausrichtung, zu den beobachteten Abweichungen beigetragen haben.
+
+Trotz dieser Einschränkungen zeigt die gemessene Winkelverteilung insgesamt den erwarteten Verlauf und lässt sich qualitativ gut durch eine Kosinus-Quadrat-Abhängigkeit beschreiben. Insbesondere stimmt der ermittelte Exponent innerhalb seiner Unsicherheit mit dem theoretisch erwarteten Wert von
+\[
+c = 2
+\]
+überein, sodass die Messung das theoretische Modell im Wesentlichen bestätigt.
 
 \subsection{Pulshöhenspektrum}
 Die gesamte Verteilung ist in Abbildung \ref{} aufgetragen. Dabei fallen einige Charakteristiken auf.
 !!!ADD STUFF!!!
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figs/08_Pulshoehenspektrum_Rohdaten.png}
+    \caption{Rohdaten der Langzeitmessung des Pulshöhenspektrums}
+    \label{fig:Puls_Rohdaten}
+\end{figure}
+
 Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert 
 \cite{}:
 \begin{align*}
     \rho(x) = c \cdot \exp(-\frac{1}{2}(\frac{x - m}{f}+ \exp(-\frac{x - m}{f})))
 \end{align*}
 Der Parameter m verschiebt die Verteilung entlang der x-Achse, da die Standard-Landauverteilung ihr Maximum bei x = 0 besitzt. Die Parameter c und f dienen der Skalierung der Funktion: c streckt die Verteilung entlang der y-Achse, während f die Breite der Verteilung entlang der x-Achse bestimmt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figs/12_Pulshoehenspektrum_Fitvergleich.png}
+    \caption{Anpassung einer Gauß- und einer Landauverteilung der Langzeitmessung, \chi^2_\mathrm{red, landau} = 1{,}35, \chi^2_\mathrm{red, gauß} = 3{,}13}
+    \label{fig:LandauFit}
+\end{figure}
+
+Der Vergleich der beiden Anpassungen zeigt sowohl anhand der graphischen Darstellung als auch anhand des reduzierten Chi-Quadrats, dass die Landau-Anpassung die experimentellen Daten besser beschreibt als die Gauß-Anpassung (vgl. Abbildung~\ref{fig:LandauFit}). Dieses Verhalten entspricht der theoretischen Erwartung für dünne Szintillatoren, bei denen die statistischen Schwankungen des Energieverlusts durch eine Landau-Verteilung charakterisiert werden.
