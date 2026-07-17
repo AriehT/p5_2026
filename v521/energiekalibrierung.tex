@@ -113,13 +113,11 @@ $E_{\text{lit}}\,/\,\mathrm{keV}$ & rel.\ Intens.\ $I\,/\,\%$ \\
 
 \section{Durchführung}
 Im nächsten Schritt werden Gammaspektren der verwendeten radioaktiven Quellen aufgenommen. Konkret werden nacheinander die Spektren von $^{60}Co$, $^{137}Cs$ und $^{152}Eu$ aufgezeichnet. Zusätzlich wird das Untergrundspektrum (ohne Quelle) gemessen, um eine spätere Subtraktion der Untergrundbeiträge zu ermöglichen. Die Messzeiten werden so gewählt, dass die Photopeaks scharf ausgeprägt und statistisch gut aufgelöst sind.\\
-Da das Untergrundspektrum während der Messung nicht zuverlässig aufgenommen werden konnte, musste in allen Auswerteschritten auf einen expliziten Untergrundabzug verzichtet werden. Dies hat direkte systematische Auswirkungen auf sämtliche Größen, die aus Peakflächen oder Gesamtzählraten bestimmt werden. Insbesondere werden die integrierten Peakflächen systematisch überschätzt, da
-sowohl das Compton-Kontinuum als auch elektronische Rauschanteile in die Fits eingehen. Dadurch erhöhen sich die berechneten Peak-to-Total-Verhältnisse sowie die aus Effizienzkorrekturen rekonstruierten Aktivitäten. Da die statistischen Unsicherheiten aufgrund der hohen Zählraten sehr klein sind, dominieren diese systematischen Effekte die gesamte Auswertung.
 
 Auf der Grundlage der aufgenommenen Spektren wird eine Energiekalibrierung des Systems durchgeführt. Dabei werden die bekannten Gammaenergien der Quellen mit den Kanalnummern verknüpft, die den Photopeaks entsprechen. Mittels linearer Regression wird eine Kalibriergerade bestimmt, die die Umrechnung von Kanalnummern in Energiewerte ermöglicht.
 
 \section{Auswertung}
-Die aufgezeichneten Untergrundspektren sollten eigentlich das erwartete niederenergetische Rauschen sowie eine niedrige Ereignisrate zeigen; leider konnten diese aber nicht rechtzeitig abgeholt werden . Folglich wurde, wie oben erwähnt das Untergrundspektrum vor jeder weiteren Analyse von der jeweiligen Messreihe nicht abgezogen.(siehe Anhang, Abbildung \ref{fig:anhang_1})
+Die aufgezeichneten Untergrundspektren hat das Rauschen sowie eine niedrige Ereignisrate gezeigen und wurde von der Messung Abgezogen. Folglich wurde, wie oben erwähnt das Untergrundspektrum vor jeder weiteren Analyse von der jeweiligen Messreihe abgezogen.(siehe Anhang, Abbildung \ref{fig:anhang_1})
 
 Zur Energiekalibrierung werden Gauß-Funktionen in Kombination mit einem linearen Untergrund an einen begrenzten Kanalbereich um die entsprechenden Photopeaks angepasst. Die verwendete Anpassungsfunktion lautet:
 \begin{align}
@@ -127,9 +125,10 @@ Zur Energiekalibrierung werden Gauß-Funktionen in Kombination mit einem lineare
 \end{align}
 \label{eq_1}
 
-Hier bezeichnet  k den Kanalindex des Vielkanalanalysators (MCA) . Die Ergebnisse ermöglichen die Bestimmung der Peak-Mittenposition $\mu$, der Halbwertsbreite  $\sigma_{FWHM}$ sowie der Peak-Fläche $A$. Da der lineare Untergrund nicht berücksichtigt werden konnte, ist die Bestimmung der Emissionslinien nicht sehr präzise, insbesondere bei Spektren, die mit NaI-Detektoren aufgenommen wurden, da hier der Compton-Untergrund erheblich ist.
+Hier bezeichnet  k den Kanalindex des Vielkanalanalysators (MCA) . Die Ergebnisse ermöglichen die Bestimmung der Peak-Mittenposition $\mu$, der Halbwertsbreite  $\sigma_{FWHM}$ sowie der Peak-Fläche $A$. 
 
-Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden Detektoren von derselben Probe aufgenommen wurden. Zur Erleichterung der Auswertung wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden im weiteren Verlauf vorgestellt. Alle durch Gleichung \ref{eq_1} definierten Parameter sind in den Tabellen \ref{taba_2} und \ref{taba_3} aufgeführt. Aufgrund der außergewöhnlichen Schärfe der HPGe-Spektrallinien werden diese zudem in den Abbildungen \ref{fig:anhang_1} detailliert dargestellt.
+Die folgenden Abbildungen zeigen einen direkten Vergleich der Spektren, die mit beiden Detektoren von derselben Probe aufgenommen wurden. %Zur Erleichterung der Auswertung wurden die Spektren bereits energiekalibriert; die Ergebnisse dieser Kalibrierung werden im weiteren Verlauf vorgestellt. 
+Alle durch Gleichung \ref{eq_1} definierten Parameter sind in den Tabellen \ref{taba_2} und \ref{taba_3} aufgeführt. Aufgrund der außergewöhnlichen Schärfe der HPGe-Spektrallinien werden diese zudem in den Abbildungen \ref{fig:anhang_1} detailliert dargestellt.
 
 \begin{figure}[H]
     \centering
@@ -327,7 +326,7 @@ für beide Detektoren die in Abbildung \ref{fig:kalib_4} gezeigten Zusammmenhän
     \label{fig:kalib_4}
 \end{figure}
 
-Die mit dem linearen Energie-Fit verbundenen Unsicherheiten sind vernachlässigbar, da die Litteraturwerte der Übergangsenergien gut bekannt sind und die Positionen der Spektralpeaks mit hinreichender Präzision bestimmt werden können. Die reduzierten Chi-Quadrat-Werte der Peakfits liegen insbesondere beim NaI-Detektor deutlich über dem erwarteten Bereich von $\chi^2_\mathrm{red} \approx 1$. Dies ist auf zwei Ursachen zurückzuführen: Erstens sind die Peaks von Szintillationsdetektoren aufgrund von Lichtsammlungsverlusten und Compton-Anteilen nicht ideal gaußförmig. Zweitens führt der fehlende Untergrundabzug dazu, dass die Fitfunktion den tatsächlichen Spektralverlauf nur unzureichend beschreiben kann. Trotz der großen $\chi^2_\mathrm{red}$-Werte sind die Peakpositionen jedoch robust bestimmt, sodass die Energiekalibrierung weiterhin zuverlässig durchgeführt werden kann.
+Die mit dem linearen Energie-Fit verbundenen Unsicherheiten sind vernachlässigbar, da die Litteraturwerte der Übergangsenergien gut bekannt sind und die Positionen der Spektralpeaks mit hinreichender Präzision bestimmt werden können. Die reduzierten Chi-Quadrat-Werte der Peakfits liegen insbesondere beim NaI-Detektor deutlich über dem erwarteten Bereich von $\chi^2_\mathrm{red} \approx 1$. Dies ist wahrscheinlich darauf zurück zu führen, dass die Peaks von Szintillationsdetektoren aufgrund von Lichtsammlungsverlusten und Compton-Anteilen nicht ideal gaußförmig sind. Trotz der großen $\chi^2_\mathrm{red}$-Werte sind die Peakpositionen jedoch robust bestimmt, sodass die Energiekalibrierung weiterhin zuverlässig durchgeführt werden kann.
 Selbst bei den sehr großen reduzierten $\chi^2$ -Werten liefert der lineare Fit gute Kalibriergeraden. Die Fitergebnisse lauten wie folgt:
 
 \begin{align*}
@@ -336,7 +335,6 @@ Selbst bei den sehr großen reduzierten $\chi^2$ -Werten liefert der lineare Fit
 \end{align*}
 \label{energiekalwerte}
 
-Auf der Grundlage dieser Parameter wurden Energieskalierungen für die vorangehenden und nachfolgenden Abbildungen berechnet. Die simulierten Spektren zeigen eine gute Übereinstimmung zwischen den erwarteten und den tatsächlich beobachteten Peakflächen.
-Obwohl die Fitgüte einzelner Peaks insbesondere im NaI-Spektrum eingeschränkt ist, bleibt die Energiekalibrierung zuverlässig. Dies liegt daran, dass die Peakpositionen auch bei unvollständiger Modellierung des Untergrunds mit hoher Präzision bestimmt werden können. Die lineare Beziehung zwischen Kanalnummer und Energie ist physikalisch vorgegeben und wird durch die Vielzahl gut
-getrennter Kalibrationslinien zusätzlich stabilisiert. Die Unsicherheiten der Literaturenergien sind vernachlässigbar klein, sodass die Kalibriergerade trotz großer $\chi^2_\mathrm{red}$-Werte eine korrekte Abbildung der Energieachse liefert.
-
+Auf der Grundlage dieser Parameter wurden Energieskalierungen für die vorangehenden und nachfolgenden Abbildungen berechnet. %Die Aufgenommenen Spektren zeigen eine gute Übereinstimmung zwischen den erwarteten und den tatsächlich beobachteten Peakflächen. ???
+Obwohl die Fitgüte einzelner Peaks insbesondere im NaI-Spektrum eingeschränkt ist, bleibt die Energiekalibrierung zuverlässig. Dies liegt daran, dass die Peakpositionen auch bei unvollständiger Modellierung des Untergrunds mit hoher Präzision bestimmt werden können. Die lineare Beziehung zwischen Kanalnummer und Energie ist physikalisch vorgegeben und wird durch die Vielzahl gut getrennter Kalibrationspunkte zusätzlich verdeutlcht. 
+%Die Unsicherheiten der Literaturenergien sind vernachlässigbar klein, sodass die Kalibriergerade trotz großer $\chi^2_\mathrm{red}$-Werte eine korrekte Abbildung der Energieachse liefert.
