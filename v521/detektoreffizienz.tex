@@ -83,7 +83,11 @@ $a_1 = (-0.039229 \pm 0.014094), \qquad a_2 = (-0,056339 \pm 0,002607)$
 
 Die Anpassung beschreibt den Effizienzabfall bei höheren Energien gut. Allerdings gibt diese Anpassungsfunktion den erwarteten Effizienzverlauf bei sehr niedrigen Energien nicht präzise wieder. Insbesondere beim HPGe-Detektor (Abbildung \ref{fig:eff_1}) zeigen die Messpunkte im niederenergetischen Bereich keinen glockenförmigen Anstieg, sondern einen nahezu monotonen Abfall.
 
+Die Effizienz des HPGe-Detektors ist bei niedrigen Energien deutlich höher, da der Photoeffekt dominiert und die Photonen vollständig im Kristall absorbiert werden. Aufgrund der dominierenden Compton-Streuung bei hohen Energien und der begrenzten Kristallgröße verringert sich die Detektionseffizienz, da die Photonenenergie nicht mehr vollständig deponiert werden kann.
+
 Trotz dieser Einschränkung liefert die Regression für den Szintillationsdetektor eine konsistente Beschreibung des Effizienzverhaltens im Energiebereich oberhalb von etwa $200keV$ und stimmt mit der aus der Cäsium-Messung bestimmten Effizienz bei $661keV$ überein. Sie liefert somit eine konsistente Darstellung der Detektoreffizienz in Abhängigkeit von der Energie im untersuchten Bereich.
+
+Die Effizienzkurve bildet die Grundlage für die Aktivitätsbestimmung der $^{60}$Co-Quelle im nächsten Kapitel, da die gemessenen Peakflächen dort mit der energieabhängigen Effizienz gewichtet werden müssen.
 
 \chapter{Aktivität $^{60}$Co}
 Schließlich wird die Gültigkeit der berechneten Effizienzkurven überprüft, indem die Aktivität der Kobaltquelle aus dem gemessenen Spektrum rekonstruiert wird. Dazu werden zunächst die beiden Photopeaks bei $1173\,\mathrm{keV}$ und $1332\,\mathrm{keV}$ mittels Gauß-Fits ausgewertet. Die Effizienzfunktion basiert auf der Annahme, dass Ereignisse innerhalb des Fit-Bereichs vollständig absorbierte Gammaquanten repräsentieren. Daher werden die Peakflächen energieabhängig durch die Effizienz $\epsilon(E_\gamma)$ korrigiert.
@@ -117,5 +121,6 @@ Die auf diese Weise berechneten Aktivitäten der Kobaltprobe betragen (Nennwert:
 \end{align*}
 
 
-Die berechneten Werte stimmen nicht mit der erwarteten Aktivität überein und bestätigen kaum die Gültigkeit der Effizienzkurven im Hochenergiebereich. Die relativ hohen Unsicherheiten sind vor allem auf die ungenaue Bestimmung der Abstände \(D\) und den daraus resultierenden Fehler durch den kleinsten Raumwinkel zurückzuführen. Auch die Übergangswahrscheinlichkeiten der
-beiden $^{60}\mathrm{Co}$-Linien wurden nicht einbezogen, sodass die erwartete Photonenzahl fehlerhaft bestimmt wurde. Insgesamt ist die Rekonstruktion der Aktivität daher nur eingeschränkt aussagekräftig und bestätigt die Effizienzkurven im Hochenergiebereich nicht zuverlässig.
+Die berechneten Werte stimmen nicht mit der erwarteten Aktivität überein und bestätigen kaum die Gültigkeit der Effizienzkurven im Hochenergiebereich. Die relativ hohen Unsicherheiten sind vor allem auf die ungenaue Bestimmung der Abstände \(D\) und den daraus resultierenden Fehler durch den kleinsten Raumwinkel zurückzuführen. 
+Zudem ist die mit dem HPGe-Detektor bestimmte Aktivität näher am Literaturwert als die mit dem NaI(Tl)-Detektor bestimmte. Dies folgt aus der besseren Energieauflösung des HPGe-Detektors: die Photopeaks sind schmal und gut von Compton-Kontinuum und Untergrund getrennt, sodass die Peakflächen präzise bestimmt werden können.
+Auch die Übergangswahrscheinlichkeiten der beiden $^{60}\mathrm{Co}$-Linien wurden nicht einbezogen, sodass die erwartete Photonenzahl fehlerhaft bestimmt wurde. Insgesamt ist die Rekonstruktion der Aktivität daher nur eingeschränkt aussagekräftig und bestätigt die Effizienzkurven im Hochenergiebereich nicht zuverlässig.

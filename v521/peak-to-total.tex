@@ -1,22 +1,28 @@
 \chapter{Peak-to-Total-Verhältnis}
 \section{Durchführung}
  Als Nächstes wird das Peak-zu-Gesamt-Verhältnis für die Spektren von $^{137}Cs$ und $^{60}Co$ ermittelt. Hierzu wird die Fläche des Photopeaks ins Verhältnis zur Gesamtzahl der registrierten Ereignisse gesetzt. Dieses Verhältnis gibt Aufschluss über die Reinheit des Spektrums sowie über den relativen Anteil des Compton-Untergrunds und der Streuprozesse innerhalb des Detektors. %Diese Auswertung erlaubt eine Beurteilung der spektralen Reinheit sowie der Größe des Compton-Untergrunds bei einem Halbleiterdetektor.
+Das Totalintegral umfasst alle Einträge des Spektrums, also Photopeak, Compton-Kontinuum,
+Rückstreupeak sowie niederenergetische Röntgenpeaks, denn das Peak-to-Total-Verhältnis entspricht der Wahrscheinlichkeit, dass ein Photon seine gesamte Energie im Detektor deponiert und nicht nur teilweise.
+
  \section{Auswertung }
- Das Peak-zu-Gesamt-Verhältnis (Peak-to-Total Ratio) ist eine weitere Möglichkeit, die Güte des Detektors zu bewerten. Die Anzahl der einem Photopeak zugeordneten Ereignisse ergibt sich aus der Fläche A unter der entsprechenden Gauß-Funktion G(K). Um die Gesamtzahl der Photopeak-Ereignisse zu bestimmen, wurden die Flächen der entsprechenden Peaks integriert. Für $^{137}Cs$ wurde der Photopeak bei $661.7keV$ ausgewertet, für $^{60}Co$ die beiden Peaks bei $1173keV$ und $1332keV$, deren Flächen anschließend addiert wurden. Aus dem Verhältnis der Photopeak-Ereignisse zur Gesamtzahl der registrierten Impulse ergibt sich der Photopeak-Anteil $P_r$.\cite{praktikum}
+ Das Peak-zu-Gesamt-Verhältnis (Peak-to-Total Ratio) ist eine weitere Möglichkeit, die Güte des Detektors zu bewerten. Die Anzahl der einem Photopeak zugeordneten Ereignisse ergibt sich aus der Fläche A unter der entsprechenden Gauß-Funktion G(K). Um die Gesamtzahl der Photopeak-Ereignisse zu bestimmen, wurden die Flächen der entsprechenden Peaks integriert. Für $^{137}Cs$ wurde der Photopeak bei $661.7keV$ ausgewertet, für $^{60}Co$ die beiden Peaks bei $1173keV$ und $1332keV$, deren Flächen anschließend addiert wurden. Aus dem Verhältnis der Photopeak-Ereignisse zur Gesamtzahl der registrierten Impulse ergibt sich der Photopeak-Anteil $P_r$. Der Untergrund muss vor der Bestimmung des Peak-to-Total-Verhältnisses subtrahiert werden, da natürliche Radioaktivität sowie elektronische Rauschanteile das Totalintegral systematisch vergrößern würden. Dies würde das Peak-to-Total-
+Verhältnis verkleinern.
+\cite{praktikum}
  Die bestimmten Werte für den HPGe-Detektor sind:
  \begin{align*}
-    P_r(Cs) = (18,424 \pm 0,07)\\
+    P_r(Cs) = (18,42 \pm 0,07)\\
     P_r(Co) = (11,251 \pm 0,017)
  \end{align*}
 
-und für den NaI(Tl)-Detektor:
+und für den NaI(Tl)-Detektor: 
 \begin{align*}
     P_r(Cs) = (33,39 \pm 1,04)\\
     P_r(Co) = (22,60 \pm 0,17).
 \end{align*}
 Rückstreu- und Röntgenpeaks wurden nicht berücksichtigt, da sie nicht zur vollständigen Energieabsorption beitragen. Die Gesamtzahl der Einträge entspricht der Summe aller Impulse im jeweiligen Spektrum nach Abzug des Untergrunds.
-Die Ergebnisse zeigen, dass der Szintillationsdetektor (NaI) fast doppelt so viel der registrierten Ereignisse dem Photopeak zuordnet. Dies deutet auf eine besonders gute Ansprechfunktion des NaI-Detektors hin. Zudem nimmt bei beiden Detektoren das Peak-zu-Gesamt-Verhältnis mit steigender Photonenenergie \(E_\gamma\) ab. Eine plausible Erklärung hierfür ist eine Abnahme der Detektoreffizienz bei hohen Energien; dies führt zu einer relativen Überrepräsentation nieder- und mittelenergetischer Ereignisse und bewirkt somit ein Absinken des Peak-zu-Gesamt-Verhältnisses bei höheren Energien. Die Berechnung basiert auf Spektren, die nach Abzug des Untergrunds für die bekannten Quellen erhalten wurden. Dieses Vorgehen ist sinnvoll, da die Auswirkungen externer Untergrundstrahlung nicht als „Fehlfunktion“ des Detektors interpretiert werden dürfen und daher vor der Bestimmung des Peak-zu-Gesamt-Verhältnisses eliminiert werden müssen.
+Die Ergebnisse zeigen, dass der Szintillationsdetektor (NaI) fast doppelt so viel der registrierten Ereignisse dem Photopeak zuordnet. Dies deutet auf eine besonders gute Ansprechfunktion des NaI-Detektors hin. Der HPGe-Detektor zeigt ein deutlich höheres Peak-to-Total-Verhältnis, da die Wahrscheinlichkeit für vollständige Energieabsorption über den Photoeffekt größer ist. Beim NaI(Tl)-Detektor dominiert hingegen die Compton-Streuung, sodass ein großer Anteil der Photonen nur Teilenergie
+deponiert und im Compton-Kontinuum erscheint. 
+ Zudem nimmt bei beiden Detektoren das Peak-zu-Gesamt-Verhältnis mit steigender Photonenenergie \(E_\gamma\) ab. Eine plausible Erklärung hierfür ist eine Abnahme der Detektoreffizienz bei hohen Energien; dies führt zu einer relativen Überrepräsentation nieder- und mittelenergetischer Ereignisse und bewirkt somit ein Absinken des Peak-zu-Gesamt-Verhältnisses bei höheren Energien. Die Berechnung basiert auf Spektren, die nach Abzug des Untergrunds für die bekannten Quellen erhalten wurden. Dieses Vorgehen ist sinnvoll, da die Auswirkungen externer Untergrundstrahlung nicht als „Fehlfunktion“ des Detektors interpretiert werden dürfen und daher vor der Bestimmung des Peak-zu-Gesamt-Verhältnisses eliminiert werden müssen.
 Das Peak-to-Total-Verhältnis ist stark vom Untergrund beeinflusst. 
 Dies betrifft insbesondere den NaI-Detektor, dessen breites Compton-Kontinuum einen erheblichen Anteil an der Gesamtzählrate ausmacht.
 Trotzdem zeigt sich der erwartete qualitative Unterschied zwischen beiden Detektoren: Der HPGe-Detektor besitzt aufgrund seiner schmalen Peaks ein deutlich höheres Peak-to-Total-Verhältnis als der NaI-Detektor.
-

@@ -15,7 +15,7 @@ Die Intrinsische Anteil der Halbwertsbreite ergibt den Zusammenhang welches in G
 \end{equation}
 \label{eq_3}
 
-Abbildung \ref{fig:halbw_1_2} zeigt die in Abhängigkeit von der Intensität berechneten FWHM-Werte für beide Detektoren sowie die entsprechenden, aus den Gleichungen \ref{eq_2} und \ref{eq_3} abgeleiteten Funktionen.
+Abbildung \ref{fig:halbw_1_2} zeigt die in Abhängigkeit von der Energie berechneten FWHM-Werte für beide Detektoren sowie die entsprechenden, aus den Gleichungen \ref{eq_2} und \ref{eq_3} abgeleiteten Funktionen.
 \begin{figure}[htbp]
     \centering
     \begin{subfigure}[t]{0.48\textwidth}
@@ -37,9 +37,14 @@ Abbildung \ref{fig:halbw_1_2} zeigt die in Abhängigkeit von der Intensität ber
 % add plots
 
 Der Vergleich der beiden Datensätze bestätigt, was bereits anhand der Intensitätsspektren zu beobachten war: Die dem Szintillationsdetektor zugeordnete Breite ist etwa 33-mal größer als die des Halbleiterdetektors.
+Dies ist eine direkte Folge der unterschiedlichen Detektionsmechanismen: beim HPGe-Detektor entstehen pro MeV etwa $3\times10^5$ Elektron-Loch-Paare, deren statistische Schwankungen gering sind. Beim NaI(Tl)-Detektor wird die Energie zunächst in Szintillationslicht umgewandelt, dessen Photonenzahl starken statistischen Schwankungen unterliegt. Dazu führen Lichtsammlungsverluste und Verstärkungsvariationen im Photomultiplier zu einer weiteren Verbreiterung der Peaks.
+
 % Beide Korrelationsfunktionen zeigen eine Breite der Photopeaks bei hohen reduzierten $\chi^2$-Wert (größer als 1). 
 Lediglich beim NaI-Detektor tritt bei höheren Energien eine deutlichere Diskrepanz zwischen Modell und Messdaten auf.
-Im Gegensatz dazu beträgt der reduzierte $\chi^2$-Wert des HPGe-Detektors lediglich $2.23$. Obwohl dieser Wert nicht exakt Eins entspricht, beschreibt das Modell die Messdaten insgesamt gut. Die zugrunde liegenden Messwerte sind in Tabelle \ref{tab:fwhm_messwerte} aufgeführt.
+Im Gegensatz dazu beträgt der reduzierte $\chi^2$-Wert des HPGe-Detektors lediglich $2,23$.
+Die Abweichung von $\chi^2_{\mathrm{red}}=1$ ist auf die leicht asymmetrische Peakform zurückzuführen. Beim NaI(Tl)-Detektor sind die Abweichungen größer, da die Peakform durch Compton-Anteile und Lichtsammlungsverluste nicht ideal gaußförmig ist.
+Die Bestimmung der FWHM bleibt dennoch stabil, da die Peakflanken gut erfasst werden.
+ Obwohl dieser Wert nicht exakt Eins entspricht, beschreibt das Modell die Messdaten insgesamt gut. Die zugrunde liegenden Messwerte sind in Tabelle \ref{tab:fwhm_messwerte} aufgeführt.
 
 Die Fitparameter lauten wie folgt:
 
