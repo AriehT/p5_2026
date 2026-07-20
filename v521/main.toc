@@ -22,16 +22,16 @@
 \contentsline {chapter}{\numberline {7}Peak-to-Total-Verhältnis}{14}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Durchführung}{14}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Auswertung}{14}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{15}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{15}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Detektoreffizienz}{15}{subsection.8.1.1}%
-\contentsline {section}{\numberline {8.2}Durchführung}{15}{section.8.2}%
-\contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{17}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{18}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Durchführung}{18}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Extraktion der $\gamma $-Energien}{18}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{19}{section.10.3}%
-\contentsline {chapter}{\numberline {11}Fazit}{21}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Anhang}{22}{chapter.12}%
-\contentsline {chapter}{\numberline {13}KI-Nutzung}{29}{chapter.13}%
+\contentsline {chapter}{\numberline {8}Bestimmung der Detektoreffizienz}{16}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Theoretische Grundlagen}{16}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Detektoreffizienz}{16}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}Durchführung}{16}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Aktivität $^{60}$Co}{19}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Nachweis der Radioaktivität in einer Probe}{20}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Durchführung}{20}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Extraktion der $\gamma $-Energien}{20}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Zuordnung der $\gamma $-Energien zu ihren Quellen}{21}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Fazit}{23}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Anhang}{24}{chapter.12}%
+\contentsline {chapter}{\numberline {13}KI-Nutzung}{31}{chapter.13}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

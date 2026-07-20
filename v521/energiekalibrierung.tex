@@ -117,9 +117,10 @@ Im nächsten Schritt werden Gammaspektren der verwendeten radioaktiven Quellen a
 Auf der Grundlage der aufgenommenen Spektren wird eine Energiekalibrierung des Systems durchgeführt. Dabei werden die bekannten Gammaenergien der Quellen mit den Kanalnummern verknüpft, die den Photopeaks entsprechen. Mittels linearer Regression wird eine Kalibriergerade bestimmt, die die Umrechnung von Kanalnummern in Energiewerte ermöglicht.
 
 \section{Auswertung}
-Die aufgezeichneten Untergrundspektren hat das Rauschen sowie eine niedrige Ereignisrate gezeigen und wurde von der Messung Abgezogen. Folglich wurde, wie oben erwähnt das Untergrundspektrum vor jeder weiteren Analyse von der jeweiligen Messreihe abgezogen.(siehe Anhang, Abbildung \ref{fig:anhang_1})
+Die aufgezeichneten Untergrundspektren zeigen eine niedrige Ereignisrate und dominierenden Rauschanteil und wurden von allen Messungen subtrahiert. (siehe Anhang, Abbildung \ref{fig:anhang_1})
 Das Untergrundspektrum wurde für jeden Kanal von allen Messungen subtrahiert. Der Untergrundabzug ist notwendig, um Rückstreuanteile und natürliche Radioaktivität zu entfernen, wodurch sonst die Peakflächen systematisch vergrößert werden würden.
-Die Peakparameter der verwendeten Kalibrationslinien sind in den Tabellen \ref{HPGe_Caesium},\ref{HPGe_Cobalt},\ref{NaI_Caesium} \ref{taba_3},\ref{NaI_Cobalt} im Anhang zusammengefasst. Diese Werte wurden aus den Fits mit Gaußfunktion und linearem Untergrund gewonnen und bilden die Grundlage für die Energiekalibrierung.
+Die Peakparameter der verwendeten Kalibrationslinien sind in den Tabellen \ref{HPGe_Caesium}%\ref{HPGe_Cobalt},\ref{NaI_Caesium} \ref{taba_3},
+-\ref{NaI_Cobalt} im Anhang zusammengefasst. Diese Werte wurden aus den Fits mit Gaußfunktion und linearem Untergrund gewonnen und bilden die Grundlage für die Energiekalibrierung.
 
 Zur Energiekalibrierung werden Gauß-Funktionen in Kombination mit einem linearen Untergrund an einen begrenzten Kanalbereich um die entsprechenden Photopeaks angepasst. Die verwendete Anpassungsfunktion lautet:
 \begin{align}
@@ -212,8 +213,8 @@ Es wird eine Energie-Kalibration, unter der Annahme, dass es eine lineare Zuordn
     E(k)=\frac{k-b}{a}
 \end{equation}
 \label{gl:eq_e}
-Wenn diesauf die ermittelten Maxima $\mu$ und die Literaturwerte $E(\mu)$ für zugehörigen Energien angewendet wird, ergeben sich
-für beide Detektoren die in Abbildung \ref{fig:kalib_4} gezeigten Zusammmenhänge:
+Wenn dies auf die ermittelten Maxima $\mu$ und die Literaturwerte $E(\mu)$ für zugehörigen Energien angewendet wird, ergeben sich
+für beide Detektoren die in Abbildung \ref{fig:kalib_4} gezeigten Zusammenhänge:
 
 % add plots
 \begin{figure}[H]
@@ -235,7 +236,7 @@ für beide Detektoren die in Abbildung \ref{fig:kalib_4} gezeigten Zusammmenhän
     \label{fig:kalib_4}
 \end{figure}
 Für den HPGe-Detektor wurden dazu die Linien der $^{137}$Cs, $^{60}$Co und $^{152}$Eu-Quelle verwendet. Beim NaI(Tl)-Detektor wurden aufgrund der geringeren Energieauflösung nur die stärksten, gut getrennten $^{152}$Eu-Linien (121,8; 244,7; 344,3; 964,1 und 1408,0 keV; Tabellen \ref{NaI_Caesium},\ref{NaI_Cobalt}) in die Kalibrierung einbezogen.
-Die mit dem linearen Energie-Fit verbundenen Unsicherheiten sind vernachlässigbar, da die Litteraturwerte der Übergangsenergien gut bekannt sind und die Positionen der Spektralpeaks mit hinreichender Präzision bestimmt werden können. Die reduzierten Chi-Quadrat-Werte der Peakfits liegen insbesondere beim NaI-Detektor deutlich über dem erwarteten Bereich von $\chi^2_\mathrm{red} \approx 1$. Dies ist wahrscheinlich darauf zurück zu führen, dass die Peaks von Szintillationsdetektoren aufgrund von Lichtsammlungsverlusten und Compton-Anteilen nicht ideal gaußförmig sind. Trotz der großen $\chi^2_\mathrm{red}$-Werte sind die Peakpositionen jedoch robust bestimmt, sodass die Energiekalibrierung weiterhin zuverlässig durchgeführt werden kann.
+Die mit dem linearen Energie-Fit verbundenen Unsicherheiten sind vernachlässigbar, da die Literaturwerte der Übergangsenergien gut bekannt sind und die Positionen der Spektralpeaks mit hinreichender Präzision bestimmt werden können. Die reduzierten Chi-Quadrat-Werte der Peakfits liegen insbesondere beim NaI-Detektor deutlich über dem erwarteten Bereich von $\chi^2_\mathrm{red} \approx 1$. Dies ist wahrscheinlich darauf zurück zu führen, dass die Peaks von Szintillationsdetektoren aufgrund von Lichtsammlungsverlusten und Compton-Anteilen nicht ideal gaußförmig sind. Trotz der großen $\chi^2_\mathrm{red}$-Werte sind die Peakpositionen jedoch robust bestimmt, sodass die Energiekalibrierung weiterhin zuverlässig durchgeführt werden kann.
 Selbst bei den sehr großen reduzierten $\chi^2$ -Werten liefert der lineare Fit gute Kalibriergeraden. Die Fitergebnisse lauten wie folgt:
 
 \begin{align*}
