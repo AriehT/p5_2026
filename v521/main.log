@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  20 JUL 2026 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  20 JUL 2026 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1265,14 +1265,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./main.aux (./Einleitung.aux) (./aufbau.aux) (./voraufgabe.aux) (./justage.aux) (./energiekalibrierung.aux) (./halbwertsbreite.aux) (./intrinsisch.aux) (./peak-to-total.aux) (./detektoreffizienz.aux) (./radioaktivität.aux) (./Fazit.aux) (./anhang.aux
-
-LaTeX Warning: Label `fig:zoom_2' multiply defined.
-
-
-LaTeX Warning: Label `fig:zoom_2@cref' multiply defined.
-
-) (./AI_use.aux))
+ (./main.aux (./Einleitung.aux) (./aufbau.aux) (./voraufgabe.aux) (./justage.aux) (./energiekalibrierung.aux) (./halbwertsbreite.aux) (./intrinsisch.aux) (./peak-to-total.aux) (./detektoreffizienz.aux) (./radioaktivität.aux) (./Fazit.aux) (./anhang.aux) (./AI_use.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
@@ -1535,7 +1528,7 @@ Overfull \hbox (7.46326pt too wide) in paragraph at lines 15--18
 []\T1/cmr/m/n/10.95 Aus den Fit-pa-ra-me-tern wer-den die Schwer-punkt-la-ge, die Li-ni-en-brei-te, die Halb-werts-brei-te (FWHM)
  []
 
-<figs/voraufgabe_fertig.png, id=108, 867.24pt x 433.62pt>
+<figs/voraufgabe_fertig.png, id=109, 867.24pt x 433.62pt>
 File: figs/voraufgabe_fertig.png Graphic file (type png)
 <use figs/voraufgabe_fertig.png>
 Package pdftex.def Info: figs/voraufgabe_fertig.png  used on input line 26.
@@ -1566,12 +1559,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 
 ]
-<figs/scope_1.png, id=127, 803.0pt x 504.88625pt>
+<figs/scope_1.png, id=129, 803.0pt x 504.88625pt>
 File: figs/scope_1.png Graphic file (type png)
 <use figs/scope_1.png>
 Package pdftex.def Info: figs/scope_1.png  used on input line 78.
 (pdftex.def)             Requested size: 225.34386pt x 141.68303pt.
-<figs/scope_2.png, id=128, 803.0pt x 504.88625pt>
+<figs/scope_2.png, id=130, 803.0pt x 504.88625pt>
 File: figs/scope_2.png Graphic file (type png)
 <use figs/scope_2.png>
 Package pdftex.def Info: figs/scope_2.png  used on input line 85.
@@ -1675,12 +1668,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
  []
 
 [8]
-<figs/Cobalt_gausss.png, id=177, 867.24pt x 433.62pt>
+<figs/Cobalt_gausss.png, id=179, 867.24pt x 433.62pt>
 File: figs/Cobalt_gausss.png Graphic file (type png)
 <use figs/Cobalt_gausss.png>
 Package pdftex.def Info: figs/Cobalt_gausss.png  used on input line 138.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Cobalt_gauss.png, id=178, 867.24pt x 433.62pt>
+<figs/Ge_Cobalt_gauss.png, id=180, 867.24pt x 433.62pt>
 File: figs/Ge_Cobalt_gauss.png Graphic file (type png)
 <use figs/Ge_Cobalt_gauss.png>
 Package pdftex.def Info: figs/Ge_Cobalt_gauss.png  used on input line 145.
@@ -1691,32 +1684,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
  []
 
 [9 <./figs/Cobalt_gausss.png> <./figs/Ge_Cobalt_gauss.png>]
-<figs/Caesium_gauss1.png, id=193, 867.24pt x 433.62pt>
+<figs/Caesium_gauss1.png, id=195, 867.24pt x 433.62pt>
 File: figs/Caesium_gauss1.png Graphic file (type png)
 <use figs/Caesium_gauss1.png>
 Package pdftex.def Info: figs/Caesium_gauss1.png  used on input line 169.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_caesium_gauss.png, id=194, 867.24pt x 433.62pt>
+<figs/Ge_caesium_gauss.png, id=196, 867.24pt x 433.62pt>
 File: figs/Ge_caesium_gauss.png Graphic file (type png)
 <use figs/Ge_caesium_gauss.png>
 Package pdftex.def Info: figs/Ge_caesium_gauss.png  used on input line 176.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Europium_gauss3.png, id=198, 867.24pt x 433.62pt>
+<figs/Europium_gauss3.png, id=200, 867.24pt x 433.62pt>
 File: figs/Europium_gauss3.png Graphic file (type png)
 <use figs/Europium_gauss3.png>
 Package pdftex.def Info: figs/Europium_gauss3.png  used on input line 190.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Europium_gausss.png, id=199, 867.24pt x 433.62pt>
+<figs/Ge_Europium_gausss.png, id=201, 867.24pt x 433.62pt>
 File: figs/Ge_Europium_gausss.png Graphic file (type png)
 <use figs/Ge_Europium_gausss.png>
 Package pdftex.def Info: figs/Ge_Europium_gausss.png  used on input line 197.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Energie_kalibrierung.png, id=201, 578.16pt x 361.35pt>
+<figs/Energie_kalibrierung.png, id=203, 578.16pt x 361.35pt>
 File: figs/Energie_kalibrierung.png Graphic file (type png)
 <use figs/Energie_kalibrierung.png>
 Package pdftex.def Info: figs/Energie_kalibrierung.png  used on input line 221.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Ge_Energiekal.png, id=202, 578.16pt x 361.35pt>
+<figs/Ge_Energiekal.png, id=204, 578.16pt x 361.35pt>
 File: figs/Ge_Energiekal.png Graphic file (type png)
 <use figs/Ge_Energiekal.png>
 Package pdftex.def Info: figs/Ge_Energiekal.png  used on input line 228.
@@ -1726,12 +1719,12 @@ Package pdftex.def Info: figs/Ge_Energiekal.png  used on input line 228.
 
  (./halbwertsbreite.tex
 chapter 6.
-<figs/Na(I)_Halbwertsbreite.png, id=229, 578.16pt x 361.35pt>
+<figs/Na(I)_Halbwertsbreite.png, id=231, 578.16pt x 361.35pt>
 File: figs/Na(I)_Halbwertsbreite.png Graphic file (type png)
 <use figs/Na(I)_Halbwertsbreite.png>
 Package pdftex.def Info: figs/Na(I)_Halbwertsbreite.png  used on input line 23.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Hablwertsbreite_richtig.png, id=230, 578.16pt x 361.35pt>
+<figs/Hablwertsbreite_richtig.png, id=232, 578.16pt x 361.35pt>
 File: figs/Hablwertsbreite_richtig.png Graphic file (type png)
 <use figs/Hablwertsbreite_richtig.png>
 Package pdftex.def Info: figs/Hablwertsbreite_richtig.png  used on input line 30.
@@ -1769,22 +1762,22 @@ chapter 8.
 
 
 ]
-<figs/Na_effizienz.png, id=263, 722.7pt x 433.62pt>
+<figs/Na_effizienz.png, id=264, 722.7pt x 433.62pt>
 File: figs/Na_effizienz.png Graphic file (type png)
 <use figs/Na_effizienz.png>
 Package pdftex.def Info: figs/Na_effizienz.png  used on input line 50.
 (pdftex.def)             Requested size: 225.34386pt x 135.20818pt.
-<figs/Ge_effizienz.png, id=264, 722.7pt x 433.62pt>
-File: figs/Ge_effizienz.png Graphic file (type png)
-<use figs/Ge_effizienz.png>
-Package pdftex.def Info: figs/Ge_effizienz.png  used on input line 57.
+<figs/Ge_effizienz_richtig.png, id=265, 722.7pt x 433.62pt>
+File: figs/Ge_effizienz_richtig.png Graphic file (type png)
+<use figs/Ge_effizienz_richtig.png>
+Package pdftex.def Info: figs/Ge_effizienz_richtig.png  used on input line 57.
 (pdftex.def)             Requested size: 225.34386pt x 135.20818pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[16 <./figs/Na_effizienz.png> <./figs/Ge_effizienz.png>]
+[16 <./figs/Na_effizienz.png> <./figs/Ge_effizienz_richtig.png>]
 chapter 9.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1841,14 +1834,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 25.
 
-
-Package caption Warning: \label without proper reference on input line 194.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:boden_2' on page 18 undefined on input line 27.
-
-<figs//Ge_Erde_ramen_gauss.png, id=294, 867.24pt x 433.62pt>
+<figs//Ge_Erde_ramen_gauss.png, id=295, 867.24pt x 433.62pt>
 File: figs//Ge_Erde_ramen_gauss.png Graphic file (type png)
 <use figs//Ge_Erde_ramen_gauss.png>
 Package pdftex.def Info: figs//Ge_Erde_ramen_gauss.png  used on input line 44.
@@ -1890,35 +1876,35 @@ chapter 11.
 
  (./anhang.tex
 chapter 12.
-<figs/Cobalt_roh.png, id=333, 867.24pt x 433.62pt>
+<figs/Cobalt_roh.png, id=334, 867.24pt x 433.62pt>
 File: figs/Cobalt_roh.png Graphic file (type png)
 <use figs/Cobalt_roh.png>
-Package pdftex.def Info: figs/Cobalt_roh.png  used on input line 7.
+Package pdftex.def Info: figs/Cobalt_roh.png  used on input line 24.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Cobalt_roh.png, id=334, 867.24pt x 433.62pt>
+<figs/Ge_Cobalt_roh.png, id=335, 867.24pt x 433.62pt>
 File: figs/Ge_Cobalt_roh.png Graphic file (type png)
 <use figs/Ge_Cobalt_roh.png>
-Package pdftex.def Info: figs/Ge_Cobalt_roh.png  used on input line 13.
+Package pdftex.def Info: figs/Ge_Cobalt_roh.png  used on input line 30.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Caesium_roh.png, id=335, 867.24pt x 433.62pt>
+<figs/Caesium_roh.png, id=336, 867.24pt x 433.62pt>
 File: figs/Caesium_roh.png Graphic file (type png)
 <use figs/Caesium_roh.png>
-Package pdftex.def Info: figs/Caesium_roh.png  used on input line 24.
+Package pdftex.def Info: figs/Caesium_roh.png  used on input line 41.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Caesium_roh.png, id=336, 867.24pt x 433.62pt>
+<figs/Ge_Caesium_roh.png, id=337, 867.24pt x 433.62pt>
 File: figs/Ge_Caesium_roh.png Graphic file (type png)
 <use figs/Ge_Caesium_roh.png>
-Package pdftex.def Info: figs/Ge_Caesium_roh.png  used on input line 30.
+Package pdftex.def Info: figs/Ge_Caesium_roh.png  used on input line 47.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Europium_roh.png, id=337, 867.24pt x 433.62pt>
+<figs/Europium_roh.png, id=338, 867.24pt x 433.62pt>
 File: figs/Europium_roh.png Graphic file (type png)
 <use figs/Europium_roh.png>
-Package pdftex.def Info: figs/Europium_roh.png  used on input line 42.
+Package pdftex.def Info: figs/Europium_roh.png  used on input line 59.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_europium_roh.png, id=338, 867.24pt x 433.62pt>
+<figs/Ge_europium_roh.png, id=339, 867.24pt x 433.62pt>
 File: figs/Ge_europium_roh.png Graphic file (type png)
 <use figs/Ge_europium_roh.png>
-Package pdftex.def Info: figs/Ge_europium_roh.png  used on input line 48.
+Package pdftex.def Info: figs/Ge_europium_roh.png  used on input line 65.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
 [22
 
@@ -1928,102 +1914,102 @@ Package pdftex.def Info: figs/Ge_europium_roh.png  used on input line 48.
  <./figs/Cobalt_roh.png> <./figs/Ge_Cobalt_roh.png> <./figs/Caesium_roh.png> <./figs/Ge_Caesium_roh.png> <./figs/Europium_roh.png> <./figs/Ge_europium_roh.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 87.
+(Font)              size <5> substituted on input line 104.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 87.
+(Font)              size <5> substituted on input line 104.
 
 <figs/Ge_Cobalt_peak1.png, id=352, 650.43pt x 361.35pt>
 File: figs/Ge_Cobalt_peak1.png Graphic file (type png)
 <use figs/Ge_Cobalt_peak1.png>
-Package pdftex.def Info: figs/Ge_Cobalt_peak1.png  used on input line 149.
+Package pdftex.def Info: figs/Ge_Cobalt_peak1.png  used on input line 166.
 (pdftex.def)             Requested size: 225.34386pt x 125.18968pt.
 <figs/Ge_Cobalt_peak2.png, id=353, 650.43pt x 361.35pt>
 File: figs/Ge_Cobalt_peak2.png Graphic file (type png)
 <use figs/Ge_Cobalt_peak2.png>
-Package pdftex.def Info: figs/Ge_Cobalt_peak2.png  used on input line 155.
+Package pdftex.def Info: figs/Ge_Cobalt_peak2.png  used on input line 172.
 (pdftex.def)             Requested size: 225.34386pt x 125.18968pt.
 [23]
-<figs/Ge_Erde_ramen_gauss.png, id=362, 867.24pt x 433.62pt>
+<figs/Ge_Erde_ramen_gauss.png, id=363, 867.24pt x 433.62pt>
 File: figs/Ge_Erde_ramen_gauss.png Graphic file (type png)
 <use figs/Ge_Erde_ramen_gauss.png>
-Package pdftex.def Info: figs/Ge_Erde_ramen_gauss.png  used on input line 187.
+Package pdftex.def Info: figs/Ge_Erde_ramen_gauss.png  used on input line 203.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
-<figs/Ge_Erde_ramen_roh.png, id=363, 867.24pt x 433.62pt>
+<figs/Ge_Erde_ramen_roh.png, id=364, 867.24pt x 433.62pt>
 File: figs/Ge_Erde_ramen_roh.png Graphic file (type png)
 <use figs/Ge_Erde_ramen_roh.png>
-Package pdftex.def Info: figs/Ge_Erde_ramen_roh.png  used on input line 193.
+Package pdftex.def Info: figs/Ge_Erde_ramen_roh.png  used on input line 209.
 (pdftex.def)             Requested size: 225.34386pt x 112.67236pt.
  [24 <./figs/Ge_Cobalt_peak1.png> <./figs/Ge_Cobalt_peak2.png> <./figs/Ge_Erde_ramen_gauss.png> <./figs/Ge_Erde_ramen_roh.png>] [25]
-<figs/Erde_1.png, id=377, 578.16pt x 361.35pt>
+<figs/Erde_1.png, id=378, 578.16pt x 361.35pt>
 File: figs/Erde_1.png Graphic file (type png)
 <use figs/Erde_1.png>
-Package pdftex.def Info: figs/Erde_1.png  used on input line 271.
+Package pdftex.def Info: figs/Erde_1.png  used on input line 287.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_2.png, id=378, 578.16pt x 361.35pt>
+<figs/Erde_2.png, id=379, 578.16pt x 361.35pt>
 File: figs/Erde_2.png Graphic file (type png)
 <use figs/Erde_2.png>
-Package pdftex.def Info: figs/Erde_2.png  used on input line 277.
+Package pdftex.def Info: figs/Erde_2.png  used on input line 293.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_3.png, id=379, 578.16pt x 361.35pt>
+<figs/Erde_3.png, id=380, 578.16pt x 361.35pt>
 File: figs/Erde_3.png Graphic file (type png)
 <use figs/Erde_3.png>
-Package pdftex.def Info: figs/Erde_3.png  used on input line 283.
+Package pdftex.def Info: figs/Erde_3.png  used on input line 299.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_4.png, id=380, 578.16pt x 361.35pt>
+<figs/Erde_4.png, id=381, 578.16pt x 361.35pt>
 File: figs/Erde_4.png Graphic file (type png)
 <use figs/Erde_4.png>
-Package pdftex.def Info: figs/Erde_4.png  used on input line 289.
+Package pdftex.def Info: figs/Erde_4.png  used on input line 305.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_5.png, id=381, 578.16pt x 361.35pt>
+<figs/Erde_5.png, id=382, 578.16pt x 361.35pt>
 File: figs/Erde_5.png Graphic file (type png)
 <use figs/Erde_5.png>
-Package pdftex.def Info: figs/Erde_5.png  used on input line 295.
+Package pdftex.def Info: figs/Erde_5.png  used on input line 311.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_6.png, id=382, 578.16pt x 361.35pt>
+<figs/Erde_6.png, id=383, 578.16pt x 361.35pt>
 File: figs/Erde_6.png Graphic file (type png)
 <use figs/Erde_6.png>
-Package pdftex.def Info: figs/Erde_6.png  used on input line 301.
+Package pdftex.def Info: figs/Erde_6.png  used on input line 317.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_7.png, id=383, 578.16pt x 361.35pt>
+<figs/Erde_7.png, id=384, 578.16pt x 361.35pt>
 File: figs/Erde_7.png Graphic file (type png)
 <use figs/Erde_7.png>
-Package pdftex.def Info: figs/Erde_7.png  used on input line 307.
+Package pdftex.def Info: figs/Erde_7.png  used on input line 323.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_8.png, id=384, 578.16pt x 361.35pt>
+<figs/Erde_8.png, id=385, 578.16pt x 361.35pt>
 File: figs/Erde_8.png Graphic file (type png)
 <use figs/Erde_8.png>
-Package pdftex.def Info: figs/Erde_8.png  used on input line 313.
+Package pdftex.def Info: figs/Erde_8.png  used on input line 329.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_9.png, id=385, 578.16pt x 361.35pt>
+<figs/Erde_9.png, id=386, 578.16pt x 361.35pt>
 File: figs/Erde_9.png Graphic file (type png)
 <use figs/Erde_9.png>
-Package pdftex.def Info: figs/Erde_9.png  used on input line 319.
+Package pdftex.def Info: figs/Erde_9.png  used on input line 335.
 (pdftex.def)             Requested size: 201.8689pt x 126.16562pt.
  [26]
 Overfull \vbox (109.18604pt too high) has occurred while \output is active []
 
  [27 <./figs/Erde_1.png> <./figs/Erde_2.png> <./figs/Erde_3.png> <./figs/Erde_4.png> <./figs/Erde_5.png> <./figs/Erde_6.png> <./figs/Erde_7.png> <./figs/Erde_8.png> <./figs/Erde_9.png>]
-<figs/Erde_10.png, id=405, 578.16pt x 361.35pt>
+<figs/Erde_10.png, id=406, 578.16pt x 361.35pt>
 File: figs/Erde_10.png Graphic file (type png)
 <use figs/Erde_10.png>
-Package pdftex.def Info: figs/Erde_10.png  used on input line 327.
+Package pdftex.def Info: figs/Erde_10.png  used on input line 344.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_11.png, id=406, 578.16pt x 361.35pt>
+<figs/Erde_11.png, id=407, 578.16pt x 361.35pt>
 File: figs/Erde_11.png Graphic file (type png)
 <use figs/Erde_11.png>
-Package pdftex.def Info: figs/Erde_11.png  used on input line 333.
+Package pdftex.def Info: figs/Erde_11.png  used on input line 350.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_12.png, id=407, 578.16pt x 361.35pt>
+<figs/Erde_12.png, id=408, 578.16pt x 361.35pt>
 File: figs/Erde_12.png Graphic file (type png)
 <use figs/Erde_12.png>
-Package pdftex.def Info: figs/Erde_12.png  used on input line 339.
+Package pdftex.def Info: figs/Erde_12.png  used on input line 356.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
-<figs/Erde_13.png, id=408, 578.16pt x 361.35pt>
+<figs/Erde_13.png, id=409, 578.16pt x 361.35pt>
 File: figs/Erde_13.png Graphic file (type png)
 <use figs/Erde_13.png>
-Package pdftex.def Info: figs/Erde_13.png  used on input line 346.
+Package pdftex.def Info: figs/Erde_13.png  used on input line 363.
 (pdftex.def)             Requested size: 225.34386pt x 140.8377pt.
 ) [28 <./figs/Erde_10.png> <./figs/Erde_11.png> <./figs/Erde_12.png> <./figs/Erde_13.png>]
 \openout2 = `AI_use.aux'.
@@ -2094,9 +2080,6 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2104,18 +2087,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49601 strings out of 477884
- 1017180 string characters out of 5835937
- 2013886 words of memory out of 5000000
- 68787 multiletter control sequences out of 15000+600000
+ 49606 strings out of 477884
+ 1017354 string characters out of 5835937
+ 2016077 words of memory out of 5000000
+ 68791 multiletter control sequences out of 15000+600000
  631696 words of font info for 294 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  108i,20n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (32 pages, 2079657 bytes).
+Output written on main.pdf (32 pages, 2079901 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 

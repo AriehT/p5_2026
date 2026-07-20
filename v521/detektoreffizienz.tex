@@ -21,7 +21,7 @@ Für kleine Winkel gilt näherungsweise:
 wobei d der Detektordurchmesser und D der Abstand von der Quelle zum Detektor ist.
 Daraus folgt für die Detektoreffizienz:
 \begin{align*}
-    \varepsilon(E_\gamma) \approx \frac{N_{\text{detektiert}}}{A \cdot P_\gamma \cdot t}\cdot \frac{4\pi D^2}{\pi d^2}.
+    \varepsilon(E_\gamma) \approx \frac{N_{\text{detektiert}}}{B \cdot P_\gamma \cdot t}\cdot \frac{4\pi D^2}{\pi d^2}.
 \end{align*}
 Die Effizienz nimmt mit steigender Energie ab, da hochenergetische Gammaquanten eine geringere Wahrscheinlichkeit besitzen, vollständig im Detektor absorbiert zu werden.
 
@@ -40,7 +40,7 @@ Die Ergebnisse zeigen, dass nur ein geringer Anteil der einfallenden 661-keV-Pho
 
 Dieses Ergebnis entspricht den Erwartungen, da die höhere Ordnungszahl von Iod (\(Z = 53\)) im Vergleich zu Germanium (\(Z = 32\)) zu einem größeren Wirkungsquerschnitt für den photoelektrischen Effekt (\(\sigma_\text{photo} \propto Z^5\)) führt.
 
-Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Spektrum bestimmen. Dabei ist zu beachten, dass die Referenzfunktion \(B(E)\) für jede Energie \(E\) mit der entsprechenden Zählrate verglichen werden muss (siehe Tabelle \ref{tab_eff_1}). Abbildung \ref{fig:eff_1} stellt die erzielten Ergebnisse in Form einer Effizienzkurve dar.
+Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Spektrum bestimmen. Abbildung \ref{fig:eff_1} stellt die erzielten Ergebnisse in Form einer Effizienzkurve dar.
 
 % add plots
 \begin{figure}[H]
@@ -54,7 +54,7 @@ Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Sp
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{figs/Ge_effizienz.png}
+        \includegraphics[width=\linewidth]{figs/Ge_effizienz_richtig.png}
         \caption{HPGe-Halbleiterdetektor}
         \label{fig:eff_1_2}
     \end{subfigure}
@@ -74,12 +74,12 @@ Die in den Abbildungen \ref{fig:eff_1_1} und \ref{fig:eff_1_2} dargestellten Eff
 
 für den HPGe-Detektor:
 
-$a_1 = (0.202733 \pm 0.017735), \qquad a_2 = (-0.053473 \pm 0.002698)$\\
+$a_1 = (0.202733 \pm 0.017735), \qquad a_2 = (-0,053473 \pm 0,002698)$\\
 
 
 für den NaI(Tl)-Detektor:
 
-$a_1 = (-0.039229 \pm 0.014094), \qquad a_2 = (-0.056339 \pm 0.002607)$
+$a_1 = (-0.039229 \pm 0.014094), \qquad a_2 = (-0,056339 \pm 0,002607)$
 
 Die Anpassung beschreibt den Effizienzabfall bei höheren Energien gut. Allerdings gibt diese Anpassungsfunktion den erwarteten Effizienzverlauf bei sehr niedrigen Energien nicht präzise wieder. Insbesondere beim HPGe-Detektor (Abbildung \ref{fig:eff_1}) zeigen die Messpunkte im niederenergetischen Bereich keinen glockenförmigen Anstieg, sondern einen nahezu monotonen Abfall.
 
@@ -112,8 +112,8 @@ Durch Division durch den Raumwinkel des Detektors und die Messdauer erhält man 
 
 Die auf diese Weise berechneten Aktivitäten der Kobaltprobe betragen (Nennwert: \(B = 36.11\,\text{kBq}\) beim Vergleich mit Zerfallsgesetz):
 \begin{align*}
-    B_{\text{HPGe}} = (26.1 \pm 0.9)kBq,\\
-    B_{\text{NaI}} = (8.5 \pm 0.6)kBq.
+    B_{\text{HPGe}} = (26,1 \pm 0,9)kBq,\\
+    B_{\text{NaI}} = (8,5 \pm 0,6)kBq.
 \end{align*}
 
 
