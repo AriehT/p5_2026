@@ -8,9 +8,9 @@ zur Anzahl der Gammaquanten, die den Detektor erreichen $N_{\text{erreicht}}$:
     \epsilon(E_\gamma)=\frac{N_{detektiert}}{N_{erreicht}}\approx\frac{N_{detektiert}}{B}\cdot\frac{4\pi D^2}{\pi d^2}, \text{wobei B die Aktivität der Probe ist}
 \end{equation}
 \label{eq_5}
-Da die absolute Aktivität der Quelle $A$ bekannt ist, ergibt sich:
+Da die absolute Aktivität der Quelle $B$ bekannt ist, ergibt sich:
 \begin{align*}
-    N_{\text{erreicht}} = A \cdot P_\gamma \cdot t \cdot \frac{\Omega}{4\pi}
+    N_{\text{erreicht}} = B \cdot P_\gamma \cdot t \cdot \frac{\Omega}{4\pi}
 \end{align*}
 wobei $P_\gamma$ die Übergangswahrscheinlichkeit der betrachteten Linie,
 $t$ die Messdauer und $\Omega$ der vom Detektor überdeckte Raumwinkel ist.
@@ -29,7 +29,7 @@ Die Effizienz nimmt mit steigender Energie ab, da hochenergetische Gammaquanten 
 Zur Bestimmung der Effizienz des HPGe-Detektors wurden Spektren der $^{137}\mathrm{Cs}$- und $^{152}\mathrm{Eu}$-Quellen aufgenommen. Für jede Gamma-Linie wurde die Peakfläche durch Integration bestimmt und um den Untergrund korrigiert. Die Messdauer, der Abstand zwischen Quelle und Detektor sowie die geometrischen Parameter wurden konstant gehalten.
 Aus den bekannten Aktivitäten der Quellen und den tabellierten Übergangswahrscheinlichkeiten der jeweiligen Gamma-Linien wurde die erwartete Anzahl der den Detektor erreichenden Gammaquanten berechnet. Durch Vergleich mit den gemessenen Photopeak-Ereignissen ergibt sich die Effizienz für jede Energie.
 
-Die Schwellenwertfunktion \(B(\text{Cs})\) sowie der Abstand sind Tabelle \ref{tab_eff_1} zu entnehmen. Basierend auf der Detektionsrate \(N_\text{detect} = A\) (Tabellen \ref{taba_2} und \ref{taba_3}), die so bestimmten Effizienzen betragen für die $661keV$-Linie:
+Die Schwellenwertfunktion \(B(\text{Cs})\) sowie der Abstand sind Tabelle \ref{tab_just1} zu entnehmen. Basierend auf der Detektionsrate \(N_\text{detect} = A\) (Tabellen \ref{taba_2} und \ref{taba_3}), die so bestimmten Effizienzen betragen für die $661keV$-Linie:
 \begin{align*}
     \varepsilon_{\text{HPGe}}(661\,\mathrm{keV}) = (4,705 \pm0,042)\\
     \varepsilon_{\text{NaI}}(661\,\mathrm{keV}) = (11,269\pm0,461).
@@ -38,7 +38,7 @@ Die Fehler ergeben sich aus den Unsicherheiten der Peakflächenbestimmung, der A
 
 Die Ergebnisse zeigen, dass nur ein geringer Anteil der einfallenden 661-keV-Photonen im Photopeak erscheint. Die meißten Photonen durchlaufen den Detektor, werden gestreut oder erzeugen kein Signal im Photopeak, sei es aufgrund von Effekten während der Ladungssammlung (z. B. Rekombination) oder durch das Ausbleiben photoelektrischer Ereignisse im Photomultiplier (PMT).
 
-Des Weiteren ist die Effizienz von Szintillationsdetektoren bei diesen Energien höher als die von Halbleiterdetektoren. Dieses Ergebnis entspricht den Erwartungen, da die höhere Ordnungszahl von Iod (\(Z = 53\)) im Vergleich zu Germanium (\(Z = 32\)) zu einem größeren Wirkungsquerschnitt für den photoelektrischen Effekt (\(\sigma_\text{photo} \propto Z^5\)) führt.
+Dieses Ergebnis entspricht den Erwartungen, da die höhere Ordnungszahl von Iod (\(Z = 53\)) im Vergleich zu Germanium (\(Z = 32\)) zu einem größeren Wirkungsquerschnitt für den photoelektrischen Effekt (\(\sigma_\text{photo} \propto Z^5\)) führt.
 
 Analog zum Cäsium-Fall lassen sich die Effizienzen für das gesamte Europium-Spektrum bestimmen. Dabei ist zu beachten, dass die Referenzfunktion \(B(E)\) für jede Energie \(E\) mit der entsprechenden Zählrate verglichen werden muss (siehe Tabelle \ref{tab_eff_1}). Abbildung \ref{fig:eff_1} stellt die erzielten Ergebnisse in Form einer Effizienzkurve dar.
 
@@ -83,7 +83,7 @@ $a_1 = (-0.039229 \pm 0.014094), \qquad a_2 = (-0.056339 \pm 0.002607)$
 
 Die Anpassung beschreibt den Effizienzabfall bei höheren Energien gut. Allerdings gibt diese Anpassungsfunktion den erwarteten Effizienzverlauf bei sehr niedrigen Energien nicht präzise wieder. Insbesondere beim HPGe-Detektor (Abbildung \ref{fig:eff_1}) zeigen die Messpunkte im niederenergetischen Bereich keinen glockenförmigen Anstieg, sondern einen nahezu monotonen Abfall.
 
-Trotz dieser Einschränkung liefert die Regression eine konsistente Beschreibung des Effizienzverhaltens im Energiebereich oberhalb von etwa $200keV$ und stimmt mit der aus der Cäsium-Messung bestimmten Effizienz bei $661keV$ überein. Sie liefert somit eine konsistente Darstellung der Detektoreffizienz in Abhängigkeit von der Energie im untersuchten Bereich.
+Trotz dieser Einschränkung liefert die Regression für den Szintillationsdetektor eine konsistente Beschreibung des Effizienzverhaltens im Energiebereich oberhalb von etwa $200keV$ und stimmt mit der aus der Cäsium-Messung bestimmten Effizienz bei $661keV$ überein. Sie liefert somit eine konsistente Darstellung der Detektoreffizienz in Abhängigkeit von der Energie im untersuchten Bereich.
 
 \chapter{Aktivität $^{60}$Co}
 Schließlich wird die Gültigkeit der berechneten Effizienzkurven überprüft, indem die Aktivität der Kobaltquelle aus dem gemessenen Spektrum rekonstruiert wird. Dazu werden zunächst die beiden Photopeaks bei $1173\,\mathrm{keV}$ und $1332\,\mathrm{keV}$ mittels Gauß-Fits ausgewertet. Die Effizienzfunktion basiert auf der Annahme, dass Ereignisse innerhalb des Fit-Bereichs vollständig absorbierte Gammaquanten repräsentieren. Daher werden die Peakflächen energieabhängig durch die Effizienz $\epsilon(E_\gamma)$ korrigiert.
