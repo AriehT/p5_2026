@@ -34,8 +34,8 @@
     \endentry
     \entry{Knoll}{book}{}
       \field{labelalpha}{00}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{isbn}{9780470131480}
       \field{title}{Knoll, Radiation Detection and Measurement}
@@ -43,8 +43,8 @@
     \endentry
     \entry{Siegbahn}{book}{}
       \field{labelalpha}{09}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-7204-0083-0}
       \field{title}{Siegbahn, $\alpha$, $\beta$ and $\gamma$ Spectroscopy}
@@ -63,8 +63,8 @@
       \strng{authornamehash}{76419c031f0366bb61d889408628d8d1}
       \strng{authorfullhash}{76419c031f0366bb61d889408628d8d1}
       \field{labelalpha}{Nat}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -250,8 +250,8 @@
       \strng{authornamehash}{6095a875d40e9b020ab456ee63ebca3c}
       \strng{authorfullhash}{6095a875d40e9b020ab456ee63ebca3c}
       \field{labelalpha}{Abu14}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Data Sheets 116, 163}

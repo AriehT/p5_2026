@@ -1937,11 +1937,11 @@ INPUT ./figs/Na(I)_Halbwertsbreite.png
 INPUT figs/Na(I)_Halbwertsbreite.png
 INPUT ./figs/Na(I)_Halbwertsbreite.png
 INPUT ./figs/Na(I)_Halbwertsbreite.png
-INPUT ./figs/Halbwertsbreite2.png
-INPUT ./figs/Halbwertsbreite2.png
-INPUT figs/Halbwertsbreite2.png
-INPUT ./figs/Halbwertsbreite2.png
-INPUT ./figs/Halbwertsbreite2.png
+INPUT ./figs/Hablwertsbreite_richtig.png
+INPUT ./figs/Hablwertsbreite_richtig.png
+INPUT figs/Hablwertsbreite_richtig.png
+INPUT ./figs/Hablwertsbreite_richtig.png
+INPUT ./figs/Hablwertsbreite_richtig.png
 OUTPUT intrinsisch.aux
 INPUT ./peak-to-total.tex
 INPUT ./peak-to-total.tex

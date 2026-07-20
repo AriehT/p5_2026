@@ -2,7 +2,7 @@
 \section{Durchführung}
 Nach erfolgreichem Abschluss der Kalibrierung wird die Halbwertsbreite (FWHM - Full Width at Half Maximum) der dominanten Peaks bestimmt. Dies umfasst zwei Linien aus dem $^{60}Co$-Spektrum, die 661-keV-Linie von $^{137}Cs$ sowie bestimmte, gut aufgelöste Linien aus dem $^{152}$Eu-Spektrum. Aus der Halbwertsbreite und der Peakenergie wird die Energieauflösung des Detektors berechnet und die Energieabhängigkeit der Auflösung untersucht.
 
-Im vorherigen Abschnitt wurde gezeigt, dass die Breite der Peaks im Halbleiterdetektors wesentlich schmaler ist als die eines Szintillationsdetektors. Dieser Unterschied lässt sich durch die Bestimmung der Halbwertsbreite (FWHM) der Photopeaks, bezeichnet als $\Delta E$, charakterisieren. Hierzu werden die beiden Parameter $(E, \sigma)$ aus den Tabellen \ref{taba_2} und \ref{taba_3} gegeneinander aufgetragen.
+Im vorherigen Abschnitt wurde gezeigt, dass die Breite der Peaks im Halbleiterdetektors wesentlich schmaler ist als die eines Szintillationsdetektors. Dieser Unterschied lässt sich durch die Bestimmung der Halbwertsbreite (FWHM) der Photopeaks, bezeichnet als $\Delta E$, charakterisieren. Hierzu werden die beiden Parameter $(E, FWHM)$ aus den Tabellen \ref{taba_2} und \ref{taba_3} gegeneinander aufgetragen.
 
 Der für einen Halbleiterdetektor zu erwartende theoretische Zusammenhang (bei dem die intrinsische Halbwertsbreite $\Delta E_d$ mit der Photonenenergie zunimmt) wird durch folgende Gleichung \ref{eq_2} beschrieben:
 \begin{equation}
@@ -27,7 +27,7 @@ Abbildung \ref{fig:halbw_1_2} zeigt die in Abhängigkeit von der Intensität ber
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{figs/Halbwertsbreite_richtig.png}
+        \includegraphics[width=\linewidth]{figs/Hablwertsbreite_richtig.png}
         \caption{HPGe-Halbleiterdetektor}
         \label{fig:halbw_1_2}
     \end{subfigure}
@@ -36,7 +36,9 @@ Abbildung \ref{fig:halbw_1_2} zeigt die in Abhängigkeit von der Intensität ber
 \end{figure}
 % add plots
 
-Der Vergleich der beiden Datensätze bestätigt, was bereits anhand der Intensitätsspektren zu beobachten war: Die dem Szintillationsdetektor zugeordnete Breite ist etwa 33-mal größer als die des Halbleiterdetektors. Beide Korrelationsfunktionen zeigen eine Breite der Photopeaks bei hohen reduzierten $\chi^2$-Wert (größer als 1). Lediglich beim NaI-Detektor tritt bei höheren Energien eine deutlichere Diskrepanz zwischen Modell und Messdaten auf.
+Der Vergleich der beiden Datensätze bestätigt, was bereits anhand der Intensitätsspektren zu beobachten war: Die dem Szintillationsdetektor zugeordnete Breite ist etwa 33-mal größer als die des Halbleiterdetektors.
+% Beide Korrelationsfunktionen zeigen eine Breite der Photopeaks bei hohen reduzierten $\chi^2$-Wert (größer als 1). 
+Lediglich beim NaI-Detektor tritt bei höheren Energien eine deutlichere Diskrepanz zwischen Modell und Messdaten auf.
 Im Gegensatz dazu beträgt der reduzierte $\chi^2$-Wert des HPGe-Detektors lediglich $2.23$. Obwohl dieser Wert nicht exakt Eins entspricht, beschreibt das Modell die Messdaten insgesamt gut. Die zugrunde liegenden Messwerte sind in Tabelle \ref{tab:fwhm_messwerte} aufgeführt.
 
 Die Fitparameter lauten wie folgt:
