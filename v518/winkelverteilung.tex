@@ -3,10 +3,22 @@
 \subsection{Höhenstrahlung}
 \subsubsection{Primärkomponente}
 Die Primärkomponente der Höhenstrahlung besteht aus kosmischen Teilchen, deren Energien von wenigen GeV bis zu mehr als 
-$10^{10}$GeV reichen und damit weit über dem liegen, was heutige Teilchenbeschleuniger erreichen können. Das zugehörige Energiespektrum ist in Abbildung \ref{} dargestellt. Die enorme Spannweite der Energien lässt sich auf die Vielzahl astrophysikalischer Beschleunigungsmechanismen zurückführen \cite{} (füge Einstieg in die Astroteilchenphysik, Claus Grupen ein )
+$10^{10}$GeV reichen und damit weit über dem liegen, was heutige Teilchenbeschleuniger erreichen können. Das zugehörige Energiespektrum ist in Abbildung \ref{fig:primary_spectrum} dargestellt. Die enorme Spannweite der Energien lässt sich auf die Vielzahl astrophysikalischer Beschleunigungsmechanismen zurückführen. \cite{Grupen_1}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/primary_spectr.png}
+    \caption{Energiespektrum der primären Komponente der Höhenstrahlung \cite{Grupen_1}}
+    \label{fig:primary_spectrum}
+\end{figure}
 Typischerweise wird die primäre Höhenstrahlung in eine geladene und eine neutrale Komponente unterteilt. Die neutrale Komponente besteht aus Neutrinos. Die geladene Komponente setzt sich überwiegend aus Wasserstoffkernen und Heliumkernen zusammen; darüber hinaus sind auch Kerne schwererer Elemente vertreten.
 \subsubsection{Sekundärkomponente}
-Auf Meereshöhe lässt sich von der primären kosmischen Strahlung kaum noch etwas direkt beobachten. Eine Ausnahme bilden lediglich die nur schwach wechselwirkenden Neutrinos, die die Atmosphäre nahezu ungehindert durchdringen. Der Grund dafür ist, dass die geladenen kosmischen Primärteilchen bereits in den oberen Atmosphärenschichten mit den Nukleonen der Luftmoleküle kollidieren. Dabei kommt es zu Kernreaktionen, in deren Verlauf neue Teilchen entstehen. Dies beschreibt die Sekundärstrahlung.
+Auf Meereshöhe lässt sich von der primären kosmischen Strahlung kaum noch etwas direkt beobachten. Eine Ausnahme bilden lediglich die nur schwach wechselwirkenden Neutrinos, die die Atmosphäre nahezu ungehindert durchdringen. Der Grund dafür ist, dass die geladenen kosmischen Primärteilchen bereits in den oberen Atmosphärenschichten mit den Nukleonen der Luftmoleküle kollidieren. Dabei kommt es zu Kernreaktionen, in deren Verlauf neue Teilchen entstehen. Dies beschreibt die Sekundärstrahlung.(Abbildung \ref{fig:cosmic_shower})
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/cosmic_shower.png}
+    \caption{Schematisches Diagramm eines Schauers kosmischer Strahlung.\cite{NOAA_shower}}
+    \label{fig:cosmic_shower}
+\end{figure}
 Die häufigsten Reaktionen eines einfallenden Nukleons $ N$ mit einem Proton $p$ lassen sich schematisch durch:
 \begin{align*}
     p+N\rightarrow p'+N'+k\pi^+ +k\pi^- +r\pi^0
@@ -30,8 +42,8 @@ Empirisch ergibt sich für die Intensität der kosmischen Myonen ein Zusammenhan
     I(\theta)\propto cos^2(\theta)
 \end{align*}
 wobei der Winkel $\theta$ relativ zum Lot definiert ist. Diese Winkelabhängigkeit spiegelt die zunehmende atmosphärische Weglänge und damit die höhere Verlustwahrscheinlichkeit schräg einfallender Myonen wider.
-\subsection{Landau-Verteilung}
-Geladene Teilchen können auf verschiedene Weise Energie an das durchdrungene Material abgeben. Ein wichtiger Mechanismus ist die Bremsstrahlung, die immer dann entsteht, wenn sich die Geschwindigkeit eines geladenen Teilchens ändert. Da der Energieverlust über diesen Kanal umgekehrt proportional zur Quadratmasse des Teilchens ist, spielt Bremsstrahlung insbesondere bei leichten Elektronen eine große Rolle \cite{}.
+\subsection{Landau-Verteilung und Bethe-Bloch Gleichung}
+Geladene Teilchen können auf verschiedene Weise Energie an das durchdrungene Material abgeben. Ein wichtiger Mechanismus ist die Bremsstrahlung, die immer dann entsteht, wenn sich die Geschwindigkeit eines geladenen Teilchens ändert. Da der Energieverlust über diesen Kanal umgekehrt proportional zur Quadratmasse des Teilchens ist, spielt Bremsstrahlung insbesondere bei leichten Elektronen eine große Rolle \cite{Leo}.
 Darüber hinaus können die Teilchen mit den Atomen des Materials wechselwirken und diese ionisieren. Der mittlere Energieverlust durch Ionisation wird durch die Bethe--Bloch--Gleichung beschrieben:
 \begin{align*}
     -\frac{dE}{dx} = K \cdot \frac{z^2 Z}{A} \cdot \frac{1}{\beta^2}\frac{1}{2} \ln\left( \frac{2 m_e c^2 \beta^2 \gamma^2 T_{\text{max}}}{I^2} \right) - \beta^2 - \frac{\delta}{2} 
@@ -43,16 +55,23 @@ Die maximal übertragbare Energie $T_{\text{max}}$ ergibt sich aus der Masse $m_
     T_{\text{max}} = \frac{2 m_e p^2}{m_0^2 + m_e^2 + 2 m_e E/c}.
 \end{align*}
 
-Die Bethe-Bloch-Gleichung beschreibt jedoch nur den mittleren Energieverlust. Da die Energieabgabe ein statistischer Prozess ist, folgt die tatsächliche Verteilung einer Wahrscheinlichkeitsverteilung. Für dünne Materialien ergibt sich charakteristischerweise eine Landau-Verteilung: eine asymmetrische Verteilung mit einem ausgeprägten rechten Flügel, der durch seltene, aber große Energieübertragungen gekennzeichnet ist \cite{}.
+Die Bethe-Bloch-Gleichung beschreibt jedoch nur den mittleren Energieverlust. Da die Energieabgabe ein statistischer Prozess ist, folgt die tatsächliche Verteilung einer Wahrscheinlichkeitsverteilung. Für dünne Materialien ergibt sich charakteristischerweise eine Landau-Verteilung: eine asymmetrische Verteilung mit einem ausgeprägten rechten Flügel, der durch seltene, aber große Energieübertragungen gekennzeichnet ist \cite{Wermes}.
  
 \section{Durchführung der kurzen Messung}
 Ziel dieses Versuchsteils war es, über mehrere Tage die Ereignisse in verschiedenen Winkelbereichen zu registrieren und anschließend die Winkelverteilung auszuwerten. Damit dies zuverlässig gelingt, müssen zunächst die Diskriminatoren korrekt eingestellt werden. Die Schwellspannung muss so gewählt werden, dass Rauschen weitgehend unterdrückt wird, echte Myonereignisse jedoch weiterhin sicher erfasst werden. Um Zeit zu sparen, waren für die meisten Diskriminatoren bereits geeignete Schwellwerte vorgegeben. Im Folgenden wird daher exemplarisch nur für den Diskriminator D12 die optimale Schwellspannung bestimmt.
-Bevor die Messung durchgeführt werden konnte, mussten die FPGAs entsprechend konfiguriert werden. Dies erfolgte mittels LabVIEW; der für die erste Messung verwendete grafische Programmcode ist in Abbildung \ref{} dargestellt.Die Schaltung erfüllt dabei folgende Aufgaben:
+Bevor die Messung durchgeführt werden konnte, mussten die FPGAs entsprechend konfiguriert werden. Dies erfolgte mittels LabVIEW; der für die erste Messung verwendete grafische Programmcode ist in Abbildung \ref{fig:labview_short} dargestellt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/}
+    \caption{}
+    \label{fig:labview_short}
+\end{figure}
+Die Schaltung erfüllt dabei folgende Aufgaben:
 Die Signale der Zähler D1, D2, D23 und D24 werden zu einem logischen ODER zusammengeführt. Anschließend werden die Koinzidenzen zwischen diesem ODER-Signal und D12 bestimmt. Dazu werden beide Signale in einen Koinzidenzzähler geleitet. Zusätzlich werden die Zählraten von D12, D25 und des ODER-Signals separat erfasst. Zur Kontrolle wurden LEDs eingebaut, die aufleuchten, sobald in den jeweiligen Zählern Ereignisse registriert werden.
 Das LabVIEW-Programm enthält zudem eine Schleife, die die Messung über einen definierten Zeitraum für verschiedene Schwellspannungen von -200 mV bis -50 mV in Schritten von 10 mV durchführt. Ursprünglich war geplant, diese Messung über Nacht laufen zu lassen, um eine möglichst lange Messdauer zu erreichen und statistische Unsicherheiten zu minimieren.
 
 \section{Bestimmung der Schwellenspannung}
-Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden. Die Rohdaten der Zählrate im zwölften Zähler wurden zunächst testweise auf die Counts der ODER-Schaltung, der Koinzidenzschaltung sowie auf die Zählrate von Z25 normiert (Tabelle \ref{}). (Da die Anzahl der Koinzidenzen jedoch direkt von der eingestellten Schwellspannung abhängt, erwies sich diese Normierung als ungeeignet und wurde verworfen. )
+Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden. Die Rohdaten der Zählrate im zwölften Zähler wurden zunächst testweise auf die Counts der ODER-Schaltung, der Koinzidenzschaltung sowie auf die Zählrate von Z25 normiert (Tabelle \ref{}). (Da die Anzahl der Koinzidenzen jedoch direkt von der eingestellten Schwellspannung abhängt, erwies sich diese Normierung als ungeeignet und wurde verworfen.)
 Im Folgenden wird die Schwellspannung mit $U_{\mathrm{thr}}$ und das Pulshöhenspektrum mit $N(U)$ bezeichnet. Dabei ist U die Spannung des PMT-Signals, das ein Ereignis auslöst, und hängt von der Energie des einfallenden Teilchens ab. Ein Ereignis wird nur dann registriert, wenn $U > U_{\mathrm{thr}}$, da der Diskriminator andernfalls kein Signal an den Zähler weitergibt. Gemessen wird 
 somit die Anzahl der Ereignisse oberhalb einer bestimmten Energie. Die entsprechende Schwellkurve ergibt sich zu:
 \begin{align*}
@@ -151,7 +170,7 @@ Der Parameter m verschiebt die Verteilung entlang der x-Achse, da die Standard-L
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{figs/12_Pulshoehenspektrum_Fitvergleich.png}
-    \caption{Anpassung einer Gauß- und einer Landauverteilung der Langzeitmessung, \chi^2_\mathrm{red, landau} = 1{,}35, \chi^2_\mathrm{red, gauß} = 3{,}13}
+    \caption{Anpassung einer Gauß- und einer Landauverteilung der Langzeitmessung, $\chi^2_\mathrm{red, landau} = 1{,}35, \chi^2_\mathrm{red, gauß} = 3{,}13$}
     \label{fig:LandauFit}
 \end{figure}
 

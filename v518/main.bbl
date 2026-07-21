@@ -45,6 +45,34 @@
       \field{year}{2026}
       \field{dateera}{ce}
     \endentry
+    \entry{Grupen_2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=89fe8e2d221525aa953fe35351c37fcd}{%
+           family={Grupen},
+           familyi={G\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{fullhash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{bibnamehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{authorbibnamehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{authornamehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{authorfullhash}{89fe8e2d221525aa953fe35351c37fcd}
+      \field{extraname}{1}
+      \field{labelalpha}{Gru26}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{isbn}{978-3-540-67471-0}
+      \field{month}{7}
+      \field{title}{Teilchendetektoren}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
     \entry{Grupen_1}{book}{}
       \name{author}{1}{}{%
         {{hash=89fe8e2d221525aa953fe35351c37fcd}{%
@@ -59,15 +87,67 @@
       \strng{authorbibnamehash}{89fe8e2d221525aa953fe35351c37fcd}
       \strng{authornamehash}{89fe8e2d221525aa953fe35351c37fcd}
       \strng{authorfullhash}{89fe8e2d221525aa953fe35351c37fcd}
+      \field{extraname}{2}
       \field{labelalpha}{Gru26}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{19}
       \field{isbn}{978-3-540-25312-9}
       \field{month}{7}
       \field{title}{Astroteilchenphysik}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{NOAA_shower}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=81abd561139a5c99dbe99e46ca767ffd}{%
+           family={Center},
+           familyi={C\bibinitperiod},
+           given={NOAA\bibnamedelimb National\bibnamedelimb Geophysical\bibnamedelima Data},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{81abd561139a5c99dbe99e46ca767ffd}
+      \strng{fullhash}{81abd561139a5c99dbe99e46ca767ffd}
+      \strng{bibnamehash}{81abd561139a5c99dbe99e46ca767ffd}
+      \strng{authorbibnamehash}{81abd561139a5c99dbe99e46ca767ffd}
+      \strng{authornamehash}{81abd561139a5c99dbe99e46ca767ffd}
+      \strng{authorfullhash}{81abd561139a5c99dbe99e46ca767ffd}
+      \field{labelalpha}{Cen03}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ngdc.noaa.gov/stp/image/shower.gif}}
+      \field{note}{Zugriff am 2026-07-20}
+      \field{title}{Cosmic Ray Air Shower Illustration}
+      \field{year}{2003}
+    \endentry
+    \entry{Leo}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a80848957bddae12c3f76ac11f3b52c3}{%
+           family={Leo},
+           familyi={L\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a80848957bddae12c3f76ac11f3b52c3}
+      \strng{fullhash}{a80848957bddae12c3f76ac11f3b52c3}
+      \strng{bibnamehash}{a80848957bddae12c3f76ac11f3b52c3}
+      \strng{authorbibnamehash}{a80848957bddae12c3f76ac11f3b52c3}
+      \strng{authornamehash}{a80848957bddae12c3f76ac11f3b52c3}
+      \strng{authorfullhash}{a80848957bddae12c3f76ac11f3b52c3}
+      \field{labelalpha}{Leo26}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{isbn}{3540173862}
+      \field{month}{7}
+      \field{title}{Techniques for Nuclear and Particle Physics Experiments: A How-to Approach}
       \field{year}{2026}
       \field{dateera}{ce}
     \endentry
