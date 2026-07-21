@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  21 JUL 2026 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.9.29)  21 JUL 2026 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1454,7 +1454,10 @@ No file main.toc.
 [2
 
 ]
-Overfull \hbox (5.8696pt too wide) in paragraph at lines 43--44
+\openout2 = `Einleitung.aux'.
+
+ (./Einleitung.tex
+Overfull \hbox (5.8696pt too wide) in paragraph at lines 1--2
 \T1/cmr/m/n/10.95 wen-det wur-den, sind un-ter fol-gen-dem Re-po-si-to-ry auf-ruf-bar: https://github.com/AriehT/Programme-
  []
 
@@ -1462,22 +1465,19 @@ Overfull \hbox (5.8696pt too wide) in paragraph at lines 43--44
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44  \include{Einleitung}
-                           [1
+l.2 \chapter
+            {Einleitung} [1
+
 
 
 ]
-\openout2 = `Einleitung.aux'.
-
- (./Einleitung.tex
 chapter 1.
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44  \include{Einleitung}
+l.43  \include{Einleitung}
                            [2
-
 
 ]
 \openout2 = `aufbau.aux'.
@@ -1592,77 +1592,155 @@ Package pdftex.def Info: figs/puls_aufbau.png  used on input line 94.
 LaTeX Warning: Reference `fig:puls' on page 11 undefined on input line 98.
 
 [11 <./figs/puls_aufbau.png>]
+./winkelverteilung.tex:108: Missing $ inserted.
+<inserted text> 
+                $
+l.108 ...ano\second} fÃ¼r einen kleineren (\approx
+                                                   \SI{3}{\meter}) Kabel. FÃ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Reference `fig:winkelroh' on page 12 undefined on input line 103.
+
+LaTeX Warning: Command \" invalid in math mode on input line 108.
 
 
-LaTeX Warning: Reference `tab:roh_winkel' on page 12 undefined on input line 105.
+LaTeX Warning: Command \" invalid in math mode on input line 109.
 
-<figs/01_Winkelverteilung_Rohdaten.png, id=162, 643.203pt x 352.6776pt>
-File: figs/01_Winkelverteilung_Rohdaten.png Graphic file (type png)
-<use figs/01_Winkelverteilung_Rohdaten.png>
-Package pdftex.def Info: figs/01_Winkelverteilung_Rohdaten.png  used on input line 115.
-(pdftex.def)             Requested size: 225.34386pt x 123.55739pt.
-<figs/02_Winkelverteilung_Fit.png, id=163, 643.203pt x 352.6776pt>
-File: figs/02_Winkelverteilung_Fit.png Graphic file (type png)
-<use figs/02_Winkelverteilung_Fit.png>
-Package pdftex.def Info: figs/02_Winkelverteilung_Fit.png  used on input line 122.
-(pdftex.def)             Requested size: 225.34386pt x 123.55739pt.
 
-LaTeX Warning: Reference `fig:Winkelfit' on page 12 undefined on input line 130.
+LaTeX Warning: Command \" invalid in math mode on input line 109.
 
-[12 <./figs/01_Winkelverteilung_Rohdaten.png> <./figs/02_Winkelverteilung_Fit.png>]
 
-LaTeX Warning: Reference `fig:Puls_Rohdaten' on page 13 undefined on input line 167.
+LaTeX Warning: Command \" invalid in math mode on input line 111.
 
-<figs/08_Pulshoehenspektrum_Rohdaten.png, id=174, 715.473pt x 353.8821pt>
-File: figs/08_Pulshoehenspektrum_Rohdaten.png Graphic file (type png)
-<use figs/08_Pulshoehenspektrum_Rohdaten.png>
-Package pdftex.def Info: figs/08_Pulshoehenspektrum_Rohdaten.png  used on input line 173.
-(pdftex.def)             Requested size: 469.47055pt x 232.20213pt.
+
+LaTeX Warning: Command \" invalid in math mode on input line 111.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 112.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 112.
+
+./winkelverteilung.tex:113: Missing $ inserted.
+<inserted text> 
+                $
+l.113 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ü in font cmr10!
+
+Overfull \hbox (1142.64365pt too wide) in paragraph at lines 107--113
+\T1/cmr/m/n/10.95 einen klei-ne-ren ($\LMS/ntxsy/m/n/10.95 ^^Y \OT1/cmr/m/n/10.95 3 m\LMS/ntxsy/m/n/10.95 º\OML/ntxmi/m/it/10.95 Kabel:FrdenDiskriminatordesDetektorsD\OT1/cmr/m/n/10.95 2\OML/ntxmi/m/it/10.95 wurdenfnfdieserKabelverwendet\LMS/ntxsy/m/n/10.95 ¹\OT1/cmr/m/n/10.95 3\OML/ntxmi/m/it/10.95 lange; zweikurze\LMS/ntxsy/m/n/10.95 º\OML/ntxmi/m/it/10.95 ; sodasssicheineVerzgerungvon\OT1/cmr/m/n/10.95 150 []\OML/ntxmi/m/it/10.95 ergab:DasSignaldesDiskriminatorsD\OT1/cmr/m/n/10.95 14\OML/ntxmi/m/it/10.95 wurdedurchzweiKabeluminsgesamt\OT1/cmr/m/n/10.95 80 []\OML/ntxmi/m/it/10.95 verzgert:DasSignalvonD\OT1/cmr/m/n/10.95 25\OML/ntxmi/m/it/10.95 wurdeohnezustzlicheVerzgerungdirektaufdieKoinzidenzeinheitgefhrt:$ 
+ []
+
+<figs//print_0001.png, id=160, 1027.84pt x 770.88pt>
+File: figs//print_0001.png Graphic file (type png)
+<use figs//print_0001.png>
+Package pdftex.def Info: figs//print_0001.png  used on input line 121.
+(pdftex.def)             Requested size: 375.57787pt x 281.68057pt.
+
+LaTeX Warning: Reference `fig:oszi' on page 12 undefined on input line 127.
+
+[12 <./figs//print_0001.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--146
+
+ []
+
 [13]
 
-LaTeX Warning: Reference `fig:LandauFit' on page 14 undefined on input line 177.
+LaTeX Warning: Command \" invalid in math mode on input line 256.
+
+Missing character: There is no ä in font cmr8!
+
+LaTeX Warning: Command \" invalid in math mode on input line 256.
+
+Missing character: There is no ä in font cmr8!
+
+LaTeX Warning: Reference `fig:winkelroh' on page 14 undefined on input line 265.
 
 
-LaTeX Warning: Citation '' on page 14 undefined on input line 180.
+LaTeX Warning: Reference `tab:roh_winkel' on page 14 undefined on input line 267.
+
+[14]
+<figs/01_Winkelverteilung_Rohdaten.png, id=196, 643.203pt x 352.6776pt>
+File: figs/01_Winkelverteilung_Rohdaten.png Graphic file (type png)
+<use figs/01_Winkelverteilung_Rohdaten.png>
+Package pdftex.def Info: figs/01_Winkelverteilung_Rohdaten.png  used on input line 277.
+(pdftex.def)             Requested size: 225.34386pt x 123.55739pt.
+<figs/02_Winkelverteilung_Fit.png, id=197, 643.203pt x 352.6776pt>
+File: figs/02_Winkelverteilung_Fit.png Graphic file (type png)
+<use figs/02_Winkelverteilung_Fit.png>
+Package pdftex.def Info: figs/02_Winkelverteilung_Fit.png  used on input line 284.
+(pdftex.def)             Requested size: 225.34386pt x 123.55739pt.
 
 
-Overfull \hbox (2.05757pt too wide) in paragraph at lines 179--181
+LaTeX Warning: Reference `fig:Winkelfit' on page 15 undefined on input line 292.
+
+[15 <./figs/01_Winkelverteilung_Rohdaten.png> <./figs/02_Winkelverteilung_Fit.png>]
+
+LaTeX Warning: Reference `fig:Puls_Rohdaten' on page 16 undefined on input line 329.
+
+<figs/08_Pulshoehenspektrum_Rohdaten.png, id=206, 715.473pt x 353.8821pt>
+File: figs/08_Pulshoehenspektrum_Rohdaten.png Graphic file (type png)
+<use figs/08_Pulshoehenspektrum_Rohdaten.png>
+Package pdftex.def Info: figs/08_Pulshoehenspektrum_Rohdaten.png  used on input line 335.
+(pdftex.def)             Requested size: 469.47055pt x 232.20213pt.
+
+LaTeX Warning: Reference `fig:LandauFit' on page 16 undefined on input line 339.
+
+
+LaTeX Warning: Citation '' on page 16 undefined on input line 342.
+
+
+Overfull \hbox (2.05757pt too wide) in paragraph at lines 341--343
 []\T1/cmr/m/n/10.95 Für den Fit wur-de die Gauÿ-ver-tei-lung durch die fol-gen-de Funk-ti-on ap-pro-xi-miert [[]] 
  []
 
 
-LaTeX Warning: Citation '' on page 14 undefined on input line 185.
+LaTeX Warning: Citation '' on page 16 undefined on input line 347.
 
 
-Overfull \hbox (4.55399pt too wide) in paragraph at lines 183--186
+Overfull \hbox (4.55399pt too wide) in paragraph at lines 345--348
 \T1/cmr/m/n/10.95 Für den Fit wur-de die Land-au-ver-tei-lung durch die fol-gen-de Funk-ti-on ap-pro-xi-miert [[]]: 
  []
 
-<figs/12_Pulshoehenspektrum_Fitvergleich.png, id=180, 715.473pt x 354.123pt>
+[16 <./figs/08_Pulshoehenspektrum_Rohdaten.png>]
+<figs/12_Pulshoehenspektrum_Fitvergleich.png, id=215, 715.473pt x 354.123pt>
 File: figs/12_Pulshoehenspektrum_Fitvergleich.png Graphic file (type png)
 <use figs/12_Pulshoehenspektrum_Fitvergleich.png>
-Package pdftex.def Info: figs/12_Pulshoehenspektrum_Fitvergleich.png  used on input line 194.
+Package pdftex.def Info: figs/12_Pulshoehenspektrum_Fitvergleich.png  used on input line 356.
 (pdftex.def)             Requested size: 469.47055pt x 232.36021pt.
 
-LaTeX Warning: Command \ss invalid in math mode on input line 195.
+
+LaTeX Warning: Command \ss invalid in math mode on input line 357.
 
 Missing character: There is no ÿ in font cmr8!
 
-LaTeX Warning: Command \ss invalid in math mode on input line 195.
+LaTeX Warning: Command \ss invalid in math mode on input line 357.
 
 Missing character: There is no ÿ in font cmr8!
 
-Underfull \hbox (badness 3884) in paragraph at lines 195--195
+Underfull \hbox (badness 3884) in paragraph at lines 357--357
 [][][]|\T1/cmr/m/n/10.95 An-pas-sung ei-ner Gauÿ- und ei-ner Land-au-ver-tei-lung der Lang-zeit-mes-sung,
  []
 
-[14 <./figs/08_Pulshoehenspektrum_Rohdaten.png>]
 
-LaTeX Warning: Reference `fig:LandauFit' on page 15 undefined on input line 199.
+LaTeX Warning: Reference `fig:LandauFit' on page 17 undefined on input line 361.
 
-) [15 <./figs/12_Pulshoehenspektrum_Fitvergleich.png>]
+) [17 <./figs/12_Pulshoehenspektrum_Fitvergleich.png>]
 \openout2 = `Myonlebensdauer.aux'.
 
  (./Myonlebensdauer.tex
@@ -1675,32 +1753,32 @@ LaTeX Warning: Command \textasciiacute invalid in math mode on input line 4.
 
 Missing character: There is no ´ in font cmr10!
 
-LaTeX Warning: Reference `fig:Schwellspa2' on page 16 undefined on input line 26.
+LaTeX Warning: Reference `fig:Schwellspa2' on page 18 undefined on input line 26.
 
-<figs/Schwellspannung_teil2.png, id=196, 578.16pt x 361.35pt>
+<figs/Schwellspannung_teil2.png, id=224, 578.16pt x 361.35pt>
 File: figs/Schwellspannung_teil2.png Graphic file (type png)
 <use figs/Schwellspannung_teil2.png>
 Package pdftex.def Info: figs/Schwellspannung_teil2.png  used on input line 29.
 (pdftex.def)             Requested size: 469.47055pt x 293.41971pt.
-[16
+[18
 
 
 
 
 ]
 
-LaTeX Warning: Reference `' on page 17 undefined on input line 34.
+LaTeX Warning: Reference `' on page 19 undefined on input line 34.
 
 
-LaTeX Warning: Reference `' on page 17 undefined on input line 36.
+LaTeX Warning: Reference `' on page 19 undefined on input line 36.
 
 
-LaTeX Warning: Reference `' on page 17 undefined on input line 36.
+LaTeX Warning: Reference `' on page 19 undefined on input line 36.
 
 
-LaTeX Warning: Reference `fig:oszi_koinz' on page 17 undefined on input line 38.
+LaTeX Warning: Reference `fig:oszi_koinz' on page 19 undefined on input line 38.
 
-<figs/print_002.png, id=207, 1027.84pt x 770.88pt>
+<figs/print_002.png, id=235, 1027.84pt x 770.88pt>
 File: figs/print_002.png Graphic file (type png)
 <use figs/print_002.png>
 Package pdftex.def Info: figs/print_002.png  used on input line 44.
@@ -1719,50 +1797,55 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[17 <./figs/Schwellspannung_teil2.png>]
-<figs/06_Myonlebensdauer_Vergleich.png, id=215, 643.4439pt x 352.1958pt>
+[19 <./figs/Schwellspannung_teil2.png>]
+<figs/06_Myonlebensdauer_Vergleich.png, id=242, 643.4439pt x 352.1958pt>
 File: figs/06_Myonlebensdauer_Vergleich.png Graphic file (type png)
 <use figs/06_Myonlebensdauer_Vergleich.png>
 Package pdftex.def Info: figs/06_Myonlebensdauer_Vergleich.png  used on input line 73.
 (pdftex.def)             Requested size: 469.47055pt x 256.96645pt.
- [18 <./figs/print_002.png (PNG copy)>]
+ [20 <./figs/print_002.png (PNG copy)>]
 
-LaTeX Warning: Reference `' on page 19 undefined on input line 78.
-
-
-LaTeX Warning: Reference `fig:leben' on page 19 undefined on input line 79.
+LaTeX Warning: Reference `' on page 21 undefined on input line 78.
 
 
-LaTeX Warning: Reference `eq_leben' on page 19 undefined on input line 80.
+LaTeX Warning: Reference `fig:leben' on page 21 undefined on input line 79.
 
 
-LaTeX Warning: Citation '' on page 19 undefined on input line 100.
+LaTeX Warning: Reference `eq_leben' on page 21 undefined on input line 80.
+
+
+LaTeX Warning: Citation '' on page 21 undefined on input line 100.
 
 
 Overfull \hbox (25.68648pt too wide) in paragraph at lines 99--101
 \T1/cmr/m/n/10.95 Dieser Wert liegt deut-lich un-ter dem Li-te-ra-tur-wert von $\OML/ntxmi/m/it/10.95 ^^\ \U/ntxmia/m/it/10.95 = \LMS/ntxsy/m/n/10.95 ¹\OT1/cmr/m/n/10.95 2[]196 981 1 \LMS/ntxsy/m/n/10.95 ^^F \OT1/cmr/m/n/10.95 0[]000 002 2\LMS/ntxsy/m/n/10.95 º []$ \T1/cmr/m/n/10.95 [[]].
  []
 
-[19 <./figs/06_Myonlebensdauer_Vergleich.png>]) [20]
+[21 <./figs/06_Myonlebensdauer_Vergleich.png>]) [22]
 \openout2 = `Fazit.aux'.
 
  (./Fazit.tex
-Overfull \hbox (1.73839pt too wide) in paragraph at lines 7--9
-[]\T1/cmr/m/n/10.95 Diskussion (Die An-zahl der zu-fäl-li-gen Ko-in-zi-den-zen war eben-falls kon-sis-tent:) Es wur-den mehr/we-
- []
+./Fazit.tex:18: Undefined control sequence.
+l.18 ... nicht mit diesem innerhalb einer $3\sgima
+                                                  $-Umgebung Ã¼berrein.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-) [21
+) [23
 
 
 
 ]
 \openout2 = `Anhang.aux'.
 
- (./Anhang.tex) [22
+ (./Anhang.tex) [24
 
 
 
-] [23
+] [25
 
 
 
@@ -1793,18 +1876,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48886 strings out of 477884
- 1002602 string characters out of 5835937
+ 48922 strings out of 477884
+ 1003144 string characters out of 5835937
  1949360 words of memory out of 5000000
- 68190 multiletter control sequences out of 15000+600000
- 548732 words of font info for 109 fonts, out of 8000000 for 9000
+ 68202 multiletter control sequences out of 15000+600000
+ 549347 words of font info for 111 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  108i,19n,106p,10654b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (25 pages, 1358950 bytes).
+Output written on main.pdf (27 pages, 1398324 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 377 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

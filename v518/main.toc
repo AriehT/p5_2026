@@ -18,14 +18,16 @@
 \contentsline {section}{\numberline {3.2}Durchführung der kurzen Messung}{9}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Bestimmung der Schwellenspannung}{10}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Durchführung der langen Messung}{11}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Auswertung}{12}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Winkelverteilung}{12}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Pulshöhenspektrum}{13}{subsection.3.5.2}%
-\contentsline {chapter}{\numberline {4}Lebensdauer von Myonen}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{16}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Zerfallsgesetz}{16}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Durchführung}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Bestimmung der Schwellenspannung}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Bestimmung der Lebensdauer}{18}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{21}{section.4.5}%
+\contentsline {subsection}{\numberline {3.4.1}Bestimmung der zeitlichen und räumlichen Zufallskoinzidenzen}{12}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Theoretische Betrachtung der Zufallskoinzidenzen}{13}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Auswertung}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Winkelverteilung}{14}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Pulshöhenspektrum}{16}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Lebensdauer von Myonen}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{18}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Zerfallsgesetz}{18}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Durchführung}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Bestimmung der Schwellenspannung}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Bestimmung der Lebensdauer}{20}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{23}{section.4.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
