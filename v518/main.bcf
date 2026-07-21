@@ -2375,7 +2375,9 @@
     <bcf:citekey order="24" intorder="1">praktikum</bcf:citekey>
     <bcf:citekey order="25" intorder="1">AriehT_518</bcf:citekey>
     <bcf:citekey order="26" intorder="1">praktikum</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">demtroeder</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">exphys1_szintillation</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">demtroeder</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">nist_xray</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -175,6 +175,22 @@
       \field{title}{Programme für Versuch 518}
       \field{year}{2026}
     \endentry
+    \entry{exphys1_szintillation}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Relativistische Kinematik, Anwendung Höhenstrahlung}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ms.zneb.at/html/exphys1/exse13.htm
+      \endverb
+      \verb{url}
+      \verb http://ms.zneb.at/html/exphys1/exse13.htm
+      \endverb
+    \endentry
     \entry{demtroeder}{book}{}
       \name{author}{1}{}{%
         {{hash=59654c899d48eff28a4d8063e886fb5f}{%
@@ -200,6 +216,40 @@
       \field{title}{Experimentalphysik 2}
       \field{year}{2026}
       \field{dateera}{ce}
+    \endentry
+    \entry{nist_xray}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bb64950d1225a0cf6c8e4fdbc17bd840}{%
+           family={(Particle\bibnamedelimb Data\bibnamedelima Group)},
+           familyi={(\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={F.\bibnamedelimi Takahaski},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={et\bibnamedelima al.},
+           prefixi={e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb64950d1225a0cf6c8e4fdbc17bd840}
+      \strng{fullhash}{bb64950d1225a0cf6c8e4fdbc17bd840}
+      \strng{bibnamehash}{bb64950d1225a0cf6c8e4fdbc17bd840}
+      \strng{authorbibnamehash}{bb64950d1225a0cf6c8e4fdbc17bd840}
+      \strng{authornamehash}{bb64950d1225a0cf6c8e4fdbc17bd840}
+      \strng{authorfullhash}{bb64950d1225a0cf6c8e4fdbc17bd840}
+      \field{labelalpha}{Par26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Particle Listings}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physics.nist.gov/PhysRefData/XrayTrans/Html/search.html
+      \endverb
+      \verb{url}
+      \verb https://physics.nist.gov/PhysRefData/XrayTrans/Html/search.html
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,34 +1,35 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\numberline {1}Einleitung}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Aufbau}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Technische Hintergründe zum Aufbau}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Funktionsweise des Szintillationsdetektor}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Koinzidenzmessung}{3}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}FPGAs}{4}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}LabView}{4}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Annordnung der Geräte}{4}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Teil 1: Winkelverteilung der Höhenstrahlung}{4}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Teil 2: Messung der Lebensdauer der Muonen}{5}{subsection.2.2.2}%
-\contentsline {chapter}{\numberline {3}Winkelverteilung und Pulshöhenspektrum der Höhenstrahlung}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Theoretische Grundlagen}{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Höhenstrahlung}{7}{subsection.3.1.1}%
-\contentsline {subsubsection}{\nonumberline Primärkomponente}{7}{subsubsection*.7}%
-\contentsline {subsubsection}{\nonumberline Sekundärkomponente}{8}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Winkelverteilung}{9}{subsubsection*.13}%
-\contentsline {subsection}{\numberline {3.1.2}Landau-Verteilung und Bethe-Bloch Gleichung}{9}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Durchführung der kurzen Messung}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Bestimmung der Schwellenspannung}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Durchführung der langen Messung}{11}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Bestimmung der zeitlichen und räumlichen Zufallskoinzidenzen}{12}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Theoretische Betrachtung der Zufallskoinzidenzen}{13}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Auswertung}{14}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Winkelverteilung}{14}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Pulshöhenspektrum}{16}{subsection.3.5.2}%
-\contentsline {chapter}{\numberline {4}Lebensdauer von Myonen}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{18}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Zerfallsgesetz}{18}{subsection.4.1.1}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Aufbau}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Technische Hintergründe zum Aufbau}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Funktionsweise des Szintillationsdetektor}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Koinzidenzmessung}{2}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}FPGAs}{3}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}LabView}{3}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Annordnung der Geräte}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Teil 1: Winkelverteilung der Höhenstrahlung}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Teil 2: Messung der Lebensdauer der Muonen}{4}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}Winkelverteilung und Pulshöhenspektrum der Höhenstrahlung}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Theoretische Grundlagen}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Höhenstrahlung}{6}{subsection.3.1.1}%
+\contentsline {subsubsection}{\nonumberline Primärkomponente}{6}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline Sekundärkomponente}{7}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Winkelverteilung}{8}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {3.1.2}Landau-Verteilung und Bethe-Bloch Gleichung}{8}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Durchführung der kurzen Messung}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Bestimmung der Schwellenspannung}{9}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Durchführung der langen Messung}{10}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Bestimmung der zeitlichen und räumlichen Zufallskoinzidenzen}{11}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Theoretische Betrachtung der Zufallskoinzidenzen}{12}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Auswertung}{13}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Winkelverteilung}{13}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Pulshöhenspektrum}{15}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Lebensdauer von Myonen}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{17}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Zerfallsgesetz}{17}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}Durchführung}{18}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Bestimmung der Schwellenspannung}{18}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Bestimmung der Lebensdauer}{20}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Fazit}{23}{section.4.5}%
+\contentsline {chapter}{\numberline {5}KI-Nutzung}{25}{chapter.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
