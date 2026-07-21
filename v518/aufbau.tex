@@ -3,15 +3,30 @@
 %abbildung von aufbau einfügen
 \section{Technische Hintergründe zum Aufbau}
 \subsection{Funktionsweise des Szintillationsdetektor}
-Ein Szintillationsdetektor misst ionisierende Strahlung, indem er die im Detektormaterial deponierte Energie in sichtbares Licht umwandelt und dieses Licht in elektrische Signale überführt. Das grundlegende Funktionsprinzip beruht auf der Wechselwirkung eines einfallenden Gamma-Photons mit dem Szintillatormaterial, wodurch ein schnelles Elektron erzeugt wird; dieses gibt seine Energie anschließend durch Ionisation und Anregung im Kristall ab. Die daraus resultierenden elektronischen Anregungen führen zur Emission von Szintillationslicht, dessen Intensität proportional zur deponierten Energie ist.
+Ein Szintillationsdetektor wandelt die Energie ionisierender Strahlung in sichtbares Licht um, das anschließend im Photomultiplier zu elektrischen Signalen verstärkt wird. Ein einfallendes Gammaquant erzeugt im Kristall ein schnelles Elektron, das seine Energie durch Ionisation und Anregung abgibt und dabei Szintillationslicht erzeugt. Die Lichtmenge ist proportional zur deponierten Energie.
 
-Beim weit verbreiteten NaI(Tl)-Szintillationsdetektor ist der Kristall mit Thallium dotiert, um zusätzliche Energieniveaus innerhalb der Bandlücke zu schaffen. Diese sogenannten „Aktivierungszentren“ ermöglichen eine effiziente Lichtemission, da angeregte Elektronen bevorzugt über diese Zentren rekombinieren und dabei Photonen im sichtbaren Bereich ($\lambda\approx$  415 nm) aussenden. Der Kristall weist eine hohe Lichtausbeute auf (in der Größenordnung von 40.000 Photonen pro MeV deponierter Energie ) sowie eine charakteristische Zeitkonstante für den exponentiellen Abklingvorgang von etwa 230 ns. Da der Kristall für das von ihm erzeugte Licht transparent ist, kann ein großer Teil der Photonen ungehindert durch den Kristall gelangen und die Ausleseeinheit erreichen.
+Beim NaI(Tl)-Detektor sorgen Thallium‑Aktivierungszentren für effiziente Lichtemission. Der Kristall liefert eine hohe Lichtausbeute und eine Abklingzeit von etwa 230 ns . Das Licht gelangt über reflektierende Oberflächen zur Photokathode des PMT, wo es über den photoelektrischen Effekt Elektronen freisetzt. Diese werden in der Dynodenkette vervielfacht und erzeugen einen verstärkten Stromimpuls, dessen Amplitude direkt der deponierten Energie entspricht.
 
-Das erzeugte Licht wird über reflektierende Oberflächen und optische Kopplungsschichten zur Photokathode eines Photomultipliers (PMT) geleitet. Dort werden die Photonen mittels des photoelektrischen Effekts in Elektronen umgewandelt. Diese Elektronen werden beschleunigt und in einer Dynodenkette vervielfacht, wodurch an der Anode ein verstärkter Stromimpuls entsteht. Die Amplitude dieses Impulses ist proportional zur Anzahl der erzeugten Elektronen ; und damit zur Lichtmenge ; was wiederum direkt mit der im Kristall deponierten Energie verknüpft ist. Die resultierenden Signale zeigen einen schnellen Anstieg, gefolgt von einem exponentiellen Abklingen, das durch die RC-Zeitkonstanten der Ausleseelektronik bestimmt wird. Zur weiteren Verarbeitung durchlaufen die Rohimpulse Vorverstärker und Impulsformungsverstärker, die ihnen eine definierte Form , typischerweise eine Gauß-Form , verleihen. Anschließend werden die Impulse mittels eines Vielkanalanalysators (MCA) nach ihrer Amplitude sortiert, um ein Energiespektrum zu erzeugen. Dieses Spektrum weist Merkmale wie Photopeaks, Compton-Kontinua und Escape-Peaks auf, anhand derer Energie und Art der einfallenden Strahlung bestimmt werden können.
 
-Ein wesentlicher Nachteil von Szintillationsdetektoren ist ihre relativ schlechte Energieauflösung. Bei NaI(Tl) liegt dieser Wert bei 662 keV typischerweise im Bereich von 6-7 \%, was deutlich schlechter ist als bei Halbleiterdetektoren. Diese begrenzte Auflösung ist auf statistische Schwankungen der Lichtausbeute, eine unvollständige Lichtsammlung im Kristall sowie Schwankungen der Verstärkung des Photomultipliers zurückzuführen. Dennoch bieten Szintillationsdetektoren , insbesondere bei Anwendungen, die hohe Verarbeitungsgeschwindigkeiten oder hohe Nachweiswahrscheinlichkeiten erfordern , wesentliche Vorteile, wie etwa eine hohe Effizienz, große aktive Volumina und eine schnelle Signalantwort.\cite{Wermes}
-\subsection{Diskriminatoren}
-\subsubsection{CFD-Prinzip}
+Ein Nachteil von Szintillationsdetektoren ist ihre begrenzte Energieauflösung (für NaI(Tl) ungefär 6\% bei 662keV), bedingt durch statistische Schwankungen der Lichtausbeute und unvollständige Lichtsammlung im PMT. Dafür bieten sie aber eine hohe Effizienz und schnelle Signalantworten, was sie für bestimmte Anwendungen sehr nützlich macht.\cite{Wermes}
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth} %bild szintillationsdetektor
+        \centering
+        \includegraphics[width=\linewidth]{figs/szintillationszähler.png}
+        \caption{Aufbau eines Szintillationsdetektors \cite{praktikum}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}%bild photokathode
+        \centering
+        \includegraphics[width=\linewidth]{figs/pmt_image.png}
+        \caption{Aufbau eines Photomultipliers \cite{Grupen_1}. Das Elektrodensystem ist in einer evakuierten Glasröhre montiert. Der Photomultiplier wird üblicherweise durch einen Mu-Metall-Zylinder aus hochpermeablem Material gegen magnetische Streufelder abgeschirmt.}
+    \end{subfigure}
+    
+    \caption{}
+    \label{fig:}
+\end{figure}
 Ein Diskriminator erzeugt aus einem Eingangsimpuls mit variabler Amplitude ein amplitudenunabhängiges Zeitsignal. Dieser gibt ein Signal aus, sobald der gemessene Wert der Spannung eine eingestellte Schwellenspannung $U_\text{threshold}$ überschritten hat. Ziel ist es, diese Spannung so einzustellen, dass der Diskriminator die Messung nur dann "aufnimmt", wenn der einkommende Impuls von einem Muon kommt, und nicht von elektronischen oder thermischen Rauschen.
 Dafür wird die Schwellenkurve der Spannung bestimmt. Indem man das Extremum der Schwellenkurve bestimmt, kann man für einen gewählten energetischen Bereich die passende Schwellenspannung bestimmen.
 \subsection{Koinzidenzmessung}
@@ -22,14 +37,37 @@ Dafür werden bei den Detektoren zur gleichen Zeit zwei Messungen von den zufäl
 Ein Field Programmable Gate Array besteht aus einer integrierten Schaltung, die aus einer Gruppe programmierbarer Logikblöcke besteht. Diese sind durch programmierbare Verbindungen miteinander verknüpft. 
 \section{Annordnung der Geräte}
 \subsection{Teil 1: Winkelverteilung der Höhenstrahlung}
-Zur Messung der Winkelverteilung kosmischer Myonen wird ein Detektor mit 24 planaren Szintillatoren und einem zentralen zylindrischen Szintillator verwendet. Die äußeren Detektoren sind gleichmäßig auf einem 30 cm-Raster verteilt (siehe Abbildung \ref{}). Jeder Scan entspricht einem festen Azimut von 15°. Der zentrale Szintillator dient als Datendetektor und zeigt zusammen mit den beiden äußeren Detektoren die geometrische Position über die Zeit an.
+Zur Messung der Winkelverteilung kosmischer Myonen wird ein Detektor mit 24 planaren Szintillatoren und einem zentralen zylindrischen Szintillator verwendet. Die äußeren Detektoren sind gleichmäßig auf einem 30 cm-Raster verteilt (siehe Abbildung \ref{fig:winkel_aufbau}). Jeder Scan entspricht einem festen Azimut von 15°. Der zentrale Szintillator dient als Datendetektor und zeigt zusammen mit den beiden äußeren Detektoren die geometrische Position über die Zeit an.
 
-Die Ereignisse wurden mittels Drei-Koinzidenz-Darstellung erfasst. Dazu werden die analogen Ausgangssignale aller Szintillatoren zunächst über Vorverstärker an Differenzwandler geleitet, die sie in digitale Logikimpulse mit geringer Amplitude umwandeln. Die Differenz zwischen den Signalen der beiden äußeren Detektoren und denen des zentralen Detektors (Z25) bildet die Koinzidenzeinheit. Dieses Verfahren liefert nur dann ein korrektes Ergebnis, wenn das Logiksignal innerhalb eines vorgegebenen Zeitintervalls gleichzeitig an allen drei Eingängen anliegt. Die Koinzidenzeinheit entspricht Myonen, die das Gerät in zufälliger Richtung passieren und denen ein bestimmter Azimutwinkel zugeordnet werden kann.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/aufbau_winkel.png}
+    \caption{Skizze der Versuchsanordnung f¨ur die Messung der Winkelverteilung der Höhenstrahlung \cite{praktikum}}
+    \label{fig:winkel_aufbau}
+\end{figure}
+
+Die Ereignisse wurden mittels Drei-Koinzidenz-Darstellung erfasst. Dazu werden die analogen Ausgangssignale aller Szintillatoren zunächst über Vorverstärker an Differenzwandler geleitet, die sie in digitale Logikimpulse mit geringer Amplitude umwandeln. Die Differenz zwischen den Signalen der beiden äußeren Detektoren und denen des zentralen Detektors (Z25) bildet die Koinzidenzeinheit. (siehe Abbildung \ref{fig:winkel_elektronik})
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/elektronik_winkel.png}
+    \caption{Blockschaltbild der Elektronik zur Messung der Winkelverteilung \cite{praktikum}}
+    \label{fig:winkel_elektronik}
+\end{figure}
+
+Dieses Verfahren liefert nur dann ein korrektes Ergebnis, wenn das Logiksignal innerhalb eines vorgegebenen Zeitintervalls gleichzeitig an allen drei Eingängen anliegt. Die Koinzidenzeinheit entspricht Myonen, die das Gerät in zufälliger Richtung passieren und denen ein bestimmter Azimutwinkel zugeordnet werden kann.
 
 Durch die Untersuchung zweier verschiedener Detektorgruppen lässt sich die Flugbahn der Myonen in der oberen Hemisphäre berechnen. Das Produkt der Zählwerte über ein 15°-Intervall ergibt die Verteilung der Höhenstrahlung. 
 
 \subsection{Teil 2: Messung der Lebensdauer der Muonen}
-Im zweiten Teil des Experiments wird die Lebensdauer des Myons ermittelt. Hierfür wurde der in Abbildung \ref{} dargestellte Versuchsaufbau verwendet. Eine 5 cm dicke Bleiplatte schirmt den schmalen Photonenstrahl ab und lenkt ihn auf das Substrat.
+Im zweiten Teil des Experiments wird die Lebensdauer des Myons ermittelt. Hierfür wurde der in Abbildung \ref{fig:aufbau_myon} dargestellte Versuchsaufbau verwendet. Eine 5 cm dicke Bleiplatte schirmt den schmalen Photonenstrahl ab und lenkt ihn auf das Substrat.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/aufbau_myon.png}
+    \caption{Schema des Aufbaus zur Messung der Myonlebensdauer \cite{praktikum}}
+    \label{fig:aufbau_myon}
+\end{figure}
 
 Wenn ein einfallendes Photon auf zwei übereinanderliegende Detektoren trifft, emittiert es gleichzeitig in beiden ein elektrisches Signal. Dieses Signal dient als Startsignal für die Lebensdauermessungen. Der untere Szintillationsdetektor (Z2) ist massereich genug, um einige Myonen einzufangen und zu neutralisieren. Der bei der Kollision erzeugte elektrische Impuls erzeugt in Z2 ein zweites Signal, das als Stoppsignal aufgezeichnet wird.
 

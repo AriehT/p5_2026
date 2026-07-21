@@ -16,5 +16,62 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Wermes}{book}{}
+      \field{labelalpha}{26}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraalpha}{1}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{isbn}{978-3-662-73067-6}
+      \field{month}{7}
+      \field{title}{Teilchendetektoren, Wermes}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{praktikum}{book}{}
+      \field{labelalpha}{26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{2}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Uni Bonn}
+      \field{day}{19}
+      \field{month}{7}
+      \field{title}{Physikalisches Praktikum Teil V:\\Kern- und Teilchenphysik}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Grupen_1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=89fe8e2d221525aa953fe35351c37fcd}{%
+           family={Grupen},
+           familyi={G\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{fullhash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{bibnamehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{authorbibnamehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{authornamehash}{89fe8e2d221525aa953fe35351c37fcd}
+      \strng{authorfullhash}{89fe8e2d221525aa953fe35351c37fcd}
+      \field{labelalpha}{Gru26}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{isbn}{978-3-540-25312-9}
+      \field{month}{7}
+      \field{title}{Astroteilchenphysik}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
