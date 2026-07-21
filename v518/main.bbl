@@ -165,7 +165,7 @@
       \strng{authorbibnamehash}{954c9c2353d636f674ed748ea6cbc085}
       \strng{authornamehash}{954c9c2353d636f674ed748ea6cbc085}
       \strng{authorfullhash}{954c9c2353d636f674ed748ea6cbc085}
-      \field{labelalpha}{T24}
+      \field{labelalpha}{T26}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -173,7 +173,7 @@
       \field{howpublished}{\url{https://github.com/AriehT/Programme-F-r-versuch-518}}
       \field{note}{Zugriff am 2026-07-21}
       \field{title}{Programme für Versuch 518}
-      \field{year}{2024}
+      \field{year}{2026}
     \endentry
     \entry{demtroeder}{book}{}
       \name{author}{1}{}{%
