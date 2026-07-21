@@ -68,7 +68,7 @@ Das LabVIEW-Programm enthält zudem eine Schleife, die die Messung über einen d
 \section{Bestimmung der Schwellenspannung}
 Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden.
 Während der Messung führt eine Schleife das Programm, das auf LabVIEW erstellt wurde, für Schwellspannungen zwischen 0 und 150mV durch und speichert die Zählraten für jeden Wert. Dadurch wird die Schwellenkurve automatisiert aufgenommen, die zur Bestimmung der optimalen Diskriminatorschwelle benötigt wird. Das erstellte Programm kann unter "\textit{Schwellenspannung\_1.vi}" in \cite{AriehT_518} aufgerufen werden.
-Die Daten, die nach 16 Stunden Messung ausgelesen wurden, sind unter "\textit{Test}" in \cite{AriehT_518} aufgelistet.
+Die Daten, die nach 16 Stunden Messung ausgelesen wurden, sind unter \textit{Test} in \cite{AriehT_518} aufgelistet.
 Im Folgenden wird die Schwellspannung mit $U_{\mathrm{thr}}$ und das Pulshöhenspektrum mit $N(U)$ bezeichnet. Dabei ist U die Spannung des PMT-Signals, das ein Ereignis auslöst, und hängt von der Energie des einfallenden Teilchens ab. Ein Ereignis wird nur dann registriert, wenn $U > U_{\mathrm{thr}}$, da der Diskriminator andernfalls kein Signal an den Zähler weitergibt. Gemessen wird 
 somit die Anzahl der Ereignisse oberhalb einer bestimmten Energie. Die entsprechende Schwellkurve ergibt sich zu:
 \begin{align*}
@@ -337,7 +337,7 @@ Für den Fit wurde die Gaußverteilung durch die folgende Funktion approximiert:
 \begin{align*}
     g(x)=\frac{A}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} + b.
 \end{align*}
-Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert::
+Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert:
 \cite{praktikum}:
 \begin{align*}
     \rho(x) = c \cdot \exp(-\frac{1}{2}(\frac{x - m}{f}+ \exp(-\frac{x - m}{f}))).
