@@ -55,8 +55,8 @@ Die maximal übertragbare Energie $T_{\text{max}}$ ergibt sich aus der Masse $m_
     T_{\text{max}} = \frac{2 m_e p^2}{m_0^2 + m_e^2 + 2 m_e E/c}.
 \end{align*}
 
-Die Bethe-Bloch-Gleichung beschreibt jedoch nur den mittleren Energieverlust. Da die Energieabgabe ein statistischer Prozess ist, folgt die tatsächliche Verteilung einer Wahrscheinlichkeitsverteilung. Für dünne Materialien ergibt sich charakteristischerweise eine Landau-Verteilung: eine asymmetrische Verteilung mit einem ausgeprägten rechten Flügel, der durch seltene, aber große Energieübertragungen gekennzeichnet ist \cite{Wermes}.
- 
+Die Bethe-Bloch-Gleichung beschreibt jedoch nur den mittleren Energieverlust, die Landau-Verteilung die statistische Schwankung dieses Energieverlusts in dünnen Szintillatoren. Da die Energieabgabe ein statistischer Prozess ist, folgt die tatsächliche Verteilung einer Wahrscheinlichkeitsverteilung. Für dünne Materialien ergibt sich charakteristischerweise eine Landau-Verteilung: eine asymmetrische Verteilung mit einem ausgeprägten rechten Flügel, der durch seltene, aber große Energieübertragungen gekennzeichnet ist \cite{Wermes}.
+
 \section{Durchführung der kurzen Messung}
 Ziel dieses Versuchsteils war es, über mehrere Tage die Ereignisse in verschiedenen Winkelbereichen zu registrieren und anschließend die Winkelverteilung auszuwerten. Damit dies zuverlässig gelingt, müssen zunächst die Diskriminatoren korrekt eingestellt werden. Die Schwellspannung muss so gewählt werden, dass Rauschen weitgehend unterdrückt wird, echte Myonereignisse jedoch weiterhin sicher erfasst werden. Um Zeit zu sparen, waren für die meisten Diskriminatoren bereits geeignete Schwellwerte vorgegeben. Im Folgenden wird daher exemplarisch nur für den Diskriminator D12 die optimale Schwellspannung bestimmt.
 Bevor die Messung durchgeführt werden konnte, mussten die FPGAs entsprechend konfiguriert werden. Dies erfolgte mittels LabVIEW; der für die erste Messung verwendete grafische Programmcode ist in \cite{AriehT_518} zu finden.
@@ -66,7 +66,9 @@ Die Signale der Zähler D1, D2, D23 und D24 werden zu einem logischen ODER zusam
 Das LabVIEW-Programm enthält zudem eine Schleife, die die Messung über einen definierten Zeitraum für verschiedene Schwellspannungen von 0 mV bis -150 mV in Schritten von 1 mV durchführt. Diese Messung über Nacht gelaufen lassen, um eine möglichst lange Messdauer zu erreichen und statistische Unsicherheiten zu minimieren.
 
 \section{Bestimmung der Schwellenspannung}
-Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden.  Die Daten, die nach 16 Stunden Messung ausgelesen wurden, sind unter \textit{"Test"} in \cite{AriehT_518} aufgelistet.
+Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden.
+Während der Messung führt eine Schleife das Programm, das auf LabVIEW erstellt wurde, für Schwellspannungen zwischen 0 und 150mV durch und speichert die Zählraten für jeden Wert. Dadurch wird die Schwellenkurve automatisiert aufgenommen, die zur Bestimmung der optimalen Diskriminatorschwelle benötigt wird. Das erstellte Programm kann unter "\textit{Schwellenspannung\_1.vi}" in \cite{AriehT_518} aufgerufen werden.
+Die Daten, die nach 16 Stunden Messung ausgelesen wurden, sind unter "\textit{Test}" in \cite{AriehT_518} aufgelistet.
 Im Folgenden wird die Schwellspannung mit $U_{\mathrm{thr}}$ und das Pulshöhenspektrum mit $N(U)$ bezeichnet. Dabei ist U die Spannung des PMT-Signals, das ein Ereignis auslöst, und hängt von der Energie des einfallenden Teilchens ab. Ein Ereignis wird nur dann registriert, wenn $U > U_{\mathrm{thr}}$, da der Diskriminator andernfalls kein Signal an den Zähler weitergibt. Gemessen wird 
 somit die Anzahl der Ereignisse oberhalb einer bestimmten Energie. Die entsprechende Schwellkurve ergibt sich zu:
 \begin{align*}
@@ -82,8 +84,7 @@ bestimmt, wobei sie - 6 mV beträgt (Abbildung \ref{fig:schwell}).
     \caption{Schwellenkurve zur Bestimmung der Diskriminatorschwelle von D12}
     \label{fig:schwell}
 \end{figure}
-!!!!KOMMENTARE!!!!
-
+Die Schwellenkurve ist das Integral des Pulshöhenspektrums nach oben; Änderungen im Spektrum wie zum Beispiel der Landau-Tail und Rauschen, spiegeln sich direkt in der Form der Schwellenkurve wider.
 
 \section{Durchführung der langen Messung}
 Die ermittelte Schwellspannung wurde anschließend eingestellt. Zur Vermessung der Winkelverteilung wurde ein LabVIEW-Programm \cite{AriehT_518} erstellt, das die Koinzidenzen in drei auf einer Geraden liegenden Detektoren zählt. Darüber hinaus wurden weitere Koinzidenzen aufgenommen, die im folgenden Abschnitt zur Untersuchung der Zufallskoinzidenzen benötigt werden: die Koinzidenz dreier räumlich nicht auf einer Geraden liegender Detektoren sowie die Koinzidenz dreier Detektoren auf einer Geraden, bei der einer ohne Verzögerung, einer mit zwei Verzögerungskabeln und einer mit vier Verzögerungskabeln betrieben wurde. Zusätzlich wurden die Ereignisse im zentralen Detektor $Z25 $ registriert. (Abbildung\ref{fig:winkel_elektronik})
@@ -138,17 +139,13 @@ Zweifachkoinzidenzen auftreten, da jeweils zwei der äußeren Detektoren mit D25
 einer gemeinsamen Geraden liegen. Aus diesem Grund wird für die räumliche Methode eine
 größere Anzahl registrierter Koinzidenzen erwartet als für die zeitliche Messung. Die
 Messdauer entsprach derjenigen der Winkelverteilung und der Aufnahme des
-Pulshöhenspektrums. \\ \\
-
-Zur Bestimmung der räumlichen Zufallskoinzidenzen wurden die Detektoren D11, D14 und D25 verwendet. Diese Detektoren liegen nicht auf einer gemeinsamen Geraden, sodass ein einzelnes kosmisches Myon keine Dreifachkoinzidenz in allen drei Detektoren erzeugen kann. Die Ausgangssignale der zugehörigen Diskriminatoren wurden auf eine Koinzidenzeinheit geführt und deren Ausgangssignal mit einem Sichtzähler registriert.
-
-Im Gegensatz zur zeitlichen Methode können bei dieser Anordnung jedoch Zweifachkoinzidenzen auftreten. Ursache hierfür ist, dass sowohl D11 als auch D14 jeweils zusammen mit D25 eine gemeinsame Gerade bilden. Ein Myon kann daher gleichzeitig D11 und D25 beziehungsweise D14 und D25 durchqueren und eine Zweifachkoinzidenz auslösen, ohne dass der dritte Detektor ein Signal registriert. Aus diesem Grund wird für die räumliche Methode eine größere Anzahl registrierter Ereignisse erwartet als für die zeitliche Zufallskoinzidenzmessung.
+Pulshöhenspektrums. 
 
 Die Messdauer entsprach derjenigen der Winkelverteilung sowie der Aufnahme des Pulshöhenspektrums, sodass die Ergebnisse unmittelbar miteinander verglichen werden können.
 
 \subsection{Theoretische Betrachtung der Zufallskoinzidenzen}
 
-Die mittlere Überlagerungszeit der Diskriminatorsignale ergibt sich zu
+Die mittlere Überlagerungszeit der Diskriminatorsignale ergibt sich zu:
 
 \begin{equation}
     \frac{1}{\Delta t}
@@ -158,7 +155,7 @@ Die mittlere Überlagerungszeit der Diskriminatorsignale ergibt sich zu
 \end{equation}
 
 wobei $\Delta t_i$ die Signaldauer des jeweiligen Diskriminators bezeichnet. Die Rate der
-Zufallskoinzidenzen lässt sich damit durch
+Zufallskoinzidenzen lässt sich damit durch:
 
 \begin{equation}
     f
@@ -171,13 +168,13 @@ Zufallskoinzidenzen lässt sich damit durch
 \end{equation}
 
 beschreiben. Die erwartete Anzahl zufälliger Koinzidenzen während der gesamten Messzeit
-ergibt sich anschließend aus
+ergibt sich anschließend aus:
 
 \begin{equation}
     N=f\cdot T.
 \end{equation}
 
-Für Dreifachkoinzidenzen folgt
+Für Dreifachkoinzidenzen folgt:
 
 \begin{equation}
     N_3
@@ -189,13 +186,13 @@ Für Dreifachkoinzidenzen folgt
     \frac{1}{\Delta t_i}.
 \end{equation}
 
-Mit der Beziehung
+Mit der Beziehung:
 
 \begin{equation}
     N_{25}=f_1T
 \end{equation}
 
-kann der Ausdruck in Messgrößen umgeschrieben werden zu
+kann der Ausdruck in Messgrößen umgeschrieben werden zu:
 
 \begin{equation}
     N_3
@@ -211,7 +208,7 @@ kann der Ausdruck in Messgrößen umgeschrieben werden zu
     \right).
 \end{equation}
 
-Für die Messung wurden
+Für die Messung wurden:
 
 \begin{align}
     \Delta t_1 &= \SI{35}{\nano\second},\\
@@ -221,7 +218,7 @@ Für die Messung wurden
     N_{25} &= 2227
 \end{align}
 
-verwendet. Daraus ergibt sich eine theoretisch erwartete Anzahl von
+verwendet. Daraus ergibt sich eine theoretisch erwartete Anzahl von:
 
 \begin{equation}
     N_3 = 1.5\times10^{-31}.
@@ -232,7 +229,7 @@ $\Delta t_2$ die Signaldauer des Detektors $Z_{25}$ und $\Delta t_3$ diejenige e
 Detektors im unteren Halbkreis.
 
 Für die Zweifachkoinzidenzen wird die Signaldauer des unteren Detektors vernachlässigt.
-Es ergibt sich
+Es ergibt sich:
 
 \begin{equation}
     N_2
@@ -244,7 +241,7 @@ Es ergibt sich
 \end{equation}
 
 Diese theoretischen Erwartungen können mit den experimentell bestimmten
-Zufallskoinzidenzen verglichen werden. Während der Messung wurden
+Zufallskoinzidenzen verglichen werden. Während der Messung wurden:
 
 \begin{align}
     N_{\mathrm{räumlich}} &= 1210,\\
@@ -303,11 +300,11 @@ Das Ergebnis der Anpassung ist in Abbildung\ref{fig:Winkelfit} dargestellt. Die 
     \end{tabular}
 \end{table}
 
-Aus den Messdaten ergibt sich eine Winkelverteilung der Höhenstrahlung, die näherungsweise durch eine Kosinusfunktion mit einer Potenz von
+Aus den Messdaten ergibt sich eine Winkelverteilung der Höhenstrahlung, die näherungsweise durch eine Kosinusfunktion mit einer Potenz von:
 \[
 c = (2{,}01 \pm 0{,}09)
 \]
-beschrieben werden kann. Dieser Wert stimmt innerhalb der Messunsicherheit sehr gut mit der theoretisch erwarteten Kosinus-Quadrat-Abhängigkeit überein. Allerdings ergibt die Anpassung mit einem reduzierten Chi-Quadrat von
+beschrieben werden kann. Dieser Wert stimmt innerhalb der Messunsicherheit sehr gut mit der theoretisch erwarteten Kosinus-Quadrat-Abhängigkeit überein. Allerdings ergibt die Anpassung mit einem reduzierten Chi-Quadrat von:
 \[
 \chi^2_\mathrm{red} = 11{,}02
 \]
@@ -315,7 +312,7 @@ keine zufriedenstellende Übereinstimmung zwischen Modell und Messdaten. Ein der
 
 Obwohl bereits eine vergleichsweise große Winkelunsicherheit berücksichtigt wurde, ist davon auszugehen, dass zusätzliche systematische Fehlerquellen das Messergebnis beeinflusst haben. Während der Versuchsdurchführung standen zeitweise zwei der drei Zählrohre nicht zur Verfügung, sodass die Messpunkte der Kombination (12--24--25) nicht aufgenommen werden konnten. Die dadurch verringerte Anzahl an Messpunkten schränkt die Aussagekraft der Anpassung ein und trägt vermutlich zu dem hohen reduzierten Chi-Quadrat bei. Darüber hinaus könnten weitere systematische Einflüsse, beispielsweise Unterschiede in den Eigenschaften oder der Empfindlichkeit der verwendeten Szintillatoren sowie mögliche Ungenauigkeiten bei deren Ausrichtung, zu den beobachteten Abweichungen beigetragen haben.
 
-Trotz dieser Einschränkungen zeigt die gemessene Winkelverteilung insgesamt den erwarteten Verlauf und lässt sich qualitativ gut durch eine Kosinus-Quadrat-Abhängigkeit beschreiben. Insbesondere stimmt der ermittelte Exponent innerhalb seiner Unsicherheit mit dem theoretisch erwarteten Wert von
+Trotz dieser Einschränkungen zeigt die gemessene Winkelverteilung insgesamt den erwarteten Verlauf und lässt sich qualitativ gut durch eine Kosinus-Quadrat-Abhängigkeit beschreiben. Insbesondere stimmt der ermittelte Exponent innerhalb seiner Unsicherheit mit dem theoretisch erwarteten Wert von:
 \[
 c = 2
 \]
@@ -324,6 +321,7 @@ c = 2
 \subsection{Pulshöhenspektrum}
 Die gesamte Verteilung ist in Abbildung \ref{fig:Puls_Rohdaten} aufgetragen. Dabei fallen einige Charakteristiken auf.
 Man bemerkt, dass das Spektrum  nicht nur ein, sondern zwei lokale Maxima besitzt. Die kosmische Höhenstrahlung besteht am Boden hauptsächlich aus Myonen, Elektronen/Photonen und Hardronen, welche unterschiedliche Energien am Detektor deponieren. Bei Myonen verteilen sich diese wie ein schmaler Landau-Peak, während bei Elektronen/Photonen diese einen breiteren Peak mit einer etwas größeren Amplitude formen. Hardronen kommen selten vor, sind aber sehr energiereich und erzeugen sehr große Pulshöhen.
+Zudem setzt sich das gemessene Pulshöhenspektrum aus noch anderen Beiträgen zusammen: zum Beispiel elektronisches Rauschen, $delta$-Elektronen, und Pile-Ups, welche auch zur beobachteten Struktur des Spektrums beitragen.
 Man beobachtet auch innerhalb des relevantes Meßbereiches die langen Ausläufe bei hohen Energien, die charakteristisch für die Landau-Verteilung sind.  
 
 \begin{figure}[H]
@@ -334,15 +332,15 @@ Man beobachtet auch innerhalb des relevantes Meßbereiches die langen Ausläufe 
 \end{figure}
 Diese Beobachtung wird durch Abbildung \ref{fig:LandauFit} bestätigt. In der Abbildung werden die Landau-Verteilung und Gaußverteilung an die Messpunkte gefittet und verglichen. 
 
-Für den Fit wurde die Gaußverteilung durch die folgende Funktion approximiert
+Für den Fit wurde die Gaußverteilung durch die folgende Funktion approximiert:
 \cite{}
 \begin{align*}
-    g(x)=\frac{A}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} + b
+    g(x)=\frac{A}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} + b.
 \end{align*}
-Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert 
+Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert::
 \cite{}:
 \begin{align*}
-    \rho(x) = c \cdot \exp(-\frac{1}{2}(\frac{x - m}{f}+ \exp(-\frac{x - m}{f})))
+    \rho(x) = c \cdot \exp(-\frac{1}{2}(\frac{x - m}{f}+ \exp(-\frac{x - m}{f}))).
 \end{align*}
 Der Parameter m verschiebt die Verteilung entlang der x-Achse, da die Standard-Landauverteilung ihr Maximum bei x = 0 besitzt. Die Parameter c und f dienen der Skalierung der Funktion: c streckt die Verteilung entlang der y-Achse, während f die Breite der Verteilung entlang der x-Achse bestimmt.
 Für die Gaußverteilung erhält man einen reduzierten $\chi^2_{\text{red}}=3,13358$, und für die Landau-Verteilung $\chi^2_{\text{red}}=1,34971$.  
@@ -355,3 +353,4 @@ Für die Gaußverteilung erhält man einen reduzierten $\chi^2_{\text{red}}=3,13
 \end{figure}
 
 Der Vergleich der beiden Anpassungen zeigt sowohl anhand der graphischen Darstellung als auch anhand des reduzierten Chi-Quadrats, dass die Landauverteilung die experimentellen Daten besser beschreibt als die Gaußverteilung (vgl. Abbildung\ref{fig:LandauFit}). Dieses Verhalten entspricht der theoretischen Erwartung für dünne Szintillatoren, bei denen die statistischen Schwankungen des Energieverlusts durch eine Landau-Verteilung charakterisiert werden.
+Das gemessene Pulshöhenspektrum weist einen schmalen Peak bei niedrigen Pulshöhen sowie einen ausgeprägten "Landau-Flanken" auf. Diese Form ist charakteristisch für dünne Szintillatoren, da die Energieabgabe eines Myons in dünnen Materialien starken statistischen Schwankungen unterlegen ist und durch seltene große Energieübertragungen einen asymmetrischen rechten Flügel erzeugt.
