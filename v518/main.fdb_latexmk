@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1784629177 "main.bcf" "main.bbl" "main" 1784632219 0
+["biber main"] 1784629177 "main.bcf" "main.bbl" "main" 1784632466 0
   "./refs.bib" 1784622476 4089 ef914e3ed1bfde05aa17d2c8e82ed856 ""
-  "main.bcf" 1784632216 108052 447a5e5c11c76c1216a6e0483d7b1bfa "pdflatex"
+  "main.bcf" 1784632464 108052 447a5e5c11c76c1216a6e0483d7b1bfa "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1784632172 "/home/s6norupp/physik/p5_2026/v518/main.tex" "main.pdf" "main" 1784632219 2
+["pdflatex"] 1784632437 "/home/s6norupp/physik/p5_2026/v518/main.tex" "main.pdf" "main" 1784632466 2
   "/etc/texmf/web2c/texmf.cnf" 1759155568 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/s6norupp/physik/p5_2026/v518/main.tex" 1784631253 1364 15cf553bcb9be34bb1ef6807c543256e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -320,15 +320,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759156065 4517229 3ba9d9e182aa6f4855dd91edc160860c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1759156089 7025152 424004d95fc05edc830cd395a854c036 ""
-  "Anhang.aux" 1784632216 5551 ad880577c8bb37871b6a35a9e61dde8f "pdflatex"
+  "Anhang.aux" 1784632463 5551 ad880577c8bb37871b6a35a9e61dde8f "pdflatex"
   "Anhang.tex" 1784622128 1573 049478dc004a77808500ace2c900e909 ""
-  "Einleitung.aux" 1784632210 4275 83d908a246e31320a7b31928f3f55568 "pdflatex"
+  "Einleitung.aux" 1784632458 4275 83d908a246e31320a7b31928f3f55568 "pdflatex"
   "Einleitung.tex" 1784631252 955 d7a25b021f863b3c31eff6dc2dac5374 ""
-  "Fazit.aux" 1784632215 4158 7a12e39d57cfa499268ff6197cb31877 "pdflatex"
-  "Fazit.tex" 1784632212 1869 ba4704640cc8e0093903f4542ae6271a ""
-  "Myonlebensdauer.aux" 1784632215 7318 c1b802cf049fa786b8607fbe78b68805 "pdflatex"
+  "Fazit.aux" 1784632463 4158 7a12e39d57cfa499268ff6197cb31877 "pdflatex"
+  "Fazit.tex" 1784632407 1867 0a5f5fb76d0cabf44f008aa8cfd1e368 ""
+  "Myonlebensdauer.aux" 1784632463 7318 c1b802cf049fa786b8607fbe78b68805 "pdflatex"
   "Myonlebensdauer.tex" 1784630926 8676 8715a27562ef5ea0fde0565e271d8a16 ""
-  "aufbau.aux" 1784632211 7810 f3fc6f82eaf180133f593b527ff260bf "pdflatex"
+  "aufbau.aux" 1784632459 7810 f3fc6f82eaf180133f593b527ff260bf "pdflatex"
   "aufbau.tex" 1784620121 7669 00c8a69ed7a7a6a98fd9dbd61f78f6e3 ""
   "figs//print_0001.png" 1784269485 27047 cd7765d07212ba1388e48f76d751de85 ""
   "figs/01_Winkelverteilung_Rohdaten.png" 1784496292 79423 9f8a11f26a8bbc2fd27220b2ef89bfcc ""
@@ -347,14 +347,14 @@
   "figs/print_002.png" 1784269485 30244 2f4699dd1b996e2f9f8c02dc318560b8 ""
   "figs/puls_aufbau.png" 1784625555 35954 7500b4c2c099669d8315bba228748c87 ""
   "figs/szintillationszähler.png" 1784618749 14979 108e0ef56552591f50aa44e6f83b0aee ""
-  "main.aux" 1784632216 14707 d94fc2a692fe3261f8e6024e0190e274 "pdflatex"
+  "main.aux" 1784632463 14707 d94fc2a692fe3261f8e6024e0190e274 "pdflatex"
   "main.bbl" 1784629177 7790 4673e6f3cfa6fccd7c5022c4f425a1de "biber main"
-  "main.out" 1784632210 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1784632217 2329 03e8a8a7e80872e22caf5a25dc39e6bc "pdflatex"
+  "main.out" 1784632457 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1784632464 2329 03e8a8a7e80872e22caf5a25dc39e6bc "pdflatex"
   "main.tex" 1784631253 1364 15cf553bcb9be34bb1ef6807c543256e ""
-  "main.toc" 1784632217 2897 b8193a627136b8a04b7eee24ada3f9d7 "pdflatex"
+  "main.toc" 1784632464 2897 b8193a627136b8a04b7eee24ada3f9d7 "pdflatex"
   "optics.tex" 1780387798 6788 8b4115b8922a22631ca2334e1a893556 ""
-  "winkelverteilung.aux" 1784632214 10711 6c6e08d4e26487a82d7de764b2d42e31 "pdflatex"
+  "winkelverteilung.aux" 1784632462 10711 6c6e08d4e26487a82d7de764b2d42e31 "pdflatex"
   "winkelverteilung.tex" 1784631043 26036 7b73737ef94df43b66ad65904a39bfe5 ""
   (generated)
   "Anhang.aux"
