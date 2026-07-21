@@ -1,5 +1,16 @@
 \chapter{Lebensdauer von Myonen}
 \section{Theoretische Grundlagen}
+\subsection{Zerfallsgesetz}
+Die Zerfallswahrscheinlichkeit eines Kernes pro Zeitintervall wird durch die Zerfallskonstante $\lambda$ beschrieben. Die mittlere Verweilzeit in seinem Zustand wird durch die Lebensdauer $\tau$ gegeben, wobei $\tau=´\frac{1}{\lambda}$.
+Die Zerfallsrate der Nuklide entspricht dem exponentiellen Zerfallsgesetz:\cite{demtroeder}
+\begin{align*}
+    N(t)=N_0e^{-\lambda t}=N_0e^{-t/\tau}
+\end{align*}
+wobei $N_0$ der Anfangszahl an Kernen entspricht.
+Die Zeit nach der die Hälfte der Kerne zerfallen ist, wird durch die Halbertszeit $T_{1/2}$ gegeben. ES gilt dabei:
+\begin{align*}
+    T_{1/2}=\frac{ln(2)}{\lambda}=\tau\cdot ln(2)
+\end{align*}
 \section{Durchführung}
 Die Zeitspanne zwischen START- und STOP-Signal wird, wenn ein STOP-Signal auftritt, gemessen und entsprechend ihrer Länge einem von zehn Sichtzählern zugeordnet, die jeweils ein Zeitintervall von $1\mu s$ repräsentieren. Für die Verteilung der Sichtzählerstände erwartet man einen exponentiellen Abfall, aus dem die Myonlebensdauer bestimmt werden kann.
 
@@ -24,7 +35,25 @@ Vor Beginn der Messung muss die Breite der diskriminierten Signale im Mess- und 
 
 Die Tabellen mit den Messwerten für die Anzahl $N$ der diskriminierten Impulse und die Anzahl $K$ der Koinzidenzen im Mess- und Monitorkreis befinden sich im Anhang (siehe Tabellen \ref{} und \ref{}). 
 
-Die grafische Darstellung der Verhältnisse der Zählerstände aus Mess- und Monitorkreis ist in den Abbildungen\ref{} und \ref{} dargestellt.
+Die grafische Darstellung der Verhältnisse der Zählerstände aus Mess- und Monitorkreis ist in der Abbildung\ref{fig:oszi_koinz} dargestellt.
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}[t]{0.48\textwidth} %bild szintillationsdetektor
+        \centering
+        \includegraphics[width=\linewidth]{figs/print_002.png}
+        \caption{}
+            \label{fig:oszi_koinz}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}%bild photokathode
+        \centering
+        \includegraphics[width=\linewidth]{}
+        \caption{}
+            \label{fig:}
+    \end{subfigure}
+    \caption{Bild des Oszilloskopen zum Einstellen der Pulslängen der Diskriminatoren, sowie zur Überprüfung der Koinzidenzen zwischen Monitor (für die Einstellung des Messkreises wurde leider kein Screenshot gemacht)}
+\end{figure}
 \section{Bestimmung der Lebensdauer}
 Der Myonzerfall folgt dem exponentiellen Zerfallsgesetz
 \begin{equation}
@@ -46,7 +75,7 @@ die denselben exponentiellen Zeitverlauf aufweist. Durch das Anpassen einer Funk
     \label{fig:leben}
 \end{figure}
 
-Die Messzeit betrug – wie bereits bei der Winkelverteilung und dem Pulshöhenspektrum:insgesamt $51400s$. Die abgelesenen Sichtzählerstände sind in Tabelle\ref{} aufgeführt; die Unsicherheit der Zählerstände beträgt jeweils $\sqrt{N}$. Die grafische
+Die Messzeit betrug insgesamt T=$51400s$. Die abgelesenen Sichtzählerstände sind in Tabelle\ref{} aufgeführt; die Unsicherheit der Zählerstände beträgt jeweils $\sqrt{N}$. Die grafische
 Darstellung der Daten findet sich in Abbildung\ref{fig:leben}.
 An die Messpunkte wird anschließend eine Funktion gemäß Gleichung\ref{eq_leben} angepasst, wobei ein konstanter Offset $c$ berücksichtigt wird. Die Fitparameter ergeben sich zu
 \begin{table}[H]

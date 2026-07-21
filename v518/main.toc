@@ -23,8 +23,9 @@
 \contentsline {subsection}{\numberline {3.5.2}Pulshöhenspektrum}{13}{subsection.3.5.2}%
 \contentsline {chapter}{\numberline {4}Lebensdauer von Myonen}{16}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Theoretische Grundlagen}{16}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Zerfallsgesetz}{16}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}Durchführung}{16}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Bestimmung der Schwellenspannung}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Bestimmung der Lebensdauer}{17}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{20}{section.4.5}%
+\contentsline {section}{\numberline {4.4}Bestimmung der Lebensdauer}{18}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{21}{section.4.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

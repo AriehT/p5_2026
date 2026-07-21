@@ -1757,6 +1757,12 @@ INPUT ./figs/Schwellspannung_teil2.png
 INPUT figs/Schwellspannung_teil2.png
 INPUT ./figs/Schwellspannung_teil2.png
 INPUT ./figs/Schwellspannung_teil2.png
+INPUT ./figs/print_002.png
+INPUT ./figs/print_002.png
+INPUT figs/print_002.png
+INPUT ./figs/print_002.png
+INPUT ./figs/print_002.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/.tex
 INPUT ./figs/06_Myonlebensdauer_Vergleich.png
 INPUT ./figs/06_Myonlebensdauer_Vergleich.png
 INPUT figs/06_Myonlebensdauer_Vergleich.png
