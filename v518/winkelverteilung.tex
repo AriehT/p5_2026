@@ -63,7 +63,7 @@ Bevor die Messung durchgeführt werden konnte, mussten die FPGAs entsprechend ko
 
 Die Schaltung erfüllt dabei folgende Aufgaben:
 Die Signale der Zähler D1, D2, D23 und D24 werden zu einem logischen ODER zusammengeführt. Anschließend werden die Koinzidenzen zwischen diesem ODER-Signal und D12 bestimmt. Dazu werden beide Signale in einen Koinzidenzzähler geleitet. Zusätzlich werden die Zählraten von D12, D25 und des ODER-Signals separat erfasst. Zur Kontrolle wurden LEDs eingebaut, die aufleuchten, sobald in den jeweiligen Zählern Ereignisse registriert werden.
-Das LabVIEW-Programm enthält zudem eine Schleife, die die Messung über einen definierten Zeitraum für verschiedene Schwellspannungen von -200 mV bis -50 mV in Schritten von 10 mV durchführt. Ursprünglich war geplant, diese Messung über Nacht laufen zu lassen, um eine möglichst lange Messdauer zu erreichen und statistische Unsicherheiten zu minimieren.
+Das LabVIEW-Programm enthält zudem eine Schleife, die die Messung über einen definierten Zeitraum für verschiedene Schwellspannungen von 0 mV bis -150 mV in Schritten von 1 mV durchführt. Diese Messung über Nacht gelaufen lassen, um eine möglichst lange Messdauer zu erreichen und statistische Unsicherheiten zu minimieren.
 
 \section{Bestimmung der Schwellenspannung}
 Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden.  Die Daten, die nach 16 Stunden Messung ausgelesen wurden, sind unter \textit{"Test"} in \cite{AriehT_518} aufgelistet.
@@ -96,6 +96,163 @@ Für die Messung der Energieverlustverteilung wurde der Zähler \(Z12\) verwende
     \label{fig:puls}
 \end{figure}
 Das vom Photomultiplier (PMT) kommende Signal, das vor der Diskriminierung noch nicht normiert ist, wird zunächst auf einen Shaping-Amplifier gegeben. Die Amplitude dieses Signals hängt von der Energie ab, die das einfallende Teilchen im Szintillatormaterial deponiert hat. Liegt eine Koinzidenz zwischen D12, D25 und D24 vor, wird ein Gate geöffnet, sodass das geformte Signal des Shaping-Amplifiers an den MCA weitergeleitet und dort amplitudenabhängig gezählt wird. Auch hier wird ein Verzögerungskabel eingesetzt, um sicherzustellen, dass das Signal genau dann am MCA ankommt, wenn das Gate geöffnet ist. Eine schematische Darstellung der verwendeten Schaltung ist in Abbildung\ref{fig:puls} gezeigt.
+
+\subsection{Bestimmung der zeitlichen und räumlichen Zufallskoinzidenzen}
+
+Zur Bestimmung der zeitlichen Zufallskoinzidenzen wurden drei auf einer gemeinsamen
+Geraden angeordnete Detektoren (D2, D14 und D25) verwendet. Um zu verhindern, dass
+ein einzelnes Myon in allen drei Detektoren gleichzeitig eine Koinzidenz auslösen kann,
+wurden die Ausgangssignale zweier Diskriminatoren gezielt verzögert.
+
+Die verwendeten Verzögerungskabel besitzen eine Laufzeit von etwa
+\SI{40}{\nano\second} pro \SI{8}{\meter}, oder \SI{15}{\nano\second} für einen kleineren (\approx \SI{3}{\meter}) Kabel. Für den Diskriminator des Detektors D2 wurden
+fünf dieser Kabel verwendet (3 lange, zwei kurze), sodass sich eine Verzögerung von
+\SI{150}{\nano\second} ergab. Das Signal des Diskriminators D14 wurde durch zwei Kabel
+um insgesamt \SI{80}{\nano\second} verzögert. Das Signal von D25 wurde ohne zusätzliche
+Verzögerung direkt auf die Koinzidenzeinheit geführt.
+
+Da die eingeführten Verzögerungen deutlich größer sind als die Breite der
+Diskriminatorsignale, können die von einem einzelnen Myon erzeugten Pulse nicht mehr
+zeitlich überlappen. Registrierte Koinzidenzen entstehen daher ausschließlich durch
+zufällige Überlagerungen zeitlich unabhängiger Signale der drei Detektoren.
+
+
+
+Vor Beginn der eigentlichen Messungen wurde die Funktion der Koinzidenzschaltung mit
+einem Oszilloskop überprüft (Abb.~\ref{fig:oszi}). Dabei zeigte sich, dass das
+Diskriminatorsignal eine größere Amplitude besitzt als das analoge Signal des
+Szintillators und dieses vollständig umfasst. Dadurch wird sichergestellt, dass jedes
+analoge Signal zuverlässig in einen digitalen Rechteckpuls umgesetzt wird und die
+Koinzidenzschaltung korrekt arbeitet.
+
+Zur Bestimmung der räumlichen Zufallskoinzidenzen wurde eine andere
+Detektorkombination gewählt. Hierzu wurden die Detektoren D11, D14 und D25 verwendet,
+die keine gemeinsame Gerade bilden. Ein einzelnes kosmisches Myon kann daher keine
+Dreifachkoinzidenz in allen drei Detektoren erzeugen. Die Ausgangssignale der
+Diskriminatoren wurden auf dieselbe Koinzidenzeinheit geführt und die registrierten
+Ereignisse mit einem Sichtzähler erfasst.
+
+Im Gegensatz zur zeitlichen Methode können bei dieser Anordnung jedoch reale
+Zweifachkoinzidenzen auftreten, da jeweils zwei der äußeren Detektoren mit D25 auf
+einer gemeinsamen Geraden liegen. Aus diesem Grund wird für die räumliche Methode eine
+größere Anzahl registrierter Koinzidenzen erwartet als für die zeitliche Messung. Die
+Messdauer entsprach derjenigen der Winkelverteilung und der Aufnahme des
+Pulshöhenspektrums. \\ \\
+
+Zur Bestimmung der räumlichen Zufallskoinzidenzen wurden die Detektoren D11, D14 und D25 verwendet. Diese Detektoren liegen nicht auf einer gemeinsamen Geraden, sodass ein einzelnes kosmisches Myon keine Dreifachkoinzidenz in allen drei Detektoren erzeugen kann. Die Ausgangssignale der zugehörigen Diskriminatoren wurden auf eine Koinzidenzeinheit geführt und deren Ausgangssignal mit einem Sichtzähler registriert.
+
+Im Gegensatz zur zeitlichen Methode können bei dieser Anordnung jedoch Zweifachkoinzidenzen auftreten. Ursache hierfür ist, dass sowohl D11 als auch D14 jeweils zusammen mit D25 eine gemeinsame Gerade bilden. Ein Myon kann daher gleichzeitig D11 und D25 beziehungsweise D14 und D25 durchqueren und eine Zweifachkoinzidenz auslösen, ohne dass der dritte Detektor ein Signal registriert. Aus diesem Grund wird für die räumliche Methode eine größere Anzahl registrierter Ereignisse erwartet als für die zeitliche Zufallskoinzidenzmessung.
+
+Die Messdauer entsprach derjenigen der Winkelverteilung sowie der Aufnahme des Pulshöhenspektrums, sodass die Ergebnisse unmittelbar miteinander verglichen werden können.
+
+\subsection{Theoretische Betrachtung der Zufallskoinzidenzen}
+
+Die mittlere Überlagerungszeit der Diskriminatorsignale ergibt sich zu
+
+\begin{equation}
+    \frac{1}{\Delta t}
+    =
+    \sum_{i=1}^{n}
+    \frac{1}{\Delta t_i},
+\end{equation}
+
+wobei $\Delta t_i$ die Signaldauer des jeweiligen Diskriminators bezeichnet. Die Rate der
+Zufallskoinzidenzen lässt sich damit durch
+
+\begin{equation}
+    f
+    =
+    \left(
+    \prod_{i=1}^{n}
+    f_i\Delta t_i
+    \right)
+    \frac{1}{\Delta t}
+\end{equation}
+
+beschreiben. Die erwartete Anzahl zufälliger Koinzidenzen während der gesamten Messzeit
+ergibt sich anschließend aus
+
+\begin{equation}
+    N=f\cdot T.
+\end{equation}
+
+Für Dreifachkoinzidenzen folgt
+
+\begin{equation}
+    N_3
+    =
+    T
+    \prod_{i=1}^{3}
+    (f_i\Delta t_i)
+    \sum_{i=1}^{3}
+    \frac{1}{\Delta t_i}.
+\end{equation}
+
+Mit der Beziehung
+
+\begin{equation}
+    N_{25}=f_1T
+\end{equation}
+
+kann der Ausdruck in Messgrößen umgeschrieben werden zu
+
+\begin{equation}
+    N_3
+    =
+    \frac{N_{25}^{3}}{T^{2}}
+    \left(
+    \prod_{i=1}^{3}
+    \Delta t_i
+    \right)
+    \left(
+    \sum_{i=1}^{3}
+    \frac{1}{\Delta t_i}
+    \right).
+\end{equation}
+
+Für die Messung wurden
+
+\begin{align}
+    \Delta t_1 &= \SI{35}{\nano\second},\\
+    \Delta t_2 &= \SI{105}{\nano\second},\\
+    \Delta t_3 &= \SI{55}{\nano\second},\\
+    T &= \SI{514000}{\second},\\
+    N_{25} &= 2227
+\end{align}
+
+verwendet. Daraus ergibt sich eine theoretisch erwartete Anzahl von
+
+\begin{equation}
+    N_3 = 1.5\times10^{-31}.
+\end{equation}
+
+Dabei beschreibt $\Delta t_1$ die Diskriminatorzeit eines Detektors im oberen Halbkreis,
+$\Delta t_2$ die Signaldauer des Detektors $Z_{25}$ und $\Delta t_3$ diejenige eines
+Detektors im unteren Halbkreis.
+
+Für die Zweifachkoinzidenzen wird die Signaldauer des unteren Detektors vernachlässigt.
+Es ergibt sich
+
+\begin{equation}
+    N_2
+    =
+    \frac{N_{25}^{2}}{T}
+    \left(\Delta t_1+\Delta t_2\right)
+    =
+    1.35\times10^{-6}.
+\end{equation}
+
+Diese theoretischen Erwartungen können mit den experimentell bestimmten
+Zufallskoinzidenzen verglichen werden. Während der Messung wurden
+
+\begin{align}
+    N_{\mathrm{räumlich}} &= 1210,\\
+    N_{\mathrm{zeitlich}} &= 0
+\end{align}
+
+registriert.
+
+Die zeitliche Methode ergab keine registrierten Koinzidenzen. Dieses Ergebnis ist mit der theoretischen Erwartung vereinbar, da die berechnete Anzahl zufälliger Dreifachkoinzidenzen deutlich kleiner als eins ist. Bei der räumlichen Methode wurden hingegen 1210 Koinzidenzen registriert. Dieser Wert liegt weit über der theoretischen Zufallserwartung. Ursache hierfür ist, dass bei dieser Messanordnung neben zufälligen Überlagerungen auch reale Zweifachkoinzidenzen kosmischer Myonen erfasst werden können. Elektronisches Rauschen und weitere Störquellen können zusätzlich zur gemessenen Ereigniszahl beitragen.
 
 
 \section{Auswertung}
