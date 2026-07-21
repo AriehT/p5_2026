@@ -59,36 +59,50 @@ Die Bethe-Bloch-Gleichung beschreibt jedoch nur den mittleren Energieverlust. Da
  
 \section{Durchführung der kurzen Messung}
 Ziel dieses Versuchsteils war es, über mehrere Tage die Ereignisse in verschiedenen Winkelbereichen zu registrieren und anschließend die Winkelverteilung auszuwerten. Damit dies zuverlässig gelingt, müssen zunächst die Diskriminatoren korrekt eingestellt werden. Die Schwellspannung muss so gewählt werden, dass Rauschen weitgehend unterdrückt wird, echte Myonereignisse jedoch weiterhin sicher erfasst werden. Um Zeit zu sparen, waren für die meisten Diskriminatoren bereits geeignete Schwellwerte vorgegeben. Im Folgenden wird daher exemplarisch nur für den Diskriminator D12 die optimale Schwellspannung bestimmt.
-Bevor die Messung durchgeführt werden konnte, mussten die FPGAs entsprechend konfiguriert werden. Dies erfolgte mittels LabVIEW; der für die erste Messung verwendete grafische Programmcode ist in Abbildung \ref{fig:labview_short} dargestellt.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.48\textwidth]{figs/}
-    \caption{}
-    \label{fig:labview_short}
-\end{figure}
+Bevor die Messung durchgeführt werden konnte, mussten die FPGAs entsprechend konfiguriert werden. Dies erfolgte mittels LabVIEW; der für die erste Messung verwendete grafische Programmcode ist in \cite{AriehT_518} zu finden.
+
 Die Schaltung erfüllt dabei folgende Aufgaben:
 Die Signale der Zähler D1, D2, D23 und D24 werden zu einem logischen ODER zusammengeführt. Anschließend werden die Koinzidenzen zwischen diesem ODER-Signal und D12 bestimmt. Dazu werden beide Signale in einen Koinzidenzzähler geleitet. Zusätzlich werden die Zählraten von D12, D25 und des ODER-Signals separat erfasst. Zur Kontrolle wurden LEDs eingebaut, die aufleuchten, sobald in den jeweiligen Zählern Ereignisse registriert werden.
 Das LabVIEW-Programm enthält zudem eine Schleife, die die Messung über einen definierten Zeitraum für verschiedene Schwellspannungen von -200 mV bis -50 mV in Schritten von 10 mV durchführt. Ursprünglich war geplant, diese Messung über Nacht laufen zu lassen, um eine möglichst lange Messdauer zu erreichen und statistische Unsicherheiten zu minimieren.
 
 \section{Bestimmung der Schwellenspannung}
-Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden. Die Rohdaten der Zählrate im zwölften Zähler wurden zunächst testweise auf die Counts der ODER-Schaltung, der Koinzidenzschaltung sowie auf die Zählrate von Z25 normiert (Tabelle \ref{}). (Da die Anzahl der Koinzidenzen jedoch direkt von der eingestellten Schwellspannung abhängt, erwies sich diese Normierung als ungeeignet und wurde verworfen.)
+Um die Ereignisse über mehrere Tage messen zu können, muss zunächst die Diskriminatoren entsprechend eingestellt werden. Die Schwellenspannung wird so gewählt, dass Rauschen minimisiert wird, aber dennoch Muonen gemessen werden.  Die Daten, die nach 16 Stunden Messung ausgelesen wurden, sind unter \textit{"Test"} in \cite{AriehT_518} aufgelistet.
 Im Folgenden wird die Schwellspannung mit $U_{\mathrm{thr}}$ und das Pulshöhenspektrum mit $N(U)$ bezeichnet. Dabei ist U die Spannung des PMT-Signals, das ein Ereignis auslöst, und hängt von der Energie des einfallenden Teilchens ab. Ein Ereignis wird nur dann registriert, wenn $U > U_{\mathrm{thr}}$, da der Diskriminator andernfalls kein Signal an den Zähler weitergibt. Gemessen wird 
 somit die Anzahl der Ereignisse oberhalb einer bestimmten Energie. Die entsprechende Schwellkurve ergibt sich zu:
 \begin{align*}
     S(U_{\mathrm{thr}}) = \int_{U_{\mathrm{thr}}}^{\infty} N(U)\, dU.
 \end{align*}
+
 Das Pulshöhenspektrum setzt sich aus zwei Komponenten zusammen: dem elektronischen Rauschen des PMT, verursacht durch thermische Fluktuationen, und den Myonereignissen, deren Energieverlustverteilung einer Landau-Verteilung folgt. Diese beiden Komponenten sollten sich auch in der Schwellkurve widerspiegeln. Bei niedrigen Schwellspannungen dominiert das Rauschen, sodass man einen exponentiellen Abfall erwartet, bis ein Bereich erreicht wird, in dem das Rauschen weitgehend unterdrückt ist, das Myonensignal jedoch noch nicht beeinflusst wird. An dieser Stelle sollte ein Sattelpunkt der Schwellkurve auftreten, der die optimale Schwellspannung markiert. Für höhere Schwellspannungen wird zunehmend das Myonenspektrum abgeschnitten, sodass die Kurve steiler abfällt. 
+Die Schwellenspannung für den Diskriminator wurde D12 graphisch aus der Schwellenkurve
+bestimmt, wobei sie - 6 mV beträgt (Abbildung \ref{fig:schwell}).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/Schwellenspannung__teil1.png}
+    \caption{Schwellenkurve zur Bestimmung der Diskriminatorschwelle von D12}
+    \label{fig:schwell}
+\end{figure}
+!!!!KOMMENTARE!!!!
+
+
 \section{Durchführung der langen Messung}
-Die ermittelte Schwellspannung wurde anschließend eingestellt. Zur Vermessung der Winkelverteilung steht ein LabVIEW-Programm zur Verfügung, das die Koinzidenzen in drei auf einer Geraden liegenden Detektoren zählt. Darüber hinaus wurden weitere Koinzidenzen aufgenommen, die im folgenden Abschnitt zur Untersuchung der Zufallskoinzidenzen benötigt werden: die Koinzidenz dreier räumlich nicht auf einer Geraden liegender Detektoren sowie die Koinzidenz dreier Detektoren auf einer Geraden, bei der einer ohne Verzögerung, einer mit zwei Verzögerungskabeln und einer mit vier Verzögerungskabeln betrieben wurde. Zusätzlich wurden die Ereignisse im zentralen Detektor $Z25 $ registriert. Diese Messung wurde am letzten Versuchstag gestartet und nach einer Messzeit von T = ??? s in der folgenden Woche beendet.
+Die ermittelte Schwellspannung wurde anschließend eingestellt. Zur Vermessung der Winkelverteilung wurde ein LabVIEW-Programm \cite{AriehT_518} erstellt, das die Koinzidenzen in drei auf einer Geraden liegenden Detektoren zählt. Darüber hinaus wurden weitere Koinzidenzen aufgenommen, die im folgenden Abschnitt zur Untersuchung der Zufallskoinzidenzen benötigt werden: die Koinzidenz dreier räumlich nicht auf einer Geraden liegender Detektoren sowie die Koinzidenz dreier Detektoren auf einer Geraden, bei der einer ohne Verzögerung, einer mit zwei Verzögerungskabeln und einer mit vier Verzögerungskabeln betrieben wurde. Zusätzlich wurden die Ereignisse im zentralen Detektor $Z25 $ registriert. (Abbildung\ref{fig:winkel_elektronik})
+Diese Messung wurde am letzten Versuchstag gestartet und nach einer Messzeit von T = 514 000 s in der folgenden Woche beendet.
 Für die Messung der Energieverlustverteilung wurde der Zähler \(Z12\) verwendet. 
-Das vom Photomultiplier (PMT) kommende Signal, das vor der Diskriminierung noch nicht normiert ist, wird zunächst auf einen Shaping-Amplifier gegeben. Die Amplitude dieses Signals hängt von der Energie ab, die das einfallende Teilchen im Szintillatormaterial deponiert hat. Liegt eine Koinzidenz zwischen D12, D25 und D24 vor, wird ein Gate geöffnet, sodass das geformte Signal des Shaping-Amplifiers an den MCA weitergeleitet und dort amplitudenabhängig gezählt wird. Auch hier wird ein Verzögerungskabel eingesetzt, um sicherzustellen, dass das Signal genau dann am MCA ankommt, wenn das Gate geöffnet ist. Eine schematische Darstellung der verwendeten Schaltung ist in Abbildung\ref{} gezeigt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figs/puls_aufbau.png}
+    \caption{chaltung zur Aufnahme des PUlshöhenspektrums.\cite{praktikum}}
+    \label{fig:puls}
+\end{figure}
+Das vom Photomultiplier (PMT) kommende Signal, das vor der Diskriminierung noch nicht normiert ist, wird zunächst auf einen Shaping-Amplifier gegeben. Die Amplitude dieses Signals hängt von der Energie ab, die das einfallende Teilchen im Szintillatormaterial deponiert hat. Liegt eine Koinzidenz zwischen D12, D25 und D24 vor, wird ein Gate geöffnet, sodass das geformte Signal des Shaping-Amplifiers an den MCA weitergeleitet und dort amplitudenabhängig gezählt wird. Auch hier wird ein Verzögerungskabel eingesetzt, um sicherzustellen, dass das Signal genau dann am MCA ankommt, wenn das Gate geöffnet ist. Eine schematische Darstellung der verwendeten Schaltung ist in Abbildung\ref{fig:puls} gezeigt.
 
 
 \section{Auswertung}
 \subsection{Winkelverteilung}
-Nach einer Messdauer von T = 514240 s, , zeigte das Messprogramm die in Abbildung\ref{} dargestellten Messwerte. 
+Nach einer Messdauer von 514 000 s, , zeigte das Messprogramm\cite{AriehT_518} die in Abbildung\ref{fig:winkelroh} dargestellten Messwerte. 
 Die registrierten Koinzidenzen müssen jedoch zunächst in Winkel umgerechnet werden. 
-Da die Verbindungslinie zwischen Z12, Z24 und Z25 vertikal verläuft, wird diese Koinzidenz als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{} dargestellt.
+Da die Verbindungslinie zwischen Z12, Z24 und Z25 vertikal verläuft, wird diese Koinzidenz als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{praktikum}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{tab:roh_winkel} dargestellt.
 Da eine Winkelverteilung der Form $\cos^2\theta$ erwartet wird, wurde folgende Funktion an die Messdaten angepasst:
 \begin{align*}
     \mathrm{counts} = f(\theta) = A \cdot \cos(\theta + \Delta)^c + \mathrm{offset}.
@@ -113,7 +127,7 @@ Da eine Winkelverteilung der Form $\cos^2\theta$ erwartet wird, wurde folgende F
     \label{fig:Winkelverteilung}
 \end{figure}
 
-Das Ergebnis der Anpassung ist in Abbildung\ref{} dargestellt. Die Fitparameter lauten:
+Das Ergebnis der Anpassung ist in Abbildung\ref{fig:Winkelfit} dargestellt. Die Fitparameter lauten:
 
 \begin{table}[H]
     \centering
@@ -150,8 +164,9 @@ c = 2
 überein, sodass die Messung das theoretische Modell im Wesentlichen bestätigt.
 
 \subsection{Pulshöhenspektrum}
-Die gesamte Verteilung ist in Abbildung \ref{} aufgetragen. Dabei fallen einige Charakteristiken auf.
-!!!ADD STUFF!!!
+Die gesamte Verteilung ist in Abbildung \ref{fig:Puls_Rohdaten} aufgetragen. Dabei fallen einige Charakteristiken auf.
+Man bemerkt, dass das Spektrum  nicht nur ein, sondern zwei lokale Maxima besitzt. Die kosmische Höhenstrahlung besteht am Boden hauptsächlich aus Myonen, Elektronen/Photonen und Hardronen, welche unterschiedliche Energien am Detektor deponieren. Bei Myonen verteilen sich diese wie ein schmaler Landau-Peak, während bei Elektronen/Photonen diese einen breiteren Peak mit einer etwas größeren Amplitude formen. Hardronen kommen selten vor, sind aber sehr energiereich und erzeugen sehr große Pulshöhen.
+Man beobachtet auch innerhalb des relevantes Meßbereiches die langen Ausläufe bei hohen Energien, die charakteristisch für die Landau-Verteilung sind.  
 
 \begin{figure}[H]
     \centering
@@ -159,13 +174,20 @@ Die gesamte Verteilung ist in Abbildung \ref{} aufgetragen. Dabei fallen einige 
     \caption{Rohdaten der Langzeitmessung des Pulshöhenspektrums}
     \label{fig:Puls_Rohdaten}
 \end{figure}
+Diese Beobachtung wird durch Abbildung \ref{fig:LandauFit} bestätigt. In der Abbildung werden die Landau-Verteilung und Gaußverteilung an die Messpunkte gefittet und verglichen. 
 
+Für den Fit wurde die Gaußverteilung durch die folgende Funktion approximiert
+\cite{}
+\begin{align*}
+    g(x)=\frac{A}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} + b
+\end{align*}
 Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert 
 \cite{}:
 \begin{align*}
     \rho(x) = c \cdot \exp(-\frac{1}{2}(\frac{x - m}{f}+ \exp(-\frac{x - m}{f})))
 \end{align*}
 Der Parameter m verschiebt die Verteilung entlang der x-Achse, da die Standard-Landauverteilung ihr Maximum bei x = 0 besitzt. Die Parameter c und f dienen der Skalierung der Funktion: c streckt die Verteilung entlang der y-Achse, während f die Breite der Verteilung entlang der x-Achse bestimmt.
+Für die Gaußverteilung erhält man einen reduzierten $\chi^2_{\text{red}}=3,13358$, und für die Landau-Verteilung $\chi^2_{\text{red}}=1,34971$.  
 
 \begin{figure}[H]
     \centering
@@ -174,4 +196,4 @@ Der Parameter m verschiebt die Verteilung entlang der x-Achse, da die Standard-L
     \label{fig:LandauFit}
 \end{figure}
 
-Der Vergleich der beiden Anpassungen zeigt sowohl anhand der graphischen Darstellung als auch anhand des reduzierten Chi-Quadrats, dass die Landau-Anpassung die experimentellen Daten besser beschreibt als die Gauß-Anpassung (vgl. Abbildung~\ref{fig:LandauFit}). Dieses Verhalten entspricht der theoretischen Erwartung für dünne Szintillatoren, bei denen die statistischen Schwankungen des Energieverlusts durch eine Landau-Verteilung charakterisiert werden.
+Der Vergleich der beiden Anpassungen zeigt sowohl anhand der graphischen Darstellung als auch anhand des reduzierten Chi-Quadrats, dass die Landauverteilung die experimentellen Daten besser beschreibt als die Gaußverteilung (vgl. Abbildung\ref{fig:LandauFit}). Dieses Verhalten entspricht der theoretischen Erwartung für dünne Szintillatoren, bei denen die statistischen Schwankungen des Energieverlusts durch eine Landau-Verteilung charakterisiert werden.

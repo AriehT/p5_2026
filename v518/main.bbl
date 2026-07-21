@@ -151,6 +151,30 @@
       \field{year}{2026}
       \field{dateera}{ce}
     \endentry
+    \entry{AriehT_518}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=954c9c2353d636f674ed748ea6cbc085}{%
+           family={T.},
+           familyi={T\bibinitperiod},
+           given={Arieh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{954c9c2353d636f674ed748ea6cbc085}
+      \strng{fullhash}{954c9c2353d636f674ed748ea6cbc085}
+      \strng{bibnamehash}{954c9c2353d636f674ed748ea6cbc085}
+      \strng{authorbibnamehash}{954c9c2353d636f674ed748ea6cbc085}
+      \strng{authornamehash}{954c9c2353d636f674ed748ea6cbc085}
+      \strng{authorfullhash}{954c9c2353d636f674ed748ea6cbc085}
+      \field{labelalpha}{T24}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/AriehT/Programme-F-r-versuch-518}}
+      \field{note}{Zugriff am 2026-07-21}
+      \field{title}{Programme für Versuch 518}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
