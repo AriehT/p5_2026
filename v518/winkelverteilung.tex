@@ -255,9 +255,9 @@ Die zeitliche Methode ergab keine registrierten Koinzidenzen. Dieses Ergebnis is
 
 \section{Auswertung}
 \subsection{Winkelverteilung}
-Nach einer Messdauer von 514 000 s, , zeigte das Messprogramm\cite{AriehT_518} die in Abbildung\ref{fig:winkelroh} dargestellten Messwerte. 
+Nach einer Messdauer von 514 000 s, zeigte das Messprogramm\cite{AriehT_518} die in Abbildung\ref{fig:Winkelroh} dargestellten Messwerte. 
 Die registrierten Koinzidenzen müssen jedoch zunächst in Winkel umgerechnet werden. 
-Da die Verbindungslinie zwischen Z12, Z24 und Z25 vertikal verläuft, wird diese Koinzidenz als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{praktikum}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{tab:roh_winkel} dargestellt.
+Da die Verbindungslinie zwischen Z12, Z24 und Z25 wird als 0° definiert. Alle weiteren Zähler schließen jeweils Winkel von 15° ein \cite{praktikum}. Aufgrund der endlichen räumlichen Ausdehnung eines Zählers wird die Hälfte dieses Intervalls als Winkelunsicherheit gewählt. Die Zuordnung der Winkel ist in Tabelle\ref{tab:roh_winkel} dargestellt.
 Da eine Winkelverteilung der Form $\cos^2\theta$ erwartet wird, wurde folgende Funktion an die Messdaten angepasst:
 \begin{align*}
     \mathrm{counts} = f(\theta) = A \cdot \cos(\theta + \Delta)^c + \mathrm{offset}.
@@ -310,7 +310,7 @@ beschrieben werden kann. Dieser Wert stimmt innerhalb der Messunsicherheit sehr 
 \]
 keine zufriedenstellende Übereinstimmung zwischen Modell und Messdaten. Ein derart hoher Wert deutet darauf hin, dass die Streuung der Messwerte durch die berücksichtigten statistischen Unsicherheiten allein nicht vollständig beschrieben werden kann.
 
-Obwohl bereits eine vergleichsweise große Winkelunsicherheit berücksichtigt wurde, ist davon auszugehen, dass zusätzliche systematische Fehlerquellen das Messergebnis beeinflusst haben. Während der Versuchsdurchführung standen zeitweise zwei der drei Zählrohre nicht zur Verfügung, sodass die Messpunkte der Kombination (12--24--25) nicht aufgenommen werden konnten. Die dadurch verringerte Anzahl an Messpunkten schränkt die Aussagekraft der Anpassung ein und trägt vermutlich zu dem hohen reduzierten Chi-Quadrat bei. Darüber hinaus könnten weitere systematische Einflüsse, beispielsweise Unterschiede in den Eigenschaften oder der Empfindlichkeit der verwendeten Szintillatoren sowie mögliche Ungenauigkeiten bei deren Ausrichtung, zu den beobachteten Abweichungen beigetragen haben.
+Obwohl bereits eine vergleichsweise große Winkelunsicherheit berücksichtigt wurde, ist davon auszugehen, dass zusätzliche systematische Fehlerquellen das Messergebnis beeinflusst haben. Diese können systematische Einflüsse, beispielsweise Unterschiede in den Eigenschaften oder der Empfindlichkeit der verwendeten Szintillatoren sowie mögliche Ungenauigkeiten bei deren Ausrichtung, zu den beobachteten Abweichungen, beigetragen haben.
 
 Trotz dieser Einschränkungen zeigt die gemessene Winkelverteilung insgesamt den erwarteten Verlauf und lässt sich qualitativ gut durch eine Kosinus-Quadrat-Abhängigkeit beschreiben. Insbesondere stimmt der ermittelte Exponent innerhalb seiner Unsicherheit mit dem theoretisch erwarteten Wert von:
 \[
@@ -321,7 +321,7 @@ c = 2
 \subsection{Pulshöhenspektrum}
 Die gesamte Verteilung ist in Abbildung \ref{fig:Puls_Rohdaten} aufgetragen. Dabei fallen einige Charakteristiken auf.
 Man bemerkt, dass das Spektrum  nicht nur ein, sondern zwei lokale Maxima besitzt. Die kosmische Höhenstrahlung besteht am Boden hauptsächlich aus Myonen, Elektronen/Photonen und Hardronen, welche unterschiedliche Energien am Detektor deponieren. Bei Myonen verteilen sich diese wie ein schmaler Landau-Peak, während bei Elektronen/Photonen diese einen breiteren Peak mit einer etwas größeren Amplitude formen. Hardronen kommen selten vor, sind aber sehr energiereich und erzeugen sehr große Pulshöhen.
-Zudem setzt sich das gemessene Pulshöhenspektrum aus noch anderen Beiträgen zusammen: zum Beispiel elektronisches Rauschen, $delta$-Elektronen, und Pile-Ups, welche auch zur beobachteten Struktur des Spektrums beitragen.
+Zudem setzt sich das gemessene Pulshöhenspektrum aus noch anderen Beiträgen zusammen: zum Beispiel elektronisches Rauschen, $\delta$-Elektronen, und Pile-Ups, welche auch zur beobachteten Struktur des Spektrums beitragen.
 Man beobachtet auch innerhalb des relevantes Meßbereiches die langen Ausläufe bei hohen Energien, die charakteristisch für die Landau-Verteilung sind.  
 
 \begin{figure}[H]
@@ -333,17 +333,17 @@ Man beobachtet auch innerhalb des relevantes Meßbereiches die langen Ausläufe 
 Diese Beobachtung wird durch Abbildung \ref{fig:LandauFit} bestätigt. In der Abbildung werden die Landau-Verteilung und Gaußverteilung an die Messpunkte gefittet und verglichen. 
 
 Für den Fit wurde die Gaußverteilung durch die folgende Funktion approximiert:
-\cite{}
+%\cite{}
 \begin{align*}
     g(x)=\frac{A}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} + b.
 \end{align*}
 Für den Fit wurde die Landauverteilung durch die folgende Funktion approximiert::
-\cite{}:
+\cite{praktikum}:
 \begin{align*}
     \rho(x) = c \cdot \exp(-\frac{1}{2}(\frac{x - m}{f}+ \exp(-\frac{x - m}{f}))).
 \end{align*}
 Der Parameter m verschiebt die Verteilung entlang der x-Achse, da die Standard-Landauverteilung ihr Maximum bei x = 0 besitzt. Die Parameter c und f dienen der Skalierung der Funktion: c streckt die Verteilung entlang der y-Achse, während f die Breite der Verteilung entlang der x-Achse bestimmt.
-Für die Gaußverteilung erhält man einen reduzierten $\chi^2_{\text{red}}=3,13358$, und für die Landau-Verteilung $\chi^2_{\text{red}}=1,34971$.  
+Für die Gaußverteilung erhält man einen reduzierten $\chi^2_{\text{red}}=3,13$, und für die Landau-Verteilung $\chi^2_{\text{red}}=1,35$.  
 
 \begin{figure}[H]
     \centering

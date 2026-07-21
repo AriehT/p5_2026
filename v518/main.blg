@@ -1,0 +1,17 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[29] biber:340> INFO - === Tue Jul 21, 2026, 14:47:04
+[44] Biber.pm:418> INFO - Reading 'main.bcf'
+[68] Biber.pm:978> INFO - Found 10 citekeys in bib section 0
+[73] Biber.pm:4401> INFO - Processing section 0
+[78] Biber.pm:4592> INFO - Looking for bibtex file 'refs.bib' for section 0
+[84] bibtex.pm:1713> INFO - LaTeX decoding ...
+[89] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[116] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[116] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[116] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[116] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[120] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[121] bbl.pm:757> INFO - Output to main.bbl
+[127] Biber.pm:130> WARN - ISBN '978-3-540-67471-0' in entry 'Grupen_2' is invalid - run biber with '--validate_datamodel' for details.
+[128] Biber.pm:132> INFO - WARNINGS: 1

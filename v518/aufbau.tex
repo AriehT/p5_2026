@@ -5,7 +5,7 @@
 \subsection{Funktionsweise des Szintillationsdetektor}
 Ein Szintillationsdetektor (Abbildung \ref{fig:scintillator}) wandelt die Energie ionisierender Strahlung in sichtbares Licht um, das anschließend im Photomultiplier (Abbildung \ref{fig:pmt}) zu elektrischen Signalen verstärkt wird. Ein einfallendes Gammaquant erzeugt im Kristall ein schnelles Elektron, das seine Energie durch Ionisation und Anregung abgibt und dabei Szintillationslicht erzeugt. Die Lichtmenge ist proportional zur deponierten Energie.
 
-Beim NaI(Tl)-Detektor sorgen Thallium-Aktivierungszentren für effiziente Lichtemission. Der Kristall liefert eine hohe Lichtausbeute und eine Abklingzeit von etwa 230 ns . Das Licht gelangt über reflektierende Oberflächen zur Photokathode des PMT, wo es über den photoelektrischen Effekt Elektronen freisetzt. Diese werden in der Dynodenkette vervielfacht und erzeugen einen verstärkten Stromimpuls, dessen Amplitude direkt der deponierten Energie entspricht.
+Beim NaI(Tl)-Detektor sorgen Thallium-Aktivierungszentren für effiziente Lichtemission. Der Kristall liefert eine hohe Lichtausbeute und eine Abklingzeit von etwa 230 ns. Das Licht gelangt über reflektierende Oberflächen zur Photokathode des PMT, wo es über den photoelektrischen Effekt Elektronen freisetzt. Diese werden in der Dynodenkette vervielfacht und erzeugen einen verstärkten Stromimpuls, dessen Amplitude direkt der deponierten Energie entspricht.
 
 
 Ein Nachteil von Szintillationsdetektoren ist ihre begrenzte Energieauflösung (für NaI(Tl) ungefär 6\% bei 662keV), bedingt durch statistische Schwankungen der Lichtausbeute und unvollständige Lichtsammlung im PMT. Dafür bieten sie aber eine hohe Effizienz und schnelle Signalantworten, was sie für bestimmte Anwendungen sehr nützlich macht.\cite{Wermes}
@@ -26,7 +26,7 @@ Ein Nachteil von Szintillationsdetektoren ist ihre begrenzte Energieauflösung (
             \label{fig:pmt}
     \end{subfigure}
 \end{figure}
-Ein Diskriminator erzeugt aus einem Eingangsimpuls mit variabler Amplitude ein amplitudenunabhängiges Zeitsignal. Dieser gibt ein Signal aus, sobald der gemessene Wert der Spannung eine eingestellte Schwellenspannung $U_\text{threshold}$ überschritten hat. Ziel ist es, diese Spannung so einzustellen, dass der Diskriminator die Messung nur dann "aufnimmt", wenn der einkommende Impuls von einem Muon kommt, und nicht von elektronischen oder thermischen Rauschen.
+Ein Diskriminator erzeugt aus einem Eingangsimpuls mit variabler Amplitude ein amplitudenunabhängiges Zeitsignal. Dieser gibt ein Signal aus, sobald der gemessene Wert der Spannung eine eingestellte Schwellenspannung $U_\text{threshold}$ überschritten hat. Ziel ist es, diese Spannung so einzustellen, dass der Diskriminator die Messung nur dann aufnimmt, wenn der einkommende Impuls von einem Muon kommt, und nicht von elektronischen oder thermischen Rauschen.
 Dafür wird die Schwellenkurve der Spannung bestimmt. Indem man das Extremum der Schwellenkurve bestimmt, kann man für einen gewählten energetischen Bereich die passende Schwellenspannung bestimmen.
 \subsection{Koinzidenzmessung}
 Eine Koinzidenz wird als wahre Koinzidenz bezeichnet wenn ein physikalischer Prozess Ursache von beiden Signalen ist, dass heißt, wenn sie während den Prozess zeitgleich ankommen/ zeitlich korreliert sind.
@@ -38,7 +38,8 @@ Ein Field Programmable Gate Array besteht aus einer integrierten Schaltung, die 
 Im laufe des Versuchs wir das Programm LabVIEW zur Aufnahme von Messdaten verwendet. Dieses Programm übernimmt die vollständige Steuerung und Auslesung der NIMBox und initialisiert die Treiberbibliothek, öffnet die USB-Kommunikation, setzt die Diskriminatorschwellen und  konfiguriert die Logikmodule. Schließlich liest es die Zählraten der Kanäle aus. 
 \section{Annordnung der Geräte}
 \subsection{Teil 1: Winkelverteilung der Höhenstrahlung}
-Zur Messung der Winkelverteilung kosmischer Myonen wird ein Detektor mit 24 planaren Szintillatoren und einem zentralen zylindrischen Szintillator verwendet. Die äußeren Detektoren sind gleichmäßig auf einem 30 cm-Raster verteilt (siehe Abbildung \ref{fig:winkel_aufbau}). Jeder Scan entspricht einem festen Azimut von 15°. Der zentrale Szintillator dient als Datendetektor und zeigt zusammen mit den beiden äußeren Detektoren die geometrische Position über die Zeit an.
+Zur Messung der Winkelverteilung kosmischer Myonen wird ein Detektor mit 24 planaren Szintillatoren und einem zentralen zylindrischen Szintillator verwendet. Die äußeren Detektoren sind gleichmäßig auf einem 30 cm-Raster verteilt (siehe Abbildung \ref{fig:winkel_aufbau}). Da die Verbindungslinie zwischen Z12, Z24 und Z25 vertikal verläuft, wird diese Koinzidenz als
+0° definiert. Jeder Scan entspricht einem festen Azimut von 15°. Der zentrale Szintillator dient als Datendetektor und zeigt zusammen mit den beiden äußeren Detektoren die geometrische Position über die Zeit an.
 
 \begin{figure}[H]
     \centering
